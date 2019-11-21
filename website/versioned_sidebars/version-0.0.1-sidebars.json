@@ -1,0 +1,10 @@
+{
+  "version-0.0.1-docs": {
+    "Docs": [
+      "version-0.0.1-index"
+    ],
+    "CSV": [
+      "version-0.0.1-csv"
+    ]
+  }
+}
