@@ -48,6 +48,17 @@ my-docusaurus/
     siteConfig.js
 ```
 
+# Deploy
+
+
+## To github pages
+
+memo for @matsubo
+
+```
+GIT_USER=matsubo CURRENT_BRANCH=master USE_SSH=true npm run publish-gh-pages
+```
+
 # Editing Content
 
 ## Editing an existing docs page
