@@ -1,6 +1,9 @@
 {
   "docs": {
-    "Docs": ["index", "releases"],
-    "CSV": ["csv"]
+    "Docs": [
+      "index",
+      "csv",
+      "releases"
+    ]
   }
 }
