@@ -30,11 +30,19 @@ sidebar_label: 開発サーバ情報
 - 小売(nichigas)
   - 小売ごとにトップページのURLは異なります
   - http://develop.tanomimaster.minedia.com/retail/nichigas
-    - Email: `admin@nichigas.net`
-    - Password: `hogehoge`
+    - 管理者
+      - Email: `admin@nichigas.net`
+      - Password: `hogehoge`
+    - 事務員
+      - Email: `clerk@nichigas.net`
+      - Password: `hogehoge`
+    - 事務員
+      - Email: `sales@nichigas.net`
+      - Password: `hogehoge`
 - メーカー(rinnai)
   - メーカーごとにトップページのURLは異なります
   - http://develop.tanomimaster.minedia.com/maker/rinnai/
-    - Email: `admin@rinnai.net`
+    - 管理者
+      - Email: `admin@rinnai.net`
     - Password: `hogehoge`
 
