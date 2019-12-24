@@ -1,5 +1,5 @@
 ---
-id: doc2
+id: maker
 title: document number 2
 ---
 

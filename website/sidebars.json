@@ -1,7 +1,9 @@
 {
   "docs": {
-    "Docs": [
+    "ドキュメント": [
       "index",
+      "maker",
+      "retail",
       "csv",
       "releases"
     ]

@@ -41,10 +41,14 @@ function Help(props) {
       <Container className="mainContainer documentContainer postContainer">
         <div className="post">
           <header className="postHeader">
-            <h1>Need help?</h1>
+            <h1>お問い合わせ</h1>
           </header>
-          <p>This project is maintained by a dedicated group of people.</p>
-          <GridBlock contents={supportLinks} layout="threeColumn" />
+          <script type="text/javascript" src="https://s3.amazonaws.com/assets.freshdesk.com/widget/freshwidget.js"></script>
+          <style type="text/css" media="screen, projection">
+            @import url(https://s3.amazonaws.com/assets.freshdesk.com/widget/freshwidget.css); 
+          </style> 
+          <iframe title="Feedback Form" class="freshwidget-embedded-form" id="freshwidget-embedded-form" src="https://tanomimaster.freshdesk.com/widgets/feedback_widget/new?&widgetType=embedded&formTitle=%E3%83%98%E3%83%AB%E3%83%97%EF%BC%86%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88&submitTitle=%E9%80%81%E4%BF%A1&submitThanks=%E9%80%81%E4%BF%A1%E3%81%82%E3%82%8A%E3%81%8C%E3%81%A8%E3%81%86%E3%81%94%E3%81%96%E3%81%84%E3%81%BE%E3%81%99%E3%80%82&screenshot=No&searchArea=no" scrolling="no" height="500px" width="100%" frameborder="0" >
+          </iframe>
         </div>
       </Container>
     </div>
