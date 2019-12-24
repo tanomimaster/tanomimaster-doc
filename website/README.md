@@ -55,8 +55,14 @@ my-docusaurus/
 
 memo for @matsubo
 
-```
+```bash
 GIT_USER=matsubo CURRENT_BRANCH=master USE_SSH=true npm run publish-gh-pages
+```
+
+or 
+
+```csh
+env GIT_USER=matsubo CURRENT_BRANCH=master USE_SSH=true npm run publish-gh-pages
 ```
 
 # Editing Content
