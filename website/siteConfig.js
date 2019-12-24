@@ -21,9 +21,9 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'タノミマスター ドキュメント', // Title for your website.
-  tagline: 'A website for tanomimaster.',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
+  title: 'ユーザ ドキュメント', // Title for your website.
+  tagline: 'B2B 受発注システム',
+  url: 'https://tanomimaster.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
