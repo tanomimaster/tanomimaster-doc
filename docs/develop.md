@@ -31,29 +31,6 @@ sidebar_label: サーバ情報
 - https://development.tanomimaster.com/
   - 接続元のIPアドレス制限がかかっています。
 
-
-- 小売(nichigas)
-  - 小売ごとにトップページのURLは異なります
-  - https://development.tanomimaster.com/retail/nichigas
-    - 管理者
-      - Email: `admin@nichigas.net`
-      - Password: `hogehoge`
-    - 事務員
-      - Email: `clerk@nichigas.net`
-      - Password: `hogehoge`
-    - 事務員
-      - Email: `sales@nichigas.net`
-      - Password: `hogehoge`
-- メーカー(rinnai)
-  - メーカーごとにトップページのURLは異なります
-  - https://development.tanomimaster.com/maker/rinnai/
-    - 管理者
-      - Email: `admin@rinnai.net`
-    - Password: `hogehoge`
-
-
-
-
 ## ステージング情報
 
 - https://staging.tanomimaster.com/
