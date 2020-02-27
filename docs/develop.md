@@ -24,17 +24,17 @@ sidebar_label: サーバ情報
     - 会社間の実データのやり取りに利用します。
 
 
-> ドメインの設定が変更されたら、2020年2月ごろを目処に`tanomimaster.minedia.com` は `tanomimaster.com` に変更予定です。
+> ドメインの設定が変更されたら、2020年1月15日に`tanomimaster.minedia.com` から `tanomimaster.com` に変更しました。
 
 ## 開発環境
 
-- http://develop.tanomimaster.minedia.com/
-- 接続元のIPアドレス制限がかかっています。
+- https://development.tanomimaster.com/
+  - 接続元のIPアドレス制限がかかっています。
 
 
 - 小売(nichigas)
   - 小売ごとにトップページのURLは異なります
-  - http://develop.tanomimaster.minedia.com/retail/nichigas
+  - https://development.tanomimaster.com/retail/nichigas
     - 管理者
       - Email: `admin@nichigas.net`
       - Password: `hogehoge`
@@ -46,7 +46,7 @@ sidebar_label: サーバ情報
       - Password: `hogehoge`
 - メーカー(rinnai)
   - メーカーごとにトップページのURLは異なります
-  - http://develop.tanomimaster.minedia.com/maker/rinnai/
+  - https://development.tanomimaster.com/maker/rinnai/
     - 管理者
       - Email: `admin@rinnai.net`
     - Password: `hogehoge`
@@ -56,10 +56,10 @@ sidebar_label: サーバ情報
 
 ## ステージング情報
 
-- https://staging.tanomimaster.minedia.com/
+- https://staging.tanomimaster.com/
 
 
 ## 本番環境
 
-- https://tanomimaster.minedia.com/
+- https://tanomimaster.com/
 
