@@ -2,6 +2,7 @@
 
 This document is build upon [Docusaurus](https://docusaurus.io/)
 
+https://minedia.github.io/tanomimaster-doc/
 
 ## Development
 
