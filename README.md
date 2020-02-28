@@ -3,9 +3,6 @@
 - `master` branch is published on
   - https://minedia.github.io/tanomimaster-doc
 
-
-https://minedia.github.io/tanomimaster-doc/
-
 ## Development
 
 - This document is build upon [Docusaurus](https://docusaurus.io/)
