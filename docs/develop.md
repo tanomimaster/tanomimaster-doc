@@ -24,7 +24,7 @@ sidebar_label: サーバ情報
     - 会社間の実データのやり取りに利用します。
 
 
-> ドメインの設定が変更されたら、2020年1月15日に`tanomimaster.minedia.com` から `tanomimaster.com` に変更しました。
+> 2020年1月15日に`tanomimaster.minedia.com` から `tanomimaster.com` に変更しました。
 
 ## 開発環境
 
