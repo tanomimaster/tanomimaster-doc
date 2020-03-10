@@ -1,9 +1,11 @@
 # tanomimaster-doc
 
-This document is build upon [Docusaurus](https://docusaurus.io/)
-
+- `master` branch is published on
+  - https://minedia.github.io/tanomimaster-doc
 
 ## Development
+
+- This document is build upon [Docusaurus](https://docusaurus.io/)
 
 ### Docker
 
@@ -28,4 +30,5 @@ hit `yarn start` or `npm start`
 ```
 env GIT_USER=matsubo CURRENT_BRANCH=master USE_SSH=true npm run publish-gh-pages
 ```
+
 
