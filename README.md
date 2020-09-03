@@ -1,7 +1,7 @@
 # tanomimaster-doc
 
 - `master` branch is published on
-  - https://minedia.github.io/tanomimaster-doc
+  - https://tanomimaster.github.io/tanomimaster-doc
 
 ## Development
 
