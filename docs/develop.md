@@ -29,14 +29,9 @@ sidebar_label: サーバ情報
 
 > 2020年1月15日に`tanomimaster.minedia.com` から `tanomimaster.com` に変更しました。
 
-## 開発環境
+## 開発環境, ステージング情報
 
-- https://development.tanomimaster.com/
-
-## ステージング情報
-
-- https://staging.tanomimaster.com/
-
+- お問い合わせください。
 
 ## 本番環境
 
