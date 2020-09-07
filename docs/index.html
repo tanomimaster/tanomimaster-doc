@@ -1,0 +1,126 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>ドキュメント · ユーザ ドキュメント</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## システム概要"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="ドキュメント · ユーザ ドキュメント"/><meta property="og:type" content="website"/><meta property="og:url" content="https://tanomimaster.com/tanomimaster-doc/"/><meta property="og:description" content="## システム概要"/><meta property="og:image" content="https://tanomimaster.com/tanomimaster-doc/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://tanomimaster.com/tanomimaster-doc/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/tanomimaster-doc/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/tanomimaster-doc/js/scrollSpy.js"></script><link rel="stylesheet" href="/tanomimaster-doc/css/main.css"/><script src="/tanomimaster-doc/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/tanomimaster-doc/"><img class="logo" src="/tanomimaster-doc/img/favicon.ico" alt="ユーザ ドキュメント"/><h2 class="headerTitleWithLogo">ユーザ ドキュメント</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive siteNavItemActive"><a href="/tanomimaster-doc/docs/" target="_self">ドキュメント</a></li><li class=""><a href="/tanomimaster-doc/docs/api" target="_self">API</a></li><li class=""><a href="/tanomimaster-doc/help" target="_self">お問い合わせ</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>ドキュメント</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">ドキュメント</h3><ul class=""><li class="navListItem navListItemActive"><a class="navItem" href="/tanomimaster-doc/docs/">トップ</a></li><li class="navListItem"><a class="navItem" href="/tanomimaster-doc/docs/maker">メーカー</a></li><li class="navListItem"><a class="navItem" href="/tanomimaster-doc/docs/retail">小売</a></li><li class="navListItem"><a class="navItem" href="/tanomimaster-doc/docs/csv">入稿データフォーマット</a></li><li class="navListItem"><a class="navItem" href="/tanomimaster-doc/docs/releases">変更履歴</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">ドキュメント</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="システム概要"></a><a href="#システム概要" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>システム概要</h2>
+<ul>
+<li>タノミマスターとはB2Bの受発注をやり取りするプラットフォームです。</li>
+<li>タノミマスターのシステムははグローバルで1つ存在し、複数の小売店と複数のメーカーが利用します。</li>
+<li>概念図（略図）を以下に記載します。</li>
+</ul>
+<p><img src="/tanomimaster-doc/docs/assets/model.png" alt="alt-text">
+<a href="/tanomimaster-doc/docs/assets/model.png">拡大</a></p>
+<p>以下に主要業務のユースケース図を記載します。</p>
+<p><img src="/tanomimaster-doc/docs/assets/usecase_abstract.png" alt="alt-text">
+<a href="/tanomimaster-doc/docs/assets/usecase_abstract.png">拡大</a></p>
+<p>以下にアクターの役割別、機能の粒度で記載したユースケース図を記載します。</p>
+<p><img src="/tanomimaster-doc/docs/assets/usecase_detail.png" alt="alt-text">
+<a href="/tanomimaster-doc/docs/assets/usecase_detail.png">拡大</a></p>
+<h2><a class="anchor" aria-hidden="true" id="利用開始手順"></a><a href="#利用開始手順" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>利用開始手順</h2>
+<p>タノミマスターはインターネットサービスです。各小売、各メーカーごとにログインページにアクセスするためにはサーバ側でIPアドレスの登録が必要になります。</p>
+<p>小売、メーカーともに以下の手順で利用を開始できます。</p>
+<ol>
+<li><code>接続元IPアドレス</code>と<code>管理者のメールアドレス</code>をタノミマスター管理者へ申請</li>
+<li>タノミマスター管理者からログインページのURLとパスワードを受領</li>
+<li>ログインして、各種マスタを登録</li>
+</ol>
+<h2><a class="anchor" aria-hidden="true" id="共通概念"></a><a href="#共通概念" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>共通概念</h2>
+<p>小売とメーカーはそれぞれ以下の組織構造によって階層化されています。</p>
+<ul>
+<li>会社
+<ul>
+<li>支店
+<ul>
+<li>営業所
+<ul>
+<li>営業員</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="フェーズ定義"></a><a href="#フェーズ定義" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>フェーズ定義</h2>
+<p>タノミマスターの開発は以下のフェーズで行われます。</p>
+<ul>
+<li>フェーズ1開発 (2019/12リリース)
+<ul>
+<li>基本機能の開発</li>
+<li>Webからの受発注、納期回答を行える</li>
+<li>iOS/Androidアプリの開発</li>
+</ul></li>
+<li>フェーズ2開発 (2020/4リリース)
+<ul>
+<li>ニチガス基幹システムとの連携</li>
+<li>可能なら、メーカー側のBMS対応</li>
+<li>メーカーへの支払い用ファイル出力</li>
+<li>注文の担当者変更</li>
+<li>日本瓦斯社にて本番運用</li>
+</ul></li>
+<li>フェーズ3開発 (2020/8リリース)
+<ul>
+<li>納品先マスタ管理機能の追加</li>
+<li>CSVファイルの非同期登録により大容量のデータを登録可能にする</li>
+<li>小売とメーカーの直接取引ではなく、卸売業を介した受発注を行えるように機能拡充</li>
+</ul></li>
+<li>Icebox
+<ul>
+<li>小規模小売向けの注文時決済</li>
+<li>関連商品の入稿</li>
+<li>メーカーのカタログ入稿機能</li>
+<li>現状は品番単位で行っている納期管理と在庫管理を品番のサブレベルで行う</li>
+</ul></li>
+</ul>
+<p><img src="/tanomimaster-doc/docs/assets/schedule.png" alt="alt-text">
+<a href="/tanomimaster-doc/docs/assets/schedule.png">拡大</a></p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-next button" href="/tanomimaster-doc/docs/maker"><span>メーカー</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#システム概要">システム概要</a></li><li><a href="#利用開始手順">利用開始手順</a></li><li><a href="#共通概念">共通概念</a></li><li><a href="#フェーズ定義">フェーズ定義</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/tanomimaster-doc/" class="nav-home"><img src="/tanomimaster-doc/img/favicon.ico" alt="ユーザ ドキュメント" width="66" height="58"/></a><div><h5>Docs</h5><a href="/tanomimaster-doc/docs/en/doc1.html">Getting Started (or other categories)</a><a href="/tanomimaster-doc/docs/en/doc2.html">Guides (or other categories)</a><a href="/tanomimaster-doc/docs/en/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/tanomimaster-doc/en/users.html">User Showcase</a><a href="https://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/tanomimaster-doc/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2020 Minedia, Inc.</section></footer></div></body></html>

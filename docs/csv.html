@@ -1,0 +1,469 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>入稿データフォーマット · ユーザ ドキュメント</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## 概要"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="入稿データフォーマット · ユーザ ドキュメント"/><meta property="og:type" content="website"/><meta property="og:url" content="https://tanomimaster.com/tanomimaster-doc/"/><meta property="og:description" content="## 概要"/><meta property="og:image" content="https://tanomimaster.com/tanomimaster-doc/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://tanomimaster.com/tanomimaster-doc/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/tanomimaster-doc/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/tanomimaster-doc/js/scrollSpy.js"></script><link rel="stylesheet" href="/tanomimaster-doc/css/main.css"/><script src="/tanomimaster-doc/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/tanomimaster-doc/"><img class="logo" src="/tanomimaster-doc/img/favicon.ico" alt="ユーザ ドキュメント"/><h2 class="headerTitleWithLogo">ユーザ ドキュメント</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/tanomimaster-doc/docs/" target="_self">ドキュメント</a></li><li class=""><a href="/tanomimaster-doc/docs/api" target="_self">API</a></li><li class=""><a href="/tanomimaster-doc/help" target="_self">お問い合わせ</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>ドキュメント</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">ドキュメント</h3><ul class=""><li class="navListItem"><a class="navItem" href="/tanomimaster-doc/docs/">トップ</a></li><li class="navListItem"><a class="navItem" href="/tanomimaster-doc/docs/maker">メーカー</a></li><li class="navListItem"><a class="navItem" href="/tanomimaster-doc/docs/retail">小売</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/tanomimaster-doc/docs/csv">入稿データフォーマット</a></li><li class="navListItem"><a class="navItem" href="/tanomimaster-doc/docs/releases">変更履歴</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">入稿データフォーマット</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="概要"></a><a href="#概要" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>概要</h2>
+<ul>
+<li>データのフォーマットを整理します。
+<ul>
+<li>ターゲットのユーザ</li>
+<li>小売り</li>
+</ul></li>
+<li>メーカー</li>
+<li>マスタデータ管理周りのユースケースを整理し、フォーマットを定義します。</li>
+<li>考えるユースケース</li>
+<li>Create
+<ul>
+<li>新規作成</li>
+</ul></li>
+<li>Update
+<ul>
+<li>更新</li>
+</ul></li>
+<li>Delete
+<ul>
+<li>物理削除 or 論理削除</li>
+</ul></li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="文字コード"></a><a href="#文字コード" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>文字コード</h3>
+<ul>
+<li>Shift-JIS</li>
+<li>CR+LF</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="ロジック"></a><a href="#ロジック" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ロジック</h3>
+<p>基本ルールは「<strong>最新のマスタ情報を手元で管理し、そのファイルをアップロードする</strong>」</p>
+<p>このルールを踏襲することにより運用は以下のようになります。</p>
+<ul>
+<li>CUD(Create, Update, Delete) のアップロードするインターフェイスは1つになります。</li>
+<li>最新のマスタファイルは手元にある状態なので、最新のマスタファイルをいつでもアップロードして大丈夫な状態にシステム側を作ります。</li>
+</ul>
+<p>内部の処理ロジック</p>
+<ul>
+<li>Create
+<ul>
+<li>データをInsertします。(=upsert)</li>
+</ul></li>
+<li>Update
+<ul>
+<li>プライマリキーが同じで、その他の項目が異なる場合は、その他の項目が更新されます。 (=upsert)</li>
+</ul></li>
+<li>Delete
+<ul>
+<li>手元のマスタデータから消してアップロードします。</li>
+</ul></li>
+</ul>
+<p>CSVファイルの1行目は、ヘッダレコードです。マスタデータとしては取り込まれません。ヘッダレコードは仕様にある項目名と同一にしておく必要があります。</p>
+<ul>
+<li>カラムの順番は仕様通りの順番ではなくても大丈夫です。CSVファイルの1行目であるヘッダに記載がある情報を元に取り込まれます。</li>
+</ul>
+<p>例：</p>
+<pre><code class="hljs css language-csv">営業員コード,営業所コード,メールアドレス,パスワード,姓,名,姓（かな）,名（かな）,権限,電話番号
+<span class="hljs-number">123456</span>,<span class="hljs-number">1</span>,<span class="hljs-symbol">foo@</span>example.com,strongpassword,山田,太郎,ヤマダ,タロウ,sales,<span class="hljs-number">0120</span><span class="hljs-number">-444</span><span class="hljs-number">-444</span>
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="ヘッダ"></a><a href="#ヘッダ" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ヘッダ</h3>
+<ul>
+<li>1行目はヘッダです
+<ul>
+<li>入稿されません</li>
+<li>ヘッダに書かれている文字は、カラムの定義にある文字列と一致する必要があります。</li>
+<li>今後のアップデートにより、古いフォーマットのデータを入稿しないようにするためです。</li>
+</ul></li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="型"></a><a href="#型" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>型</h3>
+<p><a href="https://dev.mysql.com/doc/refman/8.0/en/data-types.html">MySQLの型</a>に準拠します。</p>
+<ul>
+<li>string
+<ul>
+<li>文字</li>
+<li>マルチバイト文字も1文字とカウント</li>
+</ul></li>
+<li>mediumtext
+<ul>
+<li>16,777,215文字</li>
+</ul></li>
+<li>tinyint
+<ul>
+<li>-128 から 127</li>
+</ul></li>
+<li>integer
+<ul>
+<li>-2,147,483,648 から 2,147,483,647</li>
+</ul></li>
+<li>bigint
+<ul>
+<li>-9223372036854775808 から 9223372036854775807</li>
+</ul></li>
+<li>boolean
+<ul>
+<li>半角数字</li>
+<li>false: 0, true: 1</li>
+</ul></li>
+<li>datetime
+<ul>
+<li>YYYY-MM-DD hh:mm:ss</li>
+</ul></li>
+<li>date
+<ul>
+<li>YYYY-MM-DD</li>
+</ul></li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="表記"></a><a href="#表記" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>表記</h3>
+<ul>
+<li><p>PK</p>
+<ul>
+<li>Primary Keyの略。主キーを指します。</li>
+<li>スコープ
+<ul>
+<li>各メーカー、各小売ごとです。</li>
+<li>注文番号、カテゴリはシステム全体です。</li>
+</ul></li>
+</ul></li>
+<li><p>FK</p>
+<ul>
+<li>Foreign Keyの略です。</li>
+<li>別のマスタでPKとなっています。</li>
+</ul></li>
+<li><p>長さ</p>
+<ul>
+<li>カラムのタイプが文字列ならば文字数</li>
+<li>カラムのタイプが数値ならば最大数</li>
+</ul></li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="小売り・メーカー共通"></a><a href="#小売り・メーカー共通" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>小売り・メーカー共通</h2>
+<h3><a class="anchor" aria-hidden="true" id="支店マスタ"></a><a href="#支店マスタ" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>支店マスタ</h3>
+<table>
+<thead>
+<tr><th>カラム</th><th>名称</th><th>型</th><th>長さ</th><th>PK</th><th>FK</th><th>必須</th><th>例</th><th>備考</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>支店コード</td><td>string</td><td>255</td><td>o</td><td>o</td><td>001</td><td></td><td></td></tr>
+<tr><td>2</td><td>支店名</td><td>string</td><td>255</td><td></td><td></td><td>o</td><td>東京支店</td><td></td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="営業所マスタ"></a><a href="#営業所マスタ" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>営業所マスタ</h3>
+<table>
+<thead>
+<tr><th>カラム</th><th>名称</th><th>型</th><th>長さ</th><th>PK</th><th>FK</th><th>必須</th><th>例</th><th>備考</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>営業所コード</td><td>string</td><td>255</td><td>o</td><td></td><td>o</td><td>1</td><td></td></tr>
+<tr><td>2</td><td>支店コード</td><td>string</td><td>255</td><td></td><td>o</td><td>o</td><td>11</td><td></td></tr>
+<tr><td>3</td><td>営業所名</td><td>string</td><td>255</td><td></td><td></td><td>o</td><td>渋谷</td><td></td></tr>
+<tr><td>4</td><td>郵便番号</td><td>string</td><td>255</td><td></td><td></td><td>o</td><td>111-1111</td><td></td></tr>
+<tr><td>5</td><td>都道府県</td><td>string</td><td>255</td><td></td><td></td><td>o</td><td>東京都</td><td></td></tr>
+<tr><td>6</td><td>市区町村</td><td>string</td><td>255</td><td></td><td></td><td>o</td><td>渋谷区</td><td></td></tr>
+<tr><td>7</td><td>町名番地</td><td>string</td><td>255</td><td></td><td></td><td>o</td><td>代々木1-1-1</td><td></td></tr>
+<tr><td>8</td><td>建物名・部屋番号</td><td>string</td><td>255</td><td></td><td></td><td></td><td>代々木ハウス1-1-1</td><td></td></tr>
+<tr><td>9</td><td>電話番号</td><td>string</td><td>255</td><td></td><td></td><td></td><td>03-0000-0000</td><td></td></tr>
+<tr><td>10</td><td>FAX番号</td><td>string</td><td>255</td><td></td><td></td><td></td><td>03-0000-0000</td><td></td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="ユーザマスタ"></a><a href="#ユーザマスタ" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ユーザマスタ</h3>
+<table>
+<thead>
+<tr><th>カラム</th><th>名称</th><th>型</th><th>長さ</th><th>PK</th><th>FK</th><th>必須</th><th>例</th><th>備考</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>営業員コード</td><td>string</td><td>255</td><td>o</td><td></td><td>o</td><td>1</td><td></td></tr>
+<tr><td>2</td><td>営業所コード</td><td>string</td><td>255</td><td></td><td>o</td><td></td><td>11</td><td><code>営業所コード</code> は <code>権限</code> が<code>sales</code> の場合に必須です。</td></tr>
+<tr><td>3</td><td>メールアドレス</td><td>string</td><td>255</td><td></td><td></td><td>o</td><td><a href="mailto:example@example.com">example@example.com</a></td><td></td></tr>
+<tr><td>4</td><td>パスワード</td><td>string</td><td>255</td><td></td><td></td><td></td><td></td><td>空の場合は更新されません</td></tr>
+<tr><td>5</td><td>姓</td><td>string</td><td>255</td><td></td><td></td><td>o</td><td>佐藤</td><td></td></tr>
+<tr><td>6</td><td>名</td><td>string</td><td>255</td><td></td><td></td><td>o</td><td>太郎</td><td></td></tr>
+<tr><td>7</td><td>姓（かな）</td><td>string</td><td>255</td><td></td><td></td><td>o</td><td>さとう</td><td></td></tr>
+<tr><td>8</td><td>名（かな）</td><td>string</td><td>255</td><td></td><td></td><td>o</td><td>たろう</td><td></td></tr>
+<tr><td>9</td><td>権限</td><td>string</td><td>255</td><td></td><td></td><td>o</td><td>sales</td><td>admin: 管理者権限<br>clerk: 事務員<br>sales: 営業員</td></tr>
+<tr><td>10</td><td>電話番号</td><td>string</td><td>255</td><td></td><td></td><td></td><td>090-0000-0000</td><td></td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="納品先住所マスタ"></a><a href="#納品先住所マスタ" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>納品先住所マスタ</h3>
+<table>
+<thead>
+<tr><th>カラム</th><th>名称</th><th>型</th><th>長さ</th><th>PK</th><th>FK</th><th>必須</th><th>例</th><th>備考</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>納品先コード</td><td>string</td><td>255</td><td>o</td><td></td><td></td><td>1</td><td></td></tr>
+<tr><td>2</td><td>支店コード</td><td>string</td><td>255</td><td></td><td>o</td><td></td><td>1</td><td>指定した場合、営業員が所属する支店で絞り込むことができます</td></tr>
+<tr><td>3</td><td>営業所コード</td><td>string</td><td>255</td><td></td><td>o</td><td></td><td>1</td><td>指定した場合、営業員が所属する営業所で絞り込むことができます</td></tr>
+<tr><td>4</td><td>納品先名</td><td>string</td><td>255</td><td></td><td></td><td>o</td><td>横浜営業所</td><td></td></tr>
+<tr><td>5</td><td>郵便番号</td><td>string</td><td>255</td><td></td><td></td><td>o</td><td>227-0062</td><td></td></tr>
+<tr><td>6</td><td>都道府県</td><td>string</td><td>255</td><td></td><td></td><td>o</td><td>神奈川県</td><td></td></tr>
+<tr><td>7</td><td>市区町村</td><td>string</td><td>255</td><td></td><td></td><td>o</td><td>横浜市青葉区</td><td></td></tr>
+<tr><td>8</td><td>町名番地</td><td>string</td><td>255</td><td></td><td></td><td>o</td><td>1-2-3</td><td></td></tr>
+<tr><td>9</td><td>建物名・部屋番号</td><td>string</td><td>255</td><td></td><td></td><td></td><td>ABCビル</td><td></td></tr>
+<tr><td>10</td><td>電話番号</td><td>string</td><td>255</td><td></td><td></td><td></td><td>03-1111-2222</td><td></td></tr>
+</tbody>
+</table>
+<h2><a class="anchor" aria-hidden="true" id="メーカーのみ"></a><a href="#メーカーのみ" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>メーカーのみ</h2>
+<h3><a class="anchor" aria-hidden="true" id="商品"></a><a href="#商品" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>商品</h3>
+<table>
+<thead>
+<tr><th>カラム</th><th>名称</th><th>型</th><th>長さ</th><th>PK</th><th>FK</th><th>必須</th><th>例</th><th>備考</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>商品コード</td><td>string</td><td>255</td><td>o</td><td></td><td>o</td><td>1234567890</td><td>ASCII文字（ <code>\:*?&quot;&lt;&gt;</code> 以外）</td></tr>
+<tr><td>2</td><td>カテゴリID</td><td>bigint</td><td></td><td></td><td>o</td><td>o</td><td>1</td><td></td></tr>
+<tr><td>3</td><td>メーカー内部コード</td><td>string</td><td>255</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4</td><td>製品名</td><td>string</td><td>255</td><td></td><td></td><td>o</td><td></td><td></td></tr>
+<tr><td>5</td><td>メーカー希望小売価格(税抜)</td><td>integer</td><td>2,147,483,647</td><td></td><td></td><td></td><td></td><td>単位は日本円。税抜。空白の場合はオープンプライス。</td></tr>
+<tr><td>6</td><td>目安納期日数</td><td>integer</td><td>2,147,483,647</td><td></td><td></td><td>o</td><td>3</td><td>営業日の数字を記載</td></tr>
+<tr><td>7</td><td>ガスマスタを使うかどうかフラグ</td><td>boolean</td><td></td><td></td><td></td><td>o</td><td>1</td><td>注文時にLPか都市ガスかを選択する必要がある商品</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="商品詳細-phase1未利用）"></a><a href="#商品詳細-phase1未利用）" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>商品詳細 (Phase1未利用）</h3>
+<table>
+<thead>
+<tr><th>カラム</th><th>名称</th><th>型</th><th>長さ</th><th>PK</th><th>FK</th><th>必須</th><th>例</th><th>備考</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>商品コード</td><td>string</td><td>255</td><td>o</td><td>o</td><td>o</td><td>1234567890</td><td>ASCII文字（ <code>\:*?&quot;&lt;&gt;</code> 以外）</td></tr>
+<tr><td>2</td><td>項目名</td><td>string</td><td>255</td><td>o</td><td></td><td>o</td><td></td><td>説明、動画URL、サイズなど</td></tr>
+<tr><td>3</td><td>Markdown テキスト</td><td>mediumtext</td><td>16,777,215</td><td></td><td></td><td>o</td><td></td><td></td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="金額"></a><a href="#金額" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>金額</h3>
+<table>
+<thead>
+<tr><th>カラム</th><th>名称</th><th>型</th><th>長さ</th><th>PK</th><th>FK</th><th>必須</th><th>例</th><th>備考</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>商品コード</td><td>string</td><td>255</td><td>o</td><td>o</td><td>o</td><td>1234567890</td><td>ASCII文字（ <code>\:*?&quot;&lt;&gt;</code> 以外）</td></tr>
+<tr><td>2</td><td>小売コード</td><td>string</td><td>255</td><td>o</td><td>o</td><td>o</td><td></td><td></td></tr>
+<tr><td>3</td><td>契約金額</td><td>integer</td><td>2,147,483,647</td><td></td><td></td><td>o</td><td></td><td>税抜</td></tr>
+<tr><td>4</td><td>開始日時</td><td>datetime</td><td></td><td>o</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>5</td><td>終了日時</td><td>datetime</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="メーカー側の注文担当者"></a><a href="#メーカー側の注文担当者" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>メーカー側の注文担当者</h3>
+<table>
+<thead>
+<tr><th>カラム</th><th>名称</th><th>型</th><th>長さ</th><th>PK</th><th>FK</th><th>必須</th><th>例</th><th>備考</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>小売コード</td><td>string</td><td>255</td><td>o</td><td>o</td><td>o</td><td></td><td></td></tr>
+<tr><td>2</td><td>小売営業所コード</td><td>string</td><td>255</td><td>o</td><td>o</td><td>o</td><td></td><td></td></tr>
+<tr><td>3</td><td>メーカー営業員コード</td><td>string</td><td>255</td><td>o</td><td>o</td><td>o</td><td></td><td></td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="納期回答"></a><a href="#納期回答" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>納期回答</h3>
+<ul>
+<li>納期回答は、受注した商品の1品番に対して1レコードで行います。</li>
+</ul>
+<table>
+<thead>
+<tr><th>カラム</th><th>名称</th><th>型</th><th>長さ</th><th>PK</th><th>FK</th><th>必須</th><th>例</th><th>備考</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>注文番号</td><td>string</td><td>255</td><td>o</td><td>o</td><td>o</td><td></td><td></td></tr>
+<tr><td>2</td><td>注文明細No</td><td>string</td><td>255</td><td>o</td><td>o</td><td>o</td><td></td><td></td></tr>
+<tr><td>3</td><td>納期日</td><td>date</td><td></td><td></td><td></td><td>o</td><td></td><td></td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="商品画像"></a><a href="#商品画像" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>商品画像</h3>
+<ul>
+<li>ロジック
+<ul>
+<li>CSVファイルの入稿とは処理のロジックが異なります。</li>
+<li>画像ファイルは追加されていきます。</li>
+<li>削除するためには品番を削除するか、同じファイル名で再度アップロードしてください。</li>
+</ul></li>
+<li>商品情報と紐付け可能なファイル名規則とする。
+<ul>
+<li>フォーマット
+<ul>
+<li><code>[商品コード]-[sort].[jpg, png, gif]</code>
+<ul>
+<li>sort: 2桁の数字</li>
+</ul></li>
+</ul></li>
+<li>ファイル名の例
+<ul>
+<li><code>0000001-00.jpg</code></li>
+<li><code>1234567-01.png</code></li>
+<li><code>asdfasdf-01.png</code></li>
+<li><code>asdfasdf/asdfasdf-01.png</code></li>
+</ul></li>
+<li>ディレクトリに入っていても大丈夫です。</li>
+<li>アップロードされたファイルを処理するプログラムはファイル名だけを参照して処理を行います。</li>
+</ul></li>
+<li>画像ファイルをzipファイルにまとめてアップロードします。</li>
+<li>商品が削除されたタイミングで対象商品の画像が削除されます。</li>
+<li>ファイルサイズの上限や下限は現時点では設定していません。参考までに以下に目安を記載いたします。
+<ul>
+<li>画像の大きさ目安
+<ul>
+<li>横幅の下限: 200px</li>
+<li>横幅上限: 1000px</li>
+</ul></li>
+</ul></li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="受注リスト"></a><a href="#受注リスト" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>受注リスト</h3>
+<ul>
+<li>雲の宇宙船と同じフォーマットで行う
+<ul>
+<li>カラムの定義は同じですが、用語はタノミマスターの用語に合わせてあります。</li>
+</ul></li>
+<li>レコードのソート
+<ul>
+<li>発注依頼区分、営業所、発注日、注文番号、発注明細No の昇順</li>
+</ul></li>
+</ul>
+<table>
+<thead>
+<tr><th>カラム</th><th>名称</th><th>型</th><th>長さ</th><th>PK</th><th>FK</th><th>必須</th><th>例</th><th>備考</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>発注依頼区分</td><td>数値</td><td>1</td><td>o</td><td>o</td><td>o</td><td></td><td>0:発注　1:発注キャンセル</td></tr>
+<tr><td>2</td><td>小売コード</td><td>文字列</td><td>255</td><td></td><td></td><td>o</td><td></td><td></td></tr>
+<tr><td>3</td><td>小売名</td><td>文字列</td><td>255</td><td></td><td></td><td>o</td><td></td><td></td></tr>
+<tr><td>4</td><td>支店コード</td><td>文字列</td><td>255</td><td></td><td></td><td>o</td><td></td><td></td></tr>
+<tr><td>5</td><td>支店名</td><td>文字列</td><td>255</td><td></td><td></td><td>o</td><td></td><td></td></tr>
+<tr><td>6</td><td>営業所コード</td><td>文字列</td><td>255</td><td></td><td></td><td>o</td><td></td><td></td></tr>
+<tr><td>7</td><td>営業所名</td><td>文字列</td><td>255</td><td></td><td></td><td>o</td><td></td><td></td></tr>
+<tr><td>8</td><td>発注日時</td><td>半角英数字</td><td>16</td><td>o</td><td>o</td><td>o</td><td></td><td>発注確定日時（テーブルの値）</td></tr>
+<tr><td>9</td><td>仕入先名</td><td>文字列</td><td>32</td><td>o</td><td>o</td><td>o</td><td></td><td></td></tr>
+<tr><td>10</td><td>注文番号</td><td>半角英数字</td><td>10</td><td></td><td></td><td>o</td><td></td><td>注文番号</td></tr>
+<tr><td>11</td><td>注文明細No</td><td>半角英数字</td><td>3</td><td></td><td></td><td>o</td><td></td><td>明細No</td></tr>
+<tr><td>12</td><td>商品コード</td><td>文字列</td><td>30</td><td></td><td></td><td>o</td><td></td><td></td></tr>
+<tr><td>13</td><td>メーカー内部コード</td><td>半角英数字</td><td>10</td><td></td><td></td><td>o</td><td></td><td></td></tr>
+<tr><td>14</td><td>ガス種</td><td>半角英数字</td><td>10</td><td></td><td></td><td></td><td></td><td>LP, 13Aなど</td></tr>
+<tr><td>15</td><td>発注数</td><td>数値</td><td>4</td><td></td><td></td><td>o</td><td></td><td></td></tr>
+<tr><td>16</td><td>発注単価</td><td>int</td><td>9</td><td></td><td></td><td>o</td><td></td><td></td></tr>
+<tr><td>17</td><td>希望納期</td><td>date</td><td>10</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>18</td><td>営業所名</td><td>string</td><td>50</td><td></td><td></td><td>o</td><td></td><td></td></tr>
+<tr><td>19</td><td>営業所電話番号</td><td>string</td><td>15</td><td></td><td></td><td>o</td><td></td><td></td></tr>
+<tr><td>20</td><td>営業所FAX</td><td>string</td><td>15</td><td></td><td></td><td>o</td><td></td><td></td></tr>
+<tr><td>21</td><td>担当者名</td><td>string</td><td>30</td><td></td><td></td><td>o</td><td></td><td></td></tr>
+<tr><td>22</td><td>納品先名</td><td>string</td><td>20</td><td></td><td></td><td>o</td><td></td><td></td></tr>
+<tr><td>23</td><td>納品先住所</td><td>string</td><td>152</td><td></td><td></td><td>o</td><td></td><td></td></tr>
+<tr><td>24</td><td>納品先TEL</td><td>string</td><td>15</td><td></td><td></td><td>o</td><td></td><td></td></tr>
+<tr><td>25</td><td>備考</td><td>string</td><td>22</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>26</td><td>自社_会社名</td><td>string</td><td>50</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>27</td><td>自社_部署名</td><td>string</td><td>50</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>28</td><td>自社_郵便番号</td><td>string</td><td>8</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>29</td><td>自社_住所</td><td>string</td><td>152</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>30</td><td>自社_電話番号</td><td>string</td><td>15</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>31</td><td>自社_FAX番号</td><td>string</td><td>15</td><td></td><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="カテゴリマスタ"></a><a href="#カテゴリマスタ" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>カテゴリマスタ</h3>
+<ul>
+<li>システム全体で共通のカテゴリ設定を利用します。</li>
+</ul>
+<h4><a class="anchor" aria-hidden="true" id="階層での表記"></a><a href="#階層での表記" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>階層での表記</h4>
+<ul>
+<li>1 ガス機器
+<ul>
+<li>2 給湯器 **
+<ul>
+<li>3 ガス給湯器</li>
+<li>4 ハイブリッド</li>
+<li>5 小型湯沸かし器</li>
+</ul></li>
+<li>6 ガスコンロ **
+<ul>
+<li>7 ビルトイン</li>
+<li>8 テーブル</li>
+<li>9 レンジフード</li>
+</ul></li>
+<li>10 炊飯器 *</li>
+<li>11 乾燥機 *</li>
+<li>12 暖房機 *
+<ul>
+<li>13 ファンヒーター</li>
+<li>14 ガスストーブ</li>
+</ul></li>
+</ul></li>
+<li>15 住宅設備機器
+<ul>
+<li>16 システムキッチン *
+<ul>
+<li>17 システムバス *</li>
+<li>18 洗面化粧台 *</li>
+</ul></li>
+</ul></li>
+</ul>
+<p>表記</p>
+<ul>
+<li><code>**</code> 小売りトップにて大きいアイコンでリンク</li>
+<li><code>*</code> 小売りトップにて小さいアイコンでリンク</li>
+</ul>
+<h4><a class="anchor" aria-hidden="true" id="id一覧"></a><a href="#id一覧" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ID一覧</h4>
+<table>
+<thead>
+<tr><th>ID</th><th>名称</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>ガス機器</td></tr>
+<tr><td>2</td><td>給湯器</td></tr>
+<tr><td>3</td><td>ガス給湯器</td></tr>
+<tr><td>4</td><td>ハイブリッド</td></tr>
+<tr><td>5</td><td>小型湯沸かし器</td></tr>
+<tr><td>6</td><td>ガスコンロ</td></tr>
+<tr><td>7</td><td>ビルトイン</td></tr>
+<tr><td>8</td><td>テーブル</td></tr>
+<tr><td>9</td><td>レンジフード</td></tr>
+<tr><td>10</td><td>炊飯器</td></tr>
+<tr><td>11</td><td>乾燥機</td></tr>
+<tr><td>12</td><td>暖房機</td></tr>
+<tr><td>13</td><td>ファンヒーター</td></tr>
+<tr><td>14</td><td>ガスストーブ</td></tr>
+<tr><td>15</td><td>住宅設備機器</td></tr>
+<tr><td>16</td><td>システムキッチン</td></tr>
+<tr><td>17</td><td>システムバス</td></tr>
+<tr><td>18</td><td>洗面化粧台</td></tr>
+</tbody>
+</table>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/tanomimaster-doc/docs/retail"><span class="arrow-prev">← </span><span>小売</span></a><a class="docs-next button" href="/tanomimaster-doc/docs/releases"><span>変更履歴</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#概要">概要</a><ul class="toc-headings"><li><a href="#文字コード">文字コード</a></li><li><a href="#ロジック">ロジック</a></li><li><a href="#ヘッダ">ヘッダ</a></li><li><a href="#型">型</a></li><li><a href="#表記">表記</a></li></ul></li><li><a href="#小売り・メーカー共通">小売り・メーカー共通</a><ul class="toc-headings"><li><a href="#支店マスタ">支店マスタ</a></li><li><a href="#営業所マスタ">営業所マスタ</a></li><li><a href="#ユーザマスタ">ユーザマスタ</a></li><li><a href="#納品先住所マスタ">納品先住所マスタ</a></li></ul></li><li><a href="#メーカーのみ">メーカーのみ</a><ul class="toc-headings"><li><a href="#商品">商品</a></li><li><a href="#商品詳細-phase1未利用）">商品詳細 (Phase1未利用）</a></li><li><a href="#金額">金額</a></li><li><a href="#メーカー側の注文担当者">メーカー側の注文担当者</a></li><li><a href="#納期回答">納期回答</a></li><li><a href="#商品画像">商品画像</a></li><li><a href="#受注リスト">受注リスト</a></li><li><a href="#カテゴリマスタ">カテゴリマスタ</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/tanomimaster-doc/" class="nav-home"><img src="/tanomimaster-doc/img/favicon.ico" alt="ユーザ ドキュメント" width="66" height="58"/></a><div><h5>Docs</h5><a href="/tanomimaster-doc/docs/en/doc1.html">Getting Started (or other categories)</a><a href="/tanomimaster-doc/docs/en/doc2.html">Guides (or other categories)</a><a href="/tanomimaster-doc/docs/en/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/tanomimaster-doc/en/users.html">User Showcase</a><a href="https://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/tanomimaster-doc/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2020 Minedia, Inc.</section></footer></div></body></html>

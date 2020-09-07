@@ -1,0 +1,113 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>小売 · ユーザ ドキュメント</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## 概要"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="小売 · ユーザ ドキュメント"/><meta property="og:type" content="website"/><meta property="og:url" content="https://tanomimaster.com/tanomimaster-doc/"/><meta property="og:description" content="## 概要"/><meta property="og:image" content="https://tanomimaster.com/tanomimaster-doc/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://tanomimaster.com/tanomimaster-doc/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/tanomimaster-doc/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/tanomimaster-doc/js/scrollSpy.js"></script><link rel="stylesheet" href="/tanomimaster-doc/css/main.css"/><script src="/tanomimaster-doc/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/tanomimaster-doc/"><img class="logo" src="/tanomimaster-doc/img/favicon.ico" alt="ユーザ ドキュメント"/><h2 class="headerTitleWithLogo">ユーザ ドキュメント</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/tanomimaster-doc/docs/" target="_self">ドキュメント</a></li><li class=""><a href="/tanomimaster-doc/docs/api" target="_self">API</a></li><li class=""><a href="/tanomimaster-doc/help" target="_self">お問い合わせ</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>ドキュメント</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">ドキュメント</h3><ul class=""><li class="navListItem"><a class="navItem" href="/tanomimaster-doc/docs/">トップ</a></li><li class="navListItem"><a class="navItem" href="/tanomimaster-doc/docs/maker">メーカー</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/tanomimaster-doc/docs/retail">小売</a></li><li class="navListItem"><a class="navItem" href="/tanomimaster-doc/docs/csv">入稿データフォーマット</a></li><li class="navListItem"><a class="navItem" href="/tanomimaster-doc/docs/releases">変更履歴</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">小売</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="概要"></a><a href="#概要" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>概要</h2>
+<ul>
+<li>主に、発注と発注ステータス管理を行えます。</li>
+<li>この説明書は、サービスの利用にあたって、必要となるモデルや概念について解説します。</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="ロール"></a><a href="#ロール" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ロール</h2>
+<p>3種類のロール（役割）があります。</p>
+<ul>
+<li>管理者
+<ul>
+<li>マスタの管理を行います。</li>
+</ul></li>
+<li>事務員
+<ul>
+<li>納品を確認し、発注ステータスに反映します。</li>
+</ul></li>
+<li>営業
+<ul>
+<li>自分の担当する注文でメーカーの担当者とチャットを行えます。</li>
+</ul></li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="端末"></a><a href="#端末" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>端末</h2>
+<p>各小売ごとに異なるログイン用URLが割り当てられます。各ログインページは、初期に登録した接続元のIPアドレスを登録しなければ表示することができません。</p>
+<ul>
+<li>Web</li>
+<li>アプリ
+<ul>
+<li>重要な通知はPush通知が配信されます。</li>
+</ul></li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="初期設定"></a><a href="#初期設定" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>初期設定</h2>
+<ul>
+<li>管理者でログインして、マスタを入稿します。</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="マスタ入稿"></a><a href="#マスタ入稿" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>マスタ入稿</h3>
+<ul>
+<li>マスタデータはすべてWebから入稿できます。入稿フォーマットの詳細は<a href="/tanomimaster-doc/docs/csv">入稿データフォーマット</a>を参照してください。</li>
+<li>チラシは各支店ごとに入稿できます。</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="商品urlフォーマット"></a><a href="#商品urlフォーマット" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>商品URLフォーマット</h2>
+<h3><a class="anchor" aria-hidden="true" id="web"></a><a href="#web" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Web</h3>
+<ul>
+<li><code>/retail/:retail_code/makers/:maker_code/products/:product_code</code></li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="運用"></a><a href="#運用" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>運用</h2>
+<h3><a class="anchor" aria-hidden="true" id="チャット"></a><a href="#チャット" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>チャット</h3>
+<ul>
+<li>発注者とメーカー担当者は1:1のチャットを行えます。表示はリアルタイムに行われます。</li>
+<li>注文が行われた際に、マスタで入稿されたルールに従って小売の営業所に対応するメーカーの担当が自動的にアサインされます。</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="納期回答"></a><a href="#納期回答" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>納期回答</h3>
+<ul>
+<li>小売から行われた注文における、ステータスは以下のように管理されます。</li>
+<li>メーカー側において、CSVダウンロードが行われる前は小売からの注文のキャンセルが可能です。</li>
+</ul>
+<p><img src="/tanomimaster-doc/docs/assets/order_activity.png" alt="受注ステータス"></p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/tanomimaster-doc/docs/maker"><span class="arrow-prev">← </span><span>メーカー</span></a><a class="docs-next button" href="/tanomimaster-doc/docs/csv"><span>入稿データフォーマット</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#概要">概要</a></li><li><a href="#ロール">ロール</a></li><li><a href="#端末">端末</a></li><li><a href="#初期設定">初期設定</a><ul class="toc-headings"><li><a href="#マスタ入稿">マスタ入稿</a></li></ul></li><li><a href="#商品urlフォーマット">商品URLフォーマット</a><ul class="toc-headings"><li><a href="#web">Web</a></li></ul></li><li><a href="#運用">運用</a><ul class="toc-headings"><li><a href="#チャット">チャット</a></li><li><a href="#納期回答">納期回答</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/tanomimaster-doc/" class="nav-home"><img src="/tanomimaster-doc/img/favicon.ico" alt="ユーザ ドキュメント" width="66" height="58"/></a><div><h5>Docs</h5><a href="/tanomimaster-doc/docs/en/doc1.html">Getting Started (or other categories)</a><a href="/tanomimaster-doc/docs/en/doc2.html">Guides (or other categories)</a><a href="/tanomimaster-doc/docs/en/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/tanomimaster-doc/en/users.html">User Showcase</a><a href="https://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/tanomimaster-doc/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2020 Minedia, Inc.</section></footer></div></body></html>
