@@ -253,7 +253,7 @@
 <tr><th>カラム</th><th>名称</th><th>型</th><th>長さ</th><th>PK</th><th>FK</th><th>必須</th><th>例</th><th>備考</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td>商品コード</td><td>string</td><td>255</td><td>o</td><td></td><td>o</td><td>1234567890</td><td>ASCII文字（ <code>\:*?&quot;&lt;&gt;</code> 以外）</td></tr>
+<tr><td>1</td><td>型式（品番）</td><td>string</td><td>255</td><td>o</td><td></td><td>o</td><td>1234567890</td><td>ASCII文字（ <code>\:*?&quot;&lt;&gt;</code> 以外）</td></tr>
 <tr><td>2</td><td>カテゴリID</td><td>bigint</td><td></td><td></td><td>o</td><td>o</td><td>1</td><td></td></tr>
 <tr><td>3</td><td>メーカー内部コード</td><td>string</td><td>255</td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td>4</td><td>製品名</td><td>string</td><td>255</td><td></td><td></td><td>o</td><td></td><td></td></tr>
@@ -268,7 +268,7 @@
 <tr><th>カラム</th><th>名称</th><th>型</th><th>長さ</th><th>PK</th><th>FK</th><th>必須</th><th>例</th><th>備考</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td>商品コード</td><td>string</td><td>255</td><td>o</td><td>o</td><td>o</td><td>1234567890</td><td>ASCII文字（ <code>\:*?&quot;&lt;&gt;</code> 以外）</td></tr>
+<tr><td>1</td><td>型式（品番）</td><td>string</td><td>255</td><td>o</td><td>o</td><td>o</td><td>1234567890</td><td>ASCII文字（ <code>\:*?&quot;&lt;&gt;</code> 以外）</td></tr>
 <tr><td>2</td><td>項目名</td><td>string</td><td>255</td><td>o</td><td></td><td>o</td><td></td><td>説明、動画URL、サイズなど</td></tr>
 <tr><td>3</td><td>Markdown テキスト</td><td>mediumtext</td><td>16,777,215</td><td></td><td></td><td>o</td><td></td><td></td></tr>
 </tbody>
@@ -279,7 +279,7 @@
 <tr><th>カラム</th><th>名称</th><th>型</th><th>長さ</th><th>PK</th><th>FK</th><th>必須</th><th>例</th><th>備考</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td>商品コード</td><td>string</td><td>255</td><td>o</td><td>o</td><td>o</td><td>1234567890</td><td>ASCII文字（ <code>\:*?&quot;&lt;&gt;</code> 以外）</td></tr>
+<tr><td>1</td><td>型式（品番）</td><td>string</td><td>255</td><td>o</td><td>o</td><td>o</td><td>1234567890</td><td>ASCII文字（ <code>\:*?&quot;&lt;&gt;</code> 以外）</td></tr>
 <tr><td>2</td><td>小売コード</td><td>string</td><td>255</td><td>o</td><td>o</td><td>o</td><td></td><td></td></tr>
 <tr><td>3</td><td>契約金額</td><td>integer</td><td>2,147,483,647</td><td></td><td></td><td>o</td><td></td><td>税抜</td></tr>
 <tr><td>4</td><td>開始日時</td><td>datetime</td><td></td><td>o</td><td></td><td></td><td></td><td></td></tr>
@@ -323,7 +323,7 @@
 <ul>
 <li>フォーマット
 <ul>
-<li><code>[商品コード]-[sort].[jpg, png, gif]</code>
+<li><code>[型式（品番）]-[sort].[jpg, png, gif]</code>
 <ul>
 <li>sort: 2桁の数字</li>
 </ul></li>
@@ -376,7 +376,7 @@
 <tr><td>9</td><td>仕入先名</td><td>文字列</td><td>32</td><td>o</td><td>o</td><td>o</td><td></td><td></td></tr>
 <tr><td>10</td><td>注文番号</td><td>半角英数字</td><td>10</td><td></td><td></td><td>o</td><td></td><td>注文番号</td></tr>
 <tr><td>11</td><td>注文明細No</td><td>半角英数字</td><td>3</td><td></td><td></td><td>o</td><td></td><td>明細No</td></tr>
-<tr><td>12</td><td>商品コード</td><td>文字列</td><td>30</td><td></td><td></td><td>o</td><td></td><td></td></tr>
+<tr><td>12</td><td>型式（品番）</td><td>文字列</td><td>30</td><td></td><td></td><td>o</td><td></td><td></td></tr>
 <tr><td>13</td><td>メーカー内部コード</td><td>半角英数字</td><td>10</td><td></td><td></td><td>o</td><td></td><td></td></tr>
 <tr><td>14</td><td>ガス種</td><td>半角英数字</td><td>10</td><td></td><td></td><td></td><td></td><td>LP, 13Aなど</td></tr>
 <tr><td>15</td><td>発注数</td><td>数値</td><td>4</td><td></td><td></td><td>o</td><td></td><td></td></tr>
@@ -466,4 +466,4 @@
 <tr><td>18</td><td>洗面化粧台</td></tr>
 </tbody>
 </table>
-</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/tanomimaster-doc/docs/retail"><span class="arrow-prev">← </span><span>小売</span></a><a class="docs-next button" href="/tanomimaster-doc/docs/releases"><span>変更履歴</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#概要">概要</a><ul class="toc-headings"><li><a href="#文字コード">文字コード</a></li><li><a href="#ロジック">ロジック</a></li><li><a href="#ヘッダ">ヘッダ</a></li><li><a href="#型">型</a></li><li><a href="#表記">表記</a></li></ul></li><li><a href="#小売り・メーカー共通">小売り・メーカー共通</a><ul class="toc-headings"><li><a href="#支店マスタ">支店マスタ</a></li><li><a href="#営業所マスタ">営業所マスタ</a></li><li><a href="#ユーザマスタ">ユーザマスタ</a></li><li><a href="#納品先住所マスタ">納品先住所マスタ</a></li></ul></li><li><a href="#メーカーのみ">メーカーのみ</a><ul class="toc-headings"><li><a href="#商品">商品</a></li><li><a href="#商品詳細-phase1未利用）">商品詳細 (Phase1未利用）</a></li><li><a href="#金額">金額</a></li><li><a href="#メーカー側の注文担当者">メーカー側の注文担当者</a></li><li><a href="#納期回答">納期回答</a></li><li><a href="#商品画像">商品画像</a></li><li><a href="#受注リスト">受注リスト</a></li><li><a href="#カテゴリマスタ">カテゴリマスタ</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/tanomimaster-doc/" class="nav-home"><img src="/tanomimaster-doc/img/favicon.ico" alt="ユーザ ドキュメント" width="66" height="58"/></a><div><h5>Docs</h5><a href="/tanomimaster-doc/docs/en/doc1.html">Getting Started (or other categories)</a><a href="/tanomimaster-doc/docs/en/doc2.html">Guides (or other categories)</a><a href="/tanomimaster-doc/docs/en/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/tanomimaster-doc/en/users.html">User Showcase</a><a href="https://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/tanomimaster-doc/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2020 Minedia, Inc.</section></footer></div></body></html>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/tanomimaster-doc/docs/retail"><span class="arrow-prev">← </span><span>小売</span></a><a class="docs-next button" href="/tanomimaster-doc/docs/releases"><span>変更履歴</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#概要">概要</a><ul class="toc-headings"><li><a href="#文字コード">文字コード</a></li><li><a href="#ロジック">ロジック</a></li><li><a href="#ヘッダ">ヘッダ</a></li><li><a href="#型">型</a></li><li><a href="#表記">表記</a></li></ul></li><li><a href="#小売り・メーカー共通">小売り・メーカー共通</a><ul class="toc-headings"><li><a href="#支店マスタ">支店マスタ</a></li><li><a href="#営業所マスタ">営業所マスタ</a></li><li><a href="#ユーザマスタ">ユーザマスタ</a></li><li><a href="#納品先住所マスタ">納品先住所マスタ</a></li></ul></li><li><a href="#メーカーのみ">メーカーのみ</a><ul class="toc-headings"><li><a href="#商品">商品</a></li><li><a href="#商品詳細-phase1未利用）">商品詳細 (Phase1未利用）</a></li><li><a href="#金額">金額</a></li><li><a href="#メーカー側の注文担当者">メーカー側の注文担当者</a></li><li><a href="#納期回答">納期回答</a></li><li><a href="#商品画像">商品画像</a></li><li><a href="#受注リスト">受注リスト</a></li><li><a href="#カテゴリマスタ">カテゴリマスタ</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/tanomimaster-doc/" class="nav-home"><img src="/tanomimaster-doc/img/favicon.ico" alt="ユーザ ドキュメント" width="66" height="58"/></a><div><h5>Docs</h5><a href="/tanomimaster-doc/docs/en/doc1.html">Getting Started (or other categories)</a><a href="/tanomimaster-doc/docs/en/doc2.html">Guides (or other categories)</a><a href="/tanomimaster-doc/docs/en/doc3.html">API Reference (or other categories)</a></div><div><h5>Community</h5><a href="/tanomimaster-doc/en/users.html">User Showcase</a><a href="https://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/tanomimaster-doc/blog">Blog</a><a href="https://github.com/">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2021 Minedia, Inc.</section></footer></div></body></html>
