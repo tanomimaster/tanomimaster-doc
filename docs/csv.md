@@ -145,7 +145,7 @@ CSVファイルの1行目は、ヘッダレコードです。マスタデータ�
 | 6 | 名 | string | 255 |  |  | o | 太郎 |  |
 | 7 | 姓（かな） | string | 255 |  |  | o | さとう |  |
 | 8 | 名（かな） | string | 255 |  |  | o | たろう |  |
-| 9 | 権限 | string | 255 |  |  | o | sales | admin: 管理者権限<br>clerk: 事務員<br>sales: 営業員 |
+| 9 | 権限 | string | 255 |  |  | o | sales | admin: 管理者権限<br />clerk: 事務員<br />sales: 営業員 |
 | 10 | 電話番号 | string | 255 |  |  |  | 090-0000-0000 |  |
 
 
