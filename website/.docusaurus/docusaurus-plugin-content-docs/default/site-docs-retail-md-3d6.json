@@ -1,0 +1,28 @@
+{
+  "unversionedId": "retail",
+  "id": "retail",
+  "title": "小売",
+  "description": "概要",
+  "source": "@site/../docs/retail.md",
+  "sourceDirName": ".",
+  "slug": "/retail",
+  "permalink": "/tanomimaster-doc/docs/retail",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "retail",
+    "title": "小売"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "メーカー",
+    "permalink": "/tanomimaster-doc/docs/maker"
+  },
+  "next": {
+    "title": "入稿データフォーマット",
+    "permalink": "/tanomimaster-doc/docs/csv"
+  }
+}

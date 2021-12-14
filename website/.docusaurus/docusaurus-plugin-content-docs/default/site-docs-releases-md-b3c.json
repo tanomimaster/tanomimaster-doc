@@ -1,0 +1,25 @@
+{
+  "unversionedId": "releases",
+  "id": "releases",
+  "title": "変更履歴",
+  "description": "変更履歴",
+  "source": "@site/../docs/releases.md",
+  "sourceDirName": ".",
+  "slug": "/releases",
+  "permalink": "/tanomimaster-doc/docs/releases",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "releases",
+    "title": "変更履歴",
+    "sidebar_label": "変更履歴"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "入稿データフォーマット",
+    "permalink": "/tanomimaster-doc/docs/csv"
+  }
+}

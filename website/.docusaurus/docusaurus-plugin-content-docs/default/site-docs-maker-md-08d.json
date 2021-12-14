@@ -1,0 +1,28 @@
+{
+  "unversionedId": "maker",
+  "id": "maker",
+  "title": "メーカー",
+  "description": "概要",
+  "source": "@site/../docs/maker.md",
+  "sourceDirName": ".",
+  "slug": "/maker",
+  "permalink": "/tanomimaster-doc/docs/maker",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "maker",
+    "title": "メーカー"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "トップ",
+    "permalink": "/tanomimaster-doc/docs/"
+  },
+  "next": {
+    "title": "小売",
+    "permalink": "/tanomimaster-doc/docs/retail"
+  }
+}
