@@ -6,8 +6,6 @@ sidebar_label: "トップ"
 
 ## システム概要
 
-![alt-text](/img/tanomimaster/schedule.png)
-
 - タノミマスターとはB2Bの受発注をやり取りするプラットフォームです。
 - タノミマスターのシステムははグローバルで1つ存在し、複数の小売店と複数のメーカーが利用します。
 - 概念図（略図）を以下に記載します。
@@ -70,14 +68,5 @@ sidebar_label: "トップ"
   - 関連商品の入稿
   - メーカーのカタログ入稿機能
   - 現状は品番単位で行っている納期管理と在庫管理を品番のサブレベルで行う
-
-
-![alt-text](/img/schedule.png)
-
-[拡大](/img/schedule.png)
-
-![Docusaurus logo](/img/docusaurus.png)
-
-
 
 
