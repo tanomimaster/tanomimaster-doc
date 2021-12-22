@@ -13,7 +13,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/app/website/sidebars.js",
+          "sidebarPath": "/Users/matsu/ghq/github.com/tanomimaster/tanomimaster-doc/website/sidebars.js",
           "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/docs/"
         },
         "blog": {
@@ -21,7 +21,7 @@ export default {
           "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/blog/"
         },
         "theme": {
-          "customCss": "/app/website/src/css/custom.css"
+          "customCss": "/Users/matsu/ghq/github.com/tanomimaster/tanomimaster-doc/website/src/css/custom.css"
         }
       }
     ]
