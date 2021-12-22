@@ -1,0 +1,559 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs",
+          "tagsPath": "/docs/tags",
+          "versionEditUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/docs/docs",
+          "versionEditUrlLocalized": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "versionBanner": null,
+          "versionBadge": false,
+          "versionClassName": "docs-version-current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/app/website/sidebars.js",
+          "contentPath": "/app/website/docs",
+          "contentPathLocalized": "/app/website/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "api",
+              "id": "api",
+              "title": "APIドキュメント",
+              "description": "- APIドキュメント",
+              "source": "@site/docs/api.md",
+              "sourceDirName": ".",
+              "slug": "/api",
+              "permalink": "/docs/api",
+              "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/docs/docs/api.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "api",
+                "title": "APIドキュメント"
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "入稿データフォーマット",
+                "permalink": "/docs/csv"
+              }
+            },
+            {
+              "unversionedId": "csv",
+              "id": "csv",
+              "title": "入稿データフォーマット",
+              "description": "概要",
+              "source": "@site/docs/csv.md",
+              "sourceDirName": ".",
+              "slug": "/csv",
+              "permalink": "/docs/csv",
+              "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/docs/docs/csv.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "csv",
+                "title": "入稿データフォーマット",
+                "sidebar_label": "入稿データフォーマット"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "APIドキュメント",
+                "permalink": "/docs/api"
+              },
+              "next": {
+                "title": "サーバ情報",
+                "permalink": "/docs/develop"
+              }
+            },
+            {
+              "unversionedId": "develop",
+              "id": "develop",
+              "title": "サーバ情報",
+              "description": "概要",
+              "source": "@site/docs/develop.md",
+              "sourceDirName": ".",
+              "slug": "/develop",
+              "permalink": "/docs/develop",
+              "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/docs/docs/develop.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "develop",
+                "title": "サーバ情報",
+                "sidebar_label": "サーバ情報"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "入稿データフォーマット",
+                "permalink": "/docs/csv"
+              },
+              "next": {
+                "title": "システム概要",
+                "permalink": "/docs/"
+              }
+            },
+            {
+              "unversionedId": "index",
+              "id": "index",
+              "title": "システム概要",
+              "description": "システム概要",
+              "source": "@site/docs/index.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/docs/",
+              "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/docs/docs/index.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "index",
+                "title": "システム概要",
+                "sort": 0
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "サーバ情報",
+                "permalink": "/docs/develop"
+              },
+              "next": {
+                "title": "メーカー",
+                "permalink": "/docs/maker"
+              }
+            },
+            {
+              "unversionedId": "maker",
+              "id": "maker",
+              "title": "メーカー",
+              "description": "概要",
+              "source": "@site/docs/maker.md",
+              "sourceDirName": ".",
+              "slug": "/maker",
+              "permalink": "/docs/maker",
+              "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/docs/docs/maker.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "maker",
+                "title": "メーカー",
+                "sidebar_label": "メーカー"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "システム概要",
+                "permalink": "/docs/"
+              },
+              "next": {
+                "title": "小売",
+                "permalink": "/docs/retail"
+              }
+            },
+            {
+              "unversionedId": "retail",
+              "id": "retail",
+              "title": "小売",
+              "description": "概要",
+              "source": "@site/docs/retail.md",
+              "sourceDirName": ".",
+              "slug": "/retail",
+              "permalink": "/docs/retail",
+              "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/docs/docs/retail.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "retail",
+                "title": "小売"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "メーカー",
+                "permalink": "/docs/maker"
+              }
+            }
+          ],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "api"
+              },
+              {
+                "type": "doc",
+                "id": "csv",
+                "label": "入稿データフォーマット"
+              },
+              {
+                "type": "doc",
+                "id": "develop",
+                "label": "サーバ情報"
+              },
+              {
+                "type": "doc",
+                "id": "index"
+              },
+              {
+                "type": "doc",
+                "id": "maker",
+                "label": "メーカー"
+              },
+              {
+                "type": "doc",
+                "id": "retail"
+              }
+            ]
+          },
+          "mainDocId": "index",
+          "categoryGeneratedIndices": []
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [
+        {
+          "id": "/2021/08/24/csv",
+          "metadata": {
+            "permalink": "/blog/2021/08/24/csv",
+            "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/blog/blog/2021-08-24-csv.md",
+            "source": "@site/blog/2021-08-24-csv.md",
+            "title": "Release 0.5.1",
+            "description": "- CSVファイルフォーマットの長さを実装に合わせてドキュメントを変更しました。",
+            "date": "2021-08-24T00:00:00.000Z",
+            "formattedDate": "August 24, 2021",
+            "tags": [],
+            "readingTime": 2.06,
+            "truncated": false,
+            "authors": [
+              {
+                "name": "Yuki Matsukura",
+                "url": "http://twitter.com/matsubokkuri"
+              }
+            ],
+            "nextItem": {
+              "title": "Release 0.5.0",
+              "permalink": "/blog/2021/03/17/category"
+            }
+          },
+          "content": "- [CSVファイルフォーマット](/docs/csv)の長さを実装に合わせてドキュメントを変更しました。\n  - 実装に合わせて仕様書を変更しました。\n\n```diff\n | 9 | 仕入先名 | 文字列 | 32 | o | o | o |  |  |\n | 10 | 注文番号 | 半角英数字 | 10 |  |  | o |  | 注文番号 |\n | 11 | 注文明細No | 半角英数字 | 3 |  |  | o |  | 明細No |\n-| 12 | 商品コード | 文字列 | 30 |  |  | o |  |  |\n-| 13 | メーカー内部コード | 半角英数字 | 10 |  |  | o |  |  |\n+| 12 | 商品コード | 文字列 | 255 |  |  | o |  |  |\n+| 13 | メーカー内部コード | 半角英数字 | 255 |  |  | o |  |  |\n | 14 | ガス種 | 半角英数字 | 10 |  |  |  |  | LP, 13Aなど |\n | 15 | 発注数 | 数値 | 4 |  |  | o |  |  |\n | 16 | 発注単価 | int | 9 |  |  | o |  |  |\n | 17 | 希望納期 | date | 10 |  |  |  |  |  |\n-| 18 | 営業所名 | string | 50 |  |  | o |  |  |\n+| 18 | 営業所名 | string | 255 |  |  | o |  |  |\n | 19 | 営業所電話番号 | string | 15 |  |  | o |  |  |\n | 20 | 営業所FAX | string | 15 |  |  | o |  |  |\n-| 21 | 担当者名 | string | 30 |  |  | o |  |  |\n+| 21 | 担当者名 | string | 255 |  |  | o |  |  |\n | 22 | 納品先名 | string | 20 |  |  | o |  |  |\n | 23 | 納品先住所 | string | 152 |  |  | o |  |  |\n | 24 | 納品先TEL | string | 15 |  |  | o |  |  |\n```"
+        },
+        {
+          "id": "/2021/03/17/category",
+          "metadata": {
+            "permalink": "/blog/2021/03/17/category",
+            "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/blog/blog/2021-03-17-category.md",
+            "source": "@site/blog/2021-03-17-category.md",
+            "title": "Release 0.5.0",
+            "description": "- メーカー向け",
+            "date": "2021-03-17T00:00:00.000Z",
+            "formattedDate": "March 17, 2021",
+            "tags": [],
+            "readingTime": 0.185,
+            "truncated": false,
+            "authors": [
+              {
+                "name": "Yuki Matsukura",
+                "url": "http://twitter.com/matsubokkuri"
+              }
+            ],
+            "prevItem": {
+              "title": "Release 0.5.1",
+              "permalink": "/blog/2021/08/24/csv"
+            },
+            "nextItem": {
+              "title": "Release 0.4.0",
+              "permalink": "/blog/2021/02/25/csv"
+            }
+          },
+          "content": "- メーカー向け\n  - カテゴリマスタの項を削除しました。 今後は商品データ管理画面にあるリンクからご確認ください。"
+        },
+        {
+          "id": "/2021/02/25/csv",
+          "metadata": {
+            "permalink": "/blog/2021/02/25/csv",
+            "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/blog/blog/2021-02-25-csv.md",
+            "source": "@site/blog/2021-02-25-csv.md",
+            "title": "Release 0.4.0",
+            "description": "- 納期回答のCSVフォーマットに小売コードを追加しました。",
+            "date": "2021-02-25T00:00:00.000Z",
+            "formattedDate": "February 25, 2021",
+            "tags": [],
+            "readingTime": 0.21,
+            "truncated": false,
+            "authors": [
+              {
+                "name": "Yuki Matsukura",
+                "url": "http://twitter.com/matsubokkuri"
+              }
+            ],
+            "prevItem": {
+              "title": "Release 0.5.0",
+              "permalink": "/blog/2021/03/17/category"
+            },
+            "nextItem": {
+              "title": "Release 0.3.0",
+              "permalink": "/blog/2021/01/06/csv"
+            }
+          },
+          "content": "- [納期回答のCSVフォーマット](/docs/csv)に`小売コード`を追加しました。\n- 商品CSVと新規受注CSVに`カタログURL`と`承認図URL`を追加しました。"
+        },
+        {
+          "id": "/2021/01/06/csv",
+          "metadata": {
+            "permalink": "/blog/2021/01/06/csv",
+            "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/blog/blog/2021-01-06-csv.md",
+            "source": "@site/blog/2021-01-06-csv.md",
+            "title": "Release 0.3.0",
+            "description": "- CSVフォーマットの項目名商品コードを型式（品番）に変更しました。",
+            "date": "2021-01-06T00:00:00.000Z",
+            "formattedDate": "January 6, 2021",
+            "tags": [],
+            "readingTime": 0.105,
+            "truncated": false,
+            "authors": [
+              {
+                "name": "Yuki Matsukura",
+                "url": "http://twitter.com/matsubokkuri"
+              }
+            ],
+            "prevItem": {
+              "title": "Release 0.4.0",
+              "permalink": "/blog/2021/02/25/csv"
+            },
+            "nextItem": {
+              "title": "Release 0.2.0",
+              "permalink": "/blog/2020/03/10/csv"
+            }
+          },
+          "content": "- [CSVフォーマット](/docs/csv)の項目名`商品コード`を`型式（品番）`に変更しました。"
+        },
+        {
+          "id": "/2020/03/10/csv",
+          "metadata": {
+            "permalink": "/blog/2020/03/10/csv",
+            "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/blog/blog/2020-03-10-csv.md",
+            "source": "@site/blog/2020-03-10-csv.md",
+            "title": "Release 0.2.0",
+            "description": "納期回答CSVの表記を変更しました。",
+            "date": "2020-03-10T00:00:00.000Z",
+            "formattedDate": "March 10, 2020",
+            "tags": [],
+            "readingTime": 0.08,
+            "truncated": false,
+            "authors": [
+              {
+                "name": "Yuki Matsukura",
+                "url": "http://twitter.com/matsubokkuri"
+              }
+            ],
+            "prevItem": {
+              "title": "Release 0.3.0",
+              "permalink": "/blog/2021/01/06/csv"
+            },
+            "nextItem": {
+              "title": "Release 0.1.0",
+              "permalink": "/blog/2020/02/28/csv"
+            }
+          },
+          "content": "[納期回答CSV](/docs/csv)の表記を変更しました。"
+        },
+        {
+          "id": "/2020/02/28/csv",
+          "metadata": {
+            "permalink": "/blog/2020/02/28/csv",
+            "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/blog/blog/2020-02-28-csv.md",
+            "source": "@site/blog/2020-02-28-csv.md",
+            "title": "Release 0.1.0",
+            "description": "納期回答CSVの表記を変更しました。",
+            "date": "2020-02-28T00:00:00.000Z",
+            "formattedDate": "February 28, 2020",
+            "tags": [],
+            "readingTime": 0.48,
+            "truncated": false,
+            "authors": [
+              {
+                "name": "Yuki Matsukura",
+                "url": "http://twitter.com/matsubokkuri"
+              }
+            ],
+            "prevItem": {
+              "title": "Release 0.2.0",
+              "permalink": "/blog/2020/03/10/csv"
+            },
+            "nextItem": {
+              "title": "Release 0.0.4",
+              "permalink": "/blog/2019/12/09/csv"
+            }
+          },
+          "content": "[納期回答CSV](/docs/csv)の表記を変更しました。\n\n- 受注CSVの2列目に6列分のカラムを追加\n  - 小売コード\n  - 小売名\n  - 支店コード\n  - 支店名\n  - 営業所コード\n  - 営業所名\n\n## 細かい修正点\n\n### 0.0.6 2020/1/28\n\n- 商品マスタのCSVフォーマットにカラムを追加。\n- CSVフォーマットの説明を加筆。\n\n### 0.0.5 2019/12/25\n\n- 利用者向けにドキュメントを追加\n\n### 0.0.4 2019/12/9"
+        },
+        {
+          "id": "/2019/12/09/csv",
+          "metadata": {
+            "permalink": "/blog/2019/12/09/csv",
+            "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/blog/blog/2019-12-09-csv.md",
+            "source": "@site/blog/2019-12-09-csv.md",
+            "title": "Release 0.0.4",
+            "description": "- 納期回答CSVの仕様を変更しました。",
+            "date": "2019-12-09T00:00:00.000Z",
+            "formattedDate": "December 9, 2019",
+            "tags": [],
+            "readingTime": 2.15,
+            "truncated": false,
+            "authors": [
+              {
+                "name": "Yuki Matsukura",
+                "url": "http://twitter.com/matsubokkuri"
+              }
+            ],
+            "prevItem": {
+              "title": "Release 0.1.0",
+              "permalink": "/blog/2020/02/28/csv"
+            },
+            "nextItem": {
+              "title": "Release 0.0.3",
+              "permalink": "/blog/2019/11/22/csv"
+            }
+          },
+          "content": "- [納期回答CSV](/docs/csv)の仕様を変更しました。\n- 以下に重要部分を抜粋します\n\n```diff\n | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n | 1 | 営業員コード | string | 255 | o |  | o | 1 |  |\n-| 2 | 営業所コード | string | 255 |  | o |  | 11 |  |\n+| 2 | 営業所コード | string | 255 |  | o |  | 11 | `営業所コード` は `権限` が`sales` の場合に必須です。 |\n | 3 | メールアドレス | string | 255 |  |  | o | example@example.com |  |\n | 4 | パスワード | string | 255 |  |  |  |  | 空の場合は更新されません |\n | 5 | 姓 | string | 255 |  |  | o | 佐藤 |  |\n@@ -133,18 +137,19 @@ sidebar_label: 入稿データフォーマット\n\n | 3 | メーカー内部コード | string | 255 |  |  |  |  |  |\n | 4 | 製品名 | string | 255 |  |  | o |  |  |\n-| 5 | ガスマスタを使うかどうかフラグ | boolean |  |  |  | o | 1 | 注文時にLPか都市ガスかを選択する必要がある商品 |\n+| 5 | 目安納期日数 | integer| 2,147,483,647|  |  | o | 3 | 営業日の数字を記載 |\n+| 6 | ガスマスタを使うかどうかフラグ | boolean |  |  |  | o | 1 | 注文時にLPか都市ガスかを選択する必要がある商品 |\n@@ -155,11 +160,11 @@ sidebar_label: 入稿データフォーマット\n\n | 2 | 小売コード | string | 255 | o | o | o |  | |\n-| 3 | 契約金額 | mediumtext | 16,777,215 | | | o |  | 税抜 |\n+| 3 | 契約金額 | integer | 2,147,483,647 | | | o |  | 税抜 |\n | 4 | 開始日時 | datetime | | o | | | | |\n | 5 | 終了日時 | datetime | |   | | | | |\n\n@@ -167,7 +172,7 @@ sidebar_label: 入稿データフォーマット\n```"
+        },
+        {
+          "id": "/2019/11/22/csv",
+          "metadata": {
+            "permalink": "/blog/2019/11/22/csv",
+            "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/blog/blog/2019-11-22-csv.md",
+            "source": "@site/blog/2019-11-22-csv.md",
+            "title": "Release 0.0.3",
+            "description": "- 納期回答CSVの表記を変更しました。",
+            "date": "2019-11-22T00:00:00.000Z",
+            "formattedDate": "November 22, 2019",
+            "tags": [],
+            "readingTime": 0.675,
+            "truncated": false,
+            "authors": [
+              {
+                "name": "Yuki Matsukura",
+                "url": "http://twitter.com/matsubokkuri"
+              }
+            ],
+            "prevItem": {
+              "title": "Release 0.0.4",
+              "permalink": "/blog/2019/12/09/csv"
+            },
+            "nextItem": {
+              "title": "Release 0.0.2",
+              "permalink": "/blog/2019/11/21/color"
+            }
+          },
+          "content": "- [納期回答CSV](/docs/csv)の表記を変更しました。\n  - 用語を統一しました。\n  - 用語の定義を追加しました。\n  - 画像の大きさに関しての目安を追加しました。\n\n```diff\n-| 6 | 器具型式 | 漢字 | 30 |  |  | o |  |  |\n+| 6 | 商品コード | 漢字 | 30 |  |  | o |  |  |\n-| 7 | 品目コード | 半角英数字 | 10 |  |  | o |  |  |\n+| 7 | メーカー内部コード | 半角英数字 | 10 |  |  | o |  |  |\n```"
+        },
+        {
+          "id": "/2019/11/21/color",
+          "metadata": {
+            "permalink": "/blog/2019/11/21/color",
+            "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/blog/blog/2019-11-21-color.md",
+            "source": "@site/blog/2019-11-21-color.md",
+            "title": "Release 0.0.2",
+            "description": "- カラースキーマに準拠しました。",
+            "date": "2019-11-21T00:00:00.000Z",
+            "formattedDate": "November 21, 2019",
+            "tags": [],
+            "readingTime": 0.115,
+            "truncated": false,
+            "authors": [
+              {
+                "name": "Yuki Matsukura",
+                "url": "http://twitter.com/matsubokkuri"
+              }
+            ],
+            "prevItem": {
+              "title": "Release 0.0.3",
+              "permalink": "/blog/2019/11/22/csv"
+            },
+            "nextItem": {
+              "title": "Release 0.0.1",
+              "permalink": "/blog/2019/11/20/csv"
+            }
+          },
+          "content": "- カラースキーマに準拠しました。\n- [変更履歴](/blog)のページを作成しました。"
+        },
+        {
+          "id": "/2019/11/20/csv",
+          "metadata": {
+            "permalink": "/blog/2019/11/20/csv",
+            "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/blog/blog/2019-11-20-csv.md",
+            "source": "@site/blog/2019-11-20-csv.md",
+            "title": "Release 0.0.1",
+            "description": "- バージョンを番号を付加するようにしました。",
+            "date": "2019-11-20T00:00:00.000Z",
+            "formattedDate": "November 20, 2019",
+            "tags": [],
+            "readingTime": 0.52,
+            "truncated": false,
+            "authors": [
+              {
+                "name": "Yuki Matsukura",
+                "url": "http://twitter.com/matsubokkuri"
+              }
+            ],
+            "prevItem": {
+              "title": "Release 0.0.2",
+              "permalink": "/blog/2019/11/21/color"
+            }
+          },
+          "content": "- バージョンを番号を付加するようにしました。\n- [納期回答CSV](/docs/csv)の表記を変更しました。\n\n```diff\n | カラム | 名称 | 型 | 文字数 | PK | FK | 必須 | 例 | 備考 |\n | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n-| 1 | 受注コード | string | 255 | o | o | o |  | |\n+| 1 | 注文番号 | string | 255 | o | o | o |  | |\n | 2 | 納期日 | date | o |  | |  | | |\n```"
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 10,
+            "previousPage": null,
+            "nextPage": null,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          },
+          "items": [
+            "/2021/08/24/csv",
+            "/2021/03/17/category",
+            "/2021/02/25/csv",
+            "/2021/01/06/csv",
+            "/2020/03/10/csv",
+            "/2020/02/28/csv",
+            "/2019/12/09/csv",
+            "/2019/11/22/csv",
+            "/2019/11/21/color",
+            "/2019/11/20/csv"
+          ]
+        }
+      ],
+      "blogTags": {},
+      "blogTagsListPath": null
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  }
+}

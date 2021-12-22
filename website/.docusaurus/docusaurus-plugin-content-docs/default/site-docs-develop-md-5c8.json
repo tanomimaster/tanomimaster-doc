@@ -1,0 +1,20 @@
+{
+  "unversionedId": "develop",
+  "id": "develop",
+  "title": "サーバ情報",
+  "description": "概要",
+  "source": "@site/../docs/develop.md",
+  "sourceDirName": ".",
+  "slug": "/develop",
+  "permalink": "/tanomimaster-doc/docs/develop",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055,
+  "formattedLastUpdatedAt": "10/14/2018",
+  "frontMatter": {
+    "id": "develop",
+    "title": "サーバ情報",
+    "sidebar_label": "サーバ情報"
+  }
+}

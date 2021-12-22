@@ -2,7 +2,7 @@ FROM node:16
 
 WORKDIR /app/website
 
-EXPOSE 3000 35729
+EXPOSE 3000
 
 RUN yarn install
 

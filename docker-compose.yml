@@ -4,10 +4,11 @@ services:
   docusaurus:
     build: .
     ports:
-      - 3000:3000
-      - 35729:35729
+      - "3000:3000"
     volumes:
       - ./:/app
+      - node_volume:/app/website/node_modules:cached
     working_dir: /app/website
     command: yarn start
-
+volumes:
+  node_volume:

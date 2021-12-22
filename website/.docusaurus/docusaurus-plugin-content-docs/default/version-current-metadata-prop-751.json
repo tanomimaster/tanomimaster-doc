@@ -1,0 +1,87 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "APIドキュメント",
+        "href": "/docs/api",
+        "docId": "api"
+      },
+      {
+        "type": "link",
+        "label": "入稿データフォーマット",
+        "href": "/docs/csv",
+        "docId": "csv"
+      },
+      {
+        "type": "link",
+        "label": "サーバ情報",
+        "href": "/docs/develop",
+        "docId": "develop"
+      },
+      {
+        "type": "link",
+        "label": "システム概要",
+        "href": "/docs/",
+        "docId": "index"
+      },
+      {
+        "type": "link",
+        "label": "メーカー",
+        "href": "/docs/maker",
+        "docId": "maker"
+      },
+      {
+        "type": "link",
+        "label": "小売",
+        "href": "/docs/retail",
+        "docId": "retail"
+      }
+    ]
+  },
+  "docs": {
+    "api": {
+      "id": "api",
+      "title": "APIドキュメント",
+      "description": "- APIドキュメント",
+      "sidebar": "tutorialSidebar"
+    },
+    "csv": {
+      "id": "csv",
+      "title": "入稿データフォーマット",
+      "description": "概要",
+      "sidebar": "tutorialSidebar"
+    },
+    "develop": {
+      "id": "develop",
+      "title": "サーバ情報",
+      "description": "概要",
+      "sidebar": "tutorialSidebar"
+    },
+    "index": {
+      "id": "index",
+      "title": "システム概要",
+      "description": "システム概要",
+      "sidebar": "tutorialSidebar"
+    },
+    "maker": {
+      "id": "maker",
+      "title": "メーカー",
+      "description": "概要",
+      "sidebar": "tutorialSidebar"
+    },
+    "retail": {
+      "id": "retail",
+      "title": "小売",
+      "description": "概要",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}
