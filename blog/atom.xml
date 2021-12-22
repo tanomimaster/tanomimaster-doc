@@ -1,70 +1,182 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://tanomimaster.com/tanomimaster-doc/blog</id>
+    <id>https://tanomimaster.com/blog</id>
     <title>ユーザ ドキュメント Blog</title>
-    <updated>2017-10-24T06:00:00.000Z</updated>
+    <updated>2021-08-24T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://tanomimaster.com/tanomimaster-doc/blog"/>
-    <subtitle>The best place to stay up-to-date with the latest ユーザ ドキュメント news and events.</subtitle>
-    <logo>https://tanomimaster.com/tanomimaster-doc/img/favicon.ico</logo>
-    <rights>Copyright © 2021 Minedia, Inc.</rights>
+    <link rel="alternate" href="https://tanomimaster.com/blog"/>
+    <subtitle>ユーザ ドキュメント Blog</subtitle>
+    <icon>https://tanomimaster.com/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[New Version 1.0.0]]></title>
-        <id>https://tanomimaster.com/tanomimaster-doc/blog/2017/10/24/new-version-1.0.0.html</id>
-        <link href="https://tanomimaster.com/tanomimaster-doc/blog/2017/10/24/new-version-1.0.0.html"/>
-        <updated>2017-10-24T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>This blog post will test file name parsing issues when periods are present.</p> ]]></summary>
+        <title type="html"><![CDATA[Release 0.5.1]]></title>
+        <id>/2021/08/24/csv</id>
+        <link href="https://tanomimaster.com/blog/2021/08/24/csv"/>
+        <updated>2021-08-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[- CSVファイルフォーマットの長さを実装に合わせてドキュメントを変更しました。]]></summary>
+        <content type="html"><![CDATA[<ul><li><a href="/docs/csv">CSVファイルフォーマット</a>の長さを実装に合わせてドキュメントを変更しました。<ul><li>実装に合わせて仕様書を変更しました。</li></ul></li></ul><pre><code class="language-diff"> | 9 | 仕入先名 | 文字列 | 32 | o | o | o |  |  |
+ | 10 | 注文番号 | 半角英数字 | 10 |  |  | o |  | 注文番号 |
+ | 11 | 注文明細No | 半角英数字 | 3 |  |  | o |  | 明細No |
+-| 12 | 商品コード | 文字列 | 30 |  |  | o |  |  |
+-| 13 | メーカー内部コード | 半角英数字 | 10 |  |  | o |  |  |
++| 12 | 商品コード | 文字列 | 255 |  |  | o |  |  |
++| 13 | メーカー内部コード | 半角英数字 | 255 |  |  | o |  |  |
+ | 14 | ガス種 | 半角英数字 | 10 |  |  |  |  | LP, 13Aなど |
+ | 15 | 発注数 | 数値 | 4 |  |  | o |  |  |
+ | 16 | 発注単価 | int | 9 |  |  | o |  |  |
+ | 17 | 希望納期 | date | 10 |  |  |  |  |  |
+-| 18 | 営業所名 | string | 50 |  |  | o |  |  |
++| 18 | 営業所名 | string | 255 |  |  | o |  |  |
+ | 19 | 営業所電話番号 | string | 15 |  |  | o |  |  |
+ | 20 | 営業所FAX | string | 15 |  |  | o |  |  |
+-| 21 | 担当者名 | string | 30 |  |  | o |  |  |
++| 21 | 担当者名 | string | 255 |  |  | o |  |  |
+ | 22 | 納品先名 | string | 20 |  |  | o |  |  |
+ | 23 | 納品先住所 | string | 152 |  |  | o |  |  |
+ | 24 | 納品先TEL | string | 15 |  |  | o |  |  |
+</code></pre>]]></content>
         <author>
-            <name>Eric Nakagawa</name>
-            <uri>http://twitter.com/ericnakagawa</uri>
+            <name>Yuki Matsukura</name>
+            <uri>http://twitter.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Adding RSS Support]]></title>
-        <id>https://tanomimaster.com/tanomimaster-doc/blog/2017/09/26/adding-rss.html</id>
-        <link href="https://tanomimaster.com/tanomimaster-doc/blog/2017/09/26/adding-rss.html"/>
-        <updated>2017-09-26T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>This is a test post.</p> <p>A whole bunch of other information.</p> ]]></summary>
+        <title type="html"><![CDATA[Release 0.5.0]]></title>
+        <id>/2021/03/17/category</id>
+        <link href="https://tanomimaster.com/blog/2021/03/17/category"/>
+        <updated>2021-03-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[- メーカー向け]]></summary>
+        <content type="html"><![CDATA[<ul><li>メーカー向け<ul><li>カテゴリマスタの項を削除しました。 今後は商品データ管理画面にあるリンクからご確認ください。</li></ul></li></ul>]]></content>
         <author>
-            <name>Eric Nakagawa</name>
-            <uri>http://twitter.com/ericnakagawa</uri>
+            <name>Yuki Matsukura</name>
+            <uri>http://twitter.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Adding RSS Support - RSS Truncation Test]]></title>
-        <id>https://tanomimaster.com/tanomimaster-doc/blog/2017/09/25/testing-rss.html</id>
-        <link href="https://tanomimaster.com/tanomimaster-doc/blog/2017/09/25/testing-rss.html"/>
-        <updated>2017-09-25T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890</p>
-<p>This should be truncated.</p>
-]]></summary>
+        <title type="html"><![CDATA[Release 0.4.0]]></title>
+        <id>/2021/02/25/csv</id>
+        <link href="https://tanomimaster.com/blog/2021/02/25/csv"/>
+        <updated>2021-02-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[- 納期回答のCSVフォーマットに小売コードを追加しました。]]></summary>
+        <content type="html"><![CDATA[<ul><li><a href="/docs/csv">納期回答のCSVフォーマット</a>に<code>小売コード</code>を追加しました。</li><li>商品CSVと新規受注CSVに<code>カタログURL</code>と<code>承認図URL</code>を追加しました。</li></ul>]]></content>
         <author>
-            <name>Eric Nakagawa</name>
-            <uri>http://twitter.com/ericnakagawa</uri>
+            <name>Yuki Matsukura</name>
+            <uri>http://twitter.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New Blog Post]]></title>
-        <id>https://tanomimaster.com/tanomimaster-doc/blog/2017/04/10/blog-post-two.html</id>
-        <link href="https://tanomimaster.com/tanomimaster-doc/blog/2017/04/10/blog-post-two.html"/>
-        <updated>2017-04-10T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.</p>
-]]></summary>
+        <title type="html"><![CDATA[Release 0.3.0]]></title>
+        <id>/2021/01/06/csv</id>
+        <link href="https://tanomimaster.com/blog/2021/01/06/csv"/>
+        <updated>2021-01-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[- CSVフォーマットの項目名商品コードを型式（品番）に変更しました。]]></summary>
+        <content type="html"><![CDATA[<ul><li><a href="/docs/csv">CSVフォーマット</a>の項目名<code>商品コード</code>を<code>型式（品番）</code>に変更しました。</li></ul>]]></content>
         <author>
-            <name>Blog Author</name>
-            <uri>http://twitter.com/</uri>
+            <name>Yuki Matsukura</name>
+            <uri>http://twitter.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Blog Title]]></title>
-        <id>https://tanomimaster.com/tanomimaster-doc/blog/2016/03/11/blog-post.html</id>
-        <link href="https://tanomimaster.com/tanomimaster-doc/blog/2016/03/11/blog-post.html"/>
-        <updated>2016-03-11T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.</p>
-]]></summary>
+        <title type="html"><![CDATA[Release 0.2.0]]></title>
+        <id>/2020/03/10/csv</id>
+        <link href="https://tanomimaster.com/blog/2020/03/10/csv"/>
+        <updated>2020-03-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[納期回答CSVの表記を変更しました。]]></summary>
+        <content type="html"><![CDATA[<p><a href="/docs/csv">納期回答CSV</a>の表記を変更しました。</p>]]></content>
         <author>
-            <name>Blog Author</name>
-            <uri>http://twitter.com/</uri>
+            <name>Yuki Matsukura</name>
+            <uri>http://twitter.com/matsubokkuri</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Release 0.1.0]]></title>
+        <id>/2020/02/28/csv</id>
+        <link href="https://tanomimaster.com/blog/2020/02/28/csv"/>
+        <updated>2020-02-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[納期回答CSVの表記を変更しました。]]></summary>
+        <content type="html"><![CDATA[<p><a href="/docs/csv">納期回答CSV</a>の表記を変更しました。</p><ul><li>受注CSVの2列目に6列分のカラムを追加<ul><li>小売コード</li><li>小売名</li><li>支店コード</li><li>支店名</li><li>営業所コード</li><li>営業所名</li></ul></li></ul><h2>細かい修正点</h2><h3>0.0.6 2020/1/28</h3><ul><li>商品マスタのCSVフォーマットにカラムを追加。</li><li>CSVフォーマットの説明を加筆。</li></ul><h3>0.0.5 2019/12/25</h3><ul><li>利用者向けにドキュメントを追加</li></ul><h3>0.0.4 2019/12/9</h3>]]></content>
+        <author>
+            <name>Yuki Matsukura</name>
+            <uri>http://twitter.com/matsubokkuri</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Release 0.0.4]]></title>
+        <id>/2019/12/09/csv</id>
+        <link href="https://tanomimaster.com/blog/2019/12/09/csv"/>
+        <updated>2019-12-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[- 納期回答CSVの仕様を変更しました。]]></summary>
+        <content type="html"><![CDATA[<ul><li><a href="/docs/csv">納期回答CSV</a>の仕様を変更しました。</li><li>以下に重要部分を抜粋します</li></ul><pre><code class="language-diff"> | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+ | 1 | 営業員コード | string | 255 | o |  | o | 1 |  |
+-| 2 | 営業所コード | string | 255 |  | o |  | 11 |  |
++| 2 | 営業所コード | string | 255 |  | o |  | 11 | `営業所コード` は `権限` が`sales` の場合に必須です。 |
+ | 3 | メールアドレス | string | 255 |  |  | o | example@example.com |  |
+ | 4 | パスワード | string | 255 |  |  |  |  | 空の場合は更新されません |
+ | 5 | 姓 | string | 255 |  |  | o | 佐藤 |  |
+@@ -133,18 +137,19 @@ sidebar_label: 入稿データフォーマット
+
+ | 3 | メーカー内部コード | string | 255 |  |  |  |  |  |
+ | 4 | 製品名 | string | 255 |  |  | o |  |  |
+-| 5 | ガスマスタを使うかどうかフラグ | boolean |  |  |  | o | 1 | 注文時にLPか都市ガスかを選択する必要がある商品 |
++| 5 | 目安納期日数 | integer| 2,147,483,647|  |  | o | 3 | 営業日の数字を記載 |
++| 6 | ガスマスタを使うかどうかフラグ | boolean |  |  |  | o | 1 | 注文時にLPか都市ガスかを選択する必要がある商品 |
+@@ -155,11 +160,11 @@ sidebar_label: 入稿データフォーマット
+
+ | 2 | 小売コード | string | 255 | o | o | o |  | |
+-| 3 | 契約金額 | mediumtext | 16,777,215 | | | o |  | 税抜 |
++| 3 | 契約金額 | integer | 2,147,483,647 | | | o |  | 税抜 |
+ | 4 | 開始日時 | datetime | | o | | | | |
+ | 5 | 終了日時 | datetime | |   | | | | |
+
+@@ -167,7 +172,7 @@ sidebar_label: 入稿データフォーマット
+</code></pre>]]></content>
+        <author>
+            <name>Yuki Matsukura</name>
+            <uri>http://twitter.com/matsubokkuri</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Release 0.0.3]]></title>
+        <id>/2019/11/22/csv</id>
+        <link href="https://tanomimaster.com/blog/2019/11/22/csv"/>
+        <updated>2019-11-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[- 納期回答CSVの表記を変更しました。]]></summary>
+        <content type="html"><![CDATA[<ul><li><a href="/docs/csv">納期回答CSV</a>の表記を変更しました。<ul><li>用語を統一しました。</li><li>用語の定義を追加しました。</li><li>画像の大きさに関しての目安を追加しました。</li></ul></li></ul><pre><code class="language-diff">-| 6 | 器具型式 | 漢字 | 30 |  |  | o |  |  |
++| 6 | 商品コード | 漢字 | 30 |  |  | o |  |  |
+-| 7 | 品目コード | 半角英数字 | 10 |  |  | o |  |  |
++| 7 | メーカー内部コード | 半角英数字 | 10 |  |  | o |  |  |
+</code></pre>]]></content>
+        <author>
+            <name>Yuki Matsukura</name>
+            <uri>http://twitter.com/matsubokkuri</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Release 0.0.2]]></title>
+        <id>/2019/11/21/color</id>
+        <link href="https://tanomimaster.com/blog/2019/11/21/color"/>
+        <updated>2019-11-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[- カラースキーマに準拠しました。]]></summary>
+        <content type="html"><![CDATA[<ul><li>カラースキーマに準拠しました。</li><li><a href="/blog">変更履歴</a>のページを作成しました。</li></ul>]]></content>
+        <author>
+            <name>Yuki Matsukura</name>
+            <uri>http://twitter.com/matsubokkuri</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Release 0.0.1]]></title>
+        <id>/2019/11/20/csv</id>
+        <link href="https://tanomimaster.com/blog/2019/11/20/csv"/>
+        <updated>2019-11-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[- バージョンを番号を付加するようにしました。]]></summary>
+        <content type="html"><![CDATA[<ul><li>バージョンを番号を付加するようにしました。</li><li><a href="/docs/csv">納期回答CSV</a>の表記を変更しました。</li></ul><pre><code class="language-diff"> | カラム | 名称 | 型 | 文字数 | PK | FK | 必須 | 例 | 備考 |
+ | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+-| 1 | 受注コード | string | 255 | o | o | o |  | |
++| 1 | 注文番号 | string | 255 | o | o | o |  | |
+ | 2 | 納期日 | date | o |  | |  | | |
+</code></pre>]]></content>
+        <author>
+            <name>Yuki Matsukura</name>
+            <uri>http://twitter.com/matsubokkuri</uri>
         </author>
     </entry>
 </feed>
