@@ -29,7 +29,7 @@ hit `yarn start` or `npm start`
 
 ```
 cd website
-yarn deploy
+env GIT_USER=matsubo CURRENT_BRANCH=master USE_SSH=true yarn deploy
 ```
 
 
