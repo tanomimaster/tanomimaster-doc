@@ -3,27 +3,28 @@
 - `master` branch is published on
   - https://tanomimaster.github.io/tanomimaster-doc
 
-## Development
+## Local preview
 
-- This document is build upon [Docusaurus](https://docusaurus.io/)
+- This repository is build upon [Docusaurus](https://docusaurus.io/)
+- root directory of the document is `webwsite`.
 
 ### Docker
 
 ```
-docker-compose up 
+docker-compose up
 ```
 
-Open [http://localhost:3000/](http://localhost:3000/)
+Then open [http://localhost:3000/](http://localhost:3000/) by browser.
 
 
 ### local
+
+Run without docker.
+
 ```
 cd website
+yarn start
 ```
-
-and
-
-hit `yarn start` or `npm start`
 
 ## Deploy
 
@@ -31,5 +32,4 @@ hit `yarn start` or `npm start`
 cd website
 env GIT_USER=matsubo CURRENT_BRANCH=master USE_SSH=true yarn deploy
 ```
-
 
