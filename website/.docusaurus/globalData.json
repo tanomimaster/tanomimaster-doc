@@ -36,11 +36,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "releases",
-              "path": "/docs/releases",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "retail",
               "path": "/docs/retail",
               "sidebar": "tutorialSidebar"

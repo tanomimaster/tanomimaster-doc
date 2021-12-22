@@ -1,6 +1,6 @@
 export default {
   "title": "ユーザ ドキュメント",
-  "tagline": "B2B 受発注システム",
+  "tagline": "B2B 受発注プラットフォーム",
   "url": "https://tanomimaster.com",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
@@ -13,7 +13,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/matsu/ghq/github.com/tanomimaster/tanomimaster-doc/website/sidebars.js",
+          "sidebarPath": "/app/website/sidebars.js",
           "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/docs/"
         },
         "blog": {
@@ -21,7 +21,7 @@ export default {
           "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/blog/"
         },
         "theme": {
-          "customCss": "/Users/matsu/ghq/github.com/tanomimaster/tanomimaster-doc/website/src/css/custom.css"
+          "customCss": "/app/website/src/css/custom.css"
         }
       }
     ]
@@ -63,33 +63,37 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "Docs",
+          "title": "ドキュメント",
           "items": [
             {
-              "label": "ドキュメント",
-              "to": "/docs/intro"
+              "label": "利用者向けドキュメント",
+              "to": "/docs/"
             }
           ]
         },
         {
-          "title": "Community",
+          "title": "リンク",
           "items": [
             {
-              "label": "Blog",
+              "label": "サービス説明",
               "href": "https://service.tanomimaster.com/"
+            },
+            {
+              "label": "サービス更新情報",
+              "href": "https://service.tanomimaster.com/blog/"
             },
             {
               "label": "Slack",
               "href": "https://tanomimaster.slack.com/"
             },
             {
-              "label": "Tanomimaster",
+              "label": "サービスサイト",
               "href": "https://tanomimaster.com/"
             }
           ]
         },
         {
-          "title": "More",
+          "title": "開発リソース",
           "items": [
             {
               "label": "GitHub",

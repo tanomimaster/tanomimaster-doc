@@ -40,32 +40,57 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog','13f'),
+    component: ComponentCreator('/blog','288'),
     exact: true
   },
   {
-    path: '/blog/2016/03/11/blog-post',
-    component: ComponentCreator('/blog/2016/03/11/blog-post','8fd'),
+    path: '/blog/2019/11/20/csv',
+    component: ComponentCreator('/blog/2019/11/20/csv','c0b'),
     exact: true
   },
   {
-    path: '/blog/2017/04/10/blog-post-two',
-    component: ComponentCreator('/blog/2017/04/10/blog-post-two','c30'),
+    path: '/blog/2019/11/21/color',
+    component: ComponentCreator('/blog/2019/11/21/color','9d4'),
     exact: true
   },
   {
-    path: '/blog/2017/09/25/testing-rss',
-    component: ComponentCreator('/blog/2017/09/25/testing-rss','143'),
+    path: '/blog/2019/11/22/csv',
+    component: ComponentCreator('/blog/2019/11/22/csv','a69'),
     exact: true
   },
   {
-    path: '/blog/2017/09/26/adding-rss',
-    component: ComponentCreator('/blog/2017/09/26/adding-rss','8b9'),
+    path: '/blog/2019/12/09/csv',
+    component: ComponentCreator('/blog/2019/12/09/csv','6e8'),
     exact: true
   },
   {
-    path: '/blog/2017/10/24/new-version-1.0.0',
-    component: ComponentCreator('/blog/2017/10/24/new-version-1.0.0','833'),
+    path: '/blog/2020/02/28/csv',
+    component: ComponentCreator('/blog/2020/02/28/csv','7b3'),
+    exact: true
+  },
+  {
+    path: '/blog/2020/03/10/csv',
+    component: ComponentCreator('/blog/2020/03/10/csv','b38'),
+    exact: true
+  },
+  {
+    path: '/blog/2021/01/06/csv',
+    component: ComponentCreator('/blog/2021/01/06/csv','705'),
+    exact: true
+  },
+  {
+    path: '/blog/2021/02/25/csv',
+    component: ComponentCreator('/blog/2021/02/25/csv','2eb'),
+    exact: true
+  },
+  {
+    path: '/blog/2021/03/17/category',
+    component: ComponentCreator('/blog/2021/03/17/category','496'),
+    exact: true
+  },
+  {
+    path: '/blog/2021/08/24/csv',
+    component: ComponentCreator('/blog/2021/08/24/csv','67d'),
     exact: true
   },
   {
@@ -74,8 +99,13 @@ export default [
     exact: true
   },
   {
+    path: '/markdown-page',
+    component: ComponentCreator('/markdown-page','be1'),
+    exact: true
+  },
+  {
     path: '/docs',
-    component: ComponentCreator('/docs','38f'),
+    component: ComponentCreator('/docs','aeb'),
     routes: [
       {
         path: '/docs/',
@@ -104,12 +134,6 @@ export default [
       {
         path: '/docs/maker',
         component: ComponentCreator('/docs/maker','2d5'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docs/releases',
-        component: ComponentCreator('/docs/releases','ffb'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

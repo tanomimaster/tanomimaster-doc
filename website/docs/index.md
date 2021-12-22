@@ -1,7 +1,7 @@
 ---
 id: index
-title: "ドキュメント"
-sidebar_label: "トップ"
+title: "システム概要"
+sort: 0
 ---
 
 ## システム概要

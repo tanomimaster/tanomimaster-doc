@@ -15,6 +15,10 @@
       "url": "http://twitter.com/ericnakagawa"
     }
   ],
+  "prevItem": {
+    "title": "Release 0.0.1",
+    "permalink": "/blog/2019/11/20/csv"
+  },
   "nextItem": {
     "title": "Adding RSS Support",
     "permalink": "/blog/2017/09/26/adding-rss"

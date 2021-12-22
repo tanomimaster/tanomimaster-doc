@@ -28,7 +28,7 @@
       },
       {
         "type": "link",
-        "label": "トップ",
+        "label": "システム概要",
         "href": "/docs/",
         "docId": "index"
       },
@@ -37,12 +37,6 @@
         "label": "メーカー",
         "href": "/docs/maker",
         "docId": "maker"
-      },
-      {
-        "type": "link",
-        "label": "変更履歴",
-        "href": "/docs/releases",
-        "docId": "releases"
       },
       {
         "type": "link",
@@ -73,7 +67,7 @@
     },
     "index": {
       "id": "index",
-      "title": "ドキュメント",
+      "title": "システム概要",
       "description": "システム概要",
       "sidebar": "tutorialSidebar"
     },
@@ -81,12 +75,6 @@
       "id": "maker",
       "title": "メーカー",
       "description": "概要",
-      "sidebar": "tutorialSidebar"
-    },
-    "releases": {
-      "id": "releases",
-      "title": "変更履歴",
-      "description": "変更履歴",
       "sidebar": "tutorialSidebar"
     },
     "retail": {

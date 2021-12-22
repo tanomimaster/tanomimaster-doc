@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "ユーザ ドキュメント",
-  tagline: "B2B 受発注プラットフォーム",
-  url: "https://tanomimaster.com",
+  title: 'My Site',
+  tagline: 'Dinosaurs are cool',
+  url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: "tanomimaster",
-  projectName: "tanomimaster-doc",
+  organizationName: 'facebook', // Usually your GitHub org/user name.
+  projectName: 'docusaurus', // Usually your repo name.
 
   presets: [
     [
@@ -24,13 +24,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/docs/',
+          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/blog/',
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -43,27 +43,21 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'ユーザ ドキュメント',
+        title: 'My Site',
         logo: {
-          alt: 'Tanomimaster logo',
-          src: 'img/favicon.ico',
+          alt: 'My Site Logo',
+          src: 'img/logo.svg',
         },
         items: [
           {
             type: 'doc',
-            docId: 'index',
+            docId: 'intro',
             position: 'left',
-            label: 'ドキュメント',
+            label: 'Tutorial',
           },
-        {
-          type: 'doc',
-          docId: 'api',
-          position: "left",
-          label: "API仕様",
-        },
-          {to: '/blog', label: '変更履歴', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/tanomimaster',
+            href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
           },
@@ -73,46 +67,46 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'ドキュメント',
+            title: 'Docs',
             items: [
               {
-                label: '利用者向けドキュメント',
-                to: '/docs/',
+                label: 'Tutorial',
+                to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'リンク',
+            title: 'Community',
             items: [
               {
-                label: 'サービス説明',
-                href: 'https://service.tanomimaster.com/',
+                label: 'Stack Overflow',
+                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
-                label: 'サービス更新情報',
-                href: 'https://service.tanomimaster.com/blog/',
+                label: 'Discord',
+                href: 'https://discordapp.com/invite/docusaurus',
               },
               {
-                label: 'Slack',
-                href: 'https://tanomimaster.slack.com/',
-              },
-              {
-                label: 'サービスサイト',
-                href: 'https://tanomimaster.com/',
+                label: 'Twitter',
+                href: 'https://twitter.com/docusaurus',
               },
             ],
           },
           {
-            title: '開発リソース',
+            title: 'More',
             items: [
+              {
+                label: 'Blog',
+                to: '/blog',
+              },
               {
                 label: 'GitHub',
-                href: 'https://github.com/tanomimaster',
+                href: 'https://github.com/facebook/docusaurus',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Tanomimaster.`,
+        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
