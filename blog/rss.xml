@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>ユーザ ドキュメント Blog</title>
-        <link>https://tanomimaster.com/blog</link>
+        <link>https://tanomimaster.com/tanomimaster-doc/blog</link>
         <description>ユーザ ドキュメント Blog</description>
         <lastBuildDate>Tue, 24 Aug 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[Release 0.5.1]]></title>
-            <link>https://tanomimaster.com/blog/2021/08/24/csv</link>
+            <link>https://tanomimaster.com/tanomimaster-doc/blog/2021/08/24/csv</link>
             <guid>/2021/08/24/csv</guid>
             <pubDate>Tue, 24 Aug 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[- CSVファイルフォーマットの長さを実装に合わせてドキュメントを変更しました。]]></description>
@@ -37,7 +37,7 @@
         </item>
         <item>
             <title><![CDATA[Release 0.5.0]]></title>
-            <link>https://tanomimaster.com/blog/2021/03/17/category</link>
+            <link>https://tanomimaster.com/tanomimaster-doc/blog/2021/03/17/category</link>
             <guid>/2021/03/17/category</guid>
             <pubDate>Wed, 17 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[- メーカー向け]]></description>
@@ -45,7 +45,7 @@
         </item>
         <item>
             <title><![CDATA[Release 0.4.0]]></title>
-            <link>https://tanomimaster.com/blog/2021/02/25/csv</link>
+            <link>https://tanomimaster.com/tanomimaster-doc/blog/2021/02/25/csv</link>
             <guid>/2021/02/25/csv</guid>
             <pubDate>Thu, 25 Feb 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[- 納期回答のCSVフォーマットに小売コードを追加しました。]]></description>
@@ -53,7 +53,7 @@
         </item>
         <item>
             <title><![CDATA[Release 0.3.0]]></title>
-            <link>https://tanomimaster.com/blog/2021/01/06/csv</link>
+            <link>https://tanomimaster.com/tanomimaster-doc/blog/2021/01/06/csv</link>
             <guid>/2021/01/06/csv</guid>
             <pubDate>Wed, 06 Jan 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[- CSVフォーマットの項目名商品コードを型式（品番）に変更しました。]]></description>
@@ -61,7 +61,7 @@
         </item>
         <item>
             <title><![CDATA[Release 0.2.0]]></title>
-            <link>https://tanomimaster.com/blog/2020/03/10/csv</link>
+            <link>https://tanomimaster.com/tanomimaster-doc/blog/2020/03/10/csv</link>
             <guid>/2020/03/10/csv</guid>
             <pubDate>Tue, 10 Mar 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[納期回答CSVの表記を変更しました。]]></description>
@@ -69,7 +69,7 @@
         </item>
         <item>
             <title><![CDATA[Release 0.1.0]]></title>
-            <link>https://tanomimaster.com/blog/2020/02/28/csv</link>
+            <link>https://tanomimaster.com/tanomimaster-doc/blog/2020/02/28/csv</link>
             <guid>/2020/02/28/csv</guid>
             <pubDate>Fri, 28 Feb 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[納期回答CSVの表記を変更しました。]]></description>
@@ -77,7 +77,7 @@
         </item>
         <item>
             <title><![CDATA[Release 0.0.4]]></title>
-            <link>https://tanomimaster.com/blog/2019/12/09/csv</link>
+            <link>https://tanomimaster.com/tanomimaster-doc/blog/2019/12/09/csv</link>
             <guid>/2019/12/09/csv</guid>
             <pubDate>Mon, 09 Dec 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[- 納期回答CSVの仕様を変更しました。]]></description>
@@ -108,7 +108,7 @@
         </item>
         <item>
             <title><![CDATA[Release 0.0.3]]></title>
-            <link>https://tanomimaster.com/blog/2019/11/22/csv</link>
+            <link>https://tanomimaster.com/tanomimaster-doc/blog/2019/11/22/csv</link>
             <guid>/2019/11/22/csv</guid>
             <pubDate>Fri, 22 Nov 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[- 納期回答CSVの表記を変更しました。]]></description>
@@ -120,7 +120,7 @@
         </item>
         <item>
             <title><![CDATA[Release 0.0.2]]></title>
-            <link>https://tanomimaster.com/blog/2019/11/21/color</link>
+            <link>https://tanomimaster.com/tanomimaster-doc/blog/2019/11/21/color</link>
             <guid>/2019/11/21/color</guid>
             <pubDate>Thu, 21 Nov 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[- カラースキーマに準拠しました。]]></description>
@@ -128,7 +128,7 @@
         </item>
         <item>
             <title><![CDATA[Release 0.0.1]]></title>
-            <link>https://tanomimaster.com/blog/2019/11/20/csv</link>
+            <link>https://tanomimaster.com/tanomimaster-doc/blog/2019/11/20/csv</link>
             <guid>/2019/11/20/csv</guid>
             <pubDate>Wed, 20 Nov 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[- バージョンを番号を付加するようにしました。]]></description>
