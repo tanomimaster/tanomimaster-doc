@@ -7,8 +7,8 @@
           "versionLabel": "Next",
           "versionPath": "/docs",
           "tagsPath": "/docs/tags",
-          "versionEditUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/docs/docs",
-          "versionEditUrlLocalized": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "versionEditUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/docs",
+          "versionEditUrlLocalized": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/i18n/en/docusaurus-plugin-content-docs/current",
           "versionBanner": null,
           "versionBadge": false,
           "versionClassName": "docs-version-current",
@@ -27,7 +27,7 @@
               "sourceDirName": ".",
               "slug": "/api",
               "permalink": "/docs/api",
-              "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/docs/docs/api.md",
+              "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/docs/api.md",
               "tags": [],
               "version": "current",
               "frontMatter": {
@@ -49,7 +49,7 @@
               "sourceDirName": ".",
               "slug": "/csv",
               "permalink": "/docs/csv",
-              "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/docs/docs/csv.md",
+              "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/docs/csv.md",
               "tags": [],
               "version": "current",
               "frontMatter": {
@@ -76,7 +76,7 @@
               "sourceDirName": ".",
               "slug": "/develop",
               "permalink": "/docs/develop",
-              "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/docs/docs/develop.md",
+              "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/docs/develop.md",
               "tags": [],
               "version": "current",
               "frontMatter": {
@@ -103,7 +103,7 @@
               "sourceDirName": ".",
               "slug": "/",
               "permalink": "/docs/",
-              "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/docs/docs/index.md",
+              "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/docs/index.md",
               "tags": [],
               "version": "current",
               "frontMatter": {
@@ -130,7 +130,7 @@
               "sourceDirName": ".",
               "slug": "/maker",
               "permalink": "/docs/maker",
-              "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/docs/docs/maker.md",
+              "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/docs/maker.md",
               "tags": [],
               "version": "current",
               "frontMatter": {
@@ -157,7 +157,7 @@
               "sourceDirName": ".",
               "slug": "/retail",
               "permalink": "/docs/retail",
-              "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/docs/docs/retail.md",
+              "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/docs/retail.md",
               "tags": [],
               "version": "current",
               "frontMatter": {

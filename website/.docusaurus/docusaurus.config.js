@@ -13,15 +13,15 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/matsu/ghq/github.com/tanomimaster/tanomimaster-doc/website/sidebars.js",
-          "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/docs/"
+          "sidebarPath": "/app/website/sidebars.js",
+          "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/"
         },
         "blog": {
           "showReadingTime": true,
           "editUrl": "https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/blog/"
         },
         "theme": {
-          "customCss": "/Users/matsu/ghq/github.com/tanomimaster/tanomimaster-doc/website/src/css/custom.css"
+          "customCss": "/app/website/src/css/custom.css"
         }
       }
     ]

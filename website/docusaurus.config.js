@@ -24,7 +24,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/docs/',
+          editUrl: 'https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
