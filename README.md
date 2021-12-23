@@ -14,7 +14,8 @@
 docker-compose up
 ```
 
-Then open [http://localhost:3000/](http://localhost:3000/) by browser.
+Then open [http://localhost:3000/tanomimaster-doc/](http://localhost:3000/tanomimaster-doc/) by browser.
+- The base URL `/tanomimaster-doc/` is required to be identical with production base URL.
 
 
 ### local
