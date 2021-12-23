@@ -1,12 +1,12 @@
 {
-  "defaultLocale": "en",
+  "defaultLocale": "ja",
   "locales": [
-    "en"
+    "ja"
   ],
-  "currentLocale": "en",
+  "currentLocale": "ja",
   "localeConfigs": {
-    "en": {
-      "label": "English",
+    "ja": {
+      "label": "日本語",
       "direction": "ltr"
     }
   }

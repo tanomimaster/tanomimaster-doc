@@ -319,14 +319,19 @@ export default {
       "maxHeadingLevel": 3
     }
   },
-  "baseUrlIssueBanner": true,
   "i18n": {
-    "defaultLocale": "en",
+    "defaultLocale": "ja",
     "locales": [
-      "en"
+      "ja"
     ],
-    "localeConfigs": {}
+    "localeConfigs": {
+      "ja": {
+        "label": "日本語",
+        "direction": "ltr"
+      }
+    }
   },
+  "baseUrlIssueBanner": true,
   "onDuplicateRoutes": "warn",
   "staticDirectories": [
     "static"
