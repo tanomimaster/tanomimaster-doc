@@ -9,7 +9,7 @@ const config = {
   title: "ユーザ ドキュメント",
   tagline: "B2B 受発注プラットフォーム",
   url: "https://tanomimaster.com",
-  baseUrl: '/',
+  baseUrl: '/tanomimaster-doc/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
