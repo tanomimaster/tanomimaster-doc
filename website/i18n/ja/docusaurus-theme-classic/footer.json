@@ -1,0 +1,42 @@
+{
+  "link.title.ドキュメント": {
+    "message": "ドキュメント",
+    "description": "The title of the footer links column with title=ドキュメント in the footer"
+  },
+  "link.title.リンク": {
+    "message": "リンク",
+    "description": "The title of the footer links column with title=リンク in the footer"
+  },
+  "link.title.開発リソース": {
+    "message": "開発リソース",
+    "description": "The title of the footer links column with title=開発リソース in the footer"
+  },
+  "link.item.label.利用者向けドキュメント": {
+    "message": "利用者向けドキュメント",
+    "description": "The label of footer link with label=利用者向けドキュメント linking to /docs/"
+  },
+  "link.item.label.サービス説明": {
+    "message": "サービス説明",
+    "description": "The label of footer link with label=サービス説明 linking to https://service.tanomimaster.com/"
+  },
+  "link.item.label.サービス更新情報": {
+    "message": "サービス更新情報",
+    "description": "The label of footer link with label=サービス更新情報 linking to https://service.tanomimaster.com/blog/"
+  },
+  "link.item.label.Slack": {
+    "message": "Slack",
+    "description": "The label of footer link with label=Slack linking to https://tanomimaster.slack.com/"
+  },
+  "link.item.label.サービスサイト": {
+    "message": "サービスサイト",
+    "description": "The label of footer link with label=サービスサイト linking to https://tanomimaster.com/"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/tanomimaster"
+  },
+  "copyright": {
+    "message": "Copyright © 2021 Tanomimaster.",
+    "description": "The footer copyright"
+  }
+}

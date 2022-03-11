@@ -1,34 +1,31 @@
 # tanomimaster-doc
 
-- `master` branch is published on
-  - https://minedia.github.io/tanomimaster-doc
+- Tanomimaster's system document repository
+- `gh-page` branch is published to:
+  - https://tanomimaster.github.io/tanomimaster-doc
+  - Deploy process is triggered when `gh-page` branch is pushed.
 
-## Development
+## Local preview
 
-- This document is build upon [Docusaurus](https://docusaurus.io/)
+- This repository is build upon [Docusaurus](https://docusaurus.io/)
+- root directory of the document is `webwsite`.
 
 ### Docker
 
 ```
-docker-compose up 
+docker-compose up
 ```
 
-Open [http://localhost:3000/](http://localhost:3000/)
+Then open [http://localhost:3000/tanomimaster-doc/](http://localhost:3000/tanomimaster-doc/) by browser.
+- The base URL `/tanomimaster-doc/` is required to be identical with production base URL.
 
-
-### local
-```
-cd website
-```
-
-and
-
-hit `yarn start` or `npm start`
 
 ## Deploy
 
+
 ```
-env GIT_USER=matsubo CURRENT_BRANCH=master USE_SSH=true npm run publish-gh-pages
+cd website
+env GIT_USER=matsubo CURRENT_BRANCH=master USE_SSH=true yarn deploy
 ```
 
 
