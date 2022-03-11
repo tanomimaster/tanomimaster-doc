@@ -1,6 +1,9 @@
 ---
 id: api
 title: "APIドキュメント"
+tags:
+  - API
+  - Open API
 ---
 
 

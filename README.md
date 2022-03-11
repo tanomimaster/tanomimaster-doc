@@ -1,7 +1,9 @@
 # tanomimaster-doc
 
-- `master` branch is published on
+- Tanomimaster's system document repository
+- `gh-page` branch is published to:
   - https://tanomimaster.github.io/tanomimaster-doc
+  - Deploy process is triggered when `gh-page` branch is pushed.
 
 ## Local preview
 
@@ -29,8 +31,10 @@ yarn start
 
 ## Deploy
 
+
 ```
 cd website
 env GIT_USER=matsubo CURRENT_BRANCH=master USE_SSH=true yarn deploy
 ```
+
 

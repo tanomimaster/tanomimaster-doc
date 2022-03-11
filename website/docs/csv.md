@@ -2,6 +2,8 @@
 id: csv
 title: "入稿データフォーマット"
 sidebar_label: "入稿データフォーマット"
+tags:
+  - CSV
 ---
 
 
