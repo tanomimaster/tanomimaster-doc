@@ -20,15 +20,6 @@ Then open [http://localhost:3000/tanomimaster-doc/](http://localhost:3000/tanomi
 - The base URL `/tanomimaster-doc/` is required to be identical with production base URL.
 
 
-### local
-
-Run without docker.
-
-```
-cd website
-yarn start
-```
-
 ## Deploy
 
 
