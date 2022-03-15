@@ -13,7 +13,7 @@
         <link href="https://tanomimaster.com/tanomimaster-doc/blog/2021/12/23/api"/>
         <updated>2021-12-23T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[- タノミマスターの機能概要に関して古い記述があったので更新しました。]]></summary>
-        <content type="html"><![CDATA[<ul><li>タノミマスターの機能概要に関して古い記述があったので更新しました。</li><li>注文ステータスに関する図などを更新しました。</li><li>Open APIの仕様を招待制から公開に変更しました。<ul><li><a href="https://github.com/tanomimaster/tanomimaster-openapi">https://github.com/tanomimaster/tanomimaster-openapi</a></li></ul></li></ul>]]></content>
+        <content type="html"><![CDATA[<ul><li>タノミマスターの機能概要に関して古い記述があったので更新しました。</li><li>注文ステータスに関する図などを更新しました。</li><li>Open APIの仕様を招待制から公開に変更しました。<ul><li><a href="https://github.com/tanomimaster/tanomimaster-openapi" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-openapi</a></li></ul></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
@@ -25,27 +25,7 @@
         <link href="https://tanomimaster.com/tanomimaster-doc/blog/2021/08/24/csv"/>
         <updated>2021-08-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[- CSVファイルフォーマットの長さを実装に合わせてドキュメントを変更しました。]]></summary>
-        <content type="html"><![CDATA[<ul><li><a href="/docs/csv">CSVファイルフォーマット</a>の長さを実装に合わせてドキュメントを変更しました。<ul><li>実装に合わせて仕様書を変更しました。</li></ul></li></ul><pre><code class="language-diff"> | 9 | 仕入先名 | 文字列 | 32 | o | o | o |  |  |
- | 10 | 注文番号 | 半角英数字 | 10 |  |  | o |  | 注文番号 |
- | 11 | 注文明細No | 半角英数字 | 3 |  |  | o |  | 明細No |
--| 12 | 商品コード | 文字列 | 30 |  |  | o |  |  |
--| 13 | メーカー内部コード | 半角英数字 | 10 |  |  | o |  |  |
-+| 12 | 商品コード | 文字列 | 255 |  |  | o |  |  |
-+| 13 | メーカー内部コード | 半角英数字 | 255 |  |  | o |  |  |
- | 14 | ガス種 | 半角英数字 | 10 |  |  |  |  | LP, 13Aなど |
- | 15 | 発注数 | 数値 | 4 |  |  | o |  |  |
- | 16 | 発注単価 | int | 9 |  |  | o |  |  |
- | 17 | 希望納期 | date | 10 |  |  |  |  |  |
--| 18 | 営業所名 | string | 50 |  |  | o |  |  |
-+| 18 | 営業所名 | string | 255 |  |  | o |  |  |
- | 19 | 営業所電話番号 | string | 15 |  |  | o |  |  |
- | 20 | 営業所FAX | string | 15 |  |  | o |  |  |
--| 21 | 担当者名 | string | 30 |  |  | o |  |  |
-+| 21 | 担当者名 | string | 255 |  |  | o |  |  |
- | 22 | 納品先名 | string | 20 |  |  | o |  |  |
- | 23 | 納品先住所 | string | 152 |  |  | o |  |  |
- | 24 | 納品先TEL | string | 15 |  |  | o |  |  |
-</code></pre>]]></content>
+        <content type="html"><![CDATA[<ul><li><a href="/tanomimaster-doc/docs/csv">CSVファイルフォーマット</a>の長さを実装に合わせてドキュメントを変更しました。<ul><li>実装に合わせて仕様書を変更しました。</li></ul></li></ul><div class="codeBlockContainer_I0IT language-diff theme-code-block"><div class="codeBlockContent_wNvx diff"><pre tabindex="0" class="prism-code language-diff codeBlock_jd64 thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_mRuA"><span class="token-line" style="color:#393A34"><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 9 | 仕入先名 | 文字列 | 32 | o | o | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 10 | 注文番号 | 半角英数字 | 10 |  |  | o |  | 注文番号 |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 11 | 注文明細No | 半角英数字 | 3 |  |  | o |  | 明細No |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token deleted-sign deleted prefix deleted" style="color:#d73a49">-</span><span class="token deleted-sign deleted line" style="color:#d73a49">| 12 | 商品コード | 文字列 | 30 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token deleted-sign deleted line" style="color:#d73a49"></span><span class="token deleted-sign deleted prefix deleted" style="color:#d73a49">-</span><span class="token deleted-sign deleted line" style="color:#d73a49">| 13 | メーカー内部コード | 半角英数字 | 10 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token deleted-sign deleted line" style="color:#d73a49"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 12 | 商品コード | 文字列 | 255 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token inserted-sign inserted line" style="color:#36acaa"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 13 | メーカー内部コード | 半角英数字 | 255 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token inserted-sign inserted line" style="color:#36acaa"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 14 | ガス種 | 半角英数字 | 10 |  |  |  |  | LP, 13Aなど |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 15 | 発注数 | 数値 | 4 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 16 | 発注単価 | int | 9 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 17 | 希望納期 | date | 10 |  |  |  |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token deleted-sign deleted prefix deleted" style="color:#d73a49">-</span><span class="token deleted-sign deleted line" style="color:#d73a49">| 18 | 営業所名 | string | 50 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token deleted-sign deleted line" style="color:#d73a49"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 18 | 営業所名 | string | 255 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token inserted-sign inserted line" style="color:#36acaa"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 19 | 営業所電話番号 | string | 15 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 20 | 営業所FAX | string | 15 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token deleted-sign deleted prefix deleted" style="color:#d73a49">-</span><span class="token deleted-sign deleted line" style="color:#d73a49">| 21 | 担当者名 | string | 30 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token deleted-sign deleted line" style="color:#d73a49"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 21 | 担当者名 | string | 255 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token inserted-sign inserted line" style="color:#36acaa"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 22 | 納品先名 | string | 20 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 23 | 納品先住所 | string | 152 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 24 | 納品先TEL | string | 15 |  |  | o |  |  |</span><br></span></code></pre><button type="button" aria-label="クリップボードにコードをコピー" class="copyButton_wuS7 clean-btn">コピー</button></div></div>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
@@ -69,7 +49,7 @@
         <link href="https://tanomimaster.com/tanomimaster-doc/blog/2021/02/25/csv"/>
         <updated>2021-02-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[- 納期回答のCSVフォーマットに小売コードを追加しました。]]></summary>
-        <content type="html"><![CDATA[<ul><li><a href="/docs/csv">納期回答のCSVフォーマット</a>に<code>小売コード</code>を追加しました。</li><li>商品CSVと新規受注CSVに<code>カタログURL</code>と<code>承認図URL</code>を追加しました。</li></ul>]]></content>
+        <content type="html"><![CDATA[<ul><li><a href="/tanomimaster-doc/docs/csv">納期回答のCSVフォーマット</a>に<code>小売コード</code>を追加しました。</li><li>商品CSVと新規受注CSVに<code>カタログURL</code>と<code>承認図URL</code>を追加しました。</li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
@@ -81,7 +61,7 @@
         <link href="https://tanomimaster.com/tanomimaster-doc/blog/2021/01/06/csv"/>
         <updated>2021-01-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[- CSVフォーマットの項目名商品コードを型式（品番）に変更しました。]]></summary>
-        <content type="html"><![CDATA[<ul><li><a href="/docs/csv">CSVフォーマット</a>の項目名<code>商品コード</code>を<code>型式（品番）</code>に変更しました。</li></ul>]]></content>
+        <content type="html"><![CDATA[<ul><li><a href="/tanomimaster-doc/docs/csv">CSVフォーマット</a>の項目名<code>商品コード</code>を<code>型式（品番）</code>に変更しました。</li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
@@ -93,7 +73,7 @@
         <link href="https://tanomimaster.com/tanomimaster-doc/blog/2020/03/10/csv"/>
         <updated>2020-03-10T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[納期回答CSVの表記を変更しました。]]></summary>
-        <content type="html"><![CDATA[<p><a href="/docs/csv">納期回答CSV</a>の表記を変更しました。</p>]]></content>
+        <content type="html"><![CDATA[<p><a href="/tanomimaster-doc/docs/csv">納期回答CSV</a>の表記を変更しました。</p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
@@ -105,7 +85,7 @@
         <link href="https://tanomimaster.com/tanomimaster-doc/blog/2020/02/28/csv"/>
         <updated>2020-02-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[納期回答CSVの表記を変更しました。]]></summary>
-        <content type="html"><![CDATA[<p><a href="/docs/csv">納期回答CSV</a>の表記を変更しました。</p><ul><li>受注CSVの2列目に6列分のカラムを追加<ul><li>小売コード</li><li>小売名</li><li>支店コード</li><li>支店名</li><li>営業所コード</li><li>営業所名</li></ul></li></ul><h2>細かい修正点</h2><h3>0.0.6 2020/1/28</h3><ul><li>商品マスタのCSVフォーマットにカラムを追加。</li><li>CSVフォーマットの説明を加筆。</li></ul><h3>0.0.5 2019/12/25</h3><ul><li>利用者向けにドキュメントを追加</li></ul><h3>0.0.4 2019/12/9</h3>]]></content>
+        <content type="html"><![CDATA[<p><a href="/tanomimaster-doc/docs/csv">納期回答CSV</a>の表記を変更しました。</p><ul><li>受注CSVの2列目に6列分のカラムを追加<ul><li>小売コード</li><li>小売名</li><li>支店コード</li><li>支店名</li><li>営業所コード</li><li>営業所名</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="細かい修正点">細かい修正点<a class="hash-link" href="#細かい修正点" title="見出しへの直接リンク">​</a></h2><h3 class="anchor anchorWithStickyNavbar_mojV" id="006-2020128">0.0.6 2020/1/28<a class="hash-link" href="#006-2020128" title="見出しへの直接リンク">​</a></h3><ul><li>商品マスタのCSVフォーマットにカラムを追加。</li><li>CSVフォーマットの説明を加筆。</li></ul><h3 class="anchor anchorWithStickyNavbar_mojV" id="005-20191225">0.0.5 2019/12/25<a class="hash-link" href="#005-20191225" title="見出しへの直接リンク">​</a></h3><ul><li>利用者向けにドキュメントを追加</li></ul><h3 class="anchor anchorWithStickyNavbar_mojV" id="004-2019129">0.0.4 2019/12/9<a class="hash-link" href="#004-2019129" title="見出しへの直接リンク">​</a></h3>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
@@ -117,30 +97,7 @@
         <link href="https://tanomimaster.com/tanomimaster-doc/blog/2019/12/09/csv"/>
         <updated>2019-12-09T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[- 納期回答CSVの仕様を変更しました。]]></summary>
-        <content type="html"><![CDATA[<ul><li><a href="/docs/csv">納期回答CSV</a>の仕様を変更しました。</li><li>以下に重要部分を抜粋します</li></ul><pre><code class="language-diff"> | --- | --- | --- | --- | --- | --- | --- | --- | --- |
- | 1 | 営業員コード | string | 255 | o |  | o | 1 |  |
--| 2 | 営業所コード | string | 255 |  | o |  | 11 |  |
-+| 2 | 営業所コード | string | 255 |  | o |  | 11 | `営業所コード` は `権限` が`sales` の場合に必須です。 |
- | 3 | メールアドレス | string | 255 |  |  | o | example@example.com |  |
- | 4 | パスワード | string | 255 |  |  |  |  | 空の場合は更新されません |
- | 5 | 姓 | string | 255 |  |  | o | 佐藤 |  |
-@@ -133,18 +137,19 @@ sidebar_label: 入稿データフォーマット
-
- | 3 | メーカー内部コード | string | 255 |  |  |  |  |  |
- | 4 | 製品名 | string | 255 |  |  | o |  |  |
--| 5 | ガスマスタを使うかどうかフラグ | boolean |  |  |  | o | 1 | 注文時にLPか都市ガスかを選択する必要がある商品 |
-+| 5 | 目安納期日数 | integer| 2,147,483,647|  |  | o | 3 | 営業日の数字を記載 |
-+| 6 | ガスマスタを使うかどうかフラグ | boolean |  |  |  | o | 1 | 注文時にLPか都市ガスかを選択する必要がある商品 |
-@@ -155,11 +160,11 @@ sidebar_label: 入稿データフォーマット
-
- | 2 | 小売コード | string | 255 | o | o | o |  | |
--| 3 | 契約金額 | mediumtext | 16,777,215 | | | o |  | 税抜 |
-+| 3 | 契約金額 | integer | 2,147,483,647 | | | o |  | 税抜 |
- | 4 | 開始日時 | datetime | | o | | | | |
- | 5 | 終了日時 | datetime | |   | | | | |
-
-@@ -167,7 +172,7 @@ sidebar_label: 入稿データフォーマット
-</code></pre>]]></content>
+        <content type="html"><![CDATA[<ul><li><a href="/tanomimaster-doc/docs/csv">納期回答CSV</a>の仕様を変更しました。</li><li>以下に重要部分を抜粋します</li></ul><div class="codeBlockContainer_I0IT language-diff theme-code-block"><div class="codeBlockContent_wNvx diff"><pre tabindex="0" class="prism-code language-diff codeBlock_jd64 thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_mRuA"><span class="token-line" style="color:#393A34"><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| --- | --- | --- | --- | --- | --- | --- | --- | --- |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 1 | 営業員コード | string | 255 | o |  | o | 1 |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token deleted-sign deleted prefix deleted" style="color:#d73a49">-</span><span class="token deleted-sign deleted line" style="color:#d73a49">| 2 | 営業所コード | string | 255 |  | o |  | 11 |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token deleted-sign deleted line" style="color:#d73a49"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 2 | 営業所コード | string | 255 |  | o |  | 11 | `営業所コード` は `権限` が`sales` の場合に必須です。 |</span><br></span><span class="token-line" style="color:#393A34"><span class="token inserted-sign inserted line" style="color:#36acaa"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 3 | メールアドレス | string | 255 |  |  | o | example@example.com |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 4 | パスワード | string | 255 |  |  |  |  | 空の場合は更新されません |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 5 | 姓 | string | 255 |  |  | o | 佐藤 |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token plain">@@ -133,18 +137,19 @@ sidebar_label: 入稿データフォーマット</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 3 | メーカー内部コード | string | 255 |  |  |  |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 4 | 製品名 | string | 255 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token deleted-sign deleted prefix deleted" style="color:#d73a49">-</span><span class="token deleted-sign deleted line" style="color:#d73a49">| 5 | ガスマスタを使うかどうかフラグ | boolean |  |  |  | o | 1 | 注文時にLPか都市ガスかを選択する必要がある商品 |</span><br></span><span class="token-line" style="color:#393A34"><span class="token deleted-sign deleted line" style="color:#d73a49"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 5 | 目安納期日数 | integer| 2,147,483,647|  |  | o | 3 | 営業日の数字を記載 |</span><br></span><span class="token-line" style="color:#393A34"><span class="token inserted-sign inserted line" style="color:#36acaa"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 6 | ガスマスタを使うかどうかフラグ | boolean |  |  |  | o | 1 | 注文時にLPか都市ガスかを選択する必要がある商品 |</span><br></span><span class="token-line" style="color:#393A34"><span class="token inserted-sign inserted line" style="color:#36acaa"></span><span class="token plain">@@ -155,11 +160,11 @@ sidebar_label: 入稿データフォーマット</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 2 | 小売コード | string | 255 | o | o | o |  | |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token deleted-sign deleted prefix deleted" style="color:#d73a49">-</span><span class="token deleted-sign deleted line" style="color:#d73a49">| 3 | 契約金額 | mediumtext | 16,777,215 | | | o |  | 税抜 |</span><br></span><span class="token-line" style="color:#393A34"><span class="token deleted-sign deleted line" style="color:#d73a49"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 3 | 契約金額 | integer | 2,147,483,647 | | | o |  | 税抜 |</span><br></span><span class="token-line" style="color:#393A34"><span class="token inserted-sign inserted line" style="color:#36acaa"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 4 | 開始日時 | datetime | | o | | | | |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 5 | 終了日時 | datetime | |   | | | | |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">@@ -167,7 +172,7 @@ sidebar_label: 入稿データフォーマット</span><br></span></code></pre><button type="button" aria-label="クリップボードにコードをコピー" class="copyButton_wuS7 clean-btn">コピー</button></div></div>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
@@ -152,11 +109,7 @@
         <link href="https://tanomimaster.com/tanomimaster-doc/blog/2019/11/22/csv"/>
         <updated>2019-11-22T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[- 納期回答CSVの表記を変更しました。]]></summary>
-        <content type="html"><![CDATA[<ul><li><a href="/docs/csv">納期回答CSV</a>の表記を変更しました。<ul><li>用語を統一しました。</li><li>用語の定義を追加しました。</li><li>画像の大きさに関しての目安を追加しました。</li></ul></li></ul><pre><code class="language-diff">-| 6 | 器具型式 | 漢字 | 30 |  |  | o |  |  |
-+| 6 | 商品コード | 漢字 | 30 |  |  | o |  |  |
--| 7 | 品目コード | 半角英数字 | 10 |  |  | o |  |  |
-+| 7 | メーカー内部コード | 半角英数字 | 10 |  |  | o |  |  |
-</code></pre>]]></content>
+        <content type="html"><![CDATA[<ul><li><a href="/tanomimaster-doc/docs/csv">納期回答CSV</a>の表記を変更しました。<ul><li>用語を統一しました。</li><li>用語の定義を追加しました。</li><li>画像の大きさに関しての目安を追加しました。</li></ul></li></ul><div class="codeBlockContainer_I0IT language-diff theme-code-block"><div class="codeBlockContent_wNvx diff"><pre tabindex="0" class="prism-code language-diff codeBlock_jd64 thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_mRuA"><span class="token-line" style="color:#393A34"><span class="token deleted-sign deleted prefix deleted" style="color:#d73a49">-</span><span class="token deleted-sign deleted line" style="color:#d73a49">| 6 | 器具型式 | 漢字 | 30 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token deleted-sign deleted line" style="color:#d73a49"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 6 | 商品コード | 漢字 | 30 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token inserted-sign inserted line" style="color:#36acaa"></span><span class="token deleted-sign deleted prefix deleted" style="color:#d73a49">-</span><span class="token deleted-sign deleted line" style="color:#d73a49">| 7 | 品目コード | 半角英数字 | 10 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token deleted-sign deleted line" style="color:#d73a49"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 7 | メーカー内部コード | 半角英数字 | 10 |  |  | o |  |  |</span><br></span></code></pre><button type="button" aria-label="クリップボードにコードをコピー" class="copyButton_wuS7 clean-btn">コピー</button></div></div>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
@@ -168,7 +121,7 @@
         <link href="https://tanomimaster.com/tanomimaster-doc/blog/2019/11/21/color"/>
         <updated>2019-11-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[- カラースキーマに準拠しました。]]></summary>
-        <content type="html"><![CDATA[<ul><li>カラースキーマに準拠しました。</li><li><a href="/blog">変更履歴</a>のページを作成しました。</li></ul>]]></content>
+        <content type="html"><![CDATA[<ul><li>カラースキーマに準拠しました。</li><li><a href="/tanomimaster-doc/blog">変更履歴</a>のページを作成しました。</li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
@@ -180,12 +133,7 @@
         <link href="https://tanomimaster.com/tanomimaster-doc/blog/2019/11/20/csv"/>
         <updated>2019-11-20T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[- バージョンを番号を付加するようにしました。]]></summary>
-        <content type="html"><![CDATA[<ul><li>バージョンを番号を付加するようにしました。</li><li><a href="/docs/csv">納期回答CSV</a>の表記を変更しました。</li></ul><pre><code class="language-diff"> | カラム | 名称 | 型 | 文字数 | PK | FK | 必須 | 例 | 備考 |
- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
--| 1 | 受注コード | string | 255 | o | o | o |  | |
-+| 1 | 注文番号 | string | 255 | o | o | o |  | |
- | 2 | 納期日 | date | o |  | |  | | |
-</code></pre>]]></content>
+        <content type="html"><![CDATA[<ul><li>バージョンを番号を付加するようにしました。</li><li><a href="/tanomimaster-doc/docs/csv">納期回答CSV</a>の表記を変更しました。</li></ul><div class="codeBlockContainer_I0IT language-diff theme-code-block"><div class="codeBlockContent_wNvx diff"><pre tabindex="0" class="prism-code language-diff codeBlock_jd64 thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_mRuA"><span class="token-line" style="color:#393A34"><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| カラム | 名称 | 型 | 文字数 | PK | FK | 必須 | 例 | 備考 |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| --- | --- | --- | --- | --- | --- | --- | --- | --- |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token deleted-sign deleted prefix deleted" style="color:#d73a49">-</span><span class="token deleted-sign deleted line" style="color:#d73a49">| 1 | 受注コード | string | 255 | o | o | o |  | |</span><br></span><span class="token-line" style="color:#393A34"><span class="token deleted-sign deleted line" style="color:#d73a49"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 1 | 注文番号 | string | 255 | o | o | o |  | |</span><br></span><span class="token-line" style="color:#393A34"><span class="token inserted-sign inserted line" style="color:#36acaa"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 2 | 納期日 | date | o |  | |  | | |</span><br></span></code></pre><button type="button" aria-label="クリップボードにコードをコピー" class="copyButton_wuS7 clean-btn">コピー</button></div></div>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
