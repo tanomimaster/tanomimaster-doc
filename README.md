@@ -22,10 +22,8 @@ Then open [http://localhost:3000/tanomimaster-doc/](http://localhost:3000/tanomi
 
 ## Deploy
 
+The contents in the `master` is published to https://tanomimaster.github.io/tanomimaster-doc/ automatically by building and pushing by Github Actions.
 
-```
-cd website
-env GIT_USER=matsubo CURRENT_BRANCH=master USE_SSH=true yarn deploy
-```
+- See files in the `.github/workflows`.
 
 
