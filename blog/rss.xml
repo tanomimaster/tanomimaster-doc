@@ -4,9 +4,17 @@
         <title>ユーザ ドキュメント Blog</title>
         <link>https://tanomimaster.com/tanomimaster-doc/blog</link>
         <description>ユーザ ドキュメント Blog</description>
-        <lastBuildDate>Wed, 06 Apr 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 Apr 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Release 2.2.1.2]]></title>
+            <link>https://tanomimaster.com/tanomimaster-doc/blog/2022/04/14/csv</link>
+            <guid>/2022/04/14/csv</guid>
+            <pubDate>Thu, 14 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[- 新コスモス電機 の画像追加]]></description>
+            <content:encoded><![CDATA[<ul><li><code>新コスモス電機</code> の画像追加</li></ul><h1>システム</h1><ul><li>画像ファイルの入稿ロジックの変更<ul><li>before: <code>会社名 =&gt; 画像ファイル名</code></li><li>after: `会社コード =&gt; 画像ファイル名'</li></ul></li><li>ライブラリ更新<ul><li>rails 6.1.3.1 =&gt; 6.1.5</li><li>ruby 3.0.1 =&gt; 3.0.4</li></ul></li></ul>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v2.2.1.2 Release]]></title>
             <link>https://tanomimaster.com/tanomimaster-doc/blog/2022/04/06/csv</link>
@@ -14,6 +22,22 @@
             <pubDate>Wed, 06 Apr 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[メーカー向け]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_mojV" id="メーカー向け">メーカー向け<a class="hash-link" href="#メーカー向け" title="見出しへの直接リンク">​</a></h2><ul><li>商品入稿フォーマット変更<ul><li><a href="/tanomimaster-doc/docs/csv">CSVファイルフォーマット</a>のカラム名を変更しました。</li></ul></li></ul><div class="codeBlockContainer_I0IT language-diff theme-code-block"><div class="codeBlockContent_wNvx diff"><pre tabindex="0" class="prism-code language-diff codeBlock_jd64 thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_mRuA"><span class="token-line" style="color:#393A34"><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 1 | 型式（品番） | string | 255 | o |  | o | 1234567890 | ASCII文字（ `\:*?"&lt;&gt;` 以外） |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 2 | カテゴリID | bigint |  |  | o | o | 1 |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 3 | メーカー内部コード | string | 255 |  |  |  |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token deleted-sign deleted prefix deleted" style="color:#d73a49">-</span><span class="token deleted-sign deleted line" style="color:#d73a49">| 4 | 製品名 | string | 255 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token deleted-sign deleted line" style="color:#d73a49"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 4 | 商品名 | string | 255 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token inserted-sign inserted line" style="color:#36acaa"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 5 | メーカー希望小売価格(税抜)        | integer | 2,147,483,647 |  |  |  |  | 単位は日本円。税抜。空白の場合はオープンプライス。 |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 6 | 目安納期日数 | integer| 2,147,483,647|  |  | o | 3 | 営業日の数字を記載 |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 7 | ガスマスタを使うかどうかフラグ | boolean |  |  |  | o | 1 | 注文時にLPか都市ガスかを選択する必要がある商品 |~</span><br></span></code></pre><button type="button" aria-label="クリップボードにコードをコピー" class="copyButton_wuS7 clean-btn">コピー</button></div></div><ul><li>API<ul><li>注文の備考を追加</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="小売向け">小売向け<a class="hash-link" href="#小売向け" title="見出しへの直接リンク">​</a></h2><ul><li>API<ul><li>注文の備考を追加</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="管理者向け">管理者向け<a class="hash-link" href="#管理者向け" title="見出しへの直接リンク">​</a></h2><ul><li>パンくずリスト追加</li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="システム内部">システム内部<a class="hash-link" href="#システム内部" title="見出しへの直接リンク">​</a></h2><ul><li>ライブラリ更新<ul><li>pumaセキュリティ更新</li><li>rspec関係 ライブラリ更新</li></ul></li><li>dockerイメージ軽量化</li></ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[商品のCSVフォーマットに商品説明カラムを追加]]></title>
+            <link>https://tanomimaster.com/tanomimaster-doc/blog/2022/03/25/csv</link>
+            <guid>/2022/03/25/csv</guid>
+            <pubDate>Fri, 25 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[- 商品の入稿データフォーマットに商品説明 カラムを追加しました。]]></description>
+            <content:encoded><![CDATA[<ul><li><a href="/tanomimaster-doc/docs/csv">商品の入稿データフォーマット</a>に<code>商品説明</code> カラムを追加しました。</li></ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[商品属性のCSVフォーマットを追加]]></title>
+            <link>https://tanomimaster.com/tanomimaster-doc/blog/2022/03/23/csv</link>
+            <guid>/2022/03/23/csv</guid>
+            <pubDate>Wed, 23 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[- 入稿データフォーマットに商品属性のCSVフォーマットを追加しました。]]></description>
+            <content:encoded><![CDATA[<ul><li><a href="/tanomimaster-doc/docs/csv">入稿データフォーマット</a>に商品属性のCSVフォーマットを追加しました。</li></ul><h3 class="anchor anchorWithStickyNavbar_mojV" id="商品属性">商品属性<a class="hash-link" href="#商品属性" title="見出しへの直接リンク">​</a></h3><ul><li>メーカーの管理メニューから遷移可能な「商品属性」のページに、CSV入稿時に利用する「サブマスタ区分」と「サブマスタ区分値」の値が記載されておりますので、ご参照ください。</li></ul><table><thead><tr><th>カラム</th><th>名称</th><th>型</th><th>長さ</th><th>PK</th><th>FK</th><th>必須</th><th>例</th><th>備考</th></tr></thead><tbody><tr><td>1</td><td>型式（品番）</td><td>文字列</td><td>255</td><td></td><td></td><td>o</td><td></td><td></td></tr><tr><td>2</td><td>サブマスタ区分</td><td>文字列</td><td>255</td><td></td><td></td><td>o</td><td>bath</td><td></td></tr><tr><td>3</td><td>サブマスタ区分値</td><td>文字列</td><td>255</td><td></td><td></td><td>o</td><td>reheating</td><td></td></tr></tbody></table>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[ドキュメントを最新化]]></title>
