@@ -4,9 +4,17 @@
         <title>ユーザ ドキュメント Blog</title>
         <link>https://tanomimaster.com/tanomimaster-doc/blog</link>
         <description>ユーザ ドキュメント Blog</description>
-        <lastBuildDate>Thu, 14 Apr 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 May 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[v2.2.3 Release]]></title>
+            <link>https://tanomimaster.com/tanomimaster-doc/blog/2022/05/11/csv</link>
+            <guid>/2022/05/11/csv</guid>
+            <pubDate>Wed, 11 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[メーカー向け]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_mojV" id="メーカー向け">メーカー向け<a class="hash-link" href="#メーカー向け" title="見出しへの直接リンク">​</a></h2><ul><li>なし</li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="小売向け">小売向け<a class="hash-link" href="#小売向け" title="見出しへの直接リンク">​</a></h2><ul><li>なし</li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="管理者向け">管理者向け<a class="hash-link" href="#管理者向け" title="見出しへの直接リンク">​</a></h2><ul><li>なし</li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="システム内部">システム内部<a class="hash-link" href="#システム内部" title="見出しへの直接リンク">​</a></h2><ul><li>約20個 ライブラリの更新</li><li>seedデータ生成のfix</li><li>開発マシンのARM対応</li></ul>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Release 2.2.1.2]]></title>
             <link>https://tanomimaster.com/tanomimaster-doc/blog/2022/04/14/csv</link>
