@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tanomimaster.com/tanomimaster-doc/blog</id>
     <title>ユーザ ドキュメント Blog</title>
-    <updated>2022-05-11T00:00:00.000Z</updated>
+    <updated>2022-06-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tanomimaster.com/tanomimaster-doc/blog"/>
     <subtitle>ユーザ ドキュメント Blog</subtitle>
     <icon>https://tanomimaster.com/tanomimaster-doc/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[v3.0.0 Release]]></title>
+        <id>/2022/06/09/csv</id>
+        <link href="https://tanomimaster.com/tanomimaster-doc/blog/2022/06/09/csv"/>
+        <updated>2022-06-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[概要]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_mojV" id="概要">概要<a class="hash-link" href="#概要" title="見出しへの直接リンク">​</a></h2><ul><li>小売向けのUI改善フェーズ2のリリースです。</li><li>商品に対する属性を設定するためのサブマスタが追加されます。</li><li>カテゴリデータのスキーマ変更があり、不可逆なリリースのためメジャーバージョンを上げてv3となります。</li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="メーカー向け">メーカー向け<a class="hash-link" href="#メーカー向け" title="見出しへの直接リンク">​</a></h2><ul><li>サブマスタが追加されます。</li><li>カテゴリのIDがすべて変更になります。</li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="小売向け">小売向け<a class="hash-link" href="#小売向け" title="見出しへの直接リンク">​</a></h2><ul><li>UIが変更になります。</li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="管理者向け">管理者向け<a class="hash-link" href="#管理者向け" title="見出しへの直接リンク">​</a></h2><ul><li>なし</li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="システム内部">システム内部<a class="hash-link" href="#システム内部" title="見出しへの直接リンク">​</a></h2><p><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.0.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.0.0</a></p><ul><li>サブマスタの定義を追加</li></ul>]]></content>
+        <author>
+            <name>Yuki Matsukura</name>
+            <uri>http://twitter.com/matsubokkuri</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[v2.2.3 Release]]></title>
         <id>/2022/05/11/csv</id>
