@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[6483],{4395:function(e){e.exports=JSON.parse('{"permalink":"/tanomimaster-doc/blog/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":18,"previousPage":"/tanomimaster-doc/blog","nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
