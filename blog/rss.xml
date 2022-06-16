@@ -8,7 +8,7 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[v3.0.0 Release]]></title>
+            <title><![CDATA[v3.1.0 Release]]></title>
             <link>https://tanomimaster.com/tanomimaster-doc/blog/2022/06/16/csv</link>
             <guid>/2022/06/16/csv</guid>
             <pubDate>Thu, 16 Jun 2022 00:00:00 GMT</pubDate>
