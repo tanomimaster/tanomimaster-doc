@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tanomimaster.com/tanomimaster-doc/blog</id>
     <title>ユーザ ドキュメント Blog</title>
-    <updated>2022-06-16T00:00:00.000Z</updated>
+    <updated>2022-06-23T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tanomimaster.com/tanomimaster-doc/blog"/>
     <subtitle>ユーザ ドキュメント Blog</subtitle>
     <icon>https://tanomimaster.com/tanomimaster-doc/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[v3.2.0 Release]]></title>
+        <id>/2022/06/23/csv</id>
+        <link href="https://tanomimaster.com/tanomimaster-doc/blog/2022/06/23/csv"/>
+        <updated>2022-06-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[概要]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_mojV" id="概要">概要<a class="hash-link" href="#概要" title="見出しへの直接リンク">​</a></h2><ul><li>メーカー向けAPIの機能追加です</li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="全体">全体<a class="hash-link" href="#全体" title="見出しへの直接リンク">​</a></h2><ul><li>カテゴリ管理をタノミマスターの管理画面から、プログラムのソースコードで管理するように変更。<ul><li>開発環境、ステージング、本番環境すべての環境でカテゴリIDを同一にすることで、入稿データの変更手間をなくしました。</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="メーカー向け">メーカー向け<a class="hash-link" href="#メーカー向け" title="見出しへの直接リンク">​</a></h2><ul><li>CSVのマスタ登録などの非同期処理において、メモリサイズを増加。</li><li>受注CSVに「注文単位の備考」のカラムを追加。</li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="小売向け">小売向け<a class="hash-link" href="#小売向け" title="見出しへの直接リンク">​</a></h2><ul><li>小売りユーザエンティティのコードをキーにして検索できるようにAPIに機能追加<ul><li><a href="https://tanomimaster.com/docs/api/#tag/Retail/operation/getRetailUsers" target="_blank" rel="noopener noreferrer">https://tanomimaster.com/docs/api/#tag/Retail/operation/getRetailUsers</a></li></ul></li><li>商品一覧APIにて無効化された商品を返さないように変更。<ul><li><a href="https://tanomimaster.com/docs/api/#tag/Retail/operation/get-products-kumo" target="_blank" rel="noopener noreferrer">https://tanomimaster.com/docs/api/#tag/Retail/operation/get-products-kumo</a></li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="管理者向け">管理者向け<a class="hash-link" href="#管理者向け" title="見出しへの直接リンク">​</a></h2><ul><li>CircleCIのcontainer imageがdeprecationで使えなくなったので取得先を更新し、それに伴う追加設定。</li><li>gem更新<ul><li>jmespath</li><li>money-rails</li><li>aws-sdk-s3</li><li>aws-sdk-ecs</li><li>rubocop-performance</li><li>aws-sdk-rails</li><li>counter-culture</li><li>ransack</li><li>phonelib</li><li>bullet</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="システム内部">システム内部<a class="hash-link" href="#システム内部" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.2.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.2.0</a></li></ul>]]></content>
+        <author>
+            <name>Yuki Matsukura</name>
+            <uri>http://twitter.com/matsubokkuri</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[v3.1.0 Release]]></title>
         <id>/2022/06/16/csv</id>
