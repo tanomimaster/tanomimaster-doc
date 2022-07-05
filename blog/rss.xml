@@ -4,9 +4,17 @@
         <title>ユーザ ドキュメント Blog</title>
         <link>https://tanomimaster.com/tanomimaster-doc/blog</link>
         <description>ユーザ ドキュメント Blog</description>
-        <lastBuildDate>Thu, 23 Jun 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 Jul 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[v3.2.1 Release]]></title>
+            <link>https://tanomimaster.com/tanomimaster-doc/blog/2022/07/04/csv</link>
+            <guid>/2022/07/04/csv</guid>
+            <pubDate>Mon, 04 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[概要]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_mojV" id="概要">概要<a class="hash-link" href="#概要" title="見出しへの直接リンク">​</a></h2><ul><li>新コスモス電機の画像を追加</li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="システム内部">システム内部<a class="hash-link" href="#システム内部" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.2.1" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.2.1</a></li></ul>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v3.2.0 Release]]></title>
             <link>https://tanomimaster.com/tanomimaster-doc/blog/2022/06/23/csv</link>
