@@ -13,7 +13,7 @@
         <link href="https://tanomimaster.com/tanomimaster-doc/blog/2022/10/08/csv"/>
         <updated>2022-10-08T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[概要]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_mojV" id="概要">概要<a class="hash-link" href="#概要" title="見出しへの直接リンク">​</a></h2><ul><li>bugfix<ul><li>注文明細のステータスが納品済みでなく、キャンセル済みで無い場合、 小売りのadminまたは自分が注文した注文に対して、 キャンセルが可能になっていた。</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="システム内部">システム内部<a class="hash-link" href="#システム内部" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.4.1" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.4.1</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_mojV" id="概要">概要<a class="hash-link" href="#概要" title="見出しへの直接リンク">​</a></h2><ul><li>bugfix<ul><li>小売り側Web<ul><li>本来であれば、小売り側からキャンセルできてはいけない注文に対して、小売りがキャンセルできてしまっていた。<ul><li>注文明細のステータスが納品済みでなく、キャンセル済みで無い場合、小売りのadminまたは自分が注文した注文に対して、キャンセルが可能になっていた。</li></ul></li></ul></li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="システム内部">システム内部<a class="hash-link" href="#システム内部" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.4.1" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.4.1</a></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
