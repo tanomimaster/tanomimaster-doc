@@ -4,9 +4,25 @@
         <title>ユーザ ドキュメント Blog</title>
         <link>https://tanomimaster.com/tanomimaster-doc/blog</link>
         <description>ユーザ ドキュメント Blog</description>
-        <lastBuildDate>Sat, 08 Oct 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 27 Oct 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[v3.5.0 Release]]></title>
+            <link>https://tanomimaster.com/tanomimaster-doc/blog/2022/10/27/csv</link>
+            <guid>/2022/10/27/csv</guid>
+            <pubDate>Thu, 27 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[概要]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_mojV" id="概要">概要<a class="hash-link" href="#概要" title="見出しへの直接リンク">​</a></h2><ul><li>API<ul><li>サロゲートキーを指定して支店・営業所を取得できるようにする</li><li>APIのエンドポイントの仕様が変更されるので下位互換性がありません。</li><li>API仕様<ul><li><a href="https://github.com/tanomimaster/tanomimaster-openapi/releases/tag/v3.5.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-openapi/releases/tag/v3.5.0</a></li></ul></li></ul></li><li>WebもAPIもメーカーが受注確定したら小売からはキャンセル不可にする</li><li>メーカー側からも発注のキャンセルをできるようにする</li><li>ミドルウェアの更新<ul><li>rails from 6.1.6 to 6.1.7</li><li>その他5個</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="システム内部">システム内部<a class="hash-link" href="#システム内部" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.5.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.5.0</a></li></ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v3.5.1 Release]]></title>
+            <link>https://tanomimaster.com/tanomimaster-doc/blog/2022/10/27/hotfix.csv</link>
+            <guid>/2022/10/27/hotfix.csv</guid>
+            <pubDate>Thu, 27 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[概要]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_mojV" id="概要">概要<a class="hash-link" href="#概要" title="見出しへの直接リンク">​</a></h2><ul><li>API<ul><li>小売り、メーカー側において、営業所の一覧が特定の条件の際に予期しない一覧が返却されていた問題を修正。</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="システム内部">システム内部<a class="hash-link" href="#システム内部" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.5.1" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.5.1</a></li></ul>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v3.4.1 Release]]></title>
             <link>https://tanomimaster.com/tanomimaster-doc/blog/2022/10/08/csv</link>
