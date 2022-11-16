@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tanomimaster.com/tanomimaster-doc/blog</id>
     <title>ユーザ ドキュメント Blog</title>
-    <updated>2022-10-27T00:00:00.000Z</updated>
+    <updated>2022-11-16T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tanomimaster.com/tanomimaster-doc/blog"/>
     <subtitle>ユーザ ドキュメント Blog</subtitle>
     <icon>https://tanomimaster.com/tanomimaster-doc/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[v3.6.0 Release]]></title>
+        <id>/2022/11/16/csv</id>
+        <link href="https://tanomimaster.com/tanomimaster-doc/blog/2022/11/16/csv"/>
+        <updated>2022-11-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[概要]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_mojV" id="概要">概要<a class="hash-link" href="#概要" title="見出しへの直接リンク">​</a></h2><ul><li>メーカー側Web<ul><li>受注CSVページの動線変更</li><li>受注CSVページの実行者を表示するように変更するなどの改善</li></ul></li><li>bugfix<ul><li>メーカー側API<ul><li>status フィルタが効いていなかった問題を修正</li></ul></li></ul></li><li>APIドキュメントの説明を追加</li><li><h2 class="anchor anchorWithStickyNavbar_mojV" id="ライブラリの更新">ライブラリの更新<a class="hash-link" href="#ライブラリの更新" title="見出しへの直接リンク">​</a></h2></li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="システム内部">システム内部<a class="hash-link" href="#システム内部" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.6.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.6.0</a></li></ul>]]></content>
+        <author>
+            <name>Yuki Matsukura</name>
+            <uri>http://twitter.com/matsubokkuri</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[v3.5.0 Release]]></title>
         <id>/2022/10/27/csv</id>
