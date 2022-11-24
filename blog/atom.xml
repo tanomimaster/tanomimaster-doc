@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tanomimaster.com/tanomimaster-doc/blog</id>
     <title>ユーザ ドキュメント Blog</title>
-    <updated>2022-11-16T00:00:00.000Z</updated>
+    <updated>2022-11-24T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tanomimaster.com/tanomimaster-doc/blog"/>
     <subtitle>ユーザ ドキュメント Blog</subtitle>
     <icon>https://tanomimaster.com/tanomimaster-doc/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[v3.7.0 Release]]></title>
+        <id>/2022/11/24/</id>
+        <link href="https://tanomimaster.com/tanomimaster-doc/blog/2022/11/24/"/>
+        <updated>2022-11-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[概要]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_mojV" id="概要">概要<a class="hash-link" href="#概要" title="見出しへの直接リンク">​</a></h2><ul><li>メーカー、小売向け<ul><li>メーカーが「納品済みにする」機能を無くす #1641</li></ul></li><li>管理者向け<ul><li>UI改善</li></ul></li><li>Rubyライブラリ更新<ul><li>主にリビジョンアップグレード</li><li>開発ツール系のアップグレード</li></ul></li><li>npmパッケージ更新<ul><li>webpack-dev-server更新。3 =&gt; 4</li><li>axios, date-fnsの更新</li><li>npm-check-updates導入</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_mojV" id="差分">差分<a class="hash-link" href="#差分" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.7.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.7.0</a><ul><li>要githubアカウントと承認</li></ul></li></ul>]]></content>
+        <author>
+            <name>Yuki Matsukura</name>
+            <uri>http://twitter.com/matsubokkuri</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[v3.6.0 Release]]></title>
         <id>/2022/11/16/csv</id>
