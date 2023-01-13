@@ -35,6 +35,6 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0",
-    "npm-check-updates": "^16.5.1"
+    "npm-check-updates": "^16.6.2"
   }
 }
