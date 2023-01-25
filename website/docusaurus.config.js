@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: "ユーザ ドキュメント",
   tagline: "B2B 受発注プラットフォーム",
-  url: "https://tanomimaster.com",
+  url: "https://tanomimaster.github.io/",
   baseUrl: '/tanomimaster-doc/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
