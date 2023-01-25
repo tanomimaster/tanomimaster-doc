@@ -4,10 +4,18 @@
         <title>ユーザ ドキュメント Blog</title>
         <link>https://tanomimaster.github.io/tanomimaster-doc/blog</link>
         <description>ユーザ ドキュメント Blog</description>
-        <lastBuildDate>Mon, 23 Jan 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 25 Jan 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
+        <item>
+            <title><![CDATA[v3.9.1 Release]]></title>
+            <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/01/25/csv</link>
+            <guid>/2023/01/25/csv</guid>
+            <pubDate>Wed, 25 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[概要]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a class="hash-link" href="#概要" title="見出しへの直接リンク">​</a></h2><ul><li>小売向けに納品先マスタを取得するAPIを追加。<ul><li><a href="https://tanomimaster.com/docs/api#tag/Retail/operation/getShippingAddresses" target="_blank" rel="noopener noreferrer">API仕様</a></li></ul></li></ul>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v3.9.0 Release]]></title>
             <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/01/23/csv</link>
