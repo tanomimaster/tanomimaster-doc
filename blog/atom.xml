@@ -2,18 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tanomimaster.github.io/tanomimaster-doc/blog</id>
     <title>ユーザ ドキュメント Blog</title>
-    <updated>2023-01-25T00:00:00.000Z</updated>
+    <updated>2023-01-31T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tanomimaster.github.io/tanomimaster-doc/blog"/>
     <subtitle>ユーザ ドキュメント Blog</subtitle>
     <icon>https://tanomimaster.github.io/tanomimaster-doc/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[v3.9.2 Release]]></title>
+        <id>/2023/01/31/csv</id>
+        <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2023/01/31/csv"/>
+        <updated>2023-01-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[概要]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a class="hash-link" href="#概要" title="見出しへの直接リンク">​</a></h2><ul><li>v3.9.1の修正</li></ul>]]></content>
+        <author>
+            <name>Yuki Matsukura</name>
+            <uri>http://twitter.com/matsubokkuri</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[v3.9.1 Release]]></title>
         <id>/2023/01/25/csv</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2023/01/25/csv"/>
         <updated>2023-01-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[概要]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a class="hash-link" href="#概要" title="見出しへの直接リンク">​</a></h2><ul><li>小売向けに納品先マスタを取得するAPIを追加。<ul><li><a href="https://tanomimaster.com/docs/api#tag/Retail/operation/getShippingAddresses" target="_blank" rel="noopener noreferrer">API仕様</a></li></ul></li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a class="hash-link" href="#概要" title="見出しへの直接リンク">​</a></h2><ul><li>小売側から納期回答が行われていない注文のステータスを納品済みにできるようにする。</li><li>小売向けに納品先マスタを取得するAPIを追加。<ul><li><a href="https://tanomimaster.com/docs/api#tag/Retail/operation/getShippingAddresses" target="_blank" rel="noopener noreferrer">API仕様</a></li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="備考">備考<a class="hash-link" href="#備考" title="見出しへの直接リンク">​</a></h2><ul><li>リグレッションが起きたので、1月26日朝にv3.9.0にロールバック</li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
