@@ -35,6 +35,13 @@ sidebar_position: 0
 [拡大](/img/tanomimaster/usecase_detail.png)
 
 
+## サービススタック
+
+タノミマスターはWebブラウザから操作できるのはもちろんのこと、REST APIによる操作も行えます。REST APIを利用することにより、基幹システムとの連携などにご利用いただきます。
+
+![alt-text](/img/tanomimaster/service_stack.png)
+[拡大](/img/tanomimaster/service_stack.png)
+
 
 ## 利用環境
 
