@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: "ユーザ ドキュメント",
   tagline: "B2B 受発注プラットフォーム",
-  url: "https://tanomimaster.com",
+  url: "https://tanomimaster.github.io/",
   baseUrl: '/tanomimaster-doc/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -38,6 +38,8 @@ const config = {
       }),
     ],
   ],
+
+  plugins: [require.resolve("docusaurus-plugin-image-zoom")],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -118,6 +120,16 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      zoom: {
+        selector: '.markdown :not(em) > img',
+        config: {
+          // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+          background: {
+            light: 'rgb(255, 255, 255)',
+            dark: 'rgb(50, 50, 50)'
+          }
+        }
+      }
     }),
   i18n: {
     defaultLocale: "ja",
