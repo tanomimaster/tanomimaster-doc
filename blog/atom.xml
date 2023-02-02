@@ -9,11 +9,11 @@
     <icon>https://tanomimaster.github.io/tanomimaster-doc/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[v3.9.3 Release]]></title>
-        <id>/2023/02/01/csv</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/02/01/csv</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2023/02/01/csv"/>
         <updated>2023-02-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[概要]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a class="hash-link" href="#概要" title="見出しへの直接リンク">​</a></h2><ul><li>v3.9.0へのロールバック</li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>v3.9.0へのロールバック</li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
@@ -21,11 +21,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.9.2 Release]]></title>
-        <id>/2023/01/31/csv</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/01/31/csv</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2023/01/31/csv"/>
         <updated>2023-01-31T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[概要]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a class="hash-link" href="#概要" title="見出しへの直接リンク">​</a></h2><ul><li>v3.9.1の修正</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="備考">備考<a class="hash-link" href="#備考" title="見出しへの直接リンク">​</a></h2><ul><li>リグレッションが起きたので、2月1日夕方にv3.9.0にロールバック</li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>v3.9.1の修正</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="備考">備考<a href="#備考" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>リグレッションが起きたので、2月1日夕方にv3.9.0にロールバック</li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
@@ -33,11 +33,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.9.1 Release]]></title>
-        <id>/2023/01/25/csv</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/01/25/csv</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2023/01/25/csv"/>
         <updated>2023-01-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[概要]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a class="hash-link" href="#概要" title="見出しへの直接リンク">​</a></h2><ul><li>小売側から納期回答が行われていない注文のステータスを納品済みにできるようにする。</li><li>小売向けに納品先マスタを取得するAPIを追加。<ul><li><a href="https://tanomimaster.com/docs/api#tag/Retail/operation/getShippingAddresses" target="_blank" rel="noopener noreferrer">API仕様</a></li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="備考">備考<a class="hash-link" href="#備考" title="見出しへの直接リンク">​</a></h2><ul><li>リグレッションが起きたので、1月26日朝にv3.9.0にロールバック</li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>小売側から納期回答が行われていない注文のステータスを納品済みにできるようにする。</li><li>小売向けに納品先マスタを取得するAPIを追加。<ul><li><a href="https://tanomimaster.com/docs/api#tag/Retail/operation/getShippingAddresses" target="_blank" rel="noopener noreferrer">API仕様</a></li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="備考">備考<a href="#備考" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>リグレッションが起きたので、1月26日朝にv3.9.0にロールバック</li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
@@ -45,7 +45,7 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.9.0 Release]]></title>
-        <id>/2023/01/23/csv</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/01/23/csv</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2023/01/23/csv"/>
         <updated>2023-01-23T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[- ユーザマスタの仕様を変更しました。]]></summary>
@@ -57,11 +57,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.8.0 Release]]></title>
-        <id>/2022/12/07/</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2022/12/07/</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2022/12/07/"/>
         <updated>2022-12-07T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[概要]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a class="hash-link" href="#概要" title="見出しへの直接リンク">​</a></h2><ul><li>管理者向け<ul><li>メーカー一覧の表示速度改善</li></ul></li><li>システム内部<ul><li>Ruby 3.0.4 =&gt; Ruby 3.1.3</li><li>NodeJS 16 =&gt; 18</li><li>gemの更新</li><li>npm更新</li><li><code>sort_link</code> のduplication warning修正</li><li>webpacker更新と設定調整</li><li><code>actions/checkout@v3</code> へ変更</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="差分">差分<a class="hash-link" href="#差分" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.8.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.8.0</a><ul><li>要githubアカウントと承認</li></ul></li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>管理者向け<ul><li>メーカー一覧の表示速度改善</li></ul></li><li>システム内部<ul><li>Ruby 3.0.4 =&gt; Ruby 3.1.3</li><li>NodeJS 16 =&gt; 18</li><li>gemの更新</li><li>npm更新</li><li><code>sort_link</code> のduplication warning修正</li><li>webpacker更新と設定調整</li><li><code>actions/checkout@v3</code> へ変更</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="差分">差分<a href="#差分" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.8.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.8.0</a><ul><li>要githubアカウントと承認</li></ul></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
@@ -69,11 +69,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.7.1 Release]]></title>
-        <id>/2022/11/24/01</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2022/11/24/01</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2022/11/24/01"/>
         <updated>2022-11-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[概要]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a class="hash-link" href="#概要" title="見出しへの直接リンク">​</a></h2><ul><li>メーカー向け<ul><li>注文のステータスが配送済みのときに、配送日が指定されていない場合に注文詳細ページが開けない問題を修正</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="差分">差分<a class="hash-link" href="#差分" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.7.1" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.7.1</a><ul><li>要githubアカウントと承認</li></ul></li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>メーカー向け<ul><li>注文のステータスが配送済みのときに、配送日が指定されていない場合に注文詳細ページが開けない問題を修正</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="差分">差分<a href="#差分" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.7.1" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.7.1</a><ul><li>要githubアカウントと承認</li></ul></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
@@ -81,11 +81,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.7.2 Release]]></title>
-        <id>/2022/11/24/02</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2022/11/24/02</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2022/11/24/02"/>
         <updated>2022-11-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[概要]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a class="hash-link" href="#概要" title="見出しへの直接リンク">​</a></h2><ul><li>小売向け<ul><li>注文のステータスが配送済みのときに、配送日が指定されていない場合に注文詳細ページが開けない問題を修正</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="差分">差分<a class="hash-link" href="#差分" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.7.2" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.7.2</a><ul><li>要githubアカウントと承認</li></ul></li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>小売向け<ul><li>注文のステータスが配送済みのときに、配送日が指定されていない場合に注文詳細ページが開けない問題を修正</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="差分">差分<a href="#差分" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.7.2" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.7.2</a><ul><li>要githubアカウントと承認</li></ul></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
@@ -93,11 +93,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.7.0 Release]]></title>
-        <id>/2022/11/24/</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2022/11/24/</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2022/11/24/"/>
         <updated>2022-11-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[概要]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a class="hash-link" href="#概要" title="見出しへの直接リンク">​</a></h2><ul><li>メーカー、小売向け<ul><li>メーカーが「納品済みにする」機能を無くす #1641</li></ul></li><li>管理者向け<ul><li>UI改善</li></ul></li><li>Rubyライブラリ更新<ul><li>主にリビジョンアップグレード</li><li>開発ツール系のアップグレード</li></ul></li><li>npmパッケージ更新<ul><li>webpack-dev-server更新。3 =&gt; 4</li><li>axios, date-fnsの更新</li><li>npm-check-updates導入</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="差分">差分<a class="hash-link" href="#差分" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.7.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.7.0</a><ul><li>要githubアカウントと承認</li></ul></li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>メーカー、小売向け<ul><li>メーカーが「納品済みにする」機能を無くす #1641</li></ul></li><li>管理者向け<ul><li>UI改善</li></ul></li><li>Rubyライブラリ更新<ul><li>主にリビジョンアップグレード</li><li>開発ツール系のアップグレード</li></ul></li><li>npmパッケージ更新<ul><li>webpack-dev-server更新。3 =&gt; 4</li><li>axios, date-fnsの更新</li><li>npm-check-updates導入</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="差分">差分<a href="#差分" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.7.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.7.0</a><ul><li>要githubアカウントと承認</li></ul></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
@@ -105,11 +105,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.6.0 Release]]></title>
-        <id>/2022/11/16/csv</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2022/11/16/csv</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2022/11/16/csv"/>
         <updated>2022-11-16T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[概要]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a class="hash-link" href="#概要" title="見出しへの直接リンク">​</a></h2><ul><li>メーカー側Web<ul><li>受注CSVページの動線変更</li><li>受注CSVページの実行者を表示するように変更するなどの改善</li></ul></li><li>bugfix<ul><li>メーカー側API<ul><li>status フィルタが効いていなかった問題を修正</li></ul></li></ul></li><li>APIドキュメントの説明を追加</li><li>ライブラリの更新<ul><li>Bump puma from 5.6.5 to 6.0.0</li><li>Bump redis from 4.5.1 to 4.8.0</li><li>Bump validates_timeliness from 6.0.0.beta2 to 6.0.0</li><li>Bump aasm from 5.3.1 to 5.4.0</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a class="hash-link" href="#システム内部" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.6.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.6.0</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>メーカー側Web<ul><li>受注CSVページの動線変更</li><li>受注CSVページの実行者を表示するように変更するなどの改善</li></ul></li><li>bugfix<ul><li>メーカー側API<ul><li>status フィルタが効いていなかった問題を修正</li></ul></li></ul></li><li>APIドキュメントの説明を追加</li><li>ライブラリの更新<ul><li>Bump puma from 5.6.5 to 6.0.0</li><li>Bump redis from 4.5.1 to 4.8.0</li><li>Bump validates_timeliness from 6.0.0.beta2 to 6.0.0</li><li>Bump aasm from 5.3.1 to 5.4.0</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a href="#システム内部" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.6.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.6.0</a></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
@@ -117,11 +117,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.5.0 Release]]></title>
-        <id>/2022/10/27/csv</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2022/10/27/csv</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2022/10/27/csv"/>
         <updated>2022-10-27T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[概要]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a class="hash-link" href="#概要" title="見出しへの直接リンク">​</a></h2><ul><li>API<ul><li>サロゲートキーを指定して支店・営業所を取得できるようにする</li><li>APIのエンドポイントの仕様が変更されるので下位互換性がありません。</li><li>API仕様<ul><li><a href="https://github.com/tanomimaster/tanomimaster-openapi/releases/tag/v3.5.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-openapi/releases/tag/v3.5.0</a></li></ul></li></ul></li><li>WebもAPIもメーカーが受注確定したら小売からはキャンセル不可にする</li><li>メーカー側からも発注のキャンセルをできるようにする</li><li>ミドルウェアの更新<ul><li>rails from 6.1.6 to 6.1.7</li><li>その他5個</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a class="hash-link" href="#システム内部" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.5.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.5.0</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>API<ul><li>サロゲートキーを指定して支店・営業所を取得できるようにする</li><li>APIのエンドポイントの仕様が変更されるので下位互換性がありません。</li><li>API仕様<ul><li><a href="https://github.com/tanomimaster/tanomimaster-openapi/releases/tag/v3.5.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-openapi/releases/tag/v3.5.0</a></li></ul></li></ul></li><li>WebもAPIもメーカーが受注確定したら小売からはキャンセル不可にする</li><li>メーカー側からも発注のキャンセルをできるようにする</li><li>ミドルウェアの更新<ul><li>rails from 6.1.6 to 6.1.7</li><li>その他5個</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a href="#システム内部" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.5.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.5.0</a></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
@@ -129,11 +129,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.5.1 Release]]></title>
-        <id>/2022/10/27/hotfix.csv</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2022/10/27/hotfix.csv</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2022/10/27/hotfix.csv"/>
         <updated>2022-10-27T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[概要]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a class="hash-link" href="#概要" title="見出しへの直接リンク">​</a></h2><ul><li>API<ul><li>小売り、メーカー側において、営業所の一覧が特定の条件の際に予期しない一覧が返却されていた問題を修正。</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a class="hash-link" href="#システム内部" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.5.1" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.5.1</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>API<ul><li>小売り、メーカー側において、営業所の一覧が特定の条件の際に予期しない一覧が返却されていた問題を修正。</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a href="#システム内部" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.5.1" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.5.1</a></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
@@ -141,11 +141,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.4.1 Release]]></title>
-        <id>/2022/10/08/csv</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2022/10/08/csv</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2022/10/08/csv"/>
         <updated>2022-10-08T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[概要]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a class="hash-link" href="#概要" title="見出しへの直接リンク">​</a></h2><ul><li>bugfix<ul><li>小売り側Web<ul><li>本来であれば、小売り側からキャンセルできてはいけない注文に対して、小売りがキャンセルできてしまっていた。<ul><li>注文明細のステータスが納品済みでなく、キャンセル済みで無い場合、小売りのadminまたは自分が注文した注文に対して、キャンセルが可能になっていた。</li></ul></li></ul></li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a class="hash-link" href="#システム内部" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.4.1" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.4.1</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>bugfix<ul><li>小売り側Web<ul><li>本来であれば、小売り側からキャンセルできてはいけない注文に対して、小売りがキャンセルできてしまっていた。<ul><li>注文明細のステータスが納品済みでなく、キャンセル済みで無い場合、小売りのadminまたは自分が注文した注文に対して、キャンセルが可能になっていた。</li></ul></li></ul></li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a href="#システム内部" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.4.1" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.4.1</a></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
@@ -153,11 +153,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.4.0 Release]]></title>
-        <id>/2022/08/24/csv</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2022/08/24/csv</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2022/08/24/csv"/>
         <updated>2022-08-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[概要]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a class="hash-link" href="#概要" title="見出しへの直接リンク">​</a></h2><ul><li>0円の商品が登録されていて、販売された際にエラー画面が表示される問題を修正。</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a class="hash-link" href="#システム内部" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.4.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.4.0</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>0円の商品が登録されていて、販売された際にエラー画面が表示される問題を修正。</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a href="#システム内部" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.4.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.4.0</a></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
@@ -165,11 +165,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.3.0 Release]]></title>
-        <id>/2022/08/02/csv</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2022/08/02/csv</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2022/08/02/csv"/>
         <updated>2022-08-02T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[概要]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a class="hash-link" href="#概要" title="見出しへの直接リンク">​</a></h2><ul><li>カテゴリ「調整器」のサブマスタ区分「サイズ」の名称を、「容量」に変更する #1539</li><li>CircleCIからGithub Actionsへ変更</li><li>rspecのリファクタリング</li><li>Javascriptを含むE2Eテストがライブラリ更新により、不安定になったので一時的に無効化</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a class="hash-link" href="#システム内部" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.3.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.3.0</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>カテゴリ「調整器」のサブマスタ区分「サイズ」の名称を、「容量」に変更する #1539</li><li>CircleCIからGithub Actionsへ変更</li><li>rspecのリファクタリング</li><li>Javascriptを含むE2Eテストがライブラリ更新により、不安定になったので一時的に無効化</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a href="#システム内部" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.3.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.3.0</a></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
@@ -177,11 +177,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.2.1 Release]]></title>
-        <id>/2022/07/04/csv</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2022/07/04/csv</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2022/07/04/csv"/>
         <updated>2022-07-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[概要]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a class="hash-link" href="#概要" title="見出しへの直接リンク">​</a></h2><ul><li>新コスモス電機の画像を追加</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a class="hash-link" href="#システム内部" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.2.1" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.2.1</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>新コスモス電機の画像を追加</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a href="#システム内部" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.2.1" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.2.1</a></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
@@ -189,11 +189,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.2.0 Release]]></title>
-        <id>/2022/06/23/csv</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2022/06/23/csv</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2022/06/23/csv"/>
         <updated>2022-06-23T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[概要]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a class="hash-link" href="#概要" title="見出しへの直接リンク">​</a></h2><ul><li>カテゴリ管理の全環境統一化</li><li>API機能追加</li><li>受注CSVカラム追加</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="全体">全体<a class="hash-link" href="#全体" title="見出しへの直接リンク">​</a></h2><ul><li>カテゴリ管理をタノミマスターの管理画面から、プログラムのソースコードで管理するように変更。<ul><li>開発環境、ステージング、本番環境すべての環境でカテゴリIDを同一にすることで、入稿データの変更手間をなくしました。</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー向け">メーカー向け<a class="hash-link" href="#メーカー向け" title="見出しへの直接リンク">​</a></h2><ul><li>CSVのマスタ登録などの非同期処理において、メモリサイズを増加。</li><li><a href="/tanomimaster-doc/docs/csv">受注CSV</a>に「注文単位の備考」のカラムを追加。</li></ul><div class="language-diff codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-diff codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 24 | 納品先名 | string | 20 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 25 | 納品先住所 | string | 152 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 26 | 納品先TEL | string | 15 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token deleted-sign deleted prefix deleted" style="color:#d73a49">-</span><span class="token deleted-sign deleted line" style="color:#d73a49">| 27 | 備考 | string | 22 |  |  |  |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token deleted-sign deleted line" style="color:#d73a49"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 27 | 明細単位の備考 | string | 255 |  |  |  |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token inserted-sign inserted line" style="color:#36acaa"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 28 | 注文単位の備考 | string | 255 |  |  |  |  |  |</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売向け">小売向け<a class="hash-link" href="#小売向け" title="見出しへの直接リンク">​</a></h2><ul><li>小売りユーザエンティティのコードをキーにして検索できるようにAPIに機能追加<ul><li><a href="https://tanomimaster.com/docs/api/#tag/Retail/operation/getRetailUsers" target="_blank" rel="noopener noreferrer">https://tanomimaster.com/docs/api/#tag/Retail/operation/getRetailUsers</a></li></ul></li><li>商品一覧APIにて無効化された商品を返さないように変更。<ul><li><a href="https://tanomimaster.com/docs/api/#tag/Retail/operation/get-products-kumo" target="_blank" rel="noopener noreferrer">https://tanomimaster.com/docs/api/#tag/Retail/operation/get-products-kumo</a></li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="管理者向け">管理者向け<a class="hash-link" href="#管理者向け" title="見出しへの直接リンク">​</a></h2><ul><li>CircleCIのcontainer imageがdeprecationで使えなくなったので取得先を更新し、それに伴う追加設定。</li><li>gem更新<ul><li>jmespath</li><li>money-rails</li><li>aws-sdk-s3</li><li>aws-sdk-ecs</li><li>rubocop-performance</li><li>aws-sdk-rails</li><li>counter-culture</li><li>ransack</li><li>phonelib</li><li>bullet</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a class="hash-link" href="#システム内部" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.2.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.2.0</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>カテゴリ管理の全環境統一化</li><li>API機能追加</li><li>受注CSVカラム追加</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="全体">全体<a href="#全体" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>カテゴリ管理をタノミマスターの管理画面から、プログラムのソースコードで管理するように変更。<ul><li>開発環境、ステージング、本番環境すべての環境でカテゴリIDを同一にすることで、入稿データの変更手間をなくしました。</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー向け">メーカー向け<a href="#メーカー向け" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>CSVのマスタ登録などの非同期処理において、メモリサイズを増加。</li><li><a href="/tanomimaster-doc/docs/csv">受注CSV</a>に「注文単位の備考」のカラムを追加。</li></ul><div class="language-diff codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-diff codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 24 | 納品先名 | string | 20 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 25 | 納品先住所 | string | 152 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 26 | 納品先TEL | string | 15 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token deleted-sign deleted prefix deleted" style="color:#d73a49">-</span><span class="token deleted-sign deleted line" style="color:#d73a49">| 27 | 備考 | string | 22 |  |  |  |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token deleted-sign deleted line" style="color:#d73a49"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 27 | 明細単位の備考 | string | 255 |  |  |  |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token inserted-sign inserted line" style="color:#36acaa"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 28 | 注文単位の備考 | string | 255 |  |  |  |  |  |</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売向け">小売向け<a href="#小売向け" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>小売りユーザエンティティのコードをキーにして検索できるようにAPIに機能追加<ul><li><a href="https://tanomimaster.com/docs/api/#tag/Retail/operation/getRetailUsers" target="_blank" rel="noopener noreferrer">https://tanomimaster.com/docs/api/#tag/Retail/operation/getRetailUsers</a></li></ul></li><li>商品一覧APIにて無効化された商品を返さないように変更。<ul><li><a href="https://tanomimaster.com/docs/api/#tag/Retail/operation/get-products-kumo" target="_blank" rel="noopener noreferrer">https://tanomimaster.com/docs/api/#tag/Retail/operation/get-products-kumo</a></li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="管理者向け">管理者向け<a href="#管理者向け" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>CircleCIのcontainer imageがdeprecationで使えなくなったので取得先を更新し、それに伴う追加設定。</li><li>gem更新<ul><li>jmespath</li><li>money-rails</li><li>aws-sdk-s3</li><li>aws-sdk-ecs</li><li>rubocop-performance</li><li>aws-sdk-rails</li><li>counter-culture</li><li>ransack</li><li>phonelib</li><li>bullet</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a href="#システム内部" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.2.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.2.0</a></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
@@ -201,12 +201,12 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.1.0 Release]]></title>
-        <id>/2022/06/16/csv</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2022/06/16/csv</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2022/06/16/csv"/>
         <updated>2022-06-16T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[概要]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a class="hash-link" href="#概要" title="見出しへの直接リンク">​</a></h2><ul><li>メーカー向けAPIの機能追加です</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー向け">メーカー向け<a class="hash-link" href="#メーカー向け" title="見出しへの直接リンク">​</a></h2><p>以下のエンドポイントの <code>{order_code}</code> において、 <code>OrdersMaker.code</code> を指定する場合だと注文を一意に特定できないため、
-<code>OrdersMaker.id</code> も指定できるように変更しました。</p><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">/api/v1/maker/orders_makers/{order_code}/order_products</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">/api/v1/maker/orders_makers/{order_code}/order_products/{branch_number}</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">/api/v1/maker/orders_makers/{order_code}/order_products/{branch_number}/confirm</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">/api/v1/maker/orders_makers/{order_code}/order_products/{branch_number}/update_delivery_date</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><p><code>OrdersMaker.id</code>の指定のほうが優先されます。</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売向け">小売向け<a class="hash-link" href="#小売向け" title="見出しへの直接リンク">​</a></h2><ul><li>なし。</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="管理者向け">管理者向け<a class="hash-link" href="#管理者向け" title="見出しへの直接リンク">​</a></h2><ul><li>なし</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a class="hash-link" href="#システム内部" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.1.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.1.0</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>メーカー向けAPIの機能追加です</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー向け">メーカー向け<a href="#メーカー向け" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><p>以下のエンドポイントの <code>{order_code}</code> において、 <code>OrdersMaker.code</code> を指定する場合だと注文を一意に特定できないため、
+<code>OrdersMaker.id</code> も指定できるように変更しました。</p><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">/api/v1/maker/orders_makers/{order_code}/order_products</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">/api/v1/maker/orders_makers/{order_code}/order_products/{branch_number}</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">/api/v1/maker/orders_makers/{order_code}/order_products/{branch_number}/confirm</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">/api/v1/maker/orders_makers/{order_code}/order_products/{branch_number}/update_delivery_date</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><p><code>OrdersMaker.id</code>の指定のほうが優先されます。</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売向け">小売向け<a href="#小売向け" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>なし。</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="管理者向け">管理者向け<a href="#管理者向け" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>なし</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a href="#システム内部" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.1.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.1.0</a></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
@@ -214,11 +214,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.0.0 Release]]></title>
-        <id>/2022/06/09/csv</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2022/06/09/csv</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2022/06/09/csv"/>
         <updated>2022-06-09T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[概要]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a class="hash-link" href="#概要" title="見出しへの直接リンク">​</a></h2><ul><li>小売向けのUI改善フェーズ2のリリースです。</li><li>商品に対する属性を設定するためのサブマスタが追加されます。</li><li>カテゴリデータのスキーマ変更があり、不可逆なリリースのためメジャーバージョンを上げてv3となります。</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー向け">メーカー向け<a class="hash-link" href="#メーカー向け" title="見出しへの直接リンク">​</a></h2><ul><li>サブマスタが追加されます。</li><li>カテゴリのIDがすべて変更になります。</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売向け">小売向け<a class="hash-link" href="#小売向け" title="見出しへの直接リンク">​</a></h2><ul><li>UIが変更になります。</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="管理者向け">管理者向け<a class="hash-link" href="#管理者向け" title="見出しへの直接リンク">​</a></h2><ul><li>なし</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a class="hash-link" href="#システム内部" title="見出しへの直接リンク">​</a></h2><p><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.0.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.0.0</a></p><ul><li>サブマスタの定義を追加</li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>小売向けのUI改善フェーズ2のリリースです。</li><li>商品に対する属性を設定するためのサブマスタが追加されます。</li><li>カテゴリデータのスキーマ変更があり、不可逆なリリースのためメジャーバージョンを上げてv3となります。</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー向け">メーカー向け<a href="#メーカー向け" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>サブマスタが追加されます。</li><li>カテゴリのIDがすべて変更になります。</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売向け">小売向け<a href="#小売向け" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>UIが変更になります。</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="管理者向け">管理者向け<a href="#管理者向け" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>なし</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a href="#システム内部" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><p><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.0.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.0.0</a></p><ul><li>サブマスタの定義を追加</li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
@@ -226,11 +226,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[v2.2.3 Release]]></title>
-        <id>/2022/05/11/csv</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2022/05/11/csv</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2022/05/11/csv"/>
         <updated>2022-05-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[メーカー向け]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー向け">メーカー向け<a class="hash-link" href="#メーカー向け" title="見出しへの直接リンク">​</a></h2><ul><li>なし</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売向け">小売向け<a class="hash-link" href="#小売向け" title="見出しへの直接リンク">​</a></h2><ul><li>なし</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="管理者向け">管理者向け<a class="hash-link" href="#管理者向け" title="見出しへの直接リンク">​</a></h2><ul><li>なし</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a class="hash-link" href="#システム内部" title="見出しへの直接リンク">​</a></h2><ul><li>約20個 ライブラリの更新</li><li>seedデータ生成のfix</li><li>開発マシンのARM対応</li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー向け">メーカー向け<a href="#メーカー向け" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>なし</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売向け">小売向け<a href="#小売向け" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>なし</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="管理者向け">管理者向け<a href="#管理者向け" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>なし</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a href="#システム内部" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>約20個 ライブラリの更新</li><li>seedデータ生成のfix</li><li>開発マシンのARM対応</li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
@@ -238,7 +238,7 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[v2.2.1.2 Release]]></title>
-        <id>/2022/04/14/csv</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2022/04/14/csv</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2022/04/14/csv"/>
         <updated>2022-04-14T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[- 新コスモス電機 の画像追加]]></summary>
@@ -250,11 +250,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[v2.2.1.2 Release]]></title>
-        <id>/2022/04/06/csv</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2022/04/06/csv</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2022/04/06/csv"/>
         <updated>2022-04-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[メーカー向け]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー向け">メーカー向け<a class="hash-link" href="#メーカー向け" title="見出しへの直接リンク">​</a></h2><ul><li>商品入稿フォーマット変更<ul><li><a href="/tanomimaster-doc/docs/csv">CSVファイルフォーマット</a>のカラム名を変更しました。</li></ul></li></ul><div class="language-diff codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-diff codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 1 | 型式（品番） | string | 255 | o |  | o | 1234567890 | ASCII文字（ `\:*?"&lt;&gt;` 以外） |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 2 | カテゴリID | bigint |  |  | o | o | 1 |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 3 | メーカー内部コード | string | 255 |  |  |  |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token deleted-sign deleted prefix deleted" style="color:#d73a49">-</span><span class="token deleted-sign deleted line" style="color:#d73a49">| 4 | 製品名 | string | 255 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token deleted-sign deleted line" style="color:#d73a49"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 4 | 商品名 | string | 255 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token inserted-sign inserted line" style="color:#36acaa"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 5 | メーカー希望小売価格(税抜)        | integer | 2,147,483,647 |  |  |  |  | 単位は日本円。税抜。空白の場合はオープンプライス。 |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 6 | 目安納期日数 | integer| 2,147,483,647|  |  | o | 3 | 営業日の数字を記載 |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 7 | ガスマスタを使うかどうかフラグ | boolean |  |  |  | o | 1 | 注文時にLPか都市ガスかを選択する必要がある商品 |~</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><ul><li>API<ul><li>注文の備考を追加</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売向け">小売向け<a class="hash-link" href="#小売向け" title="見出しへの直接リンク">​</a></h2><ul><li>API<ul><li>注文の備考を追加</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="管理者向け">管理者向け<a class="hash-link" href="#管理者向け" title="見出しへの直接リンク">​</a></h2><ul><li>パンくずリスト追加</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a class="hash-link" href="#システム内部" title="見出しへの直接リンク">​</a></h2><ul><li>ライブラリ更新<ul><li>pumaセキュリティ更新</li><li>rspec関係 ライブラリ更新</li></ul></li><li>dockerイメージ軽量化</li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー向け">メーカー向け<a href="#メーカー向け" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>商品入稿フォーマット変更<ul><li><a href="/tanomimaster-doc/docs/csv">CSVファイルフォーマット</a>のカラム名を変更しました。</li></ul></li></ul><div class="language-diff codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-diff codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 1 | 型式（品番） | string | 255 | o |  | o | 1234567890 | ASCII文字（ `\:*?"&lt;&gt;` 以外） |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 2 | カテゴリID | bigint |  |  | o | o | 1 |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 3 | メーカー内部コード | string | 255 |  |  |  |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token deleted-sign deleted prefix deleted" style="color:#d73a49">-</span><span class="token deleted-sign deleted line" style="color:#d73a49">| 4 | 製品名 | string | 255 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token deleted-sign deleted line" style="color:#d73a49"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 4 | 商品名 | string | 255 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token inserted-sign inserted line" style="color:#36acaa"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 5 | メーカー希望小売価格(税抜)        | integer | 2,147,483,647 |  |  |  |  | 単位は日本円。税抜。空白の場合はオープンプライス。 |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 6 | 目安納期日数 | integer| 2,147,483,647|  |  | o | 3 | 営業日の数字を記載 |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 7 | ガスマスタを使うかどうかフラグ | boolean |  |  |  | o | 1 | 注文時にLPか都市ガスかを選択する必要がある商品 |~</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><ul><li>API<ul><li>注文の備考を追加</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売向け">小売向け<a href="#小売向け" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>API<ul><li>注文の備考を追加</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="管理者向け">管理者向け<a href="#管理者向け" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>パンくずリスト追加</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a href="#システム内部" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>ライブラリ更新<ul><li>pumaセキュリティ更新</li><li>rspec関係 ライブラリ更新</li></ul></li><li>dockerイメージ軽量化</li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
@@ -262,7 +262,7 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[商品のCSVフォーマットに商品説明カラムを追加]]></title>
-        <id>/2022/03/25/csv</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2022/03/25/csv</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2022/03/25/csv"/>
         <updated>2022-03-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[- 商品の入稿データフォーマットに商品説明 カラムを追加しました。]]></summary>
@@ -273,18 +273,18 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[商品属性のCSVフォーマットを追加]]></title>
-        <id>/2022/03/23/csv</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2022/03/23/csv</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2022/03/23/csv"/>
         <updated>2022-03-23T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[- 入稿データフォーマットに商品属性のCSVフォーマットを追加しました。]]></summary>
-        <content type="html"><![CDATA[<ul><li><a href="/tanomimaster-doc/docs/csv">入稿データフォーマット</a>に商品属性のCSVフォーマットを追加しました。</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="商品属性">商品属性<a class="hash-link" href="#商品属性" title="見出しへの直接リンク">​</a></h3><ul><li>メーカーの管理メニューから遷移可能な「商品属性」のページに、CSV入稿時に利用する「サブマスタ区分」と「サブマスタ区分値」の値が記載されておりますので、ご参照ください。</li></ul><table><thead><tr><th>カラム</th><th>名称</th><th>型</th><th>長さ</th><th>PK</th><th>FK</th><th>必須</th><th>例</th><th>備考</th></tr></thead><tbody><tr><td>1</td><td>型式（品番）</td><td>文字列</td><td>255</td><td></td><td></td><td>o</td><td></td><td></td></tr><tr><td>2</td><td>サブマスタ区分</td><td>文字列</td><td>255</td><td></td><td></td><td>o</td><td>bath</td><td></td></tr><tr><td>3</td><td>サブマスタ区分値</td><td>文字列</td><td>255</td><td></td><td></td><td>o</td><td>reheating</td><td></td></tr></tbody></table>]]></content>
+        <content type="html"><![CDATA[<ul><li><a href="/tanomimaster-doc/docs/csv">入稿データフォーマット</a>に商品属性のCSVフォーマットを追加しました。</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="商品属性">商品属性<a href="#商品属性" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li>メーカーの管理メニューから遷移可能な「商品属性」のページに、CSV入稿時に利用する「サブマスタ区分」と「サブマスタ区分値」の値が記載されておりますので、ご参照ください。</li></ul><table><thead><tr><th>カラム</th><th>名称</th><th>型</th><th>長さ</th><th>PK</th><th>FK</th><th>必須</th><th>例</th><th>備考</th></tr></thead><tbody><tr><td>1</td><td>型式（品番）</td><td>文字列</td><td>255</td><td></td><td></td><td>o</td><td></td><td></td></tr><tr><td>2</td><td>サブマスタ区分</td><td>文字列</td><td>255</td><td></td><td></td><td>o</td><td>bath</td><td></td></tr><tr><td>3</td><td>サブマスタ区分値</td><td>文字列</td><td>255</td><td></td><td></td><td>o</td><td>reheating</td><td></td></tr></tbody></table>]]></content>
         <author>
             <name>Shintaro Minowa</name>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[ドキュメントを最新化]]></title>
-        <id>/2021/12/23/api</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2021/12/23/api</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2021/12/23/api"/>
         <updated>2021-12-23T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[- タノミマスターの機能概要に関して古い記述があったので更新しました。]]></summary>
@@ -296,7 +296,7 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Release 0.5.1]]></title>
-        <id>/2021/08/24/csv</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2021/08/24/csv</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2021/08/24/csv"/>
         <updated>2021-08-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[- CSVファイルフォーマットの長さを実装に合わせてドキュメントを変更しました。]]></summary>
@@ -308,7 +308,7 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Release 0.5.0]]></title>
-        <id>/2021/03/17/category</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2021/03/17/category</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2021/03/17/category"/>
         <updated>2021-03-17T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[- メーカー向け]]></summary>
@@ -320,7 +320,7 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Release 0.4.0]]></title>
-        <id>/2021/02/25/csv</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2021/02/25/csv</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2021/02/25/csv"/>
         <updated>2021-02-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[- 納期回答のCSVフォーマットに小売コードを追加しました。]]></summary>
@@ -332,7 +332,7 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Release 0.3.0]]></title>
-        <id>/2021/01/06/csv</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2021/01/06/csv</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2021/01/06/csv"/>
         <updated>2021-01-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[- CSVフォーマットの項目名商品コードを型式（品番）に変更しました。]]></summary>
@@ -344,7 +344,7 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Release 0.2.0]]></title>
-        <id>/2020/03/10/csv</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2020/03/10/csv</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2020/03/10/csv"/>
         <updated>2020-03-10T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[納期回答CSVの表記を変更しました。]]></summary>
@@ -356,11 +356,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Release 0.1.0]]></title>
-        <id>/2020/02/28/csv</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2020/02/28/csv</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2020/02/28/csv"/>
         <updated>2020-02-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[納期回答CSVの表記を変更しました。]]></summary>
-        <content type="html"><![CDATA[<p><a href="/tanomimaster-doc/docs/csv">納期回答CSV</a>の表記を変更しました。</p><ul><li>受注CSVの2列目に6列分のカラムを追加<ul><li>小売コード</li><li>小売名</li><li>支店コード</li><li>支店名</li><li>営業所コード</li><li>営業所名</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="細かい修正点">細かい修正点<a class="hash-link" href="#細かい修正点" title="見出しへの直接リンク">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="006-2020128">0.0.6 2020/1/28<a class="hash-link" href="#006-2020128" title="見出しへの直接リンク">​</a></h3><ul><li>商品マスタのCSVフォーマットにカラムを追加。</li><li>CSVフォーマットの説明を加筆。</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="005-20191225">0.0.5 2019/12/25<a class="hash-link" href="#005-20191225" title="見出しへの直接リンク">​</a></h3><ul><li>利用者向けにドキュメントを追加</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="004-2019129">0.0.4 2019/12/9<a class="hash-link" href="#004-2019129" title="見出しへの直接リンク">​</a></h3>]]></content>
+        <content type="html"><![CDATA[<p><a href="/tanomimaster-doc/docs/csv">納期回答CSV</a>の表記を変更しました。</p><ul><li>受注CSVの2列目に6列分のカラムを追加<ul><li>小売コード</li><li>小売名</li><li>支店コード</li><li>支店名</li><li>営業所コード</li><li>営業所名</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="細かい修正点">細かい修正点<a href="#細かい修正点" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="006-2020128">0.0.6 2020/1/28<a href="#006-2020128" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li>商品マスタのCSVフォーマットにカラムを追加。</li><li>CSVフォーマットの説明を加筆。</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="005-20191225">0.0.5 2019/12/25<a href="#005-20191225" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li>利用者向けにドキュメントを追加</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="004-2019129">0.0.4 2019/12/9<a href="#004-2019129" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
@@ -368,7 +368,7 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Release 0.0.4]]></title>
-        <id>/2019/12/09/csv</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2019/12/09/csv</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2019/12/09/csv"/>
         <updated>2019-12-09T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[- 納期回答CSVの仕様を変更しました。]]></summary>
@@ -380,7 +380,7 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Release 0.0.3]]></title>
-        <id>/2019/11/22/csv</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2019/11/22/csv</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2019/11/22/csv"/>
         <updated>2019-11-22T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[- 納期回答CSVの表記を変更しました。]]></summary>
@@ -392,7 +392,7 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Release 0.0.2]]></title>
-        <id>/2019/11/21/color</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2019/11/21/color</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2019/11/21/color"/>
         <updated>2019-11-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[- カラースキーマに準拠しました。]]></summary>
@@ -404,7 +404,7 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Release 0.0.1]]></title>
-        <id>/2019/11/20/csv</id>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2019/11/20/csv</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2019/11/20/csv"/>
         <updated>2019-11-20T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[- バージョンを番号を付加するようにしました。]]></summary>
