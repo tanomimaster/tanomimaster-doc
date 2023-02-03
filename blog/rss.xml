@@ -4,10 +4,18 @@
         <title>ユーザ ドキュメント Blog</title>
         <link>https://tanomimaster.github.io/tanomimaster-doc/blog</link>
         <description>ユーザ ドキュメント Blog</description>
-        <lastBuildDate>Thu, 02 Feb 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Feb 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
+        <item>
+            <title><![CDATA[v3.9.5 Release]]></title>
+            <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/02/03/csv</link>
+            <guid>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/02/03/csv</guid>
+            <pubDate>Fri, 03 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[概要]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>メーカー<ul><li>Webの受注一覧にて、デフォルトで自分が担当する注文のみを表示するように変更。</li></ul></li><li>システム<ul><li>npm, gemの更新</li><li>静的テストのリファクタリング</li><li>RubyのsyntaxをRuby 3.1に準拠</li></ul></li></ul>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v3.9.4 Release]]></title>
             <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/02/02/csv</link>

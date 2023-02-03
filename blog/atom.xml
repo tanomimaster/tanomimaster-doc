@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tanomimaster.github.io/tanomimaster-doc/blog</id>
     <title>ユーザ ドキュメント Blog</title>
-    <updated>2023-02-02T00:00:00.000Z</updated>
+    <updated>2023-02-03T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tanomimaster.github.io/tanomimaster-doc/blog"/>
     <subtitle>ユーザ ドキュメント Blog</subtitle>
     <icon>https://tanomimaster.github.io/tanomimaster-doc/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[v3.9.5 Release]]></title>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/02/03/csv</id>
+        <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2023/02/03/csv"/>
+        <updated>2023-02-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[概要]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>メーカー<ul><li>Webの受注一覧にて、デフォルトで自分が担当する注文のみを表示するように変更。</li></ul></li><li>システム<ul><li>npm, gemの更新</li><li>静的テストのリファクタリング</li><li>RubyのsyntaxをRuby 3.1に準拠</li></ul></li></ul>]]></content>
+        <author>
+            <name>Yuki Matsukura</name>
+            <uri>http://twitter.com/matsubokkuri</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[v3.9.4 Release]]></title>
         <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/02/02/csv</id>
