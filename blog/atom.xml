@@ -8,12 +8,12 @@
     <subtitle>ユーザ ドキュメント Blog</subtitle>
     <icon>https://tanomimaster.github.io/tanomimaster-doc/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[v3.9.5 Release]]></title>
+        <title type="html"><![CDATA[v3.9.6 Release]]></title>
         <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/02/06/csv</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2023/02/06/csv"/>
         <updated>2023-02-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[概要]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><p>以下のリリース内容の修正版</p><ul><li>v3.9.4</li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><p>以下のリリース内容の修正版</p><ul><li>v3.9.5</li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
