@@ -4,10 +4,18 @@
         <title>ユーザ ドキュメント Blog</title>
         <link>https://tanomimaster.github.io/tanomimaster-doc/blog</link>
         <description>ユーザ ドキュメント Blog</description>
-        <lastBuildDate>Mon, 06 Feb 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Feb 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
+        <item>
+            <title><![CDATA[Webサーバからのレスポンスが500エラーになる障害]]></title>
+            <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/02/10/down</link>
+            <guid>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/02/10/down</guid>
+            <pubDate>Fri, 10 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[概要]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>2023年1月10日(金) 8:30 - 8:40 ごろに置きまして本番サイトに繋がらなくなる問題が発生しました。</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="現象">現象<a href="#現象" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>HTTPレスポンスが500が返却されました。</li><li>対象:Web, APIサーバ</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="原因">原因<a href="#原因" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>データベースサーバに大きなトランザクションが発生し、空きメモリが足りなくなり応答時間が遅くなりました。</li><li>データベースサーバからのレスポンスが遅くなったことで、アプリケーションサーバからのDBサーバへのコネクションが足りなくなってアプリケーションサーバがリクエストを受け付けられなくなりました。</li><li>ロードバランサが、アプリケーションサーバの異常を検知し、ロードバランシンググループから外したことによってアクセスが行えない状態になりました。</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="対処">対処<a href="#対処" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>経過観察</li><li>現状のデータベースは、db.t3.small インスタンスを利用してます。リソースが足りなくなることがサイド発生するような状況になりましたら、スケールアップして対処したいと思います。</li></ul>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v3.9.6 Release]]></title>
             <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/02/06/csv</link>
