@@ -22,7 +22,7 @@
             <guid>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/03/15/</guid>
             <pubDate>Wed, 15 Mar 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[システム]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>HSTSの設定<ul><li>hstspreload.orgでの<a href="https://hstspreload.org/?domain=tanomimaster.com" target="_blank" rel="noopener noreferrer">検証結果</a></li></ul></li></ul>]]></content:encoded>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>セキュリティ強化のためにHSTS(HTTP Strict Transport Security)の設定<ul><li>hstspreload.orgでの<a href="https://hstspreload.org/?domain=tanomimaster.com" target="_blank" rel="noopener noreferrer">検証結果</a></li></ul></li></ul>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[v3.9.10 Release]]></title>
