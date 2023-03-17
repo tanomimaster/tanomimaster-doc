@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tanomimaster.github.io/tanomimaster-doc/blog</id>
     <title>ユーザ ドキュメント Blog</title>
-    <updated>2023-03-15T00:00:00.000Z</updated>
+    <updated>2023-03-16T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tanomimaster.github.io/tanomimaster-doc/blog"/>
     <subtitle>ユーザ ドキュメント Blog</subtitle>
     <icon>https://tanomimaster.github.io/tanomimaster-doc/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[v3.9.12 Release]]></title>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/03/16/</id>
+        <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2023/03/16/"/>
+        <updated>2023-03-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[システム]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://tanomimaster.com/docs/api" target="_blank" rel="noopener noreferrer">APIドキュメント</a>の更新</li><li>paginationに関しての記述を追加</li><li>関連したrspecの修正。ロジックの修正はありません。</li><li>CI(Continuous Integration)にてキャッシュを利用するようにしてCIの実行時間の短縮</li></ul>]]></content>
+        <author>
+            <name>Yuki Matsukura</name>
+            <uri>http://twitter.com/matsubokkuri</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[v3.9.11 Release]]></title>
         <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/03/15/</id>
