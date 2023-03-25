@@ -57,12 +57,18 @@ const config = {
             position: 'left',
             label: 'ドキュメント',
           },
-        {
-          type: 'doc',
-          docId: 'system',
-          position: "left",
-          label: "システム仕様",
-        },
+          {
+            type: 'doc',
+            docId: 'system',
+            position: "left",
+            label: "システム仕様",
+          },
+          {
+            type: 'doc',
+            docId: 'api',
+            position: "left",
+            label: "API仕様",
+          },
           {to: '/blog', label: '変更履歴', position: 'left'},
           {
             href: 'https://github.com/tanomimaster',
