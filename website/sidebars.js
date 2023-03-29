@@ -14,7 +14,7 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   // By default, Docusaurus generates a sidebar from the docs folder structure
-  apiSidebar: ['system', 'develop', 'api', 'csv'],
+  apiSidebar: ['system', 'develop', 'csv'],
 
   // But you can create a sidebar manually
   IntroSidebar: ['index', 'maker', 'retail'],
