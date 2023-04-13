@@ -9,6 +9,14 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
         <item>
+            <title><![CDATA[障害報告]]></title>
+            <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/04/12/report-for-service-unavailable</link>
+            <guid>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/04/12/report-for-service-unavailable</guid>
+            <pubDate>Wed, 12 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[経緯]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="経緯">経緯<a href="#経緯" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><p>Apr 12, 2023 </p><ul><li>08:43 にAWSからのアラート<ul><li><a href="https://tanomimaster.slack.com/archives/C01AKAMEL1L/p1681256627871589" target="_blank" rel="noopener noreferrer">https://tanomimaster.slack.com/archives/C01AKAMEL1L/p1681256627871589</a> - Connect your Slack account</li></ul></li><li>09:24 AM<ul><li>エンジニア 対応開始</li></ul></li><li>09:25 AM<ul><li>VPC Endpoints 設定削除</li><li>ECSの自然復旧確認</li></ul></li><li>09:30 AM<ul><li>Webのレスポンスが帰ってくることを確認</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="原因">原因<a href="#原因" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>Apr 12, 2023 0:17 AM にECRへのVPC Endpointsの設定に誤りがあった模様。<ul><li>ECRへのトラフィックを抑制することによるNAT Gatewayへのトラフィック削減のための設定</li></ul></li><li>8:40 AM頃にECSのコンテナの再始動がかかり、その際にECRからdocker imageの取得ができなくなくてサービス自体の停止に至った</li><li>8:25 AMにVPC endpointsの設定を削除し、ECS自体は数分〜十数分に1回再始動が行われるのでそのタイミングでdocker imageの取得が行えてサービスの復旧が行われた。<ul><li>ECSのコンテナの再起動は、数分〜数日に1度程度の頻度で発生している。</li></ul></li></ul>]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[v3.9.14 Release]]></title>
             <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/04/12/</link>
             <guid>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/04/12/</guid>
