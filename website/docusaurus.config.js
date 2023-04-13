@@ -24,13 +24,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/',
+          editUrl: 'https://github.com/tanomimaster/tanomimaster-doc/blob/master/website/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/tanomimaster/tanomimaster-doc/edit/master/website/blog/',
+            'https://github.com/tanomimaster/tanomimaster-doc/blob/develop/website/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
