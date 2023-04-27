@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tanomimaster.github.io/tanomimaster-doc/blog</id>
     <title>ユーザ ドキュメント Blog</title>
-    <updated>2023-04-12T00:00:00.000Z</updated>
+    <updated>2023-04-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tanomimaster.github.io/tanomimaster-doc/blog"/>
     <subtitle>ユーザ ドキュメント Blog</subtitle>
     <icon>https://tanomimaster.github.io/tanomimaster-doc/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[v3.9.15 Release]]></title>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/04/26/</id>
+        <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2023/04/26/"/>
+        <updated>2023-04-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[共通]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="共通">共通<a href="#共通" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>商品の品番 (<code>code</code>) の文字列の最後に半角スペースを1つ以上設定した場合、マスタ登録時にエラーが起きる可能性があった問題を修正。<ul><li><code>code</code> に半角スペースを含められるようにする要件があり、その要件がこちらのMySQLのcollation設定の振る舞いによって意図しない動作を引き起こす場合があります。<ul><li><a href="https://dev.mysql.com/doc/refman/8.0/ja/charset-binary-collations.html" target="_blank" rel="noopener noreferrer">https://dev.mysql.com/doc/refman/8.0/ja/charset-binary-collations.html</a></li></ul></li></ul></li><li>マスタ登録結果ページにて、表示するデータが重い問題があり、表示項目を減らして対応しました。今後のデータに対して有効です。</li><li>Javascriptライブラリ更新</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.14...v3.9.15" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.14...v3.9.15</a></p>]]></content>
+        <author>
+            <name>Yuki Matsukura</name>
+            <uri>http://twitter.com/matsubokkuri</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[障害報告]]></title>
         <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/04/12/report-for-service-unavailable</id>
