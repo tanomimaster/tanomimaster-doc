@@ -4,10 +4,18 @@
         <title>ユーザ ドキュメント Blog</title>
         <link>https://tanomimaster.github.io/tanomimaster-doc/blog</link>
         <description>ユーザ ドキュメント Blog</description>
-        <lastBuildDate>Thu, 25 May 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 14 Jun 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
+        <item>
+            <title><![CDATA[v3.9.20 Release]]></title>
+            <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/06/14/</link>
+            <guid>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/06/14/</guid>
+            <pubDate>Wed, 14 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[全体]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="全体">全体<a href="#全体" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li><code>注文日時</code>に表記を統一<ul><li>今までは、注文日、受注日、受注日時、発注日、発注日時という表記があった。</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売">小売<a href="#小売" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>注文日時を指定できるパラメータを削除</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>gem, npm更新<ul><li>puma (6.2 =&gt; 6.3)</li></ul></li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.19...v3.9.20" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.19...v3.9.20</a></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v3.9.19 Release]]></title>
             <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/05/25/</link>
