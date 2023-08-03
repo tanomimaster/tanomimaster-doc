@@ -44,7 +44,7 @@ REST APIを呼び出すためにはキーが必要になります。小売単位
 
 ## 受注CSVとREST APIのエンティティの対応表
 
-[受注リスト](/tanomimaster-doc/docs/csv#受注リスト)にあるCSVカラムがREST APIのどのエンティティのアトリビュートに対応するかを表にします。
+[受注CSV](/tanomimaster-doc/docs/csv#受注CSV)にあるCSVカラムがREST APIのどのエンティティのアトリビュートに対応するかを表にします。
 
 
 | カラム | 名称          | エンティティ            | アトリビュート                |
