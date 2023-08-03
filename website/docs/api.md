@@ -8,16 +8,34 @@ tags:
 
 ## 概要
 
-- タノミマスターの操作はREST APIによっても操作できます。
-- REST APIの種別は大きく3種類に分けられており、共通、小売、メーカーに分かれています。
-共通は、タノミマスターのシステムで利用しているマスタやカテゴリなどの取得、小売とメーカー向けのAPIはマスタの管理、受注の管理のためのAPIです。
-- 稼働中のAPI仕様は以下のURLで閲覧できます。
-  - https://tanomimaster.com/docs/api
+- タノミマスターを利用する際にWebからの操作だけでなく、REST APIによっても情報を取得や更新を行えます。
+- REST APIの種別は大きく3種類、小売向け、メーカー向け、共通に分かれています。
+  - 小売向けのAPIは発注、納品通知などを行えます。
+  - メーカー向けのAPIは受注処理、納期回答などを行えます。
+  - 共通APIは、タノミマスターで利用しているカテゴリなどのマスタの取得を行えます。
+
+
+## APIドキュメント
+
+稼働中のAPI仕様は以下のURLで閲覧できます。各環境ごとにAPIの実装が異なる場合があるのでAPIのバージョンをご確認ください。
+
+- 本番環境: https://tanomimaster.com/docs/api
+- ステージング環境: https://staging.tanomimaster.com/docs/api
+- 開発環境: https://development.tanomimaster.com/docs/api
+
+上記のページはOpenAPI Specificationで書かれたドキュメントの一部が抜粋されて見やすく簡易的に表示されています。
+開発者や、開発時に参照する目的の場合は、OpenAPI Speificationのymlファイルを上記からダウンロードし、Swagger Editorなどを利用して可視化することをおすすめします。
+参考: [Swagger Editor](https://editor.swagger.io/)
+
+APIのリクエストやレスポンスをCLIから簡易的に確認するためのサンプルコードを以下に掲載しています。
+https://github.com/tanomimaster/tanomimaster-openapi/wiki
+
 
 ## API実装の方向性
 
 - Web上で行える操作はREST APIでも同様に操作できるようになっています。
 - API仕様は幅広く意見や参加者を募集したいのでOSSとして公開しております。
+  - 不具合報告、機能提案などはこちらから行えます。
   - https://github.com/tanomimaster/tanomimaster-openapi
 
 ## 動作環境
