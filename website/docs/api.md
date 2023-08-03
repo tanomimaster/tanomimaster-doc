@@ -41,3 +41,39 @@ REST APIを呼び出すためにはキーが必要になります。小売単位
 
 ![alt-text](/img/order-confirm-sequence.png)
 
+
+## 受注CSVとREST APIのエンティティの対応表
+
+[受注リスト](/tanomimaster-doc/docs/csv#受注リスト)にあるCSVカラムがREST APIのどのエンティティのアトリビュートに対応するかを表にします。
+
+
+| カラム | 名称          | エンティティ            | アトリビュート                |
+| --- | ----------- | ----------------- | ---------------------- |
+| 1   | 発注依頼区分      | N/A               | N/A                    |
+| 2   | 小売コード       | Retail            | code                   |
+| 3   | 小売名         | Retail            | name                   |
+| 4   | 小売支店コード     | RetailBranch      | code                   |
+| 5   | 小売支店名       | RetailBranch      | name                   |
+| 6   | 小売営業所コード    | RetailSalesOffice | code                   |
+| 7   | 小売営業所名      | RetailSalesOffice | name                   |
+| 8   | 発注日時        | Order             | ordered_at             |
+| 9   | 仕入先名        | Maker             | name                   |
+| 10  | 注文番号        | Order             | code                   |
+| 11  | 注文明細No      | OrderProduct      | branch_number          |
+| 12  | 型式（品番）      | OrderProduct      | code                   |
+| 13  | メーカー内部コード   | OrderProduct      | internal_code          |
+| 14  | ガス種         | OrderProduct      | gas_type               |
+| 15  | カタログURL     | OrderProduct      | catalog_url            |
+| 16  | 承認図URL      | OrderProduct      | approved_drawing_url   |
+| 17  | 発注数         | OrderProduct      | number_of_items        |
+| 18  | 発注単価        | OrderProduct      | maker_price_for_retail |
+| 19  | 希望納期        | OrdersMaker       | desired_delivery_date  |
+| 20  | メーカー営業所名    | MakerSalesOffice  | name                   |
+| 21  | メーカー営業所電話番号 | MakerSalesOffice  | tel                    |
+| 22  | メーカー営業所FAX  | MakerSalesOffice  | fax                    |
+| 23  | 小売担当者名      | RetailUser        | last_name first_name   |
+| 24  | 納品先名        | OrderProduct      | shipping_office_name   |
+| 25  | 納品先住所       | OrderProduct      | shipping_address       |
+| 26  | 納品先TEL      | OrderProduct      | shipping_tel           |
+| 27  | 明細単位の備考     | OrderProduct      | memo                   |
+| 28  | 注文単位の備考     | Order             | memo                   |
