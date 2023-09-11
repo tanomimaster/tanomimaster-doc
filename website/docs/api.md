@@ -60,7 +60,7 @@ REST APIを呼び出すためにはキーが必要になります。小売単位
 ![alt-text](/img/order-confirm-sequence.png)
 
 
-### ステータスに応じた注文の取得
+### 注文状態に応じた注文の取得
 
 #### メーカー
 
