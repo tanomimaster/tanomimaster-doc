@@ -60,6 +60,25 @@ REST APIを呼び出すためにはキーが必要になります。小売単位
 ![alt-text](/img/order-confirm-sequence.png)
 
 
+### ステータスに応じた注文の取得
+
+#### メーカー
+
+注文の状態に対して、その注文を取得する際のパラメータの一覧を記載します。
+
+| ステータス |              | API Query string parameter                     |
+| ----- | ------------ | ---------------------------------------------- |
+| 納期未回答 | 発注済み         | status=0&is_confirmed=0                        |
+|       | 黒伝連携済み       | status=0&is_confirmed=1                        |
+| 出荷待ち  |              | status=2                                       |
+| 出荷済み  |              | status=3                                       |
+| 納品済み  |              | status=4                                       |
+| キャンセル | 黒伝連携前キャンセル   | status=99&is_confirmed=0&is_cancel_confirmed=0 |
+|       | 連携前キャンセル連携済み | status=99&is_confirmed=0&is_cancel_confirmed=1 |
+|       | 赤伝キャンセル      | status=99&is_confirmed=1&is_cancel_confirmed=0 |
+|       | 赤伝キャンセル連携済み  | status=99&is_confirmed=1&is_cancel_confirmed=1 |
+
+
 ## 受注CSVとREST APIのエンティティの対応表
 
 [受注CSV](/tanomimaster-doc/docs/csv#受注CSV)にあるCSVカラムがREST APIのどのエンティティのアトリビュートに対応するかを表にします。
