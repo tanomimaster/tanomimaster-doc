@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tanomimaster.github.io/tanomimaster-doc/blog</id>
-    <title>ユーザ ドキュメント Blog</title>
+    <title>タノミマスター システムドキュメント Blog</title>
     <updated>2023-09-13T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tanomimaster.github.io/tanomimaster-doc/blog"/>
-    <subtitle>ユーザ ドキュメント Blog</subtitle>
+    <subtitle>タノミマスター システムドキュメント Blog</subtitle>
     <icon>https://tanomimaster.github.io/tanomimaster-doc/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[v3.9.27 Release]]></title>
