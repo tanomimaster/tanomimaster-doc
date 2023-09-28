@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "ユーザ ドキュメント",
+  title: "タノミマスター システムドキュメント",
   tagline: "B2B 受発注プラットフォーム",
   url: "https://tanomimaster.github.io/",
   baseUrl: '/tanomimaster-doc/',
@@ -45,7 +45,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'ユーザ ドキュメント',
+        title: 'タノミマスター システムドキュメント',
         logo: {
           alt: 'Tanomimaster logo',
           src: 'img/favicon.ico',
@@ -84,7 +84,7 @@ const config = {
             title: 'ドキュメント',
             items: [
               {
-                label: '利用者向けドキュメント',
+                label: 'システムドキュメント',
                 to: '/docs/',
               },
             ],
