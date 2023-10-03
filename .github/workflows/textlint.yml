@@ -1,50 +1,34 @@
-# This is a basic workflow to help you get started with Actions
-
 name: reviewdog
-
-# Controls when the action will run. 
-on:
-  # Triggers the workflow on push or pull request events but only for the main branch
-  pull_request:
-    branches: [ main, master ]
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+on: [pull_request]
 jobs:
-  reviewdog-github-check:
-    name: reviewdog (github-check)
+  textlint:
+    name: runner / textlint
     runs-on: ubuntu-latest
-    
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@master
-
-      - name: Setup Node/npm
-        uses: actions/setup-node@v3
+      - name: Checkout
+        uses: actions/checkout@v3
         with:
-          node-version: 18
-
-      # キャッシュ取得
-      - name: cache-node-modules
-        uses: actions/cache@v3
-        env:
-          cache-name: cache-node-modules
+          submodules: true
+      - name: Setup node/npm
+        uses: actions/setup-node@v1
         with:
-          path: ~/.npm
-          key: node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            node-
-
-      - name: Install textlint
-        run:  'npm install --save-dev textlint textlint-rule-preset-ja-technical-writing textlint-rule-prh textlint-filter-rule-allowlist'
-
-      # デバッグ用SSHアクション
-#      - name: Setup tmate session
-#        uses: mxschmitt/action-tmate@v3
-
-      - name: Exec textlint-github-pr-check
+          node-version: '18'
+      - name: textlint-github-pr-check
+        uses: tsuyoshicho/action-textlint@v3
+        with:
+          github_token: ${{ secrets.github_token }}
+          reporter: github-pr-check
+          textlint_flags: "website/**"
+      - name: textlint-github-check
+        uses: tsuyoshicho/action-textlint@v3
+        with:
+          github_token: ${{ secrets.github_token }}
+          reporter: github-check
+          textlint_flags: "website/**"
+      - name: textlint-github-pr-review
         uses: tsuyoshicho/action-textlint@v3
         with:
           github_token: ${{ secrets.github_token }}
           reporter: github-pr-review
-          level: warning
           textlint_flags: "website/**"
+
