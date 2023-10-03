@@ -1,2 +1,3 @@
 .DS_Store
-website/.docusaurus/
+/website/.docusaurus/
+/node_modules/
