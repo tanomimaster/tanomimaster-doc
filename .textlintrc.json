@@ -2,6 +2,8 @@
   "plugins": {},
   "filters": {},
   "rules": {
-    "preset-ja-spacing": true
+    "preset-ja-spacing": true,
+    "aws-spellcheck": true,
+    "preset-ja-technical-writing": true
   }
 }
