@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tanomimaster.github.io/tanomimaster-doc/blog</id>
     <title>タノミマスター システムドキュメント Blog</title>
-    <updated>2023-09-13T00:00:00.000Z</updated>
+    <updated>2023-09-27T15:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tanomimaster.github.io/tanomimaster-doc/blog"/>
     <subtitle>タノミマスター システムドキュメント Blog</subtitle>
     <icon>https://tanomimaster.github.io/tanomimaster-doc/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[v3.9.28 Release]]></title>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/09/27/</id>
+        <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2023/09/27/"/>
+        <updated>2023-09-27T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[メーカー]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー">メーカー<a href="#メーカー" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>API<ul><li>注文一覧にて、<code>code</code> パラメータを追加しました。これにより、一覧に任意の注文が含まれているかどうかのチェックを行えるようになります。</li></ul></li><li>Web<ul><li>受注日時の項目にて、日付しか表示されていなかったのを時間も表示されるようにしました。</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>node 18からnode 20へ更新</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.27...v3.9.28" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.27...v3.9.28</a></p>]]></content>
+        <author>
+            <name>Yuki Matsukura</name>
+            <uri>http://twitter.com/matsubokkuri</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[v3.9.27 Release]]></title>
         <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/09/13/</id>
