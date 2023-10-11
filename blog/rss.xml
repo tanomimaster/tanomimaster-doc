@@ -4,10 +4,18 @@
         <title>タノミマスター システムドキュメント Blog</title>
         <link>https://tanomimaster.github.io/tanomimaster-doc/blog</link>
         <description>タノミマスター システムドキュメント Blog</description>
-        <lastBuildDate>Wed, 27 Sep 2023 15:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 04 Oct 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
+        <item>
+            <title><![CDATA[v3.9.30 Release]]></title>
+            <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/10/04/</link>
+            <guid>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/10/04/</guid>
+            <pubDate>Wed, 04 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[システム]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>npm, gemライブラリ更新</li><li>Rubyセキュリティ対応更新</li><li>Open API Specificationドキュメント更新</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.28...v3.9.30" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.28...v3.9.30</a></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v3.9.28 Release]]></title>
             <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/09/27/</link>

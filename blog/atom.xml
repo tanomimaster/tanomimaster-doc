@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tanomimaster.github.io/tanomimaster-doc/blog</id>
     <title>タノミマスター システムドキュメント Blog</title>
-    <updated>2023-09-27T15:00:00.000Z</updated>
+    <updated>2023-10-04T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tanomimaster.github.io/tanomimaster-doc/blog"/>
     <subtitle>タノミマスター システムドキュメント Blog</subtitle>
     <icon>https://tanomimaster.github.io/tanomimaster-doc/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[v3.9.30 Release]]></title>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/10/04/</id>
+        <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2023/10/04/"/>
+        <updated>2023-10-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[システム]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>npm, gemライブラリ更新</li><li>Rubyセキュリティ対応更新</li><li>Open API Specificationドキュメント更新</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.28...v3.9.30" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.28...v3.9.30</a></p>]]></content>
+        <author>
+            <name>Yuki Matsukura</name>
+            <uri>http://twitter.com/matsubokkuri</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[v3.9.28 Release]]></title>
         <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/09/27/</id>
