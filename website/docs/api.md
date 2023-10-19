@@ -114,3 +114,190 @@ REST APIを呼び出すためにはキーが必要になります。小売単位
 | 26  | 納品先TEL      | OrderProduct      | shipping_tel           |
 | 27  | 明細単位の備考     | OrderProduct      | memo                   |
 | 28  | 注文単位の備考     | Order             | memo                   |
+
+
+### API呼び出し例
+
+以下にAPI呼び出しのサンプルコードを記載します。`curl` コマンドによる実行例を示します。
+サンプルを実行するにあたり、APIの認証トークンと接続先のホスト名は変数にしてあるので適宜環境変数に設定してください。
+
+Bash, zsh
+```bash
+maker_token "<maker token>"
+retail_token "<retail token>"
+token "<maker or retail token>"
+host="https://development.tanomimaster.com"
+#host="https://staging.tanomimaster.com"
+#host="https://tanomimaster.com"
+```
+
+fish
+```csh
+set maker_token "<maker token>"
+set retail_token "<retail token>"
+set token "<maker or retail token>"
+set host "https://development.tanomimaster.com"
+#set host "https://staging.tanomimaster.com"
+#set host "https://tanomimaster.com"
+```
+
+また、サーバからの出力は`jq`コマンドによって整形するようにしています。
+
+#### 共通
+
+
+メーカー一覧を取得
+```
+curl -s -H "Authorization: Token $token" "$host/api/v1/master/makers" | jq
+```
+
+メーカーコード `anedd1bup5` の詳細を取得
+```
+curl -s -H "Authorization: Token $token" "$host/api/v1/master/makers/anedd1bup5" | jq
+```
+
+メーカーコード `anedd1bup5` の支店一覧を取得
+```
+curl -s -H "Authorization: Token $token" "$host/api/v1/master/makers/anedd1bup5/maker_branches" | jq
+```
+
+
+メーカーコード `anedd1bup5` の支店コード`c6ef06fc9a7efd6045cf9e05c4`の詳細取得
+```
+curl -s -H "Authorization: Token $token" "$host/api/v1/master/makers/anedd1bup5/maker_branches/c6ef06fc9a7efd6045cf9e05c4" | jq
+```
+
+メーカーコード `anedd1bup5` の支店コード`c6ef06fc9a7efd6045cf9e05c4`に属する営業所一覧を取得
+```
+curl -s -H "Authorization: Token $token" "$host/api/v1/master/makers/anedd1bup5/maker_branches/c6ef06fc9a7efd6045cf9e05c4/maker_sales_offices" | jq
+```
+
+メーカーコード `anedd1bup5` の支店コード`c6ef06fc9a7efd6045cf9e05c4`に属する営業所コード`b69980937ff8da735504c690bc`を取得
+```
+curl -s -H "Authorization: Token $token" "$host/api/v1/master/makers/anedd1bup5/maker_branches/c6ef06fc9a7efd6045cf9e05c4/maker_sales_offices/b69980937ff8da735504c690bc" | jq
+```
+
+
+
+#### メーカー
+
+すべての注文の一覧を取得
+```
+curl -s -H "Authorization: Token $maker_token" "$host/api/v1/maker/orders_makers" | jq
+```
+
+納期未回答の発注済み注文の一覧を取得
+```
+curl -s -H "Authorization: Token $maker_token" "$host/api/v1/maker/orders_makers?status=0&is_confirmed=false" | jq
+```
+
+納期未回答の発注済み注文の一覧を取得(100件ずつ1ページ目を取得)
+```
+curl -s -H "Authorization: Token $maker_token" "$host/api/v1/maker/orders_makers?status=0&is_confirmed=false&limit=100&page=1" | jq
+```
+
+注文ID`Z2lkOi8vdGFub21pbWFzdGVyLXd3dy9PcmRlcnNNYWtlci8zNQ`の明細番号`1`に対して受注確定を行う
+```
+curl -s -X POST -H "Authorization: Token $maker_token" "$host/api/v1/maker/orders_makers/Z2lkOi8vdGFub21pbWFzdGVyLXd3dy9PcmRlcnNNYWtlci8zNQ/order_products/1/confirm" | jq
+```
+
+注文ID`Z2lkOi8vdGFub21pbWFzdGVyLXd3dy9PcmRlcnNNYWtlci8zNQ`の明細番号`1`に対してキャンセル受注確定を行う
+```
+curl -s -X POST -H "Authorization: Token $maker_token" "$host/api/v1/maker/orders_makers/Z2lkOi8vdGFub21pbWFzdGVyLXd3dy9PcmRlcnNNYWtlci8zNQ/order_products/1/confirm_cancel" | jq
+```
+
+
+注文ID`Z2lkOi8vdGFub21pbWFzdGVyLXd3dy9PcmRlcnNNYWtlci8zNQ`の明細番号`1`に対して配送済みステータスへ変更する
+```
+curl -s -X POST \
+-H "Authorization: Token $maker_token" \
+-H "Content-Type: application/json" \
+-d '{"delivery_company_id": 1, "shipping_slip_number", "xxxx-xxxx-xxxx-xxxx"}' \
+"$host/api/v1/maker/orders_makers/Z2lkOi8vdGFub21pbWFzdGVyLXd3dy9PcmRlcnNNYWtlci8zNQ/order_products/1/confirm" | jq
+```
+
+
+#### 小売り
+
+発注を行う
+
+(bashの場合)
+```
+# Generate a random number between 1000000000 and 9999999999
+code=$(( 1000000000 + RANDOM % (9999999999 - 1000000000) ))
+
+# Prepare the JSON body for the POST request
+order_body="
+{
+  \"code\": \"$code\",
+  \"makers\": [
+    {
+      \"maker_code\": \"maker_code\",
+      \"retail_sales_office_code\": \"a32a0c942926de863083e3598c\",
+      \"retail_user_code\": \"ftlkqvkkvs\",
+      \"desired_delivery_date\": \"2023-08-10\",
+      \"shipping_postcode\": \"1060031\",
+      \"shipping_city\": \"city\",
+      \"shipping_street_address\": \"street\",
+      \"shipping_building\": \"building\",
+      \"shipping_office_name\": \"office name\",
+      \"shipping_tel\": \"03-0000-1111\",
+      \"shipping_prefecture_code\": 1,
+      \"products\": [
+        {
+          \"code\": \"qghdvhjabusntjmanslz\",
+          \"branch_number\": 1,
+          \"number_of_items\": 2,
+          \"memo\": \"memo\"
+        }
+      ]
+    }
+  ]
+}"
+
+curl -s -X POST \
+  -H "Authorization: Token $retail_token" \
+  -H "Content-Type: application/json" \
+  -d "$order_body" \
+  "$host/api/v1/retail/orders" | jq
+```
+
+
+(fishの場合)
+```
+set order_body "
+{
+  \"code\": \"$(random 1000000000 9999999999)\",
+  \"makers\": [
+    {
+      \"maker_code\": \"maker_code\",
+      \"retail_sales_office_code\": \"a32a0c942926de863083e3598c\",
+      \"retail_user_code\": \"ftlkqvkkvs\",
+      \"desired_delivery_date\": \"2023-08-10\",
+      \"shipping_postcode\": \"1060031\",
+      \"shipping_city\": \"city\",
+      \"shipping_street_address\": \"street\",
+      \"shipping_building\": \"building\",
+      \"shipping_office_name\": \"office name\",
+      \"shipping_tel\": \"03-0000-1111\",
+      \"shipping_prefecture_code\": 1,
+      \"products\": [
+        {
+          \"code\": \"qghdvhjabusntjmanslz\",
+          \"branch_number\": 1,
+          \"number_of_items\": 2,
+          \"memo\": \"memo\"
+        }
+      ]
+    }
+  ]
+}
+"
+
+
+curl -s -X POST \
+  -H "Authorization: Token $retail_token" \
+  -H "Content-Type: application/json" \
+  -d $order_body \
+  "$host/api/v1/retail/orders" | jq
+```
