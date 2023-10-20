@@ -121,7 +121,7 @@ REST APIを呼び出すためにはキーが必要になります。小売単位
 以下にAPI呼び出しのサンプルコードを記載します。`curl` コマンドによる実行例を示します。
 サンプルを実行するにあたり、APIの認証トークンと接続先のホスト名は変数にしてあるので適宜環境変数に設定してください。
 
-Bash, zsh
+bash, zsh
 ```bash
 maker_token "<maker token>"
 retail_token "<retail token>"
