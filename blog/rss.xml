@@ -4,10 +4,18 @@
         <title>タノミマスター システムドキュメント Blog</title>
         <link>https://tanomimaster.github.io/tanomimaster-doc/blog</link>
         <description>タノミマスター システムドキュメント Blog</description>
-        <lastBuildDate>Wed, 06 Dec 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Jan 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
+        <item>
+            <title><![CDATA[v3.10.0 Release]]></title>
+            <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/01/24/</link>
+            <guid>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/01/24/</guid>
+            <pubDate>Wed, 24 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[メーカー・小売]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー小売">メーカー・小売<a href="#メーカー小売" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>ダミーページ(チャット)を削除</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>Ruby更新 3.2.2 =&gt; 3.3.0</li><li>YJITを有効化。全体的に処理の高速化。</li><li>npm更新, gem更新</li><li>yarn v1 =&gt; v4 更新。ビルドの高速化。</li><li>GitHub Actions 関連ライブラリ更新</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.32...v3.10.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.32...v3.10.0</a></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v3.9.32 Release]]></title>
             <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2023/12/06/</link>
