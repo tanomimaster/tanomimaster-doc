@@ -9,6 +9,6 @@ services:
       - ./:/app
       - node_volume:/app/website/node_modules:cached
     working_dir: /app/website
-    command: yarn start
+    command: npm run start
 volumes:
   node_volume:
