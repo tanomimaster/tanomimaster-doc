@@ -2,18 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tanomimaster.github.io/tanomimaster-doc/blog</id>
     <title>タノミマスター システムドキュメント Blog</title>
-    <updated>2024-01-24T00:00:00.000Z</updated>
+    <updated>2024-02-14T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tanomimaster.github.io/tanomimaster-doc/blog"/>
     <subtitle>タノミマスター システムドキュメント Blog</subtitle>
     <icon>https://tanomimaster.github.io/tanomimaster-doc/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[v3.10.1 Release]]></title>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/02/14/</id>
+        <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/02/14/"/>
+        <updated>2024-02-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[システム]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>Gem更新, npm更新</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.0...v3.10.1" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.0...v3.10.1</a></p>]]></content>
+        <author>
+            <name>Yuki Matsukura</name>
+            <uri>http://twitter.com/matsubokkuri</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[v3.10.0 Release]]></title>
         <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/01/24/</id>
         <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/01/24/"/>
         <updated>2024-01-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[メーカー・小売]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー小売">メーカー・小売<a href="#メーカー小売" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>ダミーページ(チャット)を削除</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>Ruby更新 3.2.2 =&gt; 3.3.0</li><li>YJITを有効化。全体的に処理の高速化。</li><li>npm更新, gem更新</li><li>yarn v1 =&gt; v4 更新。ビルドの高速化。</li><li>GitHub Actions 関連ライブラリ更新</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.32...v3.10.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.32...v3.10.0</a></p>]]></content>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー小売">メーカー・小売<a href="#メーカー小売" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>ダミーページ(チャット)を削除</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>Ruby更新 3.2.2 =&gt; 3.3.0</li><li>YJITを有効化。全体的に処理の高速化。</li><li>npm更新, gem更新</li><li><del>yarn v1 =&gt; v4 更新。ビルドの高速化。</del></li><li>GitHub Actions 関連ライブラリ更新</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.32...v3.10.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.32...v3.10.0</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>http://twitter.com/matsubokkuri</uri>
