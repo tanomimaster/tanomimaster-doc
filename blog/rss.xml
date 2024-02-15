@@ -4,10 +4,18 @@
         <title>タノミマスター システムドキュメント Blog</title>
         <link>https://tanomimaster.github.io/tanomimaster-doc/blog</link>
         <description>タノミマスター システムドキュメント Blog</description>
-        <lastBuildDate>Wed, 14 Feb 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 Feb 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
+        <item>
+            <title><![CDATA[v3.10.2 Release]]></title>
+            <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/02/15/</link>
+            <guid>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/02/15/</guid>
+            <pubDate>Thu, 15 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[小売、メーカー、管理者]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売メーカー管理者">小売、メーカー、管理者<a href="#小売メーカー管理者" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><p>以下のリリースにて、「年月を指定するカレンダー」部分において不具合が発生し、「年月日」を指定するカレンダーが表示されるようになっていた。</p><ul><li><a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/02/08/" target="_blank" rel="noopener noreferrer">https://tanomimaster.github.io/tanomimaster-doc/blog/2024/02/08/</a></li></ul><p>原因はJavascriptの読み込みが一部で行われていなかったので読み込むように修正。</p><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.1...v3.10.2" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.1...v3.10.2</a></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v3.10.1 Release]]></title>
             <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/02/14/</link>
