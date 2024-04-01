@@ -2,11 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tanomimaster.github.io/tanomimaster-doc/blog</id>
     <title>タノミマスター システムドキュメント Blog</title>
-    <updated>2024-03-06T00:00:00.000Z</updated>
+    <updated>2024-03-27T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tanomimaster.github.io/tanomimaster-doc/blog"/>
     <subtitle>タノミマスター システムドキュメント Blog</subtitle>
     <icon>https://tanomimaster.github.io/tanomimaster-doc/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[v3.10.5 Release]]></title>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/03/27/</id>
+        <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/03/27/"/>
+        <updated>2024-03-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[システム]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>gem, npmライブラリ更新</li><li>開発環境のDBバージョン変更</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.4...v3.10.5" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.4...v3.10.5</a></p>]]></content>
+        <author>
+            <name>Yuki Matsukura</name>
+            <uri>http://twitter.com/matsubokkuri</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v3.10.4.1 Release]]></title>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/03/22/</id>
+        <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/03/22/"/>
+        <updated>2024-03-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[小売]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売">小売<a href="#小売" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>API返却値に依頼されたパラメータを追加</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.4...v3.10.4.1" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.4...v3.10.4.1</a></p>]]></content>
+        <author>
+            <name>Yuki Matsukura</name>
+            <uri>http://twitter.com/matsubokkuri</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[v3.10.4 Release]]></title>
         <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/03/06/</id>

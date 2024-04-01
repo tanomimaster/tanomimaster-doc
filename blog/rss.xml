@@ -4,10 +4,26 @@
         <title>タノミマスター システムドキュメント Blog</title>
         <link>https://tanomimaster.github.io/tanomimaster-doc/blog</link>
         <description>タノミマスター システムドキュメント Blog</description>
-        <lastBuildDate>Wed, 06 Mar 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 27 Mar 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
+        <item>
+            <title><![CDATA[v3.10.5 Release]]></title>
+            <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/03/27/</link>
+            <guid>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/03/27/</guid>
+            <pubDate>Wed, 27 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[システム]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>gem, npmライブラリ更新</li><li>開発環境のDBバージョン変更</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.4...v3.10.5" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.4...v3.10.5</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v3.10.4.1 Release]]></title>
+            <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/03/22/</link>
+            <guid>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/03/22/</guid>
+            <pubDate>Fri, 22 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[小売]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売">小売<a href="#小売" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>API返却値に依頼されたパラメータを追加</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.4...v3.10.4.1" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.4...v3.10.4.1</a></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v3.10.4 Release]]></title>
             <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/03/06/</link>
