@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[2686],{538:e=>{e.exports=JSON.parse('{"label":"\u5c0f\u58f2","permalink":"/tanomimaster-doc/docs/tags/\u5c0f\u58f2","allTagsPath":"/tanomimaster-doc/docs/tags","count":1,"items":[{"id":"retail","title":"\u5c0f\u58f2","description":"\u6982\u8981","permalink":"/tanomimaster-doc/docs/retail"}]}')}}]);
