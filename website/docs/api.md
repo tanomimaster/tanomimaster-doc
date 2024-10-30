@@ -301,3 +301,19 @@ curl -s -X POST \
   -d $order_body \
   "$host/api/v1/retail/orders" | jq
 ```
+
+## FAQ
+
+### 納期を表現するのカラムの種類と意味は？
+
+- orders_makers.desired_delivery_date
+  - 希望納期
+  - 小売が注文時に選択した納品を希望する日
+- orders_products.estimated_delivery_date
+  - 納期目安
+  - 注文時にタノミマスターのシステムが商品ごとに設定された納期目安を参考にし、自動で算出した日付。
+- orders_products.official_estimated_delivery_date
+  - 納期回答
+  - メーカーが納期日を登録した内容
+
+
