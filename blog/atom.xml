@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tanomimaster.github.io/tanomimaster-doc/blog</id>
     <title>タノミマスター システムドキュメント Blog</title>
-    <updated>2024-10-09T00:00:00.000Z</updated>
+    <updated>2024-11-13T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tanomimaster.github.io/tanomimaster-doc/blog"/>
     <subtitle>タノミマスター システムドキュメント Blog</subtitle>
     <icon>https://tanomimaster.github.io/tanomimaster-doc/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[v3.12.0 Release]]></title>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/11/13/</id>
+        <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/11/13/"/>
+        <updated>2024-11-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[新機能]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="新機能">新機能<a href="#新機能" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ol><li>メーカーAPI機能の追加</li></ol><ul><li>商品情報の取得・更新APIを追加 (<code>/api/v1/maker/products</code>)</li><li>メーカー商品の一覧表示、詳細表示、作成、更新が可能に</li></ul><ol start="2"><li>商品一覧画面の改善</li></ol><ul><li>メーカー管理画面の商品一覧に商品画像を表示するように改善</li><li>商品画像が設定されている場合、一覧で確認可能に</li></ul><ol start="3"><li>小売API機能の拡張</li></ol><ul><li>商品一覧APIに検索条件を追加<ul><li>メーカーコードによる絞り込み</li><li>商品コードによる絞り込み</li></ul></li><li>注文一覧APIに検索条件を追加<ul><li>注文コードによる絞り込み</li><li>注文ステータスによる絞り込み</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="変更点">変更点<a href="#変更点" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ol><li>発注関連の仕様変更</li></ol><ul><li>希望納期の必須化</li><li>注文コードのバリデーション仕様を変更（英数字、ハイフン、アンダースコアを許可）</li><li>小売によるキャンセル可能条件の修正</li></ul><ol start="2"><li>画面表示の改善</li></ol><ul><li>メーカー向け、消費管理ページにて、パンくずリストの構造を改善</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="依存パッケージのアップデート">依存パッケージのアップデート<a href="#依存パッケージのアップデート" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>Rails 7.0.8.5へのアップデート</li><li>committee gem を 5.4へアップデート</li><li>rambulance gem を 3.3へアップデート</li><li>その他、複数のgemおよびnpmパッケージをアップデート</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="その他">その他<a href="#その他" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>GitHub Actionsワークフローの追加</li><li>キャッシュクリア用のワークフロー</li><li>開発環境への手動デプロイワークフロー</li><li>Docker開発環境の改善</li><li><code>host.docker.internal</code>ドメインを許可</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.11.2...v3.12.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.11.2...v3.12.0</a></p>]]></content>
+        <author>
+            <name>Yuki Matsukura</name>
+            <uri>http://twitter.com/matsubokkuri</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[v3.11.2 Release]]></title>
         <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/10/09/</id>
