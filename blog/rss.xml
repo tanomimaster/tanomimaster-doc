@@ -4,10 +4,19 @@
         <title>タノミマスター システムドキュメント Blog</title>
         <link>https://tanomimaster.github.io/tanomimaster-doc/blog</link>
         <description>タノミマスター システムドキュメント Blog</description>
-        <lastBuildDate>Wed, 20 Nov 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Dec 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
+        <item>
+            <title><![CDATA[v3.12.3 Release]]></title>
+            <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/12/11/</link>
+            <guid>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/12/11/</guid>
+            <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[サイト全体でUI改善を行い、レイアウトの改善、ページが表示されるまでの時間を高速化しました。]]></description>
+            <content:encoded><![CDATA[<p>サイト全体でUI改善を行い、レイアウトの改善、ページが表示されるまでの時間を高速化しました。
+また，メーカー向けAPIへのフィルタ追加が含まれます。</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー">メーカー<a href="#メーカー" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="web">Web<a href="#web" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li>商品管理機能を大幅に改善<ul><li>商品一覧のページネーションを最適化（1ページあたり100件表示）</li><li>商品詳細画面を新設し、以下の情報を一覧で確認可能に<ul><li>基本情報</li><li>価格情報</li><li>画像一覧</li><li>商品属性</li></ul></li><li>商品画像の管理機能を改善<ul><li>サムネイル表示とプレビュー機能</li><li>ファイルサイズの表示</li><li>アップロード時のバリデーション強化</li></ul></li></ul></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="api">API<a href="#api" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li>商品一覧APIに更新日時によるフィルタリング機能を追加<ul><li><code>updated_at_from</code>: 指定日時以降に更新された商品を取得</li><li><code>updated_at_to</code>: 指定日時以前に更新された商品を取得</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売">小売<a href="#小売" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="web-1">Web<a href="#web-1" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li>商品画像の表示を最適化<ul><li>関連商品の画像サイズを統一</li><li>画像の読み込みパフォーマンスを改善</li></ul></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="api-1">API<a href="#api-1" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><p>N/A</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>アカウントセキュリティの強化<ul><li>アカウントロックの試行回数を20回から5回に変更</li></ul></li><li>デザインシステムを刷新<ul><li>ログイン画面の改善</li><li>エラー画面の改善</li><li>フッターの追加（サービス概要、YouTube、GitHub、APIドキュメントへのリンク）</li></ul></li><li>アセットの最適化<ul><li>管理者/メーカー/小売別にJavaScript/CSSを分割</li><li>ビルド速度の改善</li></ul></li><li>インフラストラクチャの改善<ul><li>Ruby 3.3.6へのアップグレード</li><li>本番環境のログレベルをdebugからinfoに変更</li><li>GitHub Actionsの最適化<ul><li>テストの並列実行</li><li>キャッシュ戦略の改善</li><li>デプロイプロセスの信頼性向上</li></ul></li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="その他">その他<a href="#その他" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>ヘルスチェックエンドポイントの追加<ul><li>アプリケーションの状態監視を強化</li></ul></li><li>CIプロセスの改善<ul><li>テスト実行の安定性向上</li><li>キャッシュ管理の最適化</li></ul></li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.2...v3.12.3" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.2...v3.12.3</a></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v3.12.2 Release]]></title>
             <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/11/20/</link>
