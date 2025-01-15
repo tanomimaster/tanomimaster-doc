@@ -1,7 +1,7 @@
 ---
 title: 障害報告
 author: Yuki Matsukura
-authorURL: "http://twitter.com/matsubokkuri"
+authorURL: "https://x.com/matsubokkuri"
 authorFBID: matsubokkuri
 ---
 
