@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tanomimaster.github.io/tanomimaster-doc/blog</id>
     <title>タノミマスター システムドキュメント Blog</title>
-    <updated>2025-01-08T00:00:00.000Z</updated>
+    <updated>2025-01-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tanomimaster.github.io/tanomimaster-doc/blog"/>
     <subtitle>タノミマスター システムドキュメント Blog</subtitle>
     <icon>https://tanomimaster.github.io/tanomimaster-doc/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[v3.12.6 Release]]></title>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/01/15/</id>
+        <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/01/15/"/>
+        <updated>2025-01-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[機能改善]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="機能改善">機能改善<a href="#機能改善" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="小売関連">小売関連<a href="#小売関連" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li><strong>注文明細の出力改善</strong><ul><li>注文CSVに「注文単位の備考」列を追加</li><li>既存の明細単位の備考と区別するため、表示名を以下のように変更:<ul><li>「備考」→「明細単位の備考」</li><li>新規追加: 「注文単位の備考」</li></ul></li></ul></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="uiux修正">UI/UX修正<a href="#uiux修正" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li><strong>商品マスタ画面のレイアウト調整</strong><ul><li>ファイルアップロードエリアの文字配置を修正</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="依存関係の更新">依存関係の更新<a href="#依存関係の更新" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="パッケージのアップデート">パッケージのアップデート<a href="#パッケージのアップデート" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li>phonelib: 0.8.8 → 0.10.3</li><li>その他の依存パッケージを最新版に更新</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="コード整理">コード整理<a href="#コード整理" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li>Ruby 3.4対応のための準備コードを整理<ul><li>gem順序の最適化（<code>bigdecimal</code>、<code>drb</code>、<code>mutex</code>）</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="テスト">テスト<a href="#テスト" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>注文明細エクスポート機能のテストケースを拡充<ul><li>注文単位の備考出力に関するテストを追加</li><li>既存のテストケースを新しい表示名に合わせて更新</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="その他の変更">その他の変更<a href="#その他の変更" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>ドキュメント類の更新</li><li>軽微なコードスタイルの調整</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="注意事項">注意事項<a href="#注意事項" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>注文CSVのフォーマットが変更されています。既存のCSVインポート処理がある場合は、新しいフォーマットに対応する必要があります。</li><li></li><li><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.5...v3.12.6" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.5...v3.12.6</a></li></ul>]]></content>
+        <author>
+            <name>Yuki Matsukura</name>
+            <uri>https://x.com/matsubokkuri</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[v3.12.5 Release]]></title>
         <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/01/08/</id>
@@ -16,7 +28,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-主な変更点">🎯 主な変更点<a href="#-主な変更点" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー向け機能改善">メーカー向け機能改善<a href="#メーカー向け機能改善" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li><p><strong>ダッシュボードの改善</strong></p><ul><li>ダッシュボードをシンプルな注文状況確認画面に刷新</li><li>注文のステータス別クイックアクセスリンクを追加（納期回答待ち、出荷待ち、出荷済み等）</li></ul></li><li><p><strong>統計情報の分離</strong></p><ul><li>統計情報を専用ページとして分離し、サイドバーからアクセス可能に</li></ul></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="小売向け機能改善">小売向け機能改善<a href="#小売向け機能改善" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li><strong>商品検索機能の強化</strong><ul><li>商品一覧のデフォルトソート順をID降順に変更（新着順）</li></ul></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="配送機能の拡充">配送機能の拡充<a href="#配送機能の拡充" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li><strong>配送業者の大幅追加</strong><ul><li>地域特化型の配送業者を追加：<ul><li>北陸地方：トナミ運輸</li><li>東北地方：第一貨物</li><li>九州地方：久留米運送</li><li>中国地方：岡山県貨物</li><li>四国地方：四国運輸</li></ul></li><li>特殊配送対応の業者を追加：<ul><li>環境配慮型：エコ配</li><li>精密機器特化：アルプス物流</li><li>国際物流対応：近鉄エクスプレス</li></ul></li><li>その他の主要業者：<ul><li>名鉄運輸</li><li>SBSロジコム</li><li>CBcloud</li></ul></li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="-技術的な改善">🔧 技術的な改善<a href="#-技術的な改善" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="パフォーマンス最適化">パフォーマンス最適化<a href="#パフォーマンス最適化" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li>本番環境のログレベルを<code>:info</code>から<code>:warn</code>に変更し、ログ量を削減</li><li>商品一覧のソート処理を最適化</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="開発環境の改善">開発環境の改善<a href="#開発環境の改善" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li>Ruby 3.3対応の準備</li><li>デバッグツールを<code>byebug</code>から<code>debug</code>gemに移行</li><li>テストフレームワークの強化（controller testing対応）</li><li>CIパイプラインの最適化（rubocop設定の改善）</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="依存関係の更新">依存関係の更新<a href="#依存関係の更新" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li>各種gemのバージョン制約を緩和し、最新バージョンに対応</li><li>Ruby 3.4に向けた準備（bigdecimal, mutex, drbの追加）</li><li>不要な依存関係の整理</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="-注意事項">📝 注意事項<a href="#-注意事項" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>メーカーダッシュボードの変更により、統計情報は専用ページに移動しました</li><li>商品一覧のデフォルトソート順が変更されています</li><li>既存の検索・ソート機能の動作が一部変更されている可能性があります</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.4...v3.12.5" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.4...v3.12.5</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -28,7 +40,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー">メーカー<a href="#メーカー" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="web">Web<a href="#web" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li>過去に生成したCSVファイルがダウンロードできなくなった問題を修正。</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.3...v3.12.4" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.3...v3.12.4</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -41,7 +53,7 @@
 また，メーカー向けAPIへのフィルタ追加が含まれます。</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー">メーカー<a href="#メーカー" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="web">Web<a href="#web" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li>商品管理機能を大幅に改善<ul><li>商品一覧のページネーションを最適化（1ページあたり100件表示）</li><li>商品詳細画面を新設し、以下の情報を一覧で確認可能に<ul><li>基本情報</li><li>価格情報</li><li>画像一覧</li><li>商品属性</li></ul></li><li>商品画像の管理機能を改善<ul><li>サムネイル表示とプレビュー機能</li><li>ファイルサイズの表示</li><li>アップロード時のバリデーション強化</li></ul></li></ul></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="api">API<a href="#api" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li>商品一覧APIに更新日時によるフィルタリング機能を追加<ul><li><code>updated_at_from</code>: 指定日時以降に更新された商品を取得</li><li><code>updated_at_to</code>: 指定日時以前に更新された商品を取得</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売">小売<a href="#小売" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="web-1">Web<a href="#web-1" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li>商品画像の表示を最適化<ul><li>関連商品の画像サイズを統一</li><li>画像の読み込みパフォーマンスを改善</li></ul></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="api-1">API<a href="#api-1" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><p>N/A</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>アカウントセキュリティの強化<ul><li>アカウントロックの試行回数を20回から5回に変更</li></ul></li><li>デザインシステムを刷新<ul><li>ログイン画面の改善</li><li>エラー画面の改善</li><li>フッターの追加（サービス概要、YouTube、GitHub、APIドキュメントへのリンク）</li></ul></li><li>アセットの最適化<ul><li>管理者/メーカー/小売別にJavaScript/CSSを分割</li><li>ビルド速度の改善</li></ul></li><li>インフラストラクチャの改善<ul><li>Ruby 3.3.6へのアップグレード</li><li>本番環境のログレベルをdebugからinfoに変更</li><li>GitHub Actionsの最適化<ul><li>テストの並列実行</li><li>キャッシュ戦略の改善</li><li>デプロイプロセスの信頼性向上</li></ul></li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="その他">その他<a href="#その他" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>ヘルスチェックエンドポイントの追加<ul><li>アプリケーションの状態監視を強化</li></ul></li><li>CIプロセスの改善<ul><li>テスト実行の安定性向上</li><li>キャッシュ管理の最適化</li></ul></li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.2...v3.12.3" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.2...v3.12.3</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -53,7 +65,7 @@
         <content type="html"><![CDATA[<p>このリリースは主にパフォーマンスとインフラストラクチャの改善に焦点を当てており、特に小売向けAPIの最適化が中心となっています。</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="-重要な変更">🔥 重要な変更<a href="#-重要な変更" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="パフォーマンス改善">パフォーマンス改善<a href="#パフォーマンス改善" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li>小売向け商品API (ProductsController) の大幅なリファクタリング<ul><li>有効な価格を持つ商品のみを返すように最適化</li><li><code>Product.with_valid_prices_for_retail</code> スコープの導入</li></ul></li><li>Bullet gemを development/test環境に移動し、N+1クエリの検出を強化</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="インフラストラクチャ">インフラストラクチャ<a href="#インフラストラクチャ" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li>AWS関連アクションを最新バージョンに更新:<ul><li><code>aws-actions/configure-aws-credentials</code>: v2 → v4</li><li><code>amazon-ecr-login</code>: v1 → v2</li><li><code>amazon-ecs-deploy-task-definition</code>: v1 → v2</li></ul></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="依存関係のアップデート">依存関係のアップデート<a href="#依存関係のアップデート" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li>Ruby: 3.1.4 → 3.3.4</li><li>Node.js: 20 → 22</li><li>date-fns: 3.3.1 → 4.1.0</li><li>その他gem・npmパッケージの更新</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="-開発者向けの変更">🛠 開発者向けの変更<a href="#-開発者向けの変更" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="cicd">CI/CD<a href="#cicd" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li>Rubocopの実行を別ワークフローに分離<ul><li>レビュー時の指摘事項を自動化</li><li>reviewdogによるGitHub上での自動コメント機能追加</li></ul></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="コード品質">コード品質<a href="#コード品質" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li>ProductsControllerのリファクタリング<ul><li>ステータス判定ロジックの簡素化</li><li>価格有効期間の判定を改善</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="-その他">📝 その他<a href="#-その他" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>READMEの更新<ul><li>デプロイ手順の現代化</li><li>EC2でのRails console実行手順をECS Execを使用する方式に変更</li><li>運用手順の簡素化</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-破壊的変更">⚠️ 破壊的変更<a href="#️-破壊的変更" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>小売向けAPI (<code>/api/v1/retail/products</code>) のレスポンス仕様変更<ul><li>有効な価格を持つ商品のみを返すように変更</li><li><code>status</code>フィールドの削除</li><li>古い価格情報を持つ商品は404を返すように変更</li></ul></li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.1...v3.12.2" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.1...v3.12.2</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -65,7 +77,7 @@
         <content type="html"><![CDATA[<p>実装には影響のしない v3.12.0 の変更漏れの対応です。</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="-開発者向けの変更">🛠 開発者向けの変更<a href="#-開発者向けの変更" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="api">API<a href="#api" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li>APIバージョンのincrementを行った。</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.0...v3.12.1" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.0...v3.12.1</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -77,7 +89,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="新機能">新機能<a href="#新機能" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ol><li>メーカーAPI機能の追加</li></ol><ul><li>商品情報の取得・更新APIを追加 (<code>/api/v1/maker/products</code>)</li><li>メーカー商品の一覧表示、詳細表示、作成、更新が可能に</li></ul><ol start="2"><li>商品一覧画面の改善</li></ol><ul><li>メーカー管理画面の商品一覧に商品画像を表示するように改善</li><li>商品画像が設定されている場合、一覧で確認可能に</li></ul><ol start="3"><li>小売API機能の拡張</li></ol><ul><li>商品一覧APIに検索条件を追加<ul><li>メーカーコードによる絞り込み</li><li>商品コードによる絞り込み</li></ul></li><li>注文一覧APIに検索条件を追加<ul><li>注文コードによる絞り込み</li><li>注文ステータスによる絞り込み</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="変更点">変更点<a href="#変更点" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ol><li>発注関連の仕様変更</li></ol><ul><li>希望納期の必須化</li><li>注文コードのバリデーション仕様を変更（英数字、ハイフン、アンダースコアを許可）</li><li>小売によるキャンセル可能条件の修正</li></ul><ol start="2"><li>画面表示の改善</li></ol><ul><li>メーカー向け、消費管理ページにて、パンくずリストの構造を改善</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="依存パッケージのアップデート">依存パッケージのアップデート<a href="#依存パッケージのアップデート" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>Rails 7.0.8.5へのアップデート</li><li>committee gem を 5.4へアップデート</li><li>rambulance gem を 3.3へアップデート</li><li>その他、複数のgemおよびnpmパッケージをアップデート</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="その他">その他<a href="#その他" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>GitHub Actionsワークフローの追加</li><li>キャッシュクリア用のワークフロー</li><li>開発環境への手動デプロイワークフロー</li><li>Docker開発環境の改善</li><li><code>host.docker.internal</code>ドメインを許可</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.11.2...v3.12.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.11.2...v3.12.0</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -89,7 +101,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売">小売<a href="#小売" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>注文一覧ページにて、<code>備考</code> を表示するように変更。</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.11.1...v3.11.2" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.11.1...v3.11.2</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -101,7 +113,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>gem, npmの更新</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.11.0...v3.11.1" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.11.0...v3.11.1</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -113,7 +125,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー">メーカー<a href="#メーカー" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>小売ごとに納期目安を設定できる機能をリリース。<ul><li><a href="https://tanomimaster.github.io/tanomimaster-doc/docs/csv#%E9%87%91%E9%A1%8D" target="_blank" rel="noopener noreferrer">価格マスタのCSVカラム</a>が変更になります。</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>Ruby 3.3.3 =&gt; 3.3.4</li><li>gem, npm更新</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.12...v3.11.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.12...v3.11.0</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -125,7 +137,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>gemの更新</li><li>docker-composeの設定ファイル最適化</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.11...v3.10.12" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.11...v3.10.12</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -137,7 +149,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>OpenAPI Speificationのtypoを修正</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.10...v3.10.11" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.10...v3.10.11</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -149,7 +161,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>NodeJS 20 =&gt; NodeJS 22更新</li><li>gem, npmの更新</li><li>code formatのCI厳密化</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.9...v3.10.10" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.9...v3.10.10</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -161,7 +173,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売">小売<a href="#小売" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>ステータス遷移に伴う実装の修正<ul><li>配送中ステータスの注文に対しての操作を設計に合わせました。</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>gem, npmの更新</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.8...v3.10.9" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.8...v3.10.9</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -173,7 +185,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>gem, npmの更新</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.7...v3.10.8" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.7...v3.10.8</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -185,7 +197,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー">メーカー<a href="#メーカー" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>用語変更<ul><li><code>納期予定日</code> から <code>納期回答</code> へ</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>GitHub Actionsのワークフロー改善</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.6...v3.10.7" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.6...v3.10.7</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -197,7 +209,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー">メーカー<a href="#メーカー" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>UTICロゴ追加</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>gem, npmライブラリ更新</li><li>開発環境のDBバージョン変更</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.5...v3.10.6" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.5...v3.10.6</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -209,7 +221,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>gem, npmライブラリ更新</li><li>開発環境のDBバージョン変更</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.4...v3.10.5" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.4...v3.10.5</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -221,7 +233,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売">小売<a href="#小売" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>API返却値に依頼されたパラメータを追加</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.4...v3.10.4.1" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.4...v3.10.4.1</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -233,7 +245,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>gem, npmライブラリ更新</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.3...v3.10.4" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.3...v3.10.4</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -245,7 +257,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>タノミマスターで納期日指定を除外するために利用している休日のデータをAPIとして公開するように変更しました。<ul><li><a href="https://tanomimaster.com/docs/api#tag/Common/operation/getHolidays" target="_blank" rel="noopener noreferrer">API仕様</a></li></ul></li><li>npmライブラリ更新</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.2...v3.10.3" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.2...v3.10.3</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -257,7 +269,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売メーカー管理者">小売、メーカー、管理者<a href="#小売メーカー管理者" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><p>以下のリリースにて、「年月を指定するカレンダー」部分において不具合が発生し、「年月日」を指定するカレンダーが表示されるようになっていた。</p><ul><li><a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/02/08/" target="_blank" rel="noopener noreferrer">https://tanomimaster.github.io/tanomimaster-doc/blog/2024/02/08/</a></li></ul><p>原因はJavascriptの読み込みが一部で行われていなかったので読み込むように修正。</p><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.1...v3.10.2" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.1...v3.10.2</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -269,7 +281,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>Gem更新, npm更新</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.0.1...v3.10.1" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.0.1...v3.10.1</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -281,7 +293,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>Rails 6.1 =&gt; 7.0 へ更新</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.0...v3.10.0.1" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.0...v3.10.0.1</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -293,7 +305,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー小売">メーカー・小売<a href="#メーカー小売" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>ダミーページ(チャット)を削除</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>Ruby更新 3.2.2 =&gt; 3.3.0</li><li>YJITを有効化。全体的に処理の高速化。</li><li>npm更新, gem更新</li><li><del>yarn v1 =&gt; v4 更新。ビルドの高速化。</del></li><li>GitHub Actions 関連ライブラリ更新</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.32...v3.10.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.32...v3.10.0</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -305,7 +317,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>npm, gemライブラリ更新</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.31...v3.9.32" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.31...v3.9.32</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -317,7 +329,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>npm, gemライブラリ更新</li><li>Rubyセキュリティ対応更新</li><li>メーカー画像追加</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.28...v3.9.31" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.28...v3.9.31</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -329,7 +341,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>npm, gemライブラリ更新</li><li>Rubyセキュリティ対応更新</li><li>Open API Specificationドキュメント更新</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.28...v3.9.30" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.28...v3.9.30</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -341,7 +353,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー">メーカー<a href="#メーカー" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>API<ul><li>注文一覧にて、<code>code</code> パラメータを追加しました。これにより、一覧に任意の注文が含まれているかどうかのチェックを行えるようになります。</li></ul></li><li>Web<ul><li>受注日時の項目にて、日付しか表示されていなかったのを時間も表示されるようにしました。</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>node 18からnode 20へ更新</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.27...v3.9.28" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.27...v3.9.28</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -353,7 +365,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー">メーカー<a href="#メーカー" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>API<ul><li>注文一覧のレスポンスにて、仕様書には記載が有るが実際には存在していなかったキーがあったので追加しました。<ul><li>'retail_sales_office_code'</li><li>'maker_sales_office_code'</li><li>'maker_user_code'</li></ul></li><li>注文一覧取得時のレスポンス速度を約3倍速くしました。</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>rspecのリファクタリング</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.26...v3.9.27" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.26...v3.9.27</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -365,7 +377,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>npm, gemライブラリ更新</li><li>Rubyセキュリティ対応更新</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.25...v3.9.26" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.25...v3.9.26</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -377,7 +389,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー">メーカー<a href="#メーカー" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>納期遅延のメールに注文明細が掲載されるようになります。</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>npm, gemライブラリ更新</li><li>テストケースの追加</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.24...v3.9.25" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.24...v3.9.25</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -389,7 +401,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売">小売<a href="#小売" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>ボタンの名称を変更</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>docker compose v2に合わせて環境構築セットアップドキュメントの更新</li><li>テストケースの追加</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.22...v3.9.24" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.22...v3.9.24</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -401,7 +413,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="全体">全体<a href="#全体" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>docker compose v2に合わせて環境構築セットアップドキュメントの更新</li><li>ruby gem, npm更新</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.21...v3.9.22" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.21...v3.9.22</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -413,7 +425,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="全体">全体<a href="#全体" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>openapiのドキュメントに記載されているバージョン番号を更新</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.20...v3.9.21" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.20...v3.9.21</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -425,7 +437,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="全体">全体<a href="#全体" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li><code>注文日時</code>に表記を統一<ul><li>今までは、注文日、受注日、受注日時、発注日、発注日時という表記があった。</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売">小売<a href="#小売" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>注文日時を指定できるパラメータを削除</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>gem, npm更新<ul><li>puma (6.2 =&gt; 6.3)</li></ul></li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.19...v3.9.20" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.19...v3.9.20</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -437,7 +449,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="管理者">管理者<a href="#管理者" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>文言を正確に表記するために <code>請求</code> という用語を <code>明細</code> に置き換えました。</li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -449,7 +461,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー">メーカー<a href="#メーカー" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>マスタ登録結果をHTMLでの表示からダウンロードするように変更</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売">小売<a href="#小売" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>マスタ登録結果をHTMLでの表示からダウンロードするように変更</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a href="#システム内部" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.9.18" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.9.18</a></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -461,7 +473,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー">メーカー<a href="#メーカー" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>APIを利用した受注の際に、課金対象にならなかったデータを正常化。</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>rspecリファクタリング</li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -473,7 +485,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="全体">全体<a href="#全体" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>RailsのModelにて文字数やユニーク制約の検証を追加。<ul><li>いままではRDB側で行っていた検証をModelでも行うようにすることでRDBのロールバックを減らす目的。</li></ul></li><li>新規メーカーのロゴを追加</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー">メーカー<a href="#メーカー" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>APIを利用した受注の際に、課金対象にならなかった問題を修正。</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>JavaScriptのライブラリのマイナーバージョンアップデート</li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -485,7 +497,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="共通">共通<a href="#共通" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>商品の品番 (<code>code</code>) の文字列の最後に半角スペースを1つ以上設定した場合、マスタ登録時にエラーが起きる可能性があった問題を修正。<ul><li><code>code</code> に半角スペースを含められるようにする要件があり、その要件がこちらのMySQLのcollation設定の振る舞いによって意図しない動作を引き起こす場合があります。<ul><li><a href="https://dev.mysql.com/doc/refman/8.0/ja/charset-binary-collations.html" target="_blank" rel="noopener noreferrer">https://dev.mysql.com/doc/refman/8.0/ja/charset-binary-collations.html</a></li></ul></li></ul></li><li>マスタ登録結果ページにて、表示するデータが重い問題があり、表示項目を減らして対応しました。今後のデータに対して有効です。</li><li>Javascriptライブラリ更新</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.14...v3.9.15" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.9.14...v3.9.15</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -497,7 +509,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="経緯">経緯<a href="#経緯" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><p>Apr 12, 2023 </p><ul><li>08:43にAWSからのアラート<ul><li><a href="https://tanomimaster.slack.com/archives/C01AKAMEL1L/p1681256627871589" target="_blank" rel="noopener noreferrer">https://tanomimaster.slack.com/archives/C01AKAMEL1L/p1681256627871589</a> - Connect your Slack account</li></ul></li><li>09:24 AM<ul><li>エンジニア対応開始</li></ul></li><li>09:25 AM<ul><li>VPC Endpoints設定削除</li><li>ECSの自然復旧確認</li></ul></li><li>09:30 AM<ul><li>Webのレスポンスが帰ってくることを確認</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="原因">原因<a href="#原因" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>Apr 12, 2023 0:17 AMにECRへのVPC Endpointsの設定に誤りがあった模様。<ul><li>ECRへのトラフィックを抑制することによるNAT Gatewayへのトラフィック削減のための設定</li></ul></li><li>8:40 AM頃にECSのコンテナの再始動がかかり、その際にECRからdocker imageの取得ができなくなくてサービス自体の停止に至った</li><li>8:25 AMにVPC endpointsの設定を削除し、ECS自体は数分〜十数分に1回再始動が行われるのでそのタイミングでdocker imageの取得が行えてサービスの復旧が行われた。<ul><li>ECSのコンテナの再起動は、数分〜数日に1度程度の頻度で発生している。</li></ul></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -509,7 +521,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="共通">共通<a href="#共通" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>デザインテンプレート(Adminator)更新<ul><li>v1.0.0 =&gt; v1.1.0</li><li>関連するnpm更新</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>Ruby更新<ul><li>3.2.1 =&gt; 3.2.2</li></ul></li><li>gem更新<ul><li>connection_pool, devise, googleauth, msgpack, phonelib, puma, rubocopなど</li></ul></li><li>rspecリファクタリング</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="release-note">Release note<a href="#release-note" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><p><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.9.14" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.9.14</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -521,7 +533,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>gem更新<ul><li>Rails, aws-sdk, devise, puma, redis-storeなど</li></ul></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -533,7 +545,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://tanomimaster.com/docs/api" target="_blank" rel="noopener noreferrer">APIドキュメント</a>の更新</li><li>paginationに関しての記述を追加</li><li>関連したrspecの修正。ロジックの修正はありません。</li><li>CI(Continuous Integration)にてキャッシュを利用するようにしてCIの実行時間の短縮</li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -545,7 +557,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>セキュリティ強化のためにHSTS(HTTP Strict Transport Security)の設定<ul><li>hstspreload.orgでの<a href="https://hstspreload.org/?domain=tanomimaster.com" target="_blank" rel="noopener noreferrer">検証結果</a></li></ul></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -557,7 +569,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>CI実行時間削減</li><li><code>axios</code> update</li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -569,7 +581,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー">メーカー<a href="#メーカー" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>受注詳細にて表示される商品画像において、表示優先度が一番高い画像が表示されるように変更。</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>Ruby 3.1 =&gt; 3.2更新</li><li>gem更新, npm更新</li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -581,7 +593,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>rubocop関連アップグレード</li><li>rspecリファクタリング</li><li>JSライブラリセキュリティ対応</li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -593,7 +605,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>2023年1月10日(金) 8:30 - 8:40ごろに置きまして本番サイトに繋がらなくなる問題が発生しました。</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="現象">現象<a href="#現象" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>HTTPレスポンスが500が返却されました。</li><li>対象:Web, APIサーバ</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="原因">原因<a href="#原因" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>データベースサーバに大きなトランザクションが発生し、空きメモリが足りなくなり応答時間が遅くなりました。</li><li>データベースサーバからのレスポンスが遅くなったことで、アプリケーションサーバからのDBサーバへのコネクションが足りなくなってアプリケーションサーバがリクエストを受け付けられなくなりました。</li><li>ロードバランサが、アプリケーションサーバの異常を検知し、ロードバランシンググループから外したことによってアクセスが行えない状態になりました。</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="対処">対処<a href="#対処" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>経過観察</li><li>現状のデータベースは、db.t3.smallインスタンスを利用してます。リソースが足りなくなることがサイド発生するような状況になりましたら、スケールアップして対処したいと思います。</li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -605,7 +617,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><p>以下のリリース内容の修正版</p><ul><li>v3.9.5</li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -617,7 +629,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>メーカー<ul><li>Webの受注一覧にて、デフォルトで自分が担当する注文のみを表示するように変更。</li></ul></li><li>システム<ul><li>npm, gemの更新</li><li>静的テストのリファクタリング</li><li>RubyのsyntaxをRuby 3.1に準拠</li></ul></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -629,7 +641,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><p>以下のリリース内容の修正版</p><ul><li>v3.9.1</li><li>v3.9.2</li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -641,7 +653,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>v3.9.0へのロールバック</li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -653,7 +665,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>v3.9.1の修正</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="備考">備考<a href="#備考" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>リグレッションが起きたので、2月1日夕方にv3.9.0にロールバック</li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -665,7 +677,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>小売側から納期回答が行われていない注文のステータスを納品済みにできるようにする。</li><li>小売向けに納品先マスタを取得するAPIを追加。<ul><li><a href="https://tanomimaster.com/docs/api#tag/Retail/operation/getShippingAddresses" target="_blank" rel="noopener noreferrer">API仕様</a></li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="備考">備考<a href="#備考" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>リグレッションが起きたので、1月26日朝にv3.9.0にロールバック</li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -677,7 +689,7 @@
         <content type="html"><![CDATA[<ul><li><a href="/tanomimaster-doc/docs/csv">ユーザマスタ</a>の仕様を変更しました。</li><li>以下に重要部分を抜粋します</li></ul><div class="language-diff codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-diff codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| カラム | 名称 | 型 | 長さ | PK | FK | 必須 | 例 | 備考 |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| --- | --- | --- | --- | --- | --- | --- | --- | --- |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 1 | 営業員コード | string | 255 | o |  | o | 1 |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token deleted-sign deleted prefix deleted" style="color:#d73a49">-</span><span class="token deleted-sign deleted line" style="color:#d73a49">| 2 | 営業所コード | string | 255 |  | o |  | 11 | `営業所コード` は `権限` が`sales` の場合に必須です。 |</span><br></span><span class="token-line" style="color:#393A34"><span class="token deleted-sign deleted line" style="color:#d73a49"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 2 | 営業所コード | string | 255 |  | o |  | 11 |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token inserted-sign inserted line" style="color:#36acaa"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 3 | メールアドレス | string | 255 |  |  | o | example@example.com |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 4 | パスワード | string | 255 |  |  |  |  | 空の場合は更新されません |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 5 | 姓 | string | 255 |  |  | o | 佐藤 |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 6 | 名 | string | 255 |  |  | o | 太郎 |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 7 | 姓（かな） | string | 255 |  |  | o | さとう |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 8 | 名（かな） | string | 255 |  |  | o | たろう |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token deleted-sign deleted prefix deleted" style="color:#d73a49">-</span><span class="token deleted-sign deleted line" style="color:#d73a49">| 9 | 権限 | string | 255 |  |  | o | sales | admin: 管理者権限&lt;br /&gt;clerk: 事務員&lt;br /&gt;sales: 営業員 |</span><br></span><span class="token-line" style="color:#393A34"><span class="token deleted-sign deleted line" style="color:#d73a49"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 9 | 権限 | string | 255 |  |  | o | general | admin: 管理者&lt;br /&gt;general: 一般 |</span><br></span><span class="token-line" style="color:#393A34"><span class="token inserted-sign inserted line" style="color:#36acaa"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 10 | 電話番号 | string | 255 |  |  |  | 090-0000-0000 |  |</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><p>下位互換性維持のためにv3.8.0以前に利用していたclerk, salesを指定した場合はgeneralとして扱われます。v4でこの下位互換性は削除予定です。</p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -689,7 +701,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>管理者向け<ul><li>メーカー一覧の表示速度改善</li></ul></li><li>システム内部<ul><li>Ruby 3.0.4 =&gt; Ruby 3.1.3</li><li>NodeJS 16 =&gt; 18</li><li>gemの更新</li><li>npm更新</li><li><code>sort_link</code> のduplication warning修正</li><li>webpacker更新と設定調整</li><li><code>actions/checkout@v3</code> へ変更</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="差分">差分<a href="#差分" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.8.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.8.0</a><ul><li>要githubアカウントと承認</li></ul></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -701,7 +713,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>メーカー向け<ul><li>注文のステータスが配送済みのときに、配送日が指定されていない場合に注文詳細ページが開けない問題を修正</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="差分">差分<a href="#差分" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.7.1" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.7.1</a><ul><li>要githubアカウントと承認</li></ul></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -713,7 +725,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>小売向け<ul><li>注文のステータスが配送済みのときに、配送日が指定されていない場合に注文詳細ページが開けない問題を修正</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="差分">差分<a href="#差分" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.7.2" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.7.2</a><ul><li>要githubアカウントと承認</li></ul></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -725,7 +737,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>メーカー、小売向け<ul><li>メーカーが「納品済みにする」機能を無くす #1641</li></ul></li><li>管理者向け<ul><li>UI改善</li></ul></li><li>Rubyライブラリ更新<ul><li>主にリビジョンアップグレード</li><li>開発ツール系のアップグレード</li></ul></li><li>npmパッケージ更新<ul><li>webpack-dev-server更新。3 =&gt; 4</li><li>axios, date-fnsの更新</li><li>npm-check-updates導入</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="差分">差分<a href="#差分" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.7.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.7.0</a><ul><li>要githubアカウントと承認</li></ul></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -737,7 +749,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>メーカー側Web<ul><li>受注CSVページの動線変更</li><li>受注CSVページの実行者を表示するように変更するなどの改善</li></ul></li><li>bugfix<ul><li>メーカー側API<ul><li>statusフィルタが効いていなかった問題を修正</li></ul></li></ul></li><li>APIドキュメントの説明を追加</li><li>ライブラリの更新<ul><li>Bump puma from 5.6.5 to 6.0.0</li><li>Bump redis from 4.5.1 to 4.8.0</li><li>Bump validates_timeliness from 6.0.0.beta2 to 6.0.0</li><li>Bump aasm from 5.3.1 to 5.4.0</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a href="#システム内部" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.6.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.6.0</a></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -749,7 +761,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>API<ul><li>サロゲートキーを指定して支店・営業所を取得できるようにする</li><li>APIのエンドポイントの仕様が変更されるので下位互換性がありません。</li><li>API仕様<ul><li><a href="https://github.com/tanomimaster/tanomimaster-openapi/releases/tag/v3.5.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-openapi/releases/tag/v3.5.0</a></li></ul></li></ul></li><li>WebもAPIもメーカーが受注確定したら小売からはキャンセル不可にする</li><li>メーカー側からも発注のキャンセルをできるようにする</li><li>ミドルウェアの更新<ul><li>rails from 6.1.6 to 6.1.7</li><li>その他5個</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a href="#システム内部" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.5.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.5.0</a></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -761,7 +773,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>API<ul><li>小売り、メーカー側において、営業所の一覧が特定の条件の際に予期しない一覧が返却されていた問題を修正。</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a href="#システム内部" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.5.1" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.5.1</a></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -773,7 +785,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>bugfix<ul><li>小売り側Web<ul><li>本来であれば、小売り側からキャンセルできてはいけない注文に対して、小売りがキャンセルできてしまっていた。<ul><li>注文明細のステータスが納品済みでなく、キャンセル済みで無い場合、小売りのadminまたは自分が注文した注文に対して、キャンセルが可能になっていた。</li></ul></li></ul></li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a href="#システム内部" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.4.1" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.4.1</a></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -785,7 +797,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>0円の商品が登録されていて、販売された際にエラー画面が表示される問題を修正。</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a href="#システム内部" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.4.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.4.0</a></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -797,7 +809,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>カテゴリ「調整器」のサブマスタ区分「サイズ」の名称を、「容量」に変更する #1539</li><li>CircleCIからGithub Actionsへ変更</li><li>rspecのリファクタリング</li><li>Javascriptを含むE2Eテストがライブラリ更新により、不安定になったので一時的に無効化</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a href="#システム内部" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.3.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.3.0</a></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -809,7 +821,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>新コスモス電機の画像を追加</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a href="#システム内部" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.2.1" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.2.1</a></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -821,7 +833,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>カテゴリ管理の全環境統一化</li><li>API機能追加</li><li>受注CSVカラム追加</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="全体">全体<a href="#全体" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>カテゴリ管理をタノミマスターの管理画面から、プログラムのソースコードで管理するように変更。<ul><li>開発環境、ステージング、本番環境すべての環境でカテゴリIDを同一にすることで、入稿データの変更手間をなくしました。</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー向け">メーカー向け<a href="#メーカー向け" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>CSVのマスタ登録などの非同期処理において、メモリサイズを増加。</li><li><a href="/tanomimaster-doc/docs/csv">受注CSV</a>に「注文単位の備考」のカラムを追加。</li></ul><div class="language-diff codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-diff codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 24 | 納品先名 | string | 20 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 25 | 納品先住所 | string | 152 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 26 | 納品先TEL | string | 15 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token deleted-sign deleted prefix deleted" style="color:#d73a49">-</span><span class="token deleted-sign deleted line" style="color:#d73a49">| 27 | 備考 | string | 22 |  |  |  |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token deleted-sign deleted line" style="color:#d73a49"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 27 | 明細単位の備考 | string | 255 |  |  |  |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token inserted-sign inserted line" style="color:#36acaa"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 28 | 注文単位の備考 | string | 255 |  |  |  |  |  |</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売向け">小売向け<a href="#小売向け" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>小売りユーザエンティティのコードをキーにして検索できるようにAPIに機能追加<ul><li><a href="https://tanomimaster.com/docs/api/#tag/Retail/operation/getRetailUsers" target="_blank" rel="noopener noreferrer">https://tanomimaster.com/docs/api/#tag/Retail/operation/getRetailUsers</a></li></ul></li><li>商品一覧APIにて無効化された商品を返さないように変更。<ul><li><a href="https://tanomimaster.com/docs/api/#tag/Retail/operation/get-products-kumo" target="_blank" rel="noopener noreferrer">https://tanomimaster.com/docs/api/#tag/Retail/operation/get-products-kumo</a></li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="管理者向け">管理者向け<a href="#管理者向け" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>CircleCIのcontainer imageがdeprecationで使えなくなったので取得先を更新し、それに伴う追加設定。</li><li>gem更新<ul><li>jmespath</li><li>money-rails</li><li>aws-sdk-s3</li><li>aws-sdk-ecs</li><li>rubocop-performance</li><li>aws-sdk-rails</li><li>counter-culture</li><li>ransack</li><li>phonelib</li><li>bullet</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a href="#システム内部" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.2.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.2.0</a></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -835,7 +847,7 @@
 <code>order_id</code> を最初に検索し、見つからなかったら <code>order_code</code> として検索します。</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="関連資料">関連資料<a href="#関連資料" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><p><a href="https://tanomimaster.com/docs/api#tag/Maker/operation/listOrdersForMaker" target="_blank" rel="noopener noreferrer">https://tanomimaster.com/docs/api#tag/Maker/operation/listOrdersForMaker</a></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売向け">小売向け<a href="#小売向け" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>なし。</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="管理者向け">管理者向け<a href="#管理者向け" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>なし</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a href="#システム内部" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.1.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.1.0</a></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -847,7 +859,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="概要">概要<a href="#概要" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>小売向けのUI改善フェーズ2のリリースです。</li><li>商品に対する属性を設定するためのサブマスタが追加されます。</li><li>カテゴリデータのスキーマ変更があり、不可逆なリリースのためメジャーバージョンを上げてv3となります。</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー向け">メーカー向け<a href="#メーカー向け" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>サブマスタが追加されます。</li><li>カテゴリのIDがすべて変更になります。</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売向け">小売向け<a href="#小売向け" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>UIが変更になります。</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="管理者向け">管理者向け<a href="#管理者向け" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>なし</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a href="#システム内部" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><p><a href="https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.0.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/releases/tag/v3.0.0</a></p><ul><li>サブマスタの定義を追加</li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -859,7 +871,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー向け">メーカー向け<a href="#メーカー向け" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>なし</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売向け">小売向け<a href="#小売向け" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>なし</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="管理者向け">管理者向け<a href="#管理者向け" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>なし</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a href="#システム内部" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>約20個ライブラリの更新</li><li>seedデータ生成のfix</li><li>開発マシンのARM対応</li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -871,7 +883,7 @@
         <content type="html"><![CDATA[<ul><li><code>新コスモス電機</code> の画像追加</li></ul><h1>システム</h1><ul><li>画像ファイルの入稿ロジックの変更<ul><li>before: <code>会社名 =&gt; 画像ファイル名</code></li><li>after: `会社コード =&gt; 画像ファイル名'</li></ul></li><li>ライブラリ更新<ul><li>rails 6.1.3.1 =&gt; 6.1.5</li><li>ruby 3.0.1 =&gt; 3.0.4</li></ul></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -883,7 +895,7 @@
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー向け">メーカー向け<a href="#メーカー向け" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>商品入稿フォーマット変更<ul><li><a href="/tanomimaster-doc/docs/csv">CSVファイルフォーマット</a>のカラム名を変更しました。</li></ul></li></ul><div class="language-diff codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-diff codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 1 | 型式（品番） | string | 255 | o |  | o | 1234567890 | ASCII文字（ `\:*?"&lt;&gt;` 以外） |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 2 | カテゴリID | bigint |  |  | o | o | 1 |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 3 | メーカー内部コード | string | 255 |  |  |  |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token deleted-sign deleted prefix deleted" style="color:#d73a49">-</span><span class="token deleted-sign deleted line" style="color:#d73a49">| 4 | 製品名 | string | 255 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token deleted-sign deleted line" style="color:#d73a49"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 4 | 商品名 | string | 255 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token inserted-sign inserted line" style="color:#36acaa"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 5 | メーカー希望小売価格(税抜)        | integer | 2,147,483,647 |  |  |  |  | 単位は日本円。税抜。空白の場合はオープンプライス。 |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 6 | 目安納期日数 | integer| 2,147,483,647|  |  | o | 3 | 営業日の数字を記載 |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 7 | ガスマスタを使うかどうかフラグ | boolean |  |  |  | o | 1 | 注文時にLPか都市ガスかを選択する必要がある商品 |~</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><ul><li>API<ul><li>注文の備考を追加</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売向け">小売向け<a href="#小売向け" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>API<ul><li>注文の備考を追加</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="管理者向け">管理者向け<a href="#管理者向け" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>パンくずリスト追加</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム内部">システム内部<a href="#システム内部" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>ライブラリ更新<ul><li>pumaセキュリティ更新</li><li>rspec関係ライブラリ更新</li></ul></li><li>dockerイメージ軽量化</li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -917,7 +929,7 @@
         <content type="html"><![CDATA[<ul><li>タノミマスターの機能概要に関して古い記述があったので更新しました。</li><li>注文ステータスに関する図などを更新しました。</li><li>Open APIの仕様を招待制から公開に変更しました。<ul><li><a href="https://github.com/tanomimaster/tanomimaster-openapi" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-openapi</a></li></ul></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -929,7 +941,7 @@
         <content type="html"><![CDATA[<ul><li><a href="/tanomimaster-doc/docs/csv">CSVファイルフォーマット</a>の長さを実装に合わせてドキュメントを変更しました。<ul><li>実装に合わせて仕様書を変更しました。</li></ul></li></ul><div class="language-diff codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-diff codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 9 | 仕入先名 | 文字列 | 32 | o | o | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 10 | 注文番号 | 半角英数字 | 10 |  |  | o |  | 注文番号 |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 11 | 注文明細No | 半角英数字 | 3 |  |  | o |  | 明細No |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token deleted-sign deleted prefix deleted" style="color:#d73a49">-</span><span class="token deleted-sign deleted line" style="color:#d73a49">| 12 | 商品コード | 文字列 | 30 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token deleted-sign deleted line" style="color:#d73a49"></span><span class="token deleted-sign deleted prefix deleted" style="color:#d73a49">-</span><span class="token deleted-sign deleted line" style="color:#d73a49">| 13 | メーカー内部コード | 半角英数字 | 10 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token deleted-sign deleted line" style="color:#d73a49"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 12 | 商品コード | 文字列 | 255 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token inserted-sign inserted line" style="color:#36acaa"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 13 | メーカー内部コード | 半角英数字 | 255 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token inserted-sign inserted line" style="color:#36acaa"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 14 | ガス種 | 半角英数字 | 10 |  |  |  |  | LP, 13Aなど |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 15 | 発注数 | 数値 | 4 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 16 | 発注単価 | int | 9 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 17 | 希望納期 | date | 10 |  |  |  |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token deleted-sign deleted prefix deleted" style="color:#d73a49">-</span><span class="token deleted-sign deleted line" style="color:#d73a49">| 18 | 営業所名 | string | 50 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token deleted-sign deleted line" style="color:#d73a49"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 18 | 営業所名 | string | 255 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token inserted-sign inserted line" style="color:#36acaa"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 19 | 営業所電話番号 | string | 15 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 20 | 営業所FAX | string | 15 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token deleted-sign deleted prefix deleted" style="color:#d73a49">-</span><span class="token deleted-sign deleted line" style="color:#d73a49">| 21 | 担当者名 | string | 30 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token deleted-sign deleted line" style="color:#d73a49"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 21 | 担当者名 | string | 255 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token inserted-sign inserted line" style="color:#36acaa"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 22 | 納品先名 | string | 20 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 23 | 納品先住所 | string | 152 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 24 | 納品先TEL | string | 15 |  |  | o |  |  |</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -941,7 +953,7 @@
         <content type="html"><![CDATA[<ul><li>メーカー向け<ul><li>カテゴリマスタの項を削除しました。 今後は商品データ管理画面にあるリンクからご確認ください。</li></ul></li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -953,7 +965,7 @@
         <content type="html"><![CDATA[<ul><li><a href="/tanomimaster-doc/docs/csv">納期回答のCSVフォーマット</a>に<code>小売コード</code>を追加しました。</li><li>商品CSVと新規受注CSVに<code>カタログURL</code>と<code>承認図URL</code>を追加しました。</li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -965,7 +977,7 @@
         <content type="html"><![CDATA[<ul><li><a href="/tanomimaster-doc/docs/csv">CSVフォーマット</a>の項目名<code>商品コード</code>を<code>型式（品番）</code>に変更しました。</li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -977,7 +989,7 @@
         <content type="html"><![CDATA[<p><a href="/tanomimaster-doc/docs/csv">納期回答CSV</a>の表記を変更しました。</p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -989,7 +1001,7 @@
         <content type="html"><![CDATA[<p><a href="/tanomimaster-doc/docs/csv">納期回答CSV</a>の表記を変更しました。</p><ul><li>受注CSVの2列目に6列分のカラムを追加<ul><li>小売コード</li><li>小売名</li><li>支店コード</li><li>支店名</li><li>営業所コード</li><li>営業所名</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="細かい修正点">細かい修正点<a href="#細かい修正点" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="006-2020128">0.0.6 2020/1/28<a href="#006-2020128" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li>商品マスタのCSVフォーマットにカラムを追加。</li><li>CSVフォーマットの説明を加筆。</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="005-20191225">0.0.5 2019/12/25<a href="#005-20191225" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li>利用者向けにドキュメントを追加</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="004-2019129">0.0.4 2019/12/9<a href="#004-2019129" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -1001,7 +1013,7 @@
         <content type="html"><![CDATA[<ul><li><a href="/tanomimaster-doc/docs/csv">納期回答CSV</a>の仕様を変更しました。</li><li>以下に重要部分を抜粋します</li></ul><div class="language-diff codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-diff codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| --- | --- | --- | --- | --- | --- | --- | --- | --- |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 1 | 営業員コード | string | 255 | o |  | o | 1 |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token deleted-sign deleted prefix deleted" style="color:#d73a49">-</span><span class="token deleted-sign deleted line" style="color:#d73a49">| 2 | 営業所コード | string | 255 |  | o |  | 11 |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token deleted-sign deleted line" style="color:#d73a49"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 2 | 営業所コード | string | 255 |  | o |  | 11 | `営業所コード` は `権限` が`sales` の場合に必須です。 |</span><br></span><span class="token-line" style="color:#393A34"><span class="token inserted-sign inserted line" style="color:#36acaa"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 3 | メールアドレス | string | 255 |  |  | o | example@example.com |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 4 | パスワード | string | 255 |  |  |  |  | 空の場合は更新されません |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 5 | 姓 | string | 255 |  |  | o | 佐藤 |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token plain">@@ -133,18 +137,19 @@ sidebar_label: 入稿データフォーマット</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 3 | メーカー内部コード | string | 255 |  |  |  |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 4 | 製品名 | string | 255 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token deleted-sign deleted prefix deleted" style="color:#d73a49">-</span><span class="token deleted-sign deleted line" style="color:#d73a49">| 5 | ガスマスタを使うかどうかフラグ | boolean |  |  |  | o | 1 | 注文時にLPか都市ガスかを選択する必要がある商品 |</span><br></span><span class="token-line" style="color:#393A34"><span class="token deleted-sign deleted line" style="color:#d73a49"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 5 | 目安納期日数 | integer| 2,147,483,647|  |  | o | 3 | 営業日の数字を記載 |</span><br></span><span class="token-line" style="color:#393A34"><span class="token inserted-sign inserted line" style="color:#36acaa"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 6 | ガスマスタを使うかどうかフラグ | boolean |  |  |  | o | 1 | 注文時にLPか都市ガスかを選択する必要がある商品 |</span><br></span><span class="token-line" style="color:#393A34"><span class="token inserted-sign inserted line" style="color:#36acaa"></span><span class="token plain">@@ -155,11 +160,11 @@ sidebar_label: 入稿データフォーマット</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 2 | 小売コード | string | 255 | o | o | o |  | |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token deleted-sign deleted prefix deleted" style="color:#d73a49">-</span><span class="token deleted-sign deleted line" style="color:#d73a49">| 3 | 契約金額 | mediumtext | 16,777,215 | | | o |  | 税抜 |</span><br></span><span class="token-line" style="color:#393A34"><span class="token deleted-sign deleted line" style="color:#d73a49"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 3 | 契約金額 | integer | 2,147,483,647 | | | o |  | 税抜 |</span><br></span><span class="token-line" style="color:#393A34"><span class="token inserted-sign inserted line" style="color:#36acaa"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 4 | 開始日時 | datetime | | o | | | | |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 5 | 終了日時 | datetime | |   | | | | |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">@@ -167,7 +172,7 @@ sidebar_label: 入稿データフォーマット</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -1013,7 +1025,7 @@
         <content type="html"><![CDATA[<ul><li><a href="/tanomimaster-doc/docs/csv">納期回答CSV</a>の表記を変更しました。<ul><li>用語を統一しました。</li><li>用語の定義を追加しました。</li><li>画像の大きさに関しての目安を追加しました。</li></ul></li></ul><div class="language-diff codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-diff codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token deleted-sign deleted prefix deleted" style="color:#d73a49">-</span><span class="token deleted-sign deleted line" style="color:#d73a49">| 6 | 器具型式 | 漢字 | 30 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token deleted-sign deleted line" style="color:#d73a49"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 6 | 商品コード | 漢字 | 30 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token inserted-sign inserted line" style="color:#36acaa"></span><span class="token deleted-sign deleted prefix deleted" style="color:#d73a49">-</span><span class="token deleted-sign deleted line" style="color:#d73a49">| 7 | 品目コード | 半角英数字 | 10 |  |  | o |  |  |</span><br></span><span class="token-line" style="color:#393A34"><span class="token deleted-sign deleted line" style="color:#d73a49"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 7 | メーカー内部コード | 半角英数字 | 10 |  |  | o |  |  |</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -1025,7 +1037,7 @@
         <content type="html"><![CDATA[<ul><li>カラースキーマに準拠しました。</li><li><a href="/tanomimaster-doc/blog">変更履歴</a>のページを作成しました。</li></ul>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
     <entry>
@@ -1037,7 +1049,7 @@
         <content type="html"><![CDATA[<ul><li>バージョンを番号を付加するようにしました。</li><li><a href="/tanomimaster-doc/docs/csv">納期回答CSV</a>の表記を変更しました。</li></ul><div class="language-diff codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-diff codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| カラム | 名称 | 型 | 文字数 | PK | FK | 必須 | 例 | 備考 |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| --- | --- | --- | --- | --- | --- | --- | --- | --- |</span><br></span><span class="token-line" style="color:#393A34"><span class="token unchanged line"></span><span class="token deleted-sign deleted prefix deleted" style="color:#d73a49">-</span><span class="token deleted-sign deleted line" style="color:#d73a49">| 1 | 受注コード | string | 255 | o | o | o |  | |</span><br></span><span class="token-line" style="color:#393A34"><span class="token deleted-sign deleted line" style="color:#d73a49"></span><span class="token inserted-sign inserted prefix inserted" style="color:#36acaa">+</span><span class="token inserted-sign inserted line" style="color:#36acaa">| 1 | 注文番号 | string | 255 | o | o | o |  | |</span><br></span><span class="token-line" style="color:#393A34"><span class="token inserted-sign inserted line" style="color:#36acaa"></span><span class="token unchanged prefix unchanged"> </span><span class="token unchanged line">| 2 | 納期日 | date | o |  | |  | | |</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
         <author>
             <name>Yuki Matsukura</name>
-            <uri>http://twitter.com/matsubokkuri</uri>
+            <uri>https://x.com/matsubokkuri</uri>
         </author>
     </entry>
 </feed>

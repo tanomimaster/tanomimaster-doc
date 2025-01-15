@@ -4,10 +4,18 @@
         <title>タノミマスター システムドキュメント Blog</title>
         <link>https://tanomimaster.github.io/tanomimaster-doc/blog</link>
         <description>タノミマスター システムドキュメント Blog</description>
-        <lastBuildDate>Wed, 08 Jan 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Jan 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
+        <item>
+            <title><![CDATA[v3.12.6 Release]]></title>
+            <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/01/15/</link>
+            <guid>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/01/15/</guid>
+            <pubDate>Wed, 15 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[機能改善]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="機能改善">機能改善<a href="#機能改善" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="小売関連">小売関連<a href="#小売関連" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li><strong>注文明細の出力改善</strong><ul><li>注文CSVに「注文単位の備考」列を追加</li><li>既存の明細単位の備考と区別するため、表示名を以下のように変更:<ul><li>「備考」→「明細単位の備考」</li><li>新規追加: 「注文単位の備考」</li></ul></li></ul></li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="uiux修正">UI/UX修正<a href="#uiux修正" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li><strong>商品マスタ画面のレイアウト調整</strong><ul><li>ファイルアップロードエリアの文字配置を修正</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="依存関係の更新">依存関係の更新<a href="#依存関係の更新" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="パッケージのアップデート">パッケージのアップデート<a href="#パッケージのアップデート" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li>phonelib: 0.8.8 → 0.10.3</li><li>その他の依存パッケージを最新版に更新</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="コード整理">コード整理<a href="#コード整理" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li>Ruby 3.4対応のための準備コードを整理<ul><li>gem順序の最適化（<code>bigdecimal</code>、<code>drb</code>、<code>mutex</code>）</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="テスト">テスト<a href="#テスト" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>注文明細エクスポート機能のテストケースを拡充<ul><li>注文単位の備考出力に関するテストを追加</li><li>既存のテストケースを新しい表示名に合わせて更新</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="その他の変更">その他の変更<a href="#その他の変更" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>ドキュメント類の更新</li><li>軽微なコードスタイルの調整</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="注意事項">注意事項<a href="#注意事項" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>注文CSVのフォーマットが変更されています。既存のCSVインポート処理がある場合は、新しいフォーマットに対応する必要があります。</li><li></li><li><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.5...v3.12.6" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.5...v3.12.6</a></li></ul>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v3.12.5 Release]]></title>
             <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/01/08/</link>
