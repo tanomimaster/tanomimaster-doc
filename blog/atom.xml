@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tanomimaster.github.io/tanomimaster-doc/blog</id>
     <title>タノミマスター システムドキュメント Blog</title>
-    <updated>2025-01-15T00:00:00.000Z</updated>
+    <updated>2025-01-29T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tanomimaster.github.io/tanomimaster-doc/blog"/>
     <subtitle>タノミマスター システムドキュメント Blog</subtitle>
     <icon>https://tanomimaster.github.io/tanomimaster-doc/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[v3.12.7 Release]]></title>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/01/29/</id>
+        <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/01/29/"/>
+        <updated>2025-01-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[新機能]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="新機能">新機能<a href="#新機能" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ol><li><p>管理者用ダッシュボードの機能分割</p><ul><li>ダッシュボードをホーム画面と統計情報画面に分割</li><li>新しい統計情報画面（/root/overview）でプラットフォームの全体像を把握可能</li></ul></li><li><p>受注API機能の拡張</p><ul><li>受注時にメモ欄の追加が可能に</li><li>メモ欄は任意入力項目として実装</li></ul></li></ol><h2 class="anchor anchorWithStickyNavbar_LWe7" id="uiの改善">UIの改善<a href="#uiの改善" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ol><li>管理者用サイドバーのアイコン刷新<ul><li>より直感的なアイコンへ変更:<ul><li>小売り管理: ショッピングカートアイコン</li><li>メーカー管理: パッケージアイコン</li><li>カテゴリマスタ管理: タグアイコン</li><li>IPアドレス管理: ロックアイコン</li><li>利用明細出力: レシートアイコン</li><li>統計: グラフアイコン</li><li>ログアウト: 電源アイコン</li></ul></li></ul></li></ol><h2 class="anchor anchorWithStickyNavbar_LWe7" id="テストの拡充">テストの拡充<a href="#テストの拡充" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>管理者用画面の各ページに対する統合テストを追加</li><li>新規追加された統計画面のテストケースを実装</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="テクニカルアップデート">テクニカルアップデート<a href="#テクニカルアップデート" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>OpenAPIの仕様を更新</li><li>E2Eテストのセレクタを改善（より安定したテスト実装）</li></ul><p>このリリースでは、管理者向け機能の使いやすさを向上させるとともに、APIの拡張によりシステムの柔軟性を高めています。</p><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.6...v3.12.7" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.6...v3.12.7</a></p>]]></content>
+        <author>
+            <name>Yuki Matsukura</name>
+            <uri>https://x.com/matsubokkuri</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[v3.12.6 Release]]></title>
         <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/01/15/</id>
