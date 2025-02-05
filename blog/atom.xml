@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tanomimaster.github.io/tanomimaster-doc/blog</id>
     <title>タノミマスター システムドキュメント Blog</title>
-    <updated>2025-01-29T00:00:00.000Z</updated>
+    <updated>2025-02-05T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tanomimaster.github.io/tanomimaster-doc/blog"/>
     <subtitle>タノミマスター システムドキュメント Blog</subtitle>
     <icon>https://tanomimaster.github.io/tanomimaster-doc/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[v3.12.8 Release]]></title>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/02/05/</id>
+        <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/02/05/"/>
+        <updated>2025-02-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[機能改善]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="機能改善">機能改善<a href="#機能改善" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ol><li>注文メモ欄の文字数制限緩和<ul><li>注文メモ（orders.memo）の最大文字数を255文字から65,535文字に拡大</li><li>注文明細メモ（order_products.memo）の最大文字数を255文字から65,535文字に拡大</li><li>メモ欄のデータ型をVARCHARからTEXTに変更</li></ul></li></ol><h2 class="anchor anchorWithStickyNavbar_LWe7" id="依存パッケージの更新">依存パッケージの更新<a href="#依存パッケージの更新" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>concurrent-ruby を1.3.4に固定</li><li>その他の主な更新パッケージ:<ul><li>addressable 2.8.6 → 2.8.7</li><li>faraday 2.9.0 → 2.12.2</li><li>google-apis-core 0.15.0 → 0.16.0</li><li>nokogiri 1.18.0 → 1.18.2</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="openapi仕様の更新">OpenAPI仕様の更新<a href="#openapi仕様の更新" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>メモ欄の文字数制限変更に伴うAPI仕様の更新</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.7...v3.12.8" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.7...v3.12.8</a></p>]]></content>
+        <author>
+            <name>Yuki Matsukura</name>
+            <uri>https://x.com/matsubokkuri</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[v3.12.7 Release]]></title>
         <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/01/29/</id>
