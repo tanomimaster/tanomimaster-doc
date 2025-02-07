@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tanomimaster.github.io/tanomimaster-doc/blog</id>
     <title>タノミマスター システムドキュメント Blog</title>
-    <updated>2025-02-05T00:00:00.000Z</updated>
+    <updated>2025-02-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tanomimaster.github.io/tanomimaster-doc/blog"/>
     <subtitle>タノミマスター システムドキュメント Blog</subtitle>
     <icon>https://tanomimaster.github.io/tanomimaster-doc/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[v3.12.9 Release]]></title>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/02/07/</id>
+        <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/02/07/"/>
+        <updated>2025-02-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[機能強新規]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="機能強新規">機能強新規<a href="#機能強新規" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ol><li>小売り企業の一括データインポート機能追加<ul><li>CSV/TSVファイルを使用した小売り企業データの一括インポート機能を実装</li><li>インポート対象：小売り企業情報、支店情報、営業所情報、管理者アカウント情報</li></ul></li></ol><h2 class="anchor anchorWithStickyNavbar_LWe7" id="表示修正">表示修正<a href="#表示修正" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ol><li>請求明細の表示修正<ul><li>請求明細で注文番号の代わりに取引番号（orders_maker.code）を表示するように修正</li></ul></li></ol><h2 class="anchor anchorWithStickyNavbar_LWe7" id="機能改善">機能改善<a href="#機能改善" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ol><li>管理者UIの改善<ul><li>サイドバーのアイコンを直感的なものに変更:<ul><li>小売り管理: ショッピングカートアイコン</li><li>メーカー管理: パッケージアイコン</li><li>カテゴリマスタ管理: タグアイコン</li><li>IPアドレス管理: ロックアイコン</li><li>利用明細出力: レシートアイコン</li><li>統計: チャートアイコン</li><li>ログアウト: 電源アイコン</li></ul></li></ul></li></ol><h1>小売向け</h1><h2 class="anchor anchorWithStickyNavbar_LWe7" id="機能改善-1">機能改善<a href="#機能改善-1" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><p>1 . パフォーマンス最適化</p><ul><li>商品に画像が含まれたときに表示件数が減る問題を修正。</li><li>不要なJOINを削除し、ページネーションを改善</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.8...v3.12.9" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.8...v3.12.9</a></p>]]></content>
+        <author>
+            <name>Yuki Matsukura</name>
+            <uri>https://x.com/matsubokkuri</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[v3.12.8 Release]]></title>
         <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/02/05/</id>
