@@ -4,10 +4,18 @@
         <title>タノミマスター システムドキュメント Blog</title>
         <link>https://tanomimaster.github.io/tanomimaster-doc/blog</link>
         <description>タノミマスター システムドキュメント Blog</description>
-        <lastBuildDate>Fri, 07 Feb 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 19 Feb 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
+        <item>
+            <title><![CDATA[v3.12.10 Release]]></title>
+            <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/02/19/</link>
+            <guid>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/02/19/</guid>
+            <pubDate>Wed, 19 Feb 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[メーカー向け機能]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー向け機能">メーカー向け機能<a href="#メーカー向け機能" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>メーカー支店一覧に支店名/コードでの検索機能を追加</li><li>メーカー営業所一覧に営業所名/コード等での検索機能を追加</li><li>メーカーユーザー一覧にコード/メール等での検索機能を追加</li><li>卸先一覧に卸先コード/名称での検索機能を追加</li><li>各一覧画面のレイアウトを検索・一覧・一括処理の3セクションに整理</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売向け機能">小売向け機能<a href="#小売向け機能" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>変更なし</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="管理者向け機能">管理者向け機能<a href="#管理者向け機能" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>プラットフォーム管理者一覧にメールアドレスでの検索機能を追加</li><li>メーカー一覧にメーカー名/コードでの検索機能を追加</li><li>小売り一覧に小売り名/コードでの検索機能を追加</li><li>各一覧画面のレイアウトを整理</li><li>ページネーション情報の表示を追加</li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="#システム" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>Ruby 3.3.6から3.4.1へアップグレード</li><li>Rubocop設定のTarget Rubyバージョンを3.4に更新</li><li>Dockerイメージを ruby:3.4.1 に更新</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.9...v3.12.10" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.9...v3.12.10</a></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v3.12.9 Release]]></title>
             <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/02/07/</link>
