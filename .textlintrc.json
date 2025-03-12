@@ -5,9 +5,6 @@
     }
   },
   "rules": {
-    "prh": {
-      "rulePaths": ["./node_modules/textlint-rule-preset-icsmedia/dict/prh.yml"]
-    },
     "preset-jtf-style": {
       "3.1.2.全角文字どうし": false,
       "4.2.7.コロン(：)": false,
