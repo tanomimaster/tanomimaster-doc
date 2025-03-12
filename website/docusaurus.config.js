@@ -66,13 +66,13 @@ const config = {
             type: 'doc',
             docId: 'index',
             position: 'left',
-            label: 'ドキュメント',
+            label: '概要',
           },
           {
             type: 'doc',
             docId: 'system',
             position: "left",
-            label: "システム仕様",
+            label: "内部設計",
           },
           {
             type: 'doc',
