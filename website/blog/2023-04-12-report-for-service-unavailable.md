@@ -1,8 +1,6 @@
 ---
 title: 障害報告
-author: Yuki Matsukura
-authorURL: "https://x.com/matsubokkuri"
-authorFBID: matsubokkuri
+authors: [matsubokkuri]
 ---
 
 ## 経緯
