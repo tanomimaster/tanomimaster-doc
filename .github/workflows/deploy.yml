@@ -13,27 +13,25 @@ jobs:
         working-directory: website
     steps:
     - uses: actions/checkout@v4
-    
+
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
         node-version: '22'
         cache: 'yarn'
         cache-dependency-path: website/yarn.lock
-    
+
     - name: Enable Corepack
-      run: |
-        corepack enable
-        corepack prepare yarn@4.7.0 --activate
-    
+      run: corepack enable
+
     - name: Git configuration
       run: |
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --global user.name "GitHub Actions"
-    
+
     - name: Install dependencies
       run: yarn install --frozen-lockfile
-    
+
     - name: Build and deploy
       run: yarn deploy
       env:
