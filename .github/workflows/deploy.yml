@@ -21,6 +21,11 @@ jobs:
         cache: 'yarn'
         cache-dependency-path: website/yarn.lock
     
+    - name: Enable Corepack
+      run: |
+        corepack enable
+        corepack prepare yarn@4.7.0 --activate
+    
     - name: Git configuration
       run: |
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
