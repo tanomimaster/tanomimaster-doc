@@ -12,8 +12,15 @@
 
 ### Docker
 
+setup
 ```
-docker-compose up
+docker compose build
+docker compose run --rm docusaurus yarn install
+```
+
+run
+```
+docker compose up
 ```
 
 Then open [http://localhost:3000/tanomimaster-doc/](http://localhost:3000/tanomimaster-doc/) by browser.

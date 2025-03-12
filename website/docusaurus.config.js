@@ -1,8 +1,11 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const {themes} = require('prism-react-renderer');
+const lightTheme = themes.github;
+const darkTheme = themes.dracula;
+
+
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -28,6 +31,8 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
           // Please change this to your repo.
           editUrl:
             'https://github.com/tanomimaster/tanomimaster-doc/blob/develop/website/',
@@ -61,13 +66,13 @@ const config = {
             type: 'doc',
             docId: 'index',
             position: 'left',
-            label: 'ドキュメント',
+            label: '概要',
           },
           {
             type: 'doc',
             docId: 'system',
             position: "left",
-            label: "システム仕様",
+            label: "内部設計",
           },
           {
             type: 'doc',
@@ -129,8 +134,8 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Tanomimaster.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: lightTheme,
+        darkTheme: darkTheme,
       },
       zoom: {
         selector: '.markdown :not(em) > img',
