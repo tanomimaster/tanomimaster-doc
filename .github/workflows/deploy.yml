@@ -1,8 +1,10 @@
-name: CI
+name: Deploy Documentation
 on:
   push:
     branches:
       - master
+  workflow_dispatch:
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -11,12 +13,23 @@ jobs:
         working-directory: website
     steps:
     - uses: actions/checkout@v4
-    - name: git config
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '22'
+        cache: 'yarn'
+        cache-dependency-path: website/yarn.lock
+    
+    - name: Git configuration
       run: |
-        git config --global user.email "you@example.com"
-        git config --global user.name "Your Name"
-    - run: yarn install
-    - run: yarn deploy
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "GitHub Actions"
+    
+    - name: Install dependencies
+      run: yarn install --frozen-lockfile
+    
+    - name: Build and deploy
+      run: yarn deploy
       env:
-        GIT_USER: ${{ github.actor }}:${{ github.token }}
-
+        GIT_USER: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
