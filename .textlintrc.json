@@ -1,9 +1,60 @@
 {
-  "plugins": {},
-  "filters": {},
+  "plugins": {
+    "@textlint/markdown": {
+      "extensions": [".md"]
+    }
+  },
   "rules": {
-    "preset-ja-spacing": true,
-    "aws-spellcheck": true,
-    "preset-ja-technical-writing": true
+    "prh": {
+      "rulePaths": ["./node_modules/textlint-rule-preset-icsmedia/dict/prh.yml"]
+    },
+    "preset-jtf-style": {
+      "3.1.2.全角文字どうし": false,
+      "4.2.7.コロン(：)": false,
+      "4.3.1.丸かっこ（）": false
+    },
+    "preset-ja-spacing": {
+      "ja-space-around-code": {
+        "before": false,
+        "after": false
+      },
+      "ja-no-space-between-full-width": false
+    },
+    "preset-japanese": true,
+    "preset-ja-technical-writing": {
+      "max-kanji-continuous-len": false,
+      "no-exclamation-question-mark": {
+        "allowFullWidthExclamation": true,
+        "allowFullWidthQuestion": true
+      },
+      "no-doubled-joshi": {
+        "strict": false,
+        "allow": ["も", "や", "か"]
+      }
+    },
+    "preset-japanese": {
+      "max-ten": {
+        "max": 3
+      },
+      "no-doubled-conjunctive-particle-ga": true,
+      "no-doubled-conjunction": true,
+      "no-double-negative-ja": true,
+      "no-doubled-joshi": {
+        "min_interval": 1
+      },
+      "sentence-length": {
+        "max": 100
+      },
+      "no-dropping-the-ra": true,
+      "no-mix-dearu-desumasu": true,
+      "no-nfd": true,
+      "no-invalid-control-character": true,
+      "no-zero-width-spaces": true,
+      "no-kangxi-radicals": true
+    },
+    "aws-spellcheck": true
+  },
+  "filters": {
+    "comments": true
   }
 }
