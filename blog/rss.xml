@@ -4,10 +4,18 @@
         <title>タノミマスター システムドキュメント Blog</title>
         <link>https://tanomimaster.github.io/tanomimaster-doc/blog</link>
         <description>タノミマスター システムドキュメント Blog</description>
-        <lastBuildDate>Tue, 25 Feb 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 12 Mar 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
+        <item>
+            <title><![CDATA[v3.12.12 Release]]></title>
+            <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/03/12/</link>
+            <guid>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/03/12/</guid>
+            <pubDate>Wed, 12 Mar 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[メーカー向け]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー向け">メーカー向け<a href="#メーカー向け" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>機能追加<ul><li>明細出力ページにおいて、Web上に「注文単位の備考」列を表示するようにしました。</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売向け">小売向け<a href="#小売向け" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><ul><li>機能追加<ul><li>明細出力ページにおいて、Web上に「注文単位の備考」列を表示するようにしました。</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="タノミマスターシステム管理者向け">タノミマスターシステム管理者向け<a href="#タノミマスターシステム管理者向け" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2><p>なし</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="システム構成変更">システム構成変更<a href="#システム構成変更" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3><ul><li>rspecコードの重複削除し可読性と実行速度向上</li><li>rspecのコードをより抽象的、データをランダマイズした。</li></ul><p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.11...v3.12.12" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.11...v3.12.12</a></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v3.12.11 Release]]></title>
             <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/02/25/</link>
