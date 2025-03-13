@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-      メーカーはアカウント登録をして、商品登録をWebから行い、販売先の会社を選択、卸金額を設定するだけでタノミマスターでの取引を開始できます。
+      メーカーはアカウント登録をして、商品登録をWebから行い、販売先の会社を選択、金額を設定するだけでタノミマスターを経由した販売を即座に開始できます。
       <br/>
       <br/>
       発注者はアカウント登録をして、取引先のメーカーが卸価格の設定を行えば発注を行えるようになります。タノミマスターの概要と申込みは<a href="https://service.tanomimaster.com/">サービスサイト</a>を御覧願います。
