@@ -1,5 +1,6 @@
 ---
-title: 障害報告
+title: 接続性が失われる障害が発生
+tags: [system-fault]
 authors: [matsubokkuri]
 ---
 
