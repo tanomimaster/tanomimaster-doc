@@ -14,3 +14,9 @@ minowa:
   socials:
     x: minotchi
     github: shintaro-minowa
+
+takahashi:
+  name: Mayu Takahashi
+  image_url: https://github.com/takahashimayu.png
+  socials:
+    github: takahashimayu

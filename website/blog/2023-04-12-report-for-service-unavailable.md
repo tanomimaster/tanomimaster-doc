@@ -3,6 +3,8 @@ title: 障害報告
 authors: [matsubokkuri]
 ---
 
+<!-- truncate -->
+
 ## 経緯
 
 Apr 12, 2023 
