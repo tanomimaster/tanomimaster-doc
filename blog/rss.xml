@@ -38,6 +38,7 @@
 <li>rspecのコードをより抽象的、データをランダマイズした。</li>
 </ul>
 <p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.11...v3.12.12" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.11...v3.12.12</a></p>]]></content:encoded>
+            <category>release</category>
         </item>
         <item>
             <title><![CDATA[v3.12.11 Release]]></title>
@@ -72,6 +73,7 @@
 <li><strong>環境変数の整理</strong>: 不要な PaperTrail 関連の環境変数が削除されました。</li>
 </ul>
 <p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.10...v3.12.11" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.10...v3.12.11</a></p>]]></content:encoded>
+            <category>release</category>
         </item>
         <item>
             <title><![CDATA[v3.12.10 Release]]></title>
@@ -106,6 +108,7 @@
 <li>Dockerイメージを ruby:3.4.1 に更新</li>
 </ul>
 <p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.9...v3.12.10" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.9...v3.12.10</a></p>]]></content:encoded>
+            <category>release</category>
         </item>
         <item>
             <title><![CDATA[v3.12.9 Release]]></title>
@@ -156,6 +159,7 @@
 <li>不要なJOINを削除し、ページネーションを改善</li>
 </ul>
 <p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.8...v3.12.9" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.8...v3.12.9</a></p>]]></content:encoded>
+            <category>release</category>
         </item>
         <item>
             <title><![CDATA[v3.12.8 Release]]></title>
@@ -190,6 +194,7 @@
 <li>メモ欄の文字数制限変更に伴うAPI仕様の更新</li>
 </ul>
 <p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.7...v3.12.8" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.7...v3.12.8</a></p>]]></content:encoded>
+            <category>release</category>
         </item>
         <item>
             <title><![CDATA[v3.12.7 Release]]></title>
@@ -244,6 +249,7 @@
 </ul>
 <p>このリリースでは、管理者向け機能の使いやすさを向上させるとともに、APIの拡張によりシステムの柔軟性を高めています。</p>
 <p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.6...v3.12.7" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.6...v3.12.7</a></p>]]></content:encoded>
+            <category>release</category>
         </item>
         <item>
             <title><![CDATA[v3.12.6 Release]]></title>
@@ -309,6 +315,7 @@
 <li></li>
 </ul>
 <p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.5...v3.12.6" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.5...v3.12.6</a></p>]]></content:encoded>
+            <category>release</category>
         </item>
         <item>
             <title><![CDATA[v3.12.5 Release]]></title>
@@ -397,6 +404,7 @@
 <li>既存の検索・ソート機能の動作が一部変更されている可能性があります</li>
 </ul>
 <p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.4...v3.12.5" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.4...v3.12.5</a></p>]]></content:encoded>
+            <category>release</category>
         </item>
         <item>
             <title><![CDATA[v3.12.4 Release]]></title>
@@ -410,6 +418,7 @@
 <li>過去に生成したCSVファイルがダウンロードできなくなった問題を修正。</li>
 </ul>
 <p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.3...v3.12.4" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.3...v3.12.4</a></p>]]></content:encoded>
+            <category>release</category>
         </item>
         <item>
             <title><![CDATA[v3.12.3 Release]]></title>
@@ -513,6 +522,7 @@
 </li>
 </ul>
 <p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.2...v3.12.3" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.2...v3.12.3</a></p>]]></content:encoded>
+            <category>release</category>
         </item>
         <item>
             <title><![CDATA[v3.12.2 Release]]></title>
@@ -589,6 +599,7 @@
 </li>
 </ul>
 <p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.1...v3.12.2" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.1...v3.12.2</a></p>]]></content:encoded>
+            <category>release</category>
         </item>
         <item>
             <title><![CDATA[v3.12.1 Release]]></title>
@@ -603,6 +614,7 @@
 <li>APIバージョンのincrementを行った。</li>
 </ul>
 <p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.0...v3.12.1" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.0...v3.12.1</a></p>]]></content:encoded>
+            <category>release</category>
         </item>
         <item>
             <title><![CDATA[v3.12.0 Release]]></title>
@@ -673,6 +685,7 @@
 <li><code>host.docker.internal</code>ドメインを許可</li>
 </ul>
 <p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.11.2...v3.12.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.11.2...v3.12.0</a></p>]]></content:encoded>
+            <category>release</category>
         </item>
         <item>
             <title><![CDATA[v3.11.2 Release]]></title>
@@ -685,6 +698,7 @@
 <li>注文一覧ページにて、<code>備考</code> を表示するように変更。</li>
 </ul>
 <p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.11.1...v3.11.2" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.11.1...v3.11.2</a></p>]]></content:encoded>
+            <category>release</category>
         </item>
         <item>
             <title><![CDATA[v3.11.1 Release]]></title>
@@ -697,6 +711,7 @@
 <li>gem, npmの更新</li>
 </ul>
 <p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.11.0...v3.11.1" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.11.0...v3.11.1</a></p>]]></content:encoded>
+            <category>release</category>
         </item>
         <item>
             <title><![CDATA[v3.11.0 Release]]></title>
@@ -718,6 +733,7 @@
 <li>gem, npm更新</li>
 </ul>
 <p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.12...v3.11.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.12...v3.11.0</a></p>]]></content:encoded>
+            <category>release</category>
         </item>
         <item>
             <title><![CDATA[v3.10.12 Release]]></title>
@@ -731,6 +747,7 @@
 <li>docker-composeの設定ファイル最適化</li>
 </ul>
 <p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.11...v3.10.12" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.11...v3.10.12</a></p>]]></content:encoded>
+            <category>release</category>
         </item>
         <item>
             <title><![CDATA[v3.10.11 Release]]></title>
@@ -743,6 +760,7 @@
 <li>OpenAPI Speificationのtypoを修正</li>
 </ul>
 <p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.10...v3.10.11" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.10...v3.10.11</a></p>]]></content:encoded>
+            <category>release</category>
         </item>
         <item>
             <title><![CDATA[v3.10.10 Release]]></title>
@@ -757,6 +775,7 @@
 <li>code formatのCI厳密化</li>
 </ul>
 <p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.9...v3.10.10" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.9...v3.10.10</a></p>]]></content:encoded>
+            <category>release</category>
         </item>
         <item>
             <title><![CDATA[v3.10.9 Release]]></title>
@@ -777,6 +796,7 @@
 <li>gem, npmの更新</li>
 </ul>
 <p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.8...v3.10.9" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.8...v3.10.9</a></p>]]></content:encoded>
+            <category>release</category>
         </item>
     </channel>
 </rss>

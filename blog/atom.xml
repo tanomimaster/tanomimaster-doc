@@ -41,6 +41,7 @@
             <name>Yuki Matsukura</name>
             <uri>https://x.com/matsubokkuri</uri>
         </author>
+        <category label="release" term="release"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.12.11 Release]]></title>
@@ -79,6 +80,7 @@
             <name>Yuki Matsukura</name>
             <uri>https://x.com/matsubokkuri</uri>
         </author>
+        <category label="release" term="release"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.12.10 Release]]></title>
@@ -117,6 +119,7 @@
             <name>Yuki Matsukura</name>
             <uri>https://x.com/matsubokkuri</uri>
         </author>
+        <category label="release" term="release"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.12.9 Release]]></title>
@@ -171,6 +174,7 @@
             <name>Yuki Matsukura</name>
             <uri>https://x.com/matsubokkuri</uri>
         </author>
+        <category label="release" term="release"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.12.8 Release]]></title>
@@ -209,6 +213,7 @@
             <name>Yuki Matsukura</name>
             <uri>https://x.com/matsubokkuri</uri>
         </author>
+        <category label="release" term="release"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.12.7 Release]]></title>
@@ -267,6 +272,7 @@
             <name>Yuki Matsukura</name>
             <uri>https://x.com/matsubokkuri</uri>
         </author>
+        <category label="release" term="release"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.12.6 Release]]></title>
@@ -336,6 +342,7 @@
             <name>Yuki Matsukura</name>
             <uri>https://x.com/matsubokkuri</uri>
         </author>
+        <category label="release" term="release"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.12.5 Release]]></title>
@@ -428,6 +435,7 @@
             <name>Yuki Matsukura</name>
             <uri>https://x.com/matsubokkuri</uri>
         </author>
+        <category label="release" term="release"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.12.4 Release]]></title>
@@ -445,6 +453,7 @@
             <name>Yuki Matsukura</name>
             <uri>https://x.com/matsubokkuri</uri>
         </author>
+        <category label="release" term="release"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.12.3 Release]]></title>
@@ -552,6 +561,7 @@
             <name>Yuki Matsukura</name>
             <uri>https://x.com/matsubokkuri</uri>
         </author>
+        <category label="release" term="release"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.12.2 Release]]></title>
@@ -632,6 +642,7 @@
             <name>Yuki Matsukura</name>
             <uri>https://x.com/matsubokkuri</uri>
         </author>
+        <category label="release" term="release"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.12.1 Release]]></title>
@@ -650,6 +661,7 @@
             <name>Yuki Matsukura</name>
             <uri>https://x.com/matsubokkuri</uri>
         </author>
+        <category label="release" term="release"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.12.0 Release]]></title>
@@ -724,6 +736,7 @@
             <name>Yuki Matsukura</name>
             <uri>https://x.com/matsubokkuri</uri>
         </author>
+        <category label="release" term="release"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.11.2 Release]]></title>
@@ -740,6 +753,7 @@
             <name>Yuki Matsukura</name>
             <uri>https://x.com/matsubokkuri</uri>
         </author>
+        <category label="release" term="release"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.11.1 Release]]></title>
@@ -756,6 +770,7 @@
             <name>Yuki Matsukura</name>
             <uri>https://x.com/matsubokkuri</uri>
         </author>
+        <category label="release" term="release"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.11.0 Release]]></title>
@@ -781,6 +796,7 @@
             <name>Yuki Matsukura</name>
             <uri>https://x.com/matsubokkuri</uri>
         </author>
+        <category label="release" term="release"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.10.12 Release]]></title>
@@ -798,6 +814,7 @@
             <name>Yuki Matsukura</name>
             <uri>https://x.com/matsubokkuri</uri>
         </author>
+        <category label="release" term="release"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.10.11 Release]]></title>
@@ -814,6 +831,7 @@
             <name>Yuki Matsukura</name>
             <uri>https://x.com/matsubokkuri</uri>
         </author>
+        <category label="release" term="release"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.10.10 Release]]></title>
@@ -832,6 +850,7 @@
             <name>Yuki Matsukura</name>
             <uri>https://x.com/matsubokkuri</uri>
         </author>
+        <category label="release" term="release"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[v3.10.9 Release]]></title>
@@ -856,5 +875,6 @@
             <name>Yuki Matsukura</name>
             <uri>https://x.com/matsubokkuri</uri>
         </author>
+        <category label="release" term="release"/>
     </entry>
 </feed>
