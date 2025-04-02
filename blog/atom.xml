@@ -2,11 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tanomimaster.github.io/tanomimaster-doc/blog</id>
     <title>タノミマスター システムドキュメント Blog</title>
-    <updated>2025-03-12T00:00:00.000Z</updated>
+    <updated>2025-04-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tanomimaster.github.io/tanomimaster-doc/blog"/>
     <subtitle>タノミマスター システムドキュメント Blog</subtitle>
     <icon>https://tanomimaster.github.io/tanomimaster-doc/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[v3.12.13 Release]]></title>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/04/02/</id>
+        <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/04/02/"/>
+        <updated>2025-04-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[全体]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="全体">全体<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/04/02/#%E5%85%A8%E4%BD%93" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<p>カテゴリがを追加しました。</p>
+<ul>
+<li>食料品<!-- -->
+<ul>
+<li>飲料</li>
+</ul>
+</li>
+<li>衣服<!-- -->
+<ul>
+<li>作業着</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="システム構成変更">システム構成変更<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/04/02/#%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E6%A7%8B%E6%88%90%E5%A4%89%E6%9B%B4" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.12...v3.12.13" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.12...v3.12.13</a></p>]]></content>
+        <author>
+            <name>Yuki Matsukura</name>
+            <uri>https://x.com/matsubokkuri</uri>
+        </author>
+        <category label="release" term="release"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[v3.12.12 Release]]></title>
         <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/03/12/</id>
@@ -846,31 +874,6 @@
 <li>code formatのCI厳密化</li>
 </ul>
 <p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.9...v3.10.10" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.9...v3.10.10</a></p>]]></content>
-        <author>
-            <name>Yuki Matsukura</name>
-            <uri>https://x.com/matsubokkuri</uri>
-        </author>
-        <category label="release" term="release"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[v3.10.9 Release]]></title>
-        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/05/22/</id>
-        <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/05/22/"/>
-        <updated>2024-05-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[小売]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売">小売<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/05/22/#%E5%B0%8F%E5%A3%B2" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<ul>
-<li>ステータス遷移に伴う実装の修正<!-- -->
-<ul>
-<li>配送中ステータスの注文に対しての操作を設計に合わせました。</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/05/22/#%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<ul>
-<li>gem, npmの更新</li>
-</ul>
-<p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.8...v3.10.9" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.8...v3.10.9</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>https://x.com/matsubokkuri</uri>
