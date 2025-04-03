@@ -128,8 +128,13 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/tanomimaster',
               },
+              {
+                label: 'APIドキュメント',
+                href: 'https://tanomimaster.com/docs/api',
+              }
             ],
           },
+
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Tanomimaster.`,
       },
