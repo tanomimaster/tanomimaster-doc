@@ -506,7 +506,7 @@
 <li>管理者用画面の各ページに対する統合テストを追加</li>
 <li>新規追加された統計画面のテストケースを実装</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="テクニカルアップデート">テクニカルアップデート<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/01/29/#%E3%83%86%E3%82%AF%E3%83%8B%E3%82%AB%E3%83%AB%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%EF%BF%BD%E3%83%BC%E3%83%88" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="テクニカルアップデート">テクニカルアップデート<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/01/29/#%E3%83%86%E3%82%AF%E3%83%8B%E3%82%AB%E3%83%AB%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
 <ul>
 <li>OpenAPIの仕様を更新</li>
 <li>E2Eテストのセレクタを改善（より安定したテスト実装）</li>
