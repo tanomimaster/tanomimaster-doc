@@ -8,6 +8,9 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: gh-pages
+
     defaults:
       run:
         working-directory: website
