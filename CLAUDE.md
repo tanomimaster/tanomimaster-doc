@@ -1,34 +1,65 @@
-# Tanomimaster Doc Project Guidelines
+# CLAUDE.md
 
-## Build & Preview Commands
-- Preview site locally: `docker-compose up` (http://localhost:3000/tanomimaster-doc/)
-- Alternative preview: `cd website && npm start --host=0.0.0.0`
-- Build site: `cd website && npm run build`
-- Deploy site: `cd website && npm run deploy`
-- Generate translations: `cd website && npm run write-translations`
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## Linting
-- Run textlint: `npx textlint website`
-- Fix textlint issues: `npx textlint website --fix`
-- Check Markdown style: `npx markdownlint-cli2 "**/*.md"`
+## Project Overview
+This is a Docusaurus-based documentation site for Tanomimaster (B2B order management platform). The site is published to GitHub Pages and contains system documentation, API specifications, and release notes in Japanese.
 
-## Markdown Style Rules
-- Use dash style for unordered lists (`- item`)
-- Use fenced code blocks with backticks (```)
-- Follow Japanese textlint rules:
-  - Add space between half-width and full-width characters
-  - No spaces between full-width characters
-  - No spaces around Japanese parentheses (丸かっこ（）)
-  - Keep sentences under 100 characters
-  - Maintain consistent style (だ/である or です/ます) within documents
-  - Maximum of 3 commas (、) per sentence
+## Development Commands
 
-## Blog Posts
-- Use template at `website/blog/.template.md` for release notes
-- Include sections for retail, manufacturer, and system admin audiences
-- Add GitHub comparison URL for code changes
+### Local Development
+```bash
+# Docker-based development (recommended)
+docker-compose up
+# Access at http://localhost:3000/tanomimaster-doc/
 
-## Project Structure
-- Document root is in `website` directory
-- Base URL must be `/tanomimaster-doc/` for production
-- Changes to `master` branch are automatically deployed via GitHub Actions
+# Alternative: Direct npm start
+cd website && npm start --host=0.0.0.0
+```
+
+### Build & Deploy
+```bash
+# Build the site
+cd website && npm run build
+
+# Deploy to GitHub Pages
+cd website && npm run deploy
+
+# Generate i18n translations
+cd website && npm run write-translations
+```
+
+### Linting & Quality
+```bash
+# Check Japanese text with textlint
+npx textlint website
+npx textlint website --fix
+
+# Check Markdown formatting
+npx markdownlint-cli2 "**/*.md"
+```
+
+## Architecture & Structure
+
+### Key Directories
+- `website/`: Docusaurus application root
+- `website/docs/`: Main documentation content
+- `website/blog/`: Release notes and changelog entries
+- `website/src/`: React components and styling
+- `release-notes-generator/`: TypeScript tool for generating release notes
+
+### Configuration
+- `website/docusaurus.config.js`: Main Docusaurus configuration
+- `textlintrc.json`: Japanese text linting rules
+- Base URL is `/tanomimaster-doc/` for GitHub Pages deployment
+
+### Content Guidelines
+- Primary language: Japanese
+- Blog posts should include sections for retail, manufacturer, and system admin users
+- Include GitHub comparison URLs in release notes
+- Follow Japanese textlint rules (spacing, parentheses, sentence length)
+- Use dash-style lists and fenced code blocks
+
+### Deployment
+- `master` branch auto-deploys to https://tanomimaster.github.io/tanomimaster-doc/
+- GitHub Actions handles build and deployment process
