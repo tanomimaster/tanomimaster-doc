@@ -1,3 +1,4 @@
 .DS_Store
 /website/.docusaurus/
 /node_modules/
+/.claude/
