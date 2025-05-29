@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tanomimaster.github.io/tanomimaster-doc/sitemap.xml
