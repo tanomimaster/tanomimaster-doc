@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[643],{5739:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/tanomimaster-doc/blog","page":1,"postsPerPage":10,"totalPages":10,"totalCount":97,"nextPage":"/tanomimaster-doc/blog/page/2","blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

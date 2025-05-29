@@ -4,10 +4,46 @@
         <title>タノミマスター システムドキュメント Blog</title>
         <link>https://tanomimaster.github.io/tanomimaster-doc/blog</link>
         <description>タノミマスター システムドキュメント Blog</description>
-        <lastBuildDate>Wed, 30 Apr 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 May 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
+        <item>
+            <title><![CDATA[v3.12.16 Release]]></title>
+            <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/05/01/</link>
+            <guid>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/05/01/</guid>
+            <pubDate>Thu, 01 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[メーカー向け]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー向け">メーカー向け<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/05/01/#%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E5%90%91%E3%81%91" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<ul>
+<li>N/A</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売向け">小売向け<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/05/01/#%E5%B0%8F%E5%A3%B2%E5%90%91%E3%81%91" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<ul>
+<li>N/A</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム管理者向け">システム管理者向け<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/05/01/#%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E7%AE%A1%E7%90%86%E8%80%85%E5%90%91%E3%81%91" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<ul>
+<li><strong>パフォーマンス改善</strong>: 大量データ処理時のデータベースタイムアウト対策を実施し、システム安定性を向上させました。</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム技術的な変更">システム（技術的な変更）<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/05/01/#%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E6%8A%80%E8%A1%93%E7%9A%84%E3%81%AA%E5%A4%89%E6%9B%B4" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<ul>
+<li><strong>自動化処理の最適化</strong>:<!-- -->
+<ul>
+<li><strong>商品価格コピー機能</strong>: 大量のデータセットを効率的に処理するため、バッチ処理を導入しデータベースタイムアウトを回避</li>
+<li><strong>商品画像コピー機能</strong>: メモリ効率を改善し、大量商品処理時の安定性を向上</li>
+<li><strong>商品サブマスターコピー機能</strong>: データベース負荷軽減のため処理方式を最適化</li>
+</ul>
+</li>
+<li><strong>データベースクエリ最適化</strong>: <code>each</code>から<code>find_each</code>に変更することで、メモリ使用量を削減し大量レコード処理を安定化</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="その他">その他<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/05/01/#%E3%81%9D%E3%81%AE%E4%BB%96" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<ul>
+<li><strong>技術的負債の解消</strong>: 自動化処理における大量データ処理の課題を解決し、システム全体の安定性を向上させました。</li>
+</ul>
+<p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.15...v3.12.16" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.15...v3.12.16</a></p>]]></content:encoded>
+            <category>release</category>
+        </item>
         <item>
             <title><![CDATA[v3.12.15 Release]]></title>
             <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/04/30/</link>
@@ -926,20 +962,6 @@
 <li>gem, npm更新</li>
 </ul>
 <p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.12...v3.11.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.12...v3.11.0</a></p>]]></content:encoded>
-            <category>release</category>
-        </item>
-        <item>
-            <title><![CDATA[v3.10.12 Release]]></title>
-            <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/07/03/</link>
-            <guid>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/07/03/</guid>
-            <pubDate>Wed, 03 Jul 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[システム]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/07/03/#%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<ul>
-<li>gemの更新</li>
-<li>docker-composeの設定ファイル最適化</li>
-</ul>
-<p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.11...v3.10.12" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.11...v3.10.12</a></p>]]></content:encoded>
             <category>release</category>
         </item>
     </channel>
