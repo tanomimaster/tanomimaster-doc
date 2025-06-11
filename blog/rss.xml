@@ -4,10 +4,212 @@
         <title>タノミマスター システムドキュメント Blog</title>
         <link>https://tanomimaster.github.io/tanomimaster-doc/blog</link>
         <description>タノミマスター システムドキュメント Blog</description>
-        <lastBuildDate>Thu, 01 May 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
+        <item>
+            <title><![CDATA[v3.12.17 Release]]></title>
+            <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/06/11/</link>
+            <guid>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/06/11/</guid>
+            <pubDate>Wed, 11 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[🏭 メーカー向け機能改善]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-メーカー向け機能改善">🏭 メーカー向け機能改善<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/06/11/#-%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E5%90%91%E3%81%91%E6%A9%9F%E8%83%BD%E6%94%B9%E5%96%84" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-注文管理機能強化">🔍 注文管理機能強化<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/06/11/#-%E6%B3%A8%E6%96%87%E7%AE%A1%E7%90%86%E6%A9%9F%E8%83%BD%E5%BC%B7%E5%8C%96" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<ul>
+<li>
+<p><strong>注文商品検索の大幅改善</strong></p>
+<ul>
+<li>納品年月での検索機能を新規追加</li>
+<li>小売営業所での絞り込み機能を追加</li>
+<li>検索条件の組み合わせが可能（注文年月 + 納品年月 + 小売）</li>
+</ul>
+</li>
+<li>
+<p><strong>CSVエクスポート機能の改善</strong></p>
+<ul>
+<li>ファイル名に小売コードを自動追加</li>
+<li>検索条件に応じた適切なファイル名生成</li>
+<li>エクスポート時のバリデーション強化</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-データ表示の最適化">📊 データ表示の最適化<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/06/11/#-%E3%83%87%E3%83%BC%E3%82%BF%E8%A1%A8%E7%A4%BA%E3%81%AE%E6%9C%80%E9%81%A9%E5%8C%96" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<ul>
+<li>注文商品一覧の表示パフォーマンス向上</li>
+<li>複数条件検索時の処理速度改善</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-小売向け機能改善">🏪 小売向け機能改善<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/06/11/#-%E5%B0%8F%E5%A3%B2%E5%90%91%E3%81%91%E6%A9%9F%E8%83%BD%E6%94%B9%E5%96%84" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-カート機能の大幅リニューアル">🛒 カート機能の大幅リニューアル<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/06/11/#-%E3%82%AB%E3%83%BC%E3%83%88%E6%A9%9F%E8%83%BD%E3%81%AE%E5%A4%A7%E5%B9%85%E3%83%AA%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%A2%E3%83%AB" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<ul>
+<li>
+<p><strong>UI/UXの全面改善</strong></p>
+<ul>
+<li>モダンなカードベースデザインに刷新</li>
+<li>商品情報の視認性向上</li>
+<li>レスポンシブデザインの最適化</li>
+</ul>
+</li>
+<li>
+<p><strong>操作性の向上</strong></p>
+<ul>
+<li>商品削除時の確認ダイアログを追加</li>
+<li>数量変更の操作感改善</li>
+<li>エラーハンドリングの強化</li>
+</ul>
+</li>
+<li>
+<p><strong>関連商品表示の改善</strong></p>
+<ul>
+<li>デフォルトで関連商品を展開表示</li>
+<li>関連商品からの直接カート追加機能</li>
+<li>ガス種選択UIの改善</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-商品詳細ページ強化">📱 商品詳細ページ強化<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/06/11/#-%E5%95%86%E5%93%81%E8%A9%B3%E7%B4%B0%E3%83%9A%E3%83%BC%E3%82%B8%E5%BC%B7%E5%8C%96" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<ul>
+<li>
+<p><strong>画像表示機能の改善</strong></p>
+<ul>
+<li>タッチスワイプ対応の画像カルーセル</li>
+<li>キーボードナビゲーション対応</li>
+<li>画像の遅延読み込み機能</li>
+<li>拡大表示モーダルの改善</li>
+</ul>
+</li>
+<li>
+<p><strong>商品情報表示の充実</strong></p>
+<ul>
+<li>商品属性（サブマスタ）の表示を追加</li>
+<li>価格情報の視認性向上</li>
+<li>タブ機能による情報整理</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-注文履歴管理の改善">📋 注文・履歴管理の改善<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/06/11/#-%E6%B3%A8%E6%96%87%E5%B1%A5%E6%AD%B4%E7%AE%A1%E7%90%86%E3%81%AE%E6%94%B9%E5%96%84" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<ul>
+<li>
+<p><strong>注文完了画面の改善</strong></p>
+<ul>
+<li>より直感的なデザインに変更</li>
+<li>注文内容確認へのスムーズな遷移</li>
+</ul>
+</li>
+<li>
+<p><strong>注文履歴表示の最適化</strong></p>
+<ul>
+<li>カード型レイアウトの採用</li>
+<li>注文情報の整理と視認性向上</li>
+<li>空状態時のユーザーガイダンス追加</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-レビュー機能の改善">⭐ レビュー機能の改善<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/06/11/#-%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC%E6%A9%9F%E8%83%BD%E3%81%AE%E6%94%B9%E5%96%84" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<ul>
+<li>レビュー投稿画面のUI刷新</li>
+<li>評価入力の操作性向上</li>
+<li>商品情報表示の最適化</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-システム関連改善">🔧 システム関連改善<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/06/11/#-%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%A2%E9%80%A3%E6%94%B9%E5%96%84" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-技術基盤の強化">🚀 技術基盤の強化<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/06/11/#-%E6%8A%80%E8%A1%93%E5%9F%BA%E7%9B%A4%E3%81%AE%E5%BC%B7%E5%8C%96" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<ul>
+<li><strong>Ruby バージョンアップ</strong>: 3.4.1 → 3.4.3</li>
+<li><strong>依存関係の更新</strong>:<!-- -->
+<ul>
+<li>axios: 1.8.2 → 1.9.0</li>
+<li>form-data: 4.0.1 → 4.0.2</li>
+<li>セキュリティパッチの適用</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="️-アーキテクチャ改善">🏗️ アーキテクチャ改善<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/06/11/#%EF%B8%8F-%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3%E6%94%B9%E5%96%84" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<ul>
+<li>
+<p><strong>コード品質向上</strong></p>
+<ul>
+<li>Rails 7のモダンなenum記法に統一</li>
+<li>不要なコードの削除とリファクタリング</li>
+<li>定数定義の適切な配置</li>
+</ul>
+</li>
+<li>
+<p><strong>バリデーション強化</strong></p>
+<ul>
+<li>電話番号バリデーションの改善（Phonelib設定最適化）</li>
+<li>画像ファイルのバリデーション強化</li>
+<li>入力検証の改善</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-cicd開発環境改善">🔄 CI/CD・開発環境改善<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/06/11/#-cicd%E9%96%8B%E7%99%BA%E7%92%B0%E5%A2%83%E6%94%B9%E5%96%84" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<ul>
+<li>
+<p><strong>GitHub Actions強化</strong></p>
+<ul>
+<li>リリースドラフター機能の追加</li>
+<li>環境別デプロイメント設定の改善</li>
+<li>自動リリース作成機能</li>
+</ul>
+</li>
+<li>
+<p><strong>開発体験の向上</strong></p>
+<ul>
+<li>Claude Code対応ドキュメント追加（CLAUDE.md）</li>
+<li>VSCode設定ファイルの追加</li>
+<li>gitignore設定の改善</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-テスト品質管理">🧪 テスト・品質管理<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/06/11/#-%E3%83%86%E3%82%B9%E3%83%88%E5%93%81%E8%B3%AA%E7%AE%A1%E7%90%86" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<ul>
+<li>
+<p><strong>テストコードの改善</strong></p>
+<ul>
+<li>RSpecの<code>include_examples</code>を<code>it_behaves_like</code>に統一</li>
+<li>テストの可読性向上</li>
+<li>APIテストの改善</li>
+</ul>
+</li>
+<li>
+<p><strong>コード品質管理</strong></p>
+<ul>
+<li>RuboCop設定の最適化</li>
+<li>静的解析の強化</li>
+<li>コードレビュー品質の向上</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-セキュリティ強化">🔒 セキュリティ強化<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/06/11/#-%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E5%BC%B7%E5%8C%96" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<ul>
+<li>依存関係の脆弱性修正</li>
+<li>セキュリティヘッダーの改善</li>
+<li>入力値検証の強化</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-バグ修正">🐛 バグ修正<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/06/11/#-%E3%83%90%E3%82%B0%E4%BF%AE%E6%AD%A3" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー向け">メーカー向け<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/06/11/#%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E5%90%91%E3%81%91" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<ul>
+<li>注文商品検索時の例外処理改善</li>
+<li>CSVエクスポート時のファイル名生成修正</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="小売向け">小売向け<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/06/11/#%E5%B0%8F%E5%A3%B2%E5%90%91%E3%81%91" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<ul>
+<li>カート操作時のエラーハンドリング改善</li>
+<li>商品画像表示の最適化</li>
+<li>フォームバリデーションの修正</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="システム全般">システム全般<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/06/11/#%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E5%85%A8%E8%88%AC" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<ul>
+<li>Integer型変換処理の例外処理改善</li>
+<li>定数スコープの適切な修正</li>
+<li>パフォーマンス最適化</li>
+</ul>
+<p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.16...v3.12.17" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.16...v3.12.17</a></p>]]></content:encoded>
+            <category>release</category>
+        </item>
         <item>
             <title><![CDATA[v3.12.16 Release]]></title>
             <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/05/01/</link>
@@ -940,28 +1142,6 @@
 <li>gem, npmの更新</li>
 </ul>
 <p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.11.0...v3.11.1" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.11.0...v3.11.1</a></p>]]></content:encoded>
-            <category>release</category>
-        </item>
-        <item>
-            <title><![CDATA[v3.11.0 Release]]></title>
-            <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/07/17/</link>
-            <guid>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/07/17/</guid>
-            <pubDate>Wed, 17 Jul 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[メーカー]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー">メーカー<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/07/17/#%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<ul>
-<li>小売ごとに納期目安を設定できる機能をリリース。<!-- -->
-<ul>
-<li><a href="https://tanomimaster.github.io/tanomimaster-doc/docs/csv#%E9%87%91%E9%A1%8D" target="_blank" rel="noopener noreferrer">価格マスタのCSVカラム</a>が変更になります。</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/07/17/#%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<ul>
-<li>Ruby 3.3.3 =&gt; 3.3.4</li>
-<li>gem, npm更新</li>
-</ul>
-<p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.12...v3.11.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.10.12...v3.11.0</a></p>]]></content:encoded>
             <category>release</category>
         </item>
     </channel>

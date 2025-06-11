@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[9174],{8822:a=>{a.exports=JSON.parse('{"tag":{"label":"API","permalink":"/tanomimaster-doc/docs/tags/api","allTagsPath":"/tanomimaster-doc/docs/tags","count":1,"items":[{"id":"api","title":"API\u4ed5\u69d8","description":"\u6982\u8981","permalink":"/tanomimaster-doc/docs/api"}],"unlisted":false}}')}}]);
