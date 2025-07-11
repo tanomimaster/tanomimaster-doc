@@ -2,11 +2,90 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tanomimaster.github.io/tanomimaster-doc/blog</id>
     <title>タノミマスター システムドキュメント Blog</title>
-    <updated>2025-06-11T00:00:00.000Z</updated>
+    <updated>2025-07-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tanomimaster.github.io/tanomimaster-doc/blog"/>
     <subtitle>タノミマスター システムドキュメント Blog</subtitle>
     <icon>https://tanomimaster.github.io/tanomimaster-doc/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[v3.13.0 Release]]></title>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/09/</id>
+        <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/09/"/>
+        <updated>2025-07-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[主な変更]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="主な変更">主な変更<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/09/#%E4%B8%BB%E3%81%AA%E5%A4%89%E6%9B%B4" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<ul>
+<li><strong>Rails 7.1へのアップデート</strong>: #2019<!-- -->
+<ul>
+<li>Railsおよび関連する依存関係をバージョン7.1に更新しました。</li>
+<li>これに伴い、<code>bin/rails app:update</code> を実行し、各種設定ファイルを更新しています。</li>
+<li>Active Storageの非互換性など、アップグレードに伴う複数の問題を修正しました。</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="機能追加">機能追加<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/09/#%E6%A9%9F%E8%83%BD%E8%BF%BD%E5%8A%A0" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<ul>
+<li><strong>CLAUDEアシスタントの導入</strong>:<!-- -->
+<ul>
+<li>GitHub ActionsにCLAUDEアシスタントを導入し、PR作成などを支援するワークフローを追加しました。</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="改善">改善<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/09/#%E6%94%B9%E5%96%84" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<ul>
+<li><strong>ヘルスチェックの改善</strong>:<!-- -->
+<ul>
+<li>ヘルスチェック機能を改善しました。</li>
+</ul>
+</li>
+<li><strong>非推奨警告の修正</strong>:<!-- -->
+<ul>
+<li>Rails 7.1へのアップグレードに伴う非推奨警告を修正しました。</li>
+</ul>
+</li>
+<li><strong>HTTP/2 RFC 9113への対応</strong>:<!-- -->
+<ul>
+<li>HTTPヘッダーの扱いでRFCに準拠するように修正しました。</li>
+</ul>
+</li>
+<li><strong>SDKインターフェースの更新</strong>:<!-- -->
+<ul>
+<li>利用しているSDKのインターフェース変更に対応しました。</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="依存関係の更新">依存関係の更新<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/09/#%E4%BE%9D%E5%AD%98%E9%96%A2%E4%BF%82%E3%81%AE%E6%9B%B4%E6%96%B0" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<ul>
+<li><strong>Ruby</strong>: <code>3.4.3</code> -&gt; <code>3.4.4</code></li>
+<li><strong>Node.js</strong>: <code>22</code> -&gt; <code>24</code> (LTS)</li>
+<li><strong>各種Gem</strong>: <code>bundle update</code> を実施</li>
+<li><strong>各種npmパッケージ</strong>: <code>yarn upgrade</code> を実施<!-- -->
+<ul>
+<li><code>brace-expansion</code>: <code>1.1.11</code> -&gt; <code>1.1.12</code></li>
+<li><code>pbkdf2</code>: <code>3.1.2</code> -&gt; <code>3.1.3</code></li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="その他">その他<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/09/#%E3%81%9D%E3%81%AE%E4%BB%96" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<ul>
+<li><strong>GitHub Actionsの修正</strong>:<!-- -->
+<ul>
+<li>ワークフローの構文やNode.jsのバージョン指定を修正しました。</li>
+</ul>
+</li>
+<li><strong>RuboCopによるコード修正</strong>:<!-- -->
+<ul>
+<li><code>rubocop -a</code> を実行し、コードスタイルを修正しました。</li>
+</ul>
+</li>
+</ul>
+<p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.17...v3.13.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.17...v3.13.0</a></p>]]></content>
+        <author>
+            <name>Yuki Matsukura</name>
+            <uri>https://x.com/matsubokkuri</uri>
+        </author>
+        <category label="release" term="release"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[v3.12.17 Release]]></title>
         <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/06/11/</id>
@@ -1200,23 +1279,6 @@
 <li>注文一覧ページにて、<code>備考</code> を表示するように変更。</li>
 </ul>
 <p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.11.1...v3.11.2" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.11.1...v3.11.2</a></p>]]></content>
-        <author>
-            <name>Yuki Matsukura</name>
-            <uri>https://x.com/matsubokkuri</uri>
-        </author>
-        <category label="release" term="release"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[v3.11.1 Release]]></title>
-        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/09/04/</id>
-        <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/09/04/"/>
-        <updated>2024-09-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[システム]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/09/04/#%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<ul>
-<li>gem, npmの更新</li>
-</ul>
-<p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.11.0...v3.11.1" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.11.0...v3.11.1</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>https://x.com/matsubokkuri</uri>
