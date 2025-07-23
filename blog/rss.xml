@@ -4,10 +4,151 @@
         <title>タノミマスター システムドキュメント Blog</title>
         <link>https://tanomimaster.github.io/tanomimaster-doc/blog</link>
         <description>タノミマスター システムドキュメント Blog</description>
-        <lastBuildDate>Wed, 09 Jul 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 23 Jul 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
+        <item>
+            <title><![CDATA[v3.13.1 Release]]></title>
+            <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/23/</link>
+            <guid>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/23/</guid>
+            <pubDate>Wed, 23 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[📋 新機能・改善]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-新機能改善">📋 新機能・改善<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/23/#-%E6%96%B0%E6%A9%9F%E8%83%BD%E6%94%B9%E5%96%84" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-メーカー向け">🏭 メーカー向け<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/23/#-%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E5%90%91%E3%81%91" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="バックエンドタスク管理の強化">バックエンドタスク管理の強化<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/23/#%E3%83%90%E3%83%83%E3%82%AF%E3%82%A8%E3%83%B3%E3%83%89%E3%82%BF%E3%82%B9%E3%82%AF%E7%AE%A1%E7%90%86%E3%81%AE%E5%BC%B7%E5%8C%96" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h4>
+<ul>
+<li><strong>削除機能の追加</strong>: 管理者権限でバックエンドタスクを削除できるようになりました<!-- -->
+<ul>
+<li>削除確認ダイアログでの安全な削除操作</li>
+<li>アクセス制御（管理者権限のみ）を適用</li>
+</ul>
+</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="注文明細一覧の改良">注文明細一覧の改良<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/23/#%E6%B3%A8%E6%96%87%E6%98%8E%E7%B4%B0%E4%B8%80%E8%A6%A7%E3%81%AE%E6%94%B9%E8%89%AF" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h4>
+<ul>
+<li><strong>検索フォームのレイアウト改善</strong>: より使いやすいフォーム配置とボタンデザイン</li>
+<li><strong>テーブル表示の最適化</strong>: 水平スクロール時の列幅調整（<code>min-width</code>による固定幅から可変幅へ）</li>
+<li><strong>アクティブな小売業者のみ表示</strong>: 無効な関係の小売業者を検索対象から除外</li>
+<li><strong>空状態の改善</strong>: データがない場合にアラート形式での分かりやすい表示</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="パフォーマンス最適化">パフォーマンス最適化<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/23/#%E3%83%91%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9%E6%9C%80%E9%81%A9%E5%8C%96" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h4>
+<ul>
+<li><strong>アクティブな小売業者取得の高速化</strong>: メモ化機能により同一リクエスト内での重複クエリを削減</li>
+<li><strong>営業所検索の最適化</strong>: アクティブな小売業者の営業所のみに絞り込み</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-小売向け">🏪 小売向け<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/23/#-%E5%B0%8F%E5%A3%B2%E5%90%91%E3%81%91" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="バックエンドタスク管理の強化-1">バックエンドタスク管理の強化<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/23/#%E3%83%90%E3%83%83%E3%82%AF%E3%82%A8%E3%83%B3%E3%83%89%E3%82%BF%E3%82%B9%E3%82%AF%E7%AE%A1%E7%90%86%E3%81%AE%E5%BC%B7%E5%8C%96-1" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h4>
+<ul>
+<li><strong>削除機能の追加</strong>: メーカー向けと同様の削除機能を追加<!-- -->
+<ul>
+<li>管理者権限による安全な削除操作</li>
+</ul>
+</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="ガス種表示の視認性向上">ガス種表示の視認性向上<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/23/#%E3%82%AC%E3%82%B9%E7%A8%AE%E8%A1%A8%E7%A4%BA%E3%81%AE%E8%A6%96%E8%AA%8D%E6%80%A7%E5%90%91%E4%B8%8A" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h4>
+<ul>
+<li><strong>ガス種バッジの色分け</strong>: LP（黒）、12・13A（黄色）で明確に区別</li>
+<li><strong>商品詳細でのガス種ボタン</strong>: 統一されたデザインでガス種選択時の視認性を向上</li>
+<li><strong>カート画面でのガス種表示</strong>: 関連商品でも統一されたボタンスタイルを適用</li>
+<li><strong>注文確認画面</strong>: ガス種ラベルの表示を統一</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-管理者向け">👤 管理者向け<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/23/#-%E7%AE%A1%E7%90%86%E8%80%85%E5%90%91%E3%81%91" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="システム管理機能の強化">システム管理機能の強化<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/23/#%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E7%AE%A1%E7%90%86%E6%A9%9F%E8%83%BD%E3%81%AE%E5%BC%B7%E5%8C%96" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h4>
+<ul>
+<li><strong>バックエンドタスク削除権限</strong>: メーカー・小売の両方で管理者のみが削除可能</li>
+<li><strong>エラーハンドリングの改善</strong>: 404エラーの適切な処理を追加<!-- -->
+<ul>
+<li><code>ActionController::RoutingError</code></li>
+<li><code>AbstractController::ActionNotFound</code></li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="️-システム関連">⚙️ システム関連<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/23/#%EF%B8%8F-%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%A2%E9%80%A3" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="パフォーマンス安定性の改善">パフォーマンス・安定性の改善<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/23/#%E3%83%91%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9%E5%AE%89%E5%AE%9A%E6%80%A7%E3%81%AE%E6%94%B9%E5%96%84" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h4>
+<ul>
+<li><strong>ログレベルの最適化</strong>: 本番環境でのデフォルトログレベルを<code>warn</code>に設定</li>
+<li><strong>バックエンドタスクのライフサイクル管理</strong>: メール送信を<code>after_commit</code>に変更してデータ整合性を向上</li>
+<li><strong>Pumaワーカーキラーの静音化</strong>: 不要なログ出力を削減</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="新しいデータモデルスコープ">新しいデータモデル・スコープ<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/23/#%E6%96%B0%E3%81%97%E3%81%84%E3%83%87%E3%83%BC%E3%82%BF%E3%83%A2%E3%83%87%E3%83%AB%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%97" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h4>
+<ul>
+<li><strong>Makerモデル</strong>: <code>active_retails</code>、<code>active_retail_ids</code>メソッドの追加とメモ化</li>
+<li><strong>RetailsMakerモデル</strong>: <code>active_retails</code>、<code>with_retail</code>スコープの追加</li>
+<li><strong>RetailSalesOfficeモデル</strong>: <code>for_active_retails</code>スコープの追加</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="dockerインフラ設定">Docker・インフラ設定<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/23/#docker%E3%82%A4%E3%83%B3%E3%83%95%E3%83%A9%E8%A8%AD%E5%AE%9A" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h4>
+<ul>
+<li><strong>Node.js設定の整理</strong>: レガシープロバイダーサポートの重複設定を削除</li>
+<li><strong>設定ファイルの整理</strong>: 不要なRails設定ファイルを削除<!-- -->
+<ul>
+<li><code>new_framework_defaults_7_1.rb</code></li>
+<li><code>backtrace_silencers.rb</code></li>
+</ul>
+</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="依存関係の更新">依存関係の更新<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/23/#%E4%BE%9D%E5%AD%98%E9%96%A2%E4%BF%82%E3%81%AE%E6%9B%B4%E6%96%B0" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h4>
+<ul>
+<li><strong>net-imap</strong>: 0.5.8 → 0.5.9</li>
+<li><strong>rake</strong>: 13.2.1 → 13.3.0</li>
+<li><strong>rdoc</strong>: 6.14.0 → 6.14.2</li>
+<li><strong>websocket-driver</strong>: 0.7.7 → 0.8.0</li>
+<li><strong>zeitwerk</strong>: 2.7.2 → 2.7.3</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-ドキュメント開発体験の改善">📚 ドキュメント・開発体験の改善<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/23/#-%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88%E9%96%8B%E7%99%BA%E4%BD%93%E9%A8%93%E3%81%AE%E6%94%B9%E5%96%84" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="diátaxisフレームワークの採用">Diátaxisフレームワークの採用<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/23/#di%C3%A1taxis%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%AE%E6%8E%A1%E7%94%A8" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<p>プロジェクトドキュメントを体系的に再構成し、人間とAI（LLM）の両方にとって使いやすい構造に変更：</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="新しいドキュメント構造">新しいドキュメント構造<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/23/#%E6%96%B0%E3%81%97%E3%81%84%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88%E6%A7%8B%E9%80%A0" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h4>
+<ul>
+<li><strong><code>.claude/explanation/</code></strong>: アーキテクチャの背景と設計思想<!-- -->
+<ul>
+<li><code>knowledge.md</code>: 技術選定理由と設計判断</li>
+<li><code>history.md</code>: プロジェクト変更履歴と意思決定記録</li>
+</ul>
+</li>
+<li><strong><code>.claude/how-to-guides/</code></strong>: 具体的な操作手順<!-- -->
+<ul>
+<li><code>cookbook.md</code>: コマンドリファレンスと実装レシピ</li>
+</ul>
+</li>
+<li><strong><code>.claude/reference/</code></strong>: 技術的リファレンス<!-- -->
+<ul>
+<li><code>debug-log.md</code>: 重要なデバッグ記録</li>
+</ul>
+</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="aiとの協調を前提とした設計">AIとの協調を前提とした設計<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/23/#ai%E3%81%A8%E3%81%AE%E5%8D%94%E8%AA%BF%E3%82%92%E5%89%8D%E6%8F%90%E3%81%A8%E3%81%97%E3%81%9F%E8%A8%AD%E8%A8%88" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h4>
+<ul>
+<li><strong>CLAUDE.md</strong>: LLM向けマスタードキュメント</li>
+<li><strong>シンボリックリンク</strong>: <code>GEMINI.md</code>、<code>.github/copilot-instructions.md</code>で複数AI対応</li>
+<li><strong>人間とAIの参照フローの分離</strong>: それぞれに最適化された情報アクセス</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="テスト強化">テスト強化<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/23/#%E3%83%86%E3%82%B9%E3%83%88%E5%BC%B7%E5%8C%96" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<ul>
+<li><strong>Makerモデル</strong>: アクティブな小売業者取得機能のテスト</li>
+<li><strong>RetailSalesOfficeモデル</strong>: 新しいスコープのテスト</li>
+<li><strong>RetailsMakerモデル</strong>: アクティブな関係性取得のテスト</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-注意事項">⚠️ 注意事項<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/23/#%EF%B8%8F-%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー向け">メーカー向け<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/23/#%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E5%90%91%E3%81%91" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<ul>
+<li>注文明細一覧の検索では、アクティブな小売業者のみが表示されるようになります</li>
+<li>バックエンドタスクの削除は管理者権限のみで利用可能です</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="小売向け">小売向け<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/23/#%E5%B0%8F%E5%A3%B2%E5%90%91%E3%81%91" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<ul>
+<li>ガス種の色分けにより視認性が向上しましたが、既存のワークフローに影響はありません</li>
+<li>バックエンドタスクの削除は管理者権限のみで利用可能です</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="システム管理者向け">システム管理者向け<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/23/#%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E7%AE%A1%E7%90%86%E8%80%85%E5%90%91%E3%81%91" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<ul>
+<li>本番環境でのログ出力が削減される可能性があります（<code>RAILS_LOG_LEVEL</code>環境変数で調整可能）</li>
+</ul>
+<p>このリリースは、各ユーザータイプの利便性向上とシステム全体の品質改善に焦点を当てています。特に、ドキュメント構成の改善により、新しい開発者の参加やAIツールとの協調がより効率的になります。</p>
+<p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.13.0...v3.13.1" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.13.0...v3.13.1</a></p>]]></content:encoded>
+            <category>release</category>
+        </item>
         <item>
             <title><![CDATA[v3.13.0 Release]]></title>
             <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/09/</link>
@@ -1191,19 +1332,6 @@
 <li><code>host.docker.internal</code>ドメインを許可</li>
 </ul>
 <p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.11.2...v3.12.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.11.2...v3.12.0</a></p>]]></content:encoded>
-            <category>release</category>
-        </item>
-        <item>
-            <title><![CDATA[v3.11.2 Release]]></title>
-            <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/10/09/</link>
-            <guid>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/10/09/</guid>
-            <pubDate>Wed, 09 Oct 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[小売]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売">小売<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/10/09/#%E5%B0%8F%E5%A3%B2" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<ul>
-<li>注文一覧ページにて、<code>備考</code> を表示するように変更。</li>
-</ul>
-<p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.11.1...v3.11.2" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.11.1...v3.11.2</a></p>]]></content:encoded>
             <category>release</category>
         </item>
     </channel>
