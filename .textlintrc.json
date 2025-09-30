@@ -17,7 +17,6 @@
       },
       "ja-no-space-between-full-width": false
     },
-    "preset-japanese": true,
     "preset-ja-technical-writing": {
       "max-kanji-continuous-len": false,
       "no-exclamation-question-mark": {
@@ -48,10 +47,6 @@
       "no-invalid-control-character": true,
       "no-zero-width-spaces": true,
       "no-kangxi-radicals": true
-    },
-    "aws-spellcheck": true
-  },
-  "filters": {
-    "comments": true
+    }
   }
 }
