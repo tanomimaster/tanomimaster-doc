@@ -2,11 +2,140 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tanomimaster.github.io/tanomimaster-doc/blog</id>
     <title>タノミマスター システムドキュメント Blog</title>
-    <updated>2025-07-23T00:00:00.000Z</updated>
+    <updated>2025-09-24T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tanomimaster.github.io/tanomimaster-doc/blog"/>
     <subtitle>タノミマスター システムドキュメント Blog</subtitle>
     <icon>https://tanomimaster.github.io/tanomimaster-doc/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[v3.13.4 Release]]></title>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/24/</id>
+        <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/24/"/>
+        <updated>2025-09-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[📋 新機能・改善]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-新機能改善">📋 新機能・改善<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/24/#-%E6%96%B0%E6%A9%9F%E8%83%BD%E6%94%B9%E5%96%84" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-メーカー向け">🏭 メーカー向け<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/24/#-%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E5%90%91%E3%81%91" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="商品属性管理機能の追加">商品属性管理機能の追加<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/24/#%E5%95%86%E5%93%81%E5%B1%9E%E6%80%A7%E7%AE%A1%E7%90%86%E6%A9%9F%E8%83%BD%E3%81%AE%E8%BF%BD%E5%8A%A0" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h4>
+<ul>
+<li><strong>商品属性のCRUD機能</strong>: 商品属性の作成・読み取り・更新・削除が可能になりました<!-- -->
+<ul>
+<li>直感的なUI設計による効率的な属性管理</li>
+<li>一括操作機能による作業効率の向上</li>
+<li>属性値の重複チェックと検証機能</li>
+</ul>
+</li>
+<li><strong>サブマスタ区分値フィルタリング</strong>: より柔軟な商品属性の分類・検索が可能<!-- -->
+<ul>
+<li>カテゴリ別の属性表示とフィルタリング</li>
+<li>高度な検索条件による効率的な属性管理</li>
+</ul>
+</li>
+<li><strong>商品属性エンドポイントの実装</strong>: APIを通じた外部システム連携が可能</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="権限管理の最適化継続改善">権限管理の最適化（継続改善）<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/24/#%E6%A8%A9%E9%99%90%E7%AE%A1%E7%90%86%E3%81%AE%E6%9C%80%E9%81%A9%E5%8C%96%E7%B6%99%E7%B6%9A%E6%94%B9%E5%96%84" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h4>
+<ul>
+<li><strong>メーカー画面アクセス権限の最終調整</strong>: 一般ユーザーの商品情報READ権限を最適化</li>
+<li><strong>セキュリティ強化</strong>: より安全で柔軟な権限管理システムの完成</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-小売向け">🏪 小売向け<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/24/#-%E5%B0%8F%E5%A3%B2%E5%90%91%E3%81%91" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="商品属性表示機能">商品属性表示機能<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/24/#%E5%95%86%E5%93%81%E5%B1%9E%E6%80%A7%E8%A1%A8%E7%A4%BA%E6%A9%9F%E8%83%BD" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h4>
+<ul>
+<li><strong>商品詳細での属性表示</strong>: メーカーが設定した商品属性を閲覧可能</li>
+<li><strong>属性による商品検索</strong>: 商品属性を条件とした検索機能の追加</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="️-システム関連">⚙️ システム関連<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/24/#%EF%B8%8F-%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%A2%E9%80%A3" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="技術基盤の強化">技術基盤の強化<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/24/#%E6%8A%80%E8%A1%93%E5%9F%BA%E7%9B%A4%E3%81%AE%E5%BC%B7%E5%8C%96" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h4>
+<ul>
+<li><strong>検索機能の大幅な改善</strong>: 検索処理速度の向上とより柔軟な検索条件指定</li>
+<li><strong>システム全体の安定性向上</strong>: セキュリティの強化とパフォーマンス改善</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-注意事項">⚠️ 注意事項<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/24/#%EF%B8%8F-%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー向け">メーカー向け<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/24/#%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E5%90%91%E3%81%91" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<ul>
+<li>商品属性機能は新機能です。既存の商品データには影響ありません</li>
+<li>属性の設定は任意ですが、設定することで小売業者への情報提供が充実します</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="小売向け">小売向け<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/24/#%E5%B0%8F%E5%A3%B2%E5%90%91%E3%81%91" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<ul>
+<li>商品属性は閲覧のみ可能です。編集はメーカー側で行います</li>
+<li>属性による検索機能を活用することで、目的の商品をより効率的に見つけられます</li>
+</ul>
+<p>このリリースでは商品属性管理という重要な新機能を追加し、より効率的な商品管理と検索体験を提供します。</p>
+<p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.13.3...v3.13.4" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.13.3...v3.13.4</a></p>]]></content>
+        <author>
+            <name>Masato Mori</name>
+        </author>
+        <category label="release" term="release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v3.13.3 Release]]></title>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/16/</id>
+        <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/16/"/>
+        <updated>2025-09-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🔧 改善]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-改善">🔧 改善<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/16/#-%E6%94%B9%E5%96%84" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-メーカー向け">🏭 メーカー向け<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/16/#-%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E5%90%91%E3%81%91" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="既存機能の安定性向上">既存機能の安定性向上<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/16/#%E6%97%A2%E5%AD%98%E6%A9%9F%E8%83%BD%E3%81%AE%E5%AE%89%E5%AE%9A%E6%80%A7%E5%90%91%E4%B8%8A" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h4>
+<ul>
+<li><strong>バックグラウンド処理の最適化</strong>: システム処理の安定性を向上</li>
+<li><strong>データ整合性の向上</strong>: より信頼性の高いデータ処理</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-小売向け">🏪 小売向け<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/16/#-%E5%B0%8F%E5%A3%B2%E5%90%91%E3%81%91" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="操作性の改善">操作性の改善<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/16/#%E6%93%8D%E4%BD%9C%E6%80%A7%E3%81%AE%E6%94%B9%E5%96%84" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h4>
+<ul>
+<li><strong>セッション管理の最適化</strong>: ログイン状態の安定性向上</li>
+<li><strong>画面遷移の改善</strong>: よりスムーズなページ切り替え</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="️-システム関連">⚙️ システム関連<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/16/#%EF%B8%8F-%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%A2%E9%80%A3" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="内部処理の最適化">内部処理の最適化<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/16/#%E5%86%85%E9%83%A8%E5%87%A6%E7%90%86%E3%81%AE%E6%9C%80%E9%81%A9%E5%8C%96" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h4>
+<ul>
+<li><strong>システム品質の向上</strong>: 全体的な安定性とパフォーマンスの改善</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-注意事項">⚠️ 注意事項<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/16/#%EF%B8%8F-%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<p>本リリースは主に内部的な改善であり、ユーザー向けの機能変更はありません。</p>
+<p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.13.2...v3.13.3" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.13.2...v3.13.3</a></p>]]></content>
+        <author>
+            <name>Masato Mori</name>
+        </author>
+        <category label="release" term="release"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v3.13.2 Release]]></title>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/14/</id>
+        <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/14/"/>
+        <updated>2025-09-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🔧 改善]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-改善">🔧 改善<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/14/#-%E6%94%B9%E5%96%84" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-メーカー向け">🏭 メーカー向け<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/14/#-%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E5%90%91%E3%81%91" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="注文管理機能の改善">注文管理機能の改善<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/14/#%E6%B3%A8%E6%96%87%E7%AE%A1%E7%90%86%E6%A9%9F%E8%83%BD%E3%81%AE%E6%94%B9%E5%96%84" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h4>
+<ul>
+<li><strong>注文明細一覧のパフォーマンス向上</strong>: 大量データ表示時の読み込み速度を改善</li>
+<li><strong>検索フィルターの安定性向上</strong>: 複数条件での検索時の処理を最適化</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-小売向け">🏪 小売向け<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/14/#-%E5%B0%8F%E5%A3%B2%E5%90%91%E3%81%91" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="商品表示の改善">商品表示の改善<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/14/#%E5%95%86%E5%93%81%E8%A1%A8%E7%A4%BA%E3%81%AE%E6%94%B9%E5%96%84" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h4>
+<ul>
+<li><strong>商品一覧の表示速度向上</strong>: ページネーション処理の最適化</li>
+<li><strong>ガス種表示の統一性確保</strong>: 各画面での表示一貫性を向上</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="️-システム関連">⚙️ システム関連<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/14/#%EF%B8%8F-%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%A2%E9%80%A3" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="パフォーマンス最適化">パフォーマンス最適化<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/14/#%E3%83%91%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9%E6%9C%80%E9%81%A9%E5%8C%96" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h4>
+<ul>
+<li><strong>検索機能の安定性改善</strong>: 検索処理における例外ハンドリングの強化</li>
+<li><strong>レスポンシブ表示の微調整</strong>: モバイル端末でのテーブル表示を改善</li>
+<li><strong>ロード時間の短縮</strong>: CSS/JavaScript読み込みの最適化</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-注意事項">⚠️ 注意事項<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/14/#%EF%B8%8F-%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<p>このリリースは主に安定性とパフォーマンスの向上に焦点を当てており、新機能の追加はありません。</p>
+<p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.13.1...v3.13.2" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.13.1...v3.13.2</a></p>]]></content>
+        <author>
+            <name>Masato Mori</name>
+        </author>
+        <category label="release" term="release"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[v3.13.1 Release]]></title>
         <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/07/23/</id>
@@ -1232,181 +1361,6 @@
 </li>
 </ul>
 <p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.2...v3.12.3" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.2...v3.12.3</a></p>]]></content>
-        <author>
-            <name>Yuki Matsukura</name>
-            <uri>https://x.com/matsubokkuri</uri>
-        </author>
-        <category label="release" term="release"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[v3.12.2 Release]]></title>
-        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/11/20/</id>
-        <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/11/20/"/>
-        <updated>2024-11-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[このリリースは主にパフォーマンスとインフラストラクチャの改善に焦点を当てており、特に小売向けAPIの最適化が中心となっています。]]></summary>
-        <content type="html"><![CDATA[<p>このリリースは主にパフォーマンスとインフラストラクチャの改善に焦点を当てており、特に小売向けAPIの最適化が中心となっています。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-重要な変更">🔥 重要な変更<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/11/20/#-%E9%87%8D%E8%A6%81%E3%81%AA%E5%A4%89%E6%9B%B4" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="パフォーマンス改善">パフォーマンス改善<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/11/20/#%E3%83%91%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9%E6%94%B9%E5%96%84" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
-<ul>
-<li>小売向け商品API (ProductsController) の大幅なリファクタリング<!-- -->
-<ul>
-<li>有効な価格を持つ商品のみを返すように最適化</li>
-<li><code>Product.with_valid_prices_for_retail</code> スコープの導入</li>
-</ul>
-</li>
-<li>Bullet gemを development/test環境に移動し、N+1クエリの検出を強化</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="インフラストラクチャ">インフラストラクチャ<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/11/20/#%E3%82%A4%E3%83%B3%E3%83%95%E3%83%A9%E3%82%B9%E3%83%88%E3%83%A9%E3%82%AF%E3%83%81%E3%83%A3" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
-<ul>
-<li>AWS関連アクションを最新バージョンに更新:<!-- -->
-<ul>
-<li><code>aws-actions/configure-aws-credentials</code>: v2 → v4</li>
-<li><code>amazon-ecr-login</code>: v1 → v2</li>
-<li><code>amazon-ecs-deploy-task-definition</code>: v1 → v2</li>
-</ul>
-</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="依存関係のアップデート">依存関係のアップデート<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/11/20/#%E4%BE%9D%E5%AD%98%E9%96%A2%E4%BF%82%E3%81%AE%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
-<ul>
-<li>Ruby: 3.1.4 → 3.3.4</li>
-<li>Node.js: 20 → 22</li>
-<li>date-fns: 3.3.1 → 4.1.0</li>
-<li>その他gem・npmパッケージの更新</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-開発者向けの変更">🛠 開発者向けの変更<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/11/20/#-%E9%96%8B%E7%99%BA%E8%80%85%E5%90%91%E3%81%91%E3%81%AE%E5%A4%89%E6%9B%B4" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="cicd">CI/CD<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/11/20/#cicd" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
-<ul>
-<li>Rubocopの実行を別ワークフローに分離<!-- -->
-<ul>
-<li>レビュー時の指摘事項を自動化</li>
-<li>reviewdogによるGitHub上での自動コメント機能追加</li>
-</ul>
-</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="コード品質">コード品質<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/11/20/#%E3%82%B3%E3%83%BC%E3%83%89%E5%93%81%E8%B3%AA" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
-<ul>
-<li>ProductsControllerのリファクタリング<!-- -->
-<ul>
-<li>ステータス判定ロジックの簡素化</li>
-<li>価格有効期間の判定を改善</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-その他">📝 その他<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/11/20/#-%E3%81%9D%E3%81%AE%E4%BB%96" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<ul>
-<li>READMEの更新<!-- -->
-<ul>
-<li>デプロイ手順の現代化</li>
-<li>EC2でのRails console実行手順をECS Execを使用する方式に変更</li>
-<li>運用手順の簡素化</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-破壊的変更">⚠️ 破壊的変更<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/11/20/#%EF%B8%8F-%E7%A0%B4%E5%A3%8A%E7%9A%84%E5%A4%89%E6%9B%B4" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<ul>
-<li>小売向けAPI (<code>/api/v1/retail/products</code>) のレスポンス仕様変更<!-- -->
-<ul>
-<li>有効な価格を持つ商品のみを返すように変更</li>
-<li><code>status</code>フィールドの削除</li>
-<li>古い価格情報を持つ商品は404を返すように変更</li>
-</ul>
-</li>
-</ul>
-<p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.1...v3.12.2" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.1...v3.12.2</a></p>]]></content>
-        <author>
-            <name>Yuki Matsukura</name>
-            <uri>https://x.com/matsubokkuri</uri>
-        </author>
-        <category label="release" term="release"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[v3.12.1 Release]]></title>
-        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/11/13/01</id>
-        <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/11/13/01"/>
-        <updated>2024-11-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[実装には影響のしない v3.12.0 の変更漏れの対応です。]]></summary>
-        <content type="html"><![CDATA[<p>実装には影響のしない v3.12.0 の変更漏れの対応です。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-開発者向けの変更">🛠 開発者向けの変更<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/11/13/01#-%E9%96%8B%E7%99%BA%E8%80%85%E5%90%91%E3%81%91%E3%81%AE%E5%A4%89%E6%9B%B4" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="api">API<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/11/13/01#api" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
-<ul>
-<li>APIバージョンのincrementを行った。</li>
-</ul>
-<p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.0...v3.12.1" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.0...v3.12.1</a></p>]]></content>
-        <author>
-            <name>Yuki Matsukura</name>
-            <uri>https://x.com/matsubokkuri</uri>
-        </author>
-        <category label="release" term="release"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[v3.12.0 Release]]></title>
-        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/11/13/</id>
-        <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/11/13/"/>
-        <updated>2024-11-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[新機能]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="新機能">新機能<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/11/13/#%E6%96%B0%E6%A9%9F%E8%83%BD" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<ol>
-<li>メーカーAPI機能の追加</li>
-</ol>
-<ul>
-<li>商品情報の取得・更新APIを追加 (<code>/api/v1/maker/products</code>)</li>
-<li>メーカー商品の一覧表示、詳細表示、作成、更新が可能に</li>
-</ul>
-<ol start="2">
-<li>商品一覧画面の改善</li>
-</ol>
-<ul>
-<li>メーカー管理画面の商品一覧に商品画像を表示するように改善</li>
-<li>商品画像が設定されている場合、一覧で確認可能に</li>
-</ul>
-<ol start="3">
-<li>小売API機能の拡張</li>
-</ol>
-<ul>
-<li>商品一覧APIに検索条件を追加<!-- -->
-<ul>
-<li>メーカーコードによる絞り込み</li>
-<li>商品コードによる絞り込み</li>
-</ul>
-</li>
-<li>注文一覧APIに検索条件を追加<!-- -->
-<ul>
-<li>注文コードによる絞り込み</li>
-<li>注文ステータスによる絞り込み</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="変更点">変更点<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/11/13/#%E5%A4%89%E6%9B%B4%E7%82%B9" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<ol>
-<li>発注関連の仕様変更</li>
-</ol>
-<ul>
-<li>希望納期の必須化</li>
-<li>注文コードのバリデーション仕様を変更（英数字、ハイフン、アンダースコアを許可）</li>
-<li>小売によるキャンセル可能条件の修正</li>
-</ul>
-<ol start="2">
-<li>画面表示の改善</li>
-</ol>
-<ul>
-<li>メーカー向け、消費管理ページにて、パンくずリストの構造を改善</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="依存パッケージのアップデート">依存パッケージのアップデート<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/11/13/#%E4%BE%9D%E5%AD%98%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E3%81%AE%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<ul>
-<li>Rails 7.0.8.5へのアップデート</li>
-<li>committee gem を 5.4へアップデート</li>
-<li>rambulance gem を 3.3へアップデート</li>
-<li>その他、複数のgemおよびnpmパッケージをアップデート</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="その他">その他<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/11/13/#%E3%81%9D%E3%81%AE%E4%BB%96" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<ul>
-<li>GitHub Actionsワークフローの追加</li>
-<li>キャッシュクリア用のワークフロー</li>
-<li>開発環境への手動デプロイワークフロー</li>
-<li>Docker開発環境の改善</li>
-<li><code>host.docker.internal</code>ドメインを許可</li>
-</ul>
-<p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.11.2...v3.12.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.11.2...v3.12.0</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>https://x.com/matsubokkuri</uri>
