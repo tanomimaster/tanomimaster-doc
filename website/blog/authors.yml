@@ -6,15 +6,12 @@ matsubokkuri:
   socials:
     x: matsubokkuri
     github: matsubo
-
-
 minowa:
   name: Shintaro Minowa
   image_url: https://github.com/shintaro-minowa.png
   socials:
     x: minotchi
     github: shintaro-minowa
-
 takahashi:
   name: Mayu Takahashi
   image_url: https://github.com/takahashimayu.png
@@ -22,6 +19,6 @@ takahashi:
     github: takahashimayu
 morimorihoge:
   name: Masato Mori
-  image_url: https://github.com/morimorihoge
+  image_url: https://github.com/morimorihoge.png
   socials:
     github: morimorihoge
