@@ -4,10 +4,34 @@
         <title>タノミマスター システムドキュメント Blog</title>
         <link>https://tanomimaster.github.io/tanomimaster-doc/blog</link>
         <description>タノミマスター システムドキュメント Blog</description>
-        <lastBuildDate>Wed, 24 Sep 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Oct 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
+        <item>
+            <title><![CDATA[v3.13.5 Release]]></title>
+            <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/10/17/</link>
+            <guid>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/10/17/</guid>
+            <pubDate>Fri, 17 Oct 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[全体]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="全体">全体<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/10/17/#%E5%85%A8%E4%BD%93" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<p>カテゴリを追加しました。</p>
+<ul>
+<li>住宅設備<!-- -->
+<ul>
+<li>エアコン</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/10/17/#%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<ul>
+<li>Rails 7.2へのアップグレード</li>
+<li>npm, gemライブラリ更新</li>
+<li>セキュリティアップデート適用</li>
+</ul>
+<p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.13.4...v3.13.5" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.13.4...v3.13.5</a></p>]]></content:encoded>
+            <category>release</category>
+        </item>
         <item>
             <title><![CDATA[v3.13.4 Release]]></title>
             <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/09/24/</link>
@@ -1185,110 +1209,6 @@
 <li>過去に生成したCSVファイルがダウンロードできなくなった問題を修正。</li>
 </ul>
 <p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.3...v3.12.4" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.3...v3.12.4</a></p>]]></content:encoded>
-            <category>release</category>
-        </item>
-        <item>
-            <title><![CDATA[v3.12.3 Release]]></title>
-            <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/12/11/</link>
-            <guid>https://tanomimaster.github.io/tanomimaster-doc/blog/2024/12/11/</guid>
-            <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[サイト全体でUI改善を行い、レイアウトの改善、ページが表示されるまでの時間を高速化しました。]]></description>
-            <content:encoded><![CDATA[<p>サイト全体でUI改善を行い、レイアウトの改善、ページが表示されるまでの時間を高速化しました。
-また，メーカー向けAPIへのフィルタ追加が含まれます。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー">メーカー<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/12/11/#%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="web">Web<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/12/11/#web" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
-<ul>
-<li>商品管理機能を大幅に改善<!-- -->
-<ul>
-<li>商品一覧のページネーションを最適化（1ページあたり100件表示）</li>
-<li>商品詳細画面を新設し、以下の情報を一覧で確認可能に<!-- -->
-<ul>
-<li>基本情報</li>
-<li>価格情報</li>
-<li>画像一覧</li>
-<li>商品属性</li>
-</ul>
-</li>
-<li>商品画像の管理機能を改善<!-- -->
-<ul>
-<li>サムネイル表示とプレビュー機能</li>
-<li>ファイルサイズの表示</li>
-<li>アップロード時のバリデーション強化</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="api">API<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/12/11/#api" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
-<ul>
-<li>商品一覧APIに更新日時によるフィルタリング機能を追加<!-- -->
-<ul>
-<li><code>updated_at_from</code>: 指定日時以降に更新された商品を取得</li>
-<li><code>updated_at_to</code>: 指定日時以前に更新された商品を取得</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売">小売<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/12/11/#%E5%B0%8F%E5%A3%B2" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="web-1">Web<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/12/11/#web-1" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
-<ul>
-<li>商品画像の表示を最適化<!-- -->
-<ul>
-<li>関連商品の画像サイズを統一</li>
-<li>画像の読み込みパフォーマンスを改善</li>
-</ul>
-</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="api-1">API<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/12/11/#api-1" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
-<p>N/A</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/12/11/#%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<ul>
-<li>アカウントセキュリティの強化<!-- -->
-<ul>
-<li>アカウントロックの試行回数を20回から5回に変更</li>
-</ul>
-</li>
-<li>デザインシステムを刷新<!-- -->
-<ul>
-<li>ログイン画面の改善</li>
-<li>エラー画面の改善</li>
-<li>フッターの追加（サービス概要、YouTube、GitHub、APIドキュメントへのリンク）</li>
-</ul>
-</li>
-<li>アセットの最適化<!-- -->
-<ul>
-<li>管理者/メーカー/小売別にJavaScript/CSSを分割</li>
-<li>ビルド速度の改善</li>
-</ul>
-</li>
-<li>インフラストラクチャの改善<!-- -->
-<ul>
-<li>Ruby 3.3.6へのアップグレード</li>
-<li>本番環境のログレベルをdebugからinfoに変更</li>
-<li>GitHub Actionsの最適化<!-- -->
-<ul>
-<li>テストの並列実行</li>
-<li>キャッシュ戦略の改善</li>
-<li>デプロイプロセスの信頼性向上</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="その他">その他<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2024/12/11/#%E3%81%9D%E3%81%AE%E4%BB%96" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<ul>
-<li>ヘルスチェックエンドポイントの追加<!-- -->
-<ul>
-<li>アプリケーションの状態監視を強化</li>
-</ul>
-</li>
-<li>CIプロセスの改善<!-- -->
-<ul>
-<li>テスト実行の安定性向上</li>
-<li>キャッシュ管理の最適化</li>
-</ul>
-</li>
-</ul>
-<p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.2...v3.12.3" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.2...v3.12.3</a></p>]]></content:encoded>
             <category>release</category>
         </item>
     </channel>
