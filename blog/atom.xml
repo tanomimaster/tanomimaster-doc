@@ -2,11 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tanomimaster.github.io/tanomimaster-doc/blog</id>
     <title>タノミマスター システムドキュメント Blog</title>
-    <updated>2025-11-26T00:00:00.000Z</updated>
+    <updated>2025-12-10T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tanomimaster.github.io/tanomimaster-doc/blog"/>
     <subtitle>タノミマスター システムドキュメント Blog</subtitle>
     <icon>https://tanomimaster.github.io/tanomimaster-doc/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[v3.14.2 Release]]></title>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/12/10/</id>
+        <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/12/10/"/>
+        <updated>2025-12-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[メーカー]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー">メーカー<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/12/10/#%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<ul>
+<li>明細一覧の検索条件を改善（注文年月または納品年月のいずれかで検索可能に）</li>
+<li>明細一覧のCSVダウンロード機能を改善（モーダル化により連続ダウンロードを防止）</li>
+<li>CSVファイル名を検索条件に応じた命名に変更</li>
+</ul>
+<p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.14.1...v3.14.2" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.14.1...v3.14.2</a></p>]]></content>
+        <author>
+            <name>Masato Mori</name>
+        </author>
+        <category label="release" term="release"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[v3.13.6 Release]]></title>
         <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/11/26/</id>
@@ -1193,99 +1211,6 @@
 <li></li>
 </ul>
 <p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.5...v3.12.6" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.5...v3.12.6</a></p>]]></content>
-        <author>
-            <name>Yuki Matsukura</name>
-            <uri>https://x.com/matsubokkuri</uri>
-        </author>
-        <category label="release" term="release"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[v3.12.5 Release]]></title>
-        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/01/08/</id>
-        <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/01/08/"/>
-        <updated>2025-01-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[🎯 主な変更点]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-主な変更点">🎯 主な変更点<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/01/08/#-%E4%B8%BB%E3%81%AA%E5%A4%89%E6%9B%B4%E7%82%B9" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー向け機能改善">メーカー向け機能改善<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/01/08/#%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E5%90%91%E3%81%91%E6%A9%9F%E8%83%BD%E6%94%B9%E5%96%84" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
-<ul>
-<li>
-<p><strong>ダッシュボードの改善</strong></p>
-<ul>
-<li>ダッシュボードをシンプルな注文状況確認画面に刷新</li>
-<li>注文のステータス別クイックアクセスリンクを追加（納期回答待ち、出荷待ち、出荷済み等）</li>
-</ul>
-</li>
-<li>
-<p><strong>統計情報の分離</strong></p>
-<ul>
-<li>統計情報を専用ページとして分離し、サイドバーからアクセス可能に</li>
-</ul>
-</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="小売向け機能改善">小売向け機能改善<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/01/08/#%E5%B0%8F%E5%A3%B2%E5%90%91%E3%81%91%E6%A9%9F%E8%83%BD%E6%94%B9%E5%96%84" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
-<ul>
-<li><strong>商品検索機能の強化</strong>
-<ul>
-<li>商品一覧のデフォルトソート順をID降順に変更（新着順）</li>
-</ul>
-</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="配送機能の拡充">配送機能の拡充<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/01/08/#%E9%85%8D%E9%80%81%E6%A9%9F%E8%83%BD%E3%81%AE%E6%8B%A1%E5%85%85" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
-<ul>
-<li><strong>配送業者の大幅追加</strong>
-<ul>
-<li>地域特化型の配送業者を追加：<!-- -->
-<ul>
-<li>北陸地方：トナミ運輸</li>
-<li>東北地方：第一貨物</li>
-<li>九州地方：久留米運送</li>
-<li>中国地方：岡山県貨物</li>
-<li>四国地方：四国運輸</li>
-</ul>
-</li>
-<li>特殊配送対応の業者を追加：<!-- -->
-<ul>
-<li>環境配慮型：エコ配</li>
-<li>精密機器特化：アルプス物流</li>
-<li>国際物流対応：近鉄エクスプレス</li>
-</ul>
-</li>
-<li>その他の主要業者：<!-- -->
-<ul>
-<li>名鉄運輸</li>
-<li>SBSロジコム</li>
-<li>CBcloud</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-技術的な改善">🔧 技術的な改善<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/01/08/#-%E6%8A%80%E8%A1%93%E7%9A%84%E3%81%AA%E6%94%B9%E5%96%84" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="パフォーマンス最適化">パフォーマンス最適化<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/01/08/#%E3%83%91%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9%E6%9C%80%E9%81%A9%E5%8C%96" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
-<ul>
-<li>本番環境のログレベルを<code>:info</code>から<code>:warn</code>に変更し、ログ量を削減</li>
-<li>商品一覧のソート処理を最適化</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="開発環境の改善">開発環境の改善<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/01/08/#%E9%96%8B%E7%99%BA%E7%92%B0%E5%A2%83%E3%81%AE%E6%94%B9%E5%96%84" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
-<ul>
-<li>Ruby 3.3対応の準備</li>
-<li>デバッグツールを<code>byebug</code>から<code>debug</code>gemに移行</li>
-<li>テストフレームワークの強化（controller testing対応）</li>
-<li>CIパイプラインの最適化（rubocop設定の改善）</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="依存関係の更新">依存関係の更新<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/01/08/#%E4%BE%9D%E5%AD%98%E9%96%A2%E4%BF%82%E3%81%AE%E6%9B%B4%E6%96%B0" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
-<ul>
-<li>各種gemのバージョン制約を緩和し、最新バージョンに対応</li>
-<li>Ruby 3.4に向けた準備（bigdecimal, mutex, drbの追加）</li>
-<li>不要な依存関係の整理</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-注意事項">📝 注意事項<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/01/08/#-%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<ul>
-<li>メーカーダッシュボードの変更により、統計情報は専用ページに移動しました</li>
-<li>商品一覧のデフォルトソート順が変更されています</li>
-<li>既存の検索・ソート機能の動作が一部変更されている可能性があります</li>
-</ul>
-<p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.4...v3.12.5" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.4...v3.12.5</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>https://x.com/matsubokkuri</uri>
