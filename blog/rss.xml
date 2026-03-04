@@ -4,10 +4,23 @@
         <title>タノミマスター システムドキュメント Blog</title>
         <link>https://tanomimaster.github.io/tanomimaster-doc/blog</link>
         <description>タノミマスター システムドキュメント Blog</description>
-        <lastBuildDate>Wed, 28 Jan 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 04 Mar 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
+        <item>
+            <title><![CDATA[v3.15.0 Release]]></title>
+            <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2026/03/04/</link>
+            <guid>https://tanomimaster.github.io/tanomimaster-doc/blog/2026/03/04/</guid>
+            <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[システム]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2026/03/04/#%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<ul>
+<li>商品の現在価格取得クエリを高速化（キャッシュテーブル導入）</li>
+</ul>
+<p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.14.3...v3.15.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.14.3...v3.15.0</a></p>]]></content:encoded>
+            <category>release</category>
+        </item>
         <item>
             <title><![CDATA[v3.14.3 Release]]></title>
             <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2026/01/28/</link>
@@ -1034,61 +1047,6 @@
 <li>メモ欄の文字数制限変更に伴うAPI仕様の更新</li>
 </ul>
 <p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.7...v3.12.8" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.7...v3.12.8</a></p>]]></content:encoded>
-            <category>release</category>
-        </item>
-        <item>
-            <title><![CDATA[v3.12.7 Release]]></title>
-            <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/01/29/</link>
-            <guid>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/01/29/</guid>
-            <pubDate>Wed, 29 Jan 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[新機能]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="新機能">新機能<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/01/29/#%E6%96%B0%E6%A9%9F%E8%83%BD" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<ol>
-<li>
-<p>管理者用ダッシュボードの機能分割</p>
-<ul>
-<li>ダッシュボードをホーム画面と統計情報画面に分割</li>
-<li>新しい統計情報画面（/root/overview）でプラットフォームの全体像を把握可能</li>
-</ul>
-</li>
-<li>
-<p>受注API機能の拡張</p>
-<ul>
-<li>受注時にメモ欄の追加が可能に</li>
-<li>メモ欄は任意入力項目として実装</li>
-</ul>
-</li>
-</ol>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="uiの改善">UIの改善<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/01/29/#ui%E3%81%AE%E6%94%B9%E5%96%84" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<ol>
-<li>管理者用サイドバーのアイコン刷新<!-- -->
-<ul>
-<li>より直感的なアイコンへ変更:<!-- -->
-<ul>
-<li>小売り管理: ショッピングカートアイコン</li>
-<li>メーカー管理: パッケージアイコン</li>
-<li>カテゴリマスタ管理: タグアイコン</li>
-<li>IPアドレス管理: ロックアイコン</li>
-<li>利用明細出力: レシートアイコン</li>
-<li>統計: グラフアイコン</li>
-<li>ログアウト: 電源アイコン</li>
-</ul>
-</li>
-</ul>
-</li>
-</ol>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="テストの拡充">テストの拡充<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/01/29/#%E3%83%86%E3%82%B9%E3%83%88%E3%81%AE%E6%8B%A1%E5%85%85" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<ul>
-<li>管理者用画面の各ページに対する統合テストを追加</li>
-<li>新規追加された統計画面のテストケースを実装</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="テクニカルアップデート">テクニカルアップデート<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/01/29/#%E3%83%86%E3%82%AF%E3%83%8B%E3%82%AB%E3%83%AB%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<ul>
-<li>OpenAPIの仕様を更新</li>
-<li>E2Eテストのセレクタを改善（より安定したテスト実装）</li>
-</ul>
-<p>このリリースでは、管理者向け機能の使いやすさを向上させるとともに、APIの拡張によりシステムの柔軟性を高めています。</p>
-<p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.6...v3.12.7" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.6...v3.12.7</a></p>]]></content:encoded>
             <category>release</category>
         </item>
     </channel>
