@@ -4,10 +4,27 @@
         <title>タノミマスター システムドキュメント Blog</title>
         <link>https://tanomimaster.github.io/tanomimaster-doc/blog</link>
         <description>タノミマスター システムドキュメント Blog</description>
-        <lastBuildDate>Thu, 28 May 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Jun 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
+        <item>
+            <title><![CDATA[v3.18.0 Release]]></title>
+            <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2026/06/08/</link>
+            <guid>https://tanomimaster.github.io/tanomimaster-doc/blog/2026/06/08/</guid>
+            <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[メーカー]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー">メーカー<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2026/06/08/#%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<ul>
+<li>卸用メーカーの静的ロゴを追加</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2026/06/08/#%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<ul>
+<li>各種ライブラリのセキュリティ・メンテナンスアップデート</li>
+</ul>
+<p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.17.0...v3.18.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.17.0...v3.18.0</a></p>]]></content:encoded>
+            <category>release</category>
+        </item>
         <item>
             <title><![CDATA[v3.17.0 Release]]></title>
             <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2026/05/28/</link>
@@ -937,41 +954,6 @@
 <li>rspecのコードをより抽象的、データをランダマイズした。</li>
 </ul>
 <p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.11...v3.12.12" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.11...v3.12.12</a></p>]]></content:encoded>
-            <category>release</category>
-        </item>
-        <item>
-            <title><![CDATA[v3.12.11 Release]]></title>
-            <link>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/02/25/</link>
-            <guid>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/02/25/</guid>
-            <pubDate>Tue, 25 Feb 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[メーカー向け]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー向け">メーカー向け<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/02/25/#%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E5%90%91%E3%81%91" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<p>なし</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売向け">小売向け<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/02/25/#%E5%B0%8F%E5%A3%B2%E5%90%91%E3%81%91" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<p>なし</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="タノミマスターシステム管理者向け">タノミマスターシステム管理者向け<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/02/25/#%E3%82%BF%E3%83%8E%E3%83%9F%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E7%AE%A1%E7%90%86%E8%80%85%E5%90%91%E3%81%91" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="システム構成変更">システム構成変更<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/02/25/#%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E6%A7%8B%E6%88%90%E5%A4%89%E6%9B%B4" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
-<ul>
-<li><strong>インフラストラクチャのアップデート</strong>:<!-- -->
-<ul>
-<li>MySQL 8.0.36 から 8.4.3 へアップグレード準備</li>
-<li>Redis から Valkey 8 への移行準備</li>
-<li>PaperTrail 関連の設定を削除（ログ管理システムの変更）</li>
-</ul>
-</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="管理機能強化">管理機能強化<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/02/25/#%E7%AE%A1%E7%90%86%E6%A9%9F%E8%83%BD%E5%BC%B7%E5%8C%96" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
-<ul>
-<li><strong>小売データインポート機能の改善</strong>: 環境変数 <code>FILE_PATH</code> を使用した柔軟なデータインポートが可能になりました。小売りデータファイルが <code>retail.tsv</code> から <code>retail_XX.tsv</code> 形式に変更されました。</li>
-<li><strong>デプロイプロセスの簡素化</strong>: 環境設定が整理され、デプロイがよりシンプルになりました。</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="技術的変更点">技術的変更点<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/02/25/#%E6%8A%80%E8%A1%93%E7%9A%84%E5%A4%89%E6%9B%B4%E7%82%B9" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
-<ul>
-<li><strong>docker-compose ファイルの更新</strong>: Redis コンテナが Valkey コンテナに置き換えられました。</li>
-<li><strong>起動スクリプトの変更</strong>: <code>docker-entrypoint.sh</code> から <code>db:seed</code> が削除され、初期データ投入プロセスが変更されました。</li>
-<li><strong>環境変数の整理</strong>: 不要な PaperTrail 関連の環境変数が削除されました。</li>
-</ul>
-<p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.10...v3.12.11" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.10...v3.12.11</a></p>]]></content:encoded>
             <category>release</category>
         </item>
     </channel>
