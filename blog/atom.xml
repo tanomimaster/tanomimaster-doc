@@ -2,11 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tanomimaster.github.io/tanomimaster-doc/blog</id>
     <title>タノミマスター システムドキュメント Blog</title>
-    <updated>2026-06-08T00:00:00.000Z</updated>
+    <updated>2026-06-29T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tanomimaster.github.io/tanomimaster-doc/blog"/>
     <subtitle>タノミマスター システムドキュメント Blog</subtitle>
     <icon>https://tanomimaster.github.io/tanomimaster-doc/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[v3.19.0 Release]]></title>
+        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2026/06/29/</id>
+        <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2026/06/29/"/>
+        <updated>2026-06-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[メーカー]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー">メーカー<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2026/06/29/#%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<ul>
+<li>営業員担当設定画面の検索項目に「支店」「営業所」「メーカー担当者未設定のみ」を追加</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="システム">システム<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2026/06/29/#%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
+<ul>
+<li>各種ライブラリのセキュリティ・メンテナンスアップデート</li>
+</ul>
+<p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.18.0...v3.19.0" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.18.0...v3.19.0</a></p>]]></content>
+        <author>
+            <name>Masato Mori</name>
+        </author>
+        <category label="release" term="release"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[v3.18.0 Release]]></title>
         <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2026/06/08/</id>
@@ -978,42 +998,6 @@
 </ul>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="システム構成変更">システム構成変更<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/04/02/#%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E6%A7%8B%E6%88%90%E5%A4%89%E6%9B%B4" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
 <p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.12...v3.12.13" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.12...v3.12.13</a></p>]]></content>
-        <author>
-            <name>Yuki Matsukura</name>
-            <uri>https://x.com/matsubokkuri</uri>
-        </author>
-        <category label="release" term="release"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[v3.12.12 Release]]></title>
-        <id>https://tanomimaster.github.io/tanomimaster-doc/blog/2025/03/12/</id>
-        <link href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/03/12/"/>
-        <updated>2025-03-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[メーカー向け]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="メーカー向け">メーカー向け<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/03/12/#%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E5%90%91%E3%81%91" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<ul>
-<li>機能追加<!-- -->
-<ul>
-<li>明細出力ページにおいて、Web上に「注文単位の備考」列を表示するようにしました。</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="小売向け">小売向け<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/03/12/#%E5%B0%8F%E5%A3%B2%E5%90%91%E3%81%91" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<ul>
-<li>機能追加<!-- -->
-<ul>
-<li>明細出力ページにおいて、Web上に「注文単位の備考」列を表示するようにしました。</li>
-</ul>
-</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="タノミマスターシステム管理者向け">タノミマスターシステム管理者向け<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/03/12/#%E3%82%BF%E3%83%8E%E3%83%9F%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E7%AE%A1%E7%90%86%E8%80%85%E5%90%91%E3%81%91" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h2>
-<p>なし</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="システム構成変更">システム構成変更<a href="https://tanomimaster.github.io/tanomimaster-doc/blog/2025/03/12/#%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E6%A7%8B%E6%88%90%E5%A4%89%E6%9B%B4" class="hash-link" aria-label="見出しへの直接リンク" title="見出しへの直接リンク">​</a></h3>
-<ul>
-<li>rspecコードの重複削除し可読性と実行速度向上</li>
-<li>rspecのコードをより抽象的、データをランダマイズした。</li>
-</ul>
-<p><a href="https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.11...v3.12.12" target="_blank" rel="noopener noreferrer">https://github.com/tanomimaster/tanomimaster-www/compare/v3.12.11...v3.12.12</a></p>]]></content>
         <author>
             <name>Yuki Matsukura</name>
             <uri>https://x.com/matsubokkuri</uri>
