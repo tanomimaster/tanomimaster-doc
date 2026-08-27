@@ -22,3 +22,18 @@ morimorihoge:
   image_url: https://github.com/morimorihoge.png
   socials:
     github: morimorihoge
+seya:
+  name: Noriaki Seya
+  image_url: https://github.com/NoriakiSeyaCrt.png
+  socials:
+    github: NoriakiSeyaCrt
+nishida:
+  name: Rui Nishida
+  image_url: https://github.com/RuiNishida.png
+  socials:
+    github: RuiNishida
+furukawa:
+  name: Eren Furukawa
+  image_url: https://github.com/erenCRT045.png
+  socials:
+    github: erenCRT045
