@@ -1,27 +1,3 @@
-matsubokkuri:
-  name: Yuki Matsukura
-  title: Minedia, Inc. CTO
-  url: https://x.com/matsubokkuri
-  image_url: https://github.com/matsubo.png
-  socials:
-    x: matsubokkuri
-    github: matsubo
-minowa:
-  name: Shintaro Minowa
-  image_url: https://github.com/shintaro-minowa.png
-  socials:
-    x: minotchi
-    github: shintaro-minowa
-takahashi:
-  name: Mayu Takahashi
-  image_url: https://github.com/takahashimayu.png
-  socials:
-    github: takahashimayu
-morimorihoge:
-  name: Masato Mori
-  image_url: https://github.com/morimorihoge.png
-  socials:
-    github: morimorihoge
 seya:
   name: Noriaki Seya
   image_url: https://github.com/NoriakiSeyaCrt.png
